@@ -1,0 +1,288 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "passages": "Isaías 1:1-9"
+    },
+    {
+      "day": 2,
+      "passages": "Isaías 1:10-20"
+    },
+    {
+      "day": 3,
+      "passages": "Isaías 1:21-31"
+    },
+    {
+      "day": 4,
+      "passages": "Isaías 2:1-4"
+    },
+    {
+      "day": 5,
+      "passages": "Isaías 2:5-21"
+    },
+    {
+      "day": 6,
+      "passages": "Isaías 2:22-22; Isaías 3; Isaías 4:1-1"
+    },
+    {
+      "day": 7,
+      "passages": "Isaías 4:2-6"
+    },
+    {
+      "day": 8,
+      "passages": "Isaías 5:1-7"
+    },
+    {
+      "day": 9,
+      "passages": "Isaías 5:8-30"
+    },
+    {
+      "day": 10,
+      "passages": "Isaías 6"
+    },
+    {
+      "day": 11,
+      "passages": "Isaías 7:1-17"
+    },
+    {
+      "day": 12,
+      "passages": "Isaías 7:25-28; Isaías 8:1-8"
+    },
+    {
+      "day": 13,
+      "passages": "Isaías 8:9-22"
+    },
+    {
+      "day": 14,
+      "passages": "Isaías 9:1-7"
+    },
+    {
+      "day": 15,
+      "passages": "Isaías 9:8-21; Isaías 10:1-4"
+    },
+    {
+      "day": 16,
+      "passages": "Isaías 10:5-34"
+    },
+    {
+      "day": 17,
+      "passages": "Isaías 11"
+    },
+    {
+      "day": 18,
+      "passages": "Isaías 12:1-6"
+    },
+    {
+      "day": 19,
+      "passages": "Isaías 13:1-22"
+    },
+    {
+      "day": 20,
+      "passages": "Isaías 14:1-32"
+    },
+    {
+      "day": 21,
+      "passages": "Isaías 15-16"
+    },
+    {
+      "day": 22,
+      "passages": "Isaías 17-18"
+    },
+    {
+      "day": 23,
+      "passages": "Isaías 19-20"
+    },
+    {
+      "day": 24,
+      "passages": "Isaías 21:1-17"
+    },
+    {
+      "day": 25,
+      "passages": "Isaías 22:1-25"
+    },
+    {
+      "day": 26,
+      "passages": "Isaías 23:1-18"
+    },
+    {
+      "day": 27,
+      "passages": "Isaías 24:1-20"
+    },
+    {
+      "day": 28,
+      "passages": "Isaías 24:21-23; Isaías 25"
+    },
+    {
+      "day": 29,
+      "passages": "Isaías 26:1-21"
+    },
+    {
+      "day": 30,
+      "passages": "Isaías 27:1-13"
+    },
+    {
+      "day": 31,
+      "passages": "Isaías 28:1-29"
+    },
+    {
+      "day": 32,
+      "passages": "Isaías 29:1-14"
+    },
+    {
+      "day": 33,
+      "passages": "Isaías 29:15-24"
+    },
+    {
+      "day": 34,
+      "passages": "Isaías 30:1-33"
+    },
+    {
+      "day": 35,
+      "passages": "Isaías 31-32"
+    },
+    {
+      "day": 36,
+      "passages": "Isaías 33:1-24"
+    },
+    {
+      "day": 37,
+      "passages": "Isaías 34:1-17"
+    },
+    {
+      "day": 38,
+      "passages": "Isaías 35:1-10"
+    },
+    {
+      "day": 39,
+      "passages": "Isaías 36:1-22"
+    },
+    {
+      "day": 40,
+      "passages": "Isaías 37:1-38"
+    },
+    {
+      "day": 41,
+      "passages": "Isaías 38:1-20"
+    },
+    {
+      "day": 42,
+      "passages": "Isaías 38:21-22; Isaías 39"
+    },
+    {
+      "day": 43,
+      "passages": "Isaías 40:1-11"
+    },
+    {
+      "day": 44,
+      "passages": "Isaías 40:12-31"
+    },
+    {
+      "day": 45,
+      "passages": "Isaías 41:1-20"
+    },
+    {
+      "day": 46,
+      "passages": "Isaías 41:21-29; Isaías 42:1-17"
+    },
+    {
+      "day": 47,
+      "passages": "Isaías 42:18-25; Isaías 43:1-21"
+    },
+    {
+      "day": 48,
+      "passages": "Isaías 43:22-28; Isaías 44:1-23"
+    },
+    {
+      "day": 49,
+      "passages": "Isaías 44:24-28; Isaías 45:1-7"
+    },
+    {
+      "day": 50,
+      "passages": "Isaías 45:8-25"
+    },
+    {
+      "day": 51,
+      "passages": "Isaías 46:1-13"
+    },
+    {
+      "day": 52,
+      "passages": "Isaías 47:1-15"
+    },
+    {
+      "day": 53,
+      "passages": "Isaías 48:1-22"
+    },
+    {
+      "day": 54,
+      "passages": "Isaías 49:1-13"
+    },
+    {
+      "day": 55,
+      "passages": "Isaías 49:14-26; Isaías 50:1-3"
+    },
+    {
+      "day": 56,
+      "passages": "Isaías 50:4-11"
+    },
+    {
+      "day": 57,
+      "passages": "Isaías 51:1-16"
+    },
+    {
+      "day": 58,
+      "passages": "Isaías 51:17-23; Isaías 52:1-12"
+    },
+    {
+      "day": 59,
+      "passages": "Isaías 52:13-15; Isaías 53:1-12"
+    },
+    {
+      "day": 60,
+      "passages": "Isaías 54:1-17"
+    },
+    {
+      "day": 61,
+      "passages": "Isaías 55:1-13"
+    },
+    {
+      "day": 62,
+      "passages": "Isaías 56:1-12"
+    },
+    {
+      "day": 63,
+      "passages": "Isaías 57:1-21"
+    },
+    {
+      "day": 64,
+      "passages": "Isaías 58:1-14"
+    },
+    {
+      "day": 65,
+      "passages": "Isaías 59:1-19"
+    },
+    {
+      "day": 66,
+      "passages": "Isaías 59:20-21; Isaías 60"
+    },
+    {
+      "day": 67,
+      "passages": "Isaías 61; Isaías 62:1-12"
+    },
+    {
+      "day": 68,
+      "passages": "Isaías 63:1-14"
+    },
+    {
+      "day": 69,
+      "passages": "Isaías 63:15-19; Isaías 64:1-12"
+    },
+    {
+      "day": 70,
+      "passages": "Isaías 65:1-25"
+    },
+    {
+      "day": 71,
+      "passages": "Isaías 66:1-24"
+    }
+  ]
+}

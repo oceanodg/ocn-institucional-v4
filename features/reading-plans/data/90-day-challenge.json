@@ -1,0 +1,364 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "passages": "Gênesis 1-14"
+    },
+    {
+      "day": 2,
+      "passages": "Gênesis 15-28"
+    },
+    {
+      "day": 3,
+      "passages": "Gênesis 29-42"
+    },
+    {
+      "day": 4,
+      "passages": "Gênesis 43-50; Êxodo 1-6"
+    },
+    {
+      "day": 5,
+      "passages": "Êxodo 7-20"
+    },
+    {
+      "day": 6,
+      "passages": "Êxodo 21-34"
+    },
+    {
+      "day": 7,
+      "passages": "Êxodo 35-40; Levítico 1-8"
+    },
+    {
+      "day": 8,
+      "passages": "Levítico 9-22"
+    },
+    {
+      "day": 9,
+      "passages": "Levítico 23-27; Números 1-9"
+    },
+    {
+      "day": 10,
+      "passages": "Números 10-23"
+    },
+    {
+      "day": 11,
+      "passages": "Números 24-36; Deuteronômio 1"
+    },
+    {
+      "day": 12,
+      "passages": "Deuteronômio 2-15"
+    },
+    {
+      "day": 13,
+      "passages": "Deuteronômio 16-29"
+    },
+    {
+      "day": 14,
+      "passages": "Deuteronômio 30-34; Josué 1-9"
+    },
+    {
+      "day": 15,
+      "passages": "Josué 10-23"
+    },
+    {
+      "day": 16,
+      "passages": "Josué 24; Juízes 1-13"
+    },
+    {
+      "day": 17,
+      "passages": "Juízes 14-21; Rute 1-4; 1 Samuel 1-2"
+    },
+    {
+      "day": 18,
+      "passages": "1 Samuel 3-16"
+    },
+    {
+      "day": 19,
+      "passages": "1 Samuel 17-30"
+    },
+    {
+      "day": 20,
+      "passages": "1 Samuel 31; 2 Samuel 1-12"
+    },
+    {
+      "day": 21,
+      "passages": "2 Samuel 13-24; 1 Reis 1"
+    },
+    {
+      "day": 22,
+      "passages": "1 Reis 2-14"
+    },
+    {
+      "day": 23,
+      "passages": "1 Reis 15-22; 2 Reis 1-5"
+    },
+    {
+      "day": 24,
+      "passages": "2 Reis 6-18"
+    },
+    {
+      "day": 25,
+      "passages": "2 Reis 19-25; 1 Crônicas 1-6"
+    },
+    {
+      "day": 26,
+      "passages": "1 Crônicas 7-19"
+    },
+    {
+      "day": 27,
+      "passages": "1 Crônicas 20-29; 2 Crônicas 1-3"
+    },
+    {
+      "day": 28,
+      "passages": "2 Crônicas 4-16"
+    },
+    {
+      "day": 29,
+      "passages": "2 Crônicas 17-29"
+    },
+    {
+      "day": 30,
+      "passages": "2 Crônicas 30-36; Esdras 1-6"
+    },
+    {
+      "day": 31,
+      "passages": "Esdras 7-10; Neemias 1-9"
+    },
+    {
+      "day": 32,
+      "passages": "Neemias 10-13; Ester 1-9"
+    },
+    {
+      "day": 33,
+      "passages": "Ester 10; Jó 1-12"
+    },
+    {
+      "day": 34,
+      "passages": "Jó 13-25"
+    },
+    {
+      "day": 35,
+      "passages": "Jó 26-38"
+    },
+    {
+      "day": 36,
+      "passages": "Jó 39-42; Salmos 1-9"
+    },
+    {
+      "day": 37,
+      "passages": "Salmos 10-22"
+    },
+    {
+      "day": 38,
+      "passages": "Salmos 23-35"
+    },
+    {
+      "day": 39,
+      "passages": "Salmos 36-48"
+    },
+    {
+      "day": 40,
+      "passages": "Salmos 49-61"
+    },
+    {
+      "day": 41,
+      "passages": "Salmos 62-74"
+    },
+    {
+      "day": 42,
+      "passages": "Salmos 75-87"
+    },
+    {
+      "day": 43,
+      "passages": "Salmos 88-100"
+    },
+    {
+      "day": 44,
+      "passages": "Salmos 101-113"
+    },
+    {
+      "day": 45,
+      "passages": "Salmos 114-126"
+    },
+    {
+      "day": 46,
+      "passages": "Salmos 127-139"
+    },
+    {
+      "day": 47,
+      "passages": "Salmos 140-150; Provérbios 1-2"
+    },
+    {
+      "day": 48,
+      "passages": "Provérbios 3-15"
+    },
+    {
+      "day": 49,
+      "passages": "Provérbios 16-28"
+    },
+    {
+      "day": 50,
+      "passages": "Provérbios 29-31; Eclesiastes 1-10"
+    },
+    {
+      "day": 51,
+      "passages": "Eclesiastes 11-12; Cantares de Salomão 1-8; Isaías 1-3"
+    },
+    {
+      "day": 52,
+      "passages": "Isaías 4-16"
+    },
+    {
+      "day": 53,
+      "passages": "Isaías 17-29"
+    },
+    {
+      "day": 54,
+      "passages": "Isaías 30-42"
+    },
+    {
+      "day": 55,
+      "passages": "Isaías 43-55"
+    },
+    {
+      "day": 56,
+      "passages": "Isaías 56-66; Jeremias 1-2"
+    },
+    {
+      "day": 57,
+      "passages": "Jeremias 3-15"
+    },
+    {
+      "day": 58,
+      "passages": "Jeremias 16-28"
+    },
+    {
+      "day": 59,
+      "passages": "Jeremias 29-41"
+    },
+    {
+      "day": 60,
+      "passages": "Jeremias 42-52; Lamentações de Jeremias 1-2"
+    },
+    {
+      "day": 61,
+      "passages": "Lamentações de Jeremias 3-5; Ezequiel 1-10"
+    },
+    {
+      "day": 62,
+      "passages": "Ezequiel 11-23"
+    },
+    {
+      "day": 63,
+      "passages": "Ezequiel 24-36"
+    },
+    {
+      "day": 64,
+      "passages": "Ezequiel 37-48; Daniel 1"
+    },
+    {
+      "day": 65,
+      "passages": "Daniel 2-12; Oséias 1-2"
+    },
+    {
+      "day": 66,
+      "passages": "Oséias 3-14; Joel 1"
+    },
+    {
+      "day": 67,
+      "passages": "Joel 2-3; Amós 1-9; Obadias 1; Jonas 1"
+    },
+    {
+      "day": 68,
+      "passages": "Jonas 2-4; Miquéias 1-7; Naum 1-3"
+    },
+    {
+      "day": 69,
+      "passages": "Habacuque 1-3; Sofonias 1-3; Ageu 1-2; Zacarias 1-5"
+    },
+    {
+      "day": 70,
+      "passages": "Zacarias 6-14; Malaquias 1-4"
+    },
+    {
+      "day": 71,
+      "passages": "Mateus 1-13"
+    },
+    {
+      "day": 72,
+      "passages": "Mateus 14-26"
+    },
+    {
+      "day": 73,
+      "passages": "Mateus 27-28; Marcos 1-11"
+    },
+    {
+      "day": 74,
+      "passages": "Marcos 12-16; Lucas 1-8"
+    },
+    {
+      "day": 75,
+      "passages": "Lucas 9-21"
+    },
+    {
+      "day": 76,
+      "passages": "Lucas 22-24; João 1-10"
+    },
+    {
+      "day": 77,
+      "passages": "João 11-21; Atos 1-2"
+    },
+    {
+      "day": 78,
+      "passages": "Atos 3-15"
+    },
+    {
+      "day": 79,
+      "passages": "Atos 16-28"
+    },
+    {
+      "day": 80,
+      "passages": "Romanos 1-13"
+    },
+    {
+      "day": 81,
+      "passages": "Romanos 14-16; 1 Coríntios 1-10"
+    },
+    {
+      "day": 82,
+      "passages": "1 Coríntios 11-16; 2 Coríntios 1-7"
+    },
+    {
+      "day": 83,
+      "passages": "2 Coríntios 8-13; Gálatas 1-6; Efésios 1"
+    },
+    {
+      "day": 84,
+      "passages": "Efésios 2-6; Filipenses 1-4; Colossenses 1-4"
+    },
+    {
+      "day": 85,
+      "passages": "1 Tessalonicenses 1-5; 2 Tessalonicenses 1-3; 1 Timóteo 1-5"
+    },
+    {
+      "day": 86,
+      "passages": "1 Timóteo 6; 2 Timóteo 1-4; Tito 1-3; Filemom 1; Hebreus 1-4"
+    },
+    {
+      "day": 87,
+      "passages": "Hebreus 5-13; Tiago 1-4"
+    },
+    {
+      "day": 88,
+      "passages": "Tiago 5; 1 Pedro 1-5; 2 Pedro 1-3; 1 João 1-4"
+    },
+    {
+      "day": 89,
+      "passages": "1 João 5; 2 João 1; 3 João 1; Judas 1; Apocalipse 1-9"
+    },
+    {
+      "day": 90,
+      "passages": "Apocalipse 10-22"
+    }
+  ]
+}

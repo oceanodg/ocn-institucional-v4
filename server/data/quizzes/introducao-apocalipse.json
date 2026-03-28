@@ -1,0 +1,106 @@
+{
+  "id": "introducao-apocalipse",
+  "title": "Introdução ao Apocalipse",
+  "description": "Teste seu conhecimento sobre o livro de Apocalipse.",
+  "videoUrl": "WjwiBpgnxEg",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "weight": 1,
+      "question": "O que significa a palavra 'Apocalipse'?",
+      "options": [
+        "Destruição total",
+        "Revelação",
+        "Fim do mundo",
+        "Julgamento final"
+      ],
+      "correctIndex": 1,
+      "explanation": "A palavra 'Apocalipse' vem do grego e significa 'revelação', ou seja, algo que foi revelado."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "weight": 1,
+      "question": "Quem recebeu as visões registradas no livro de Apocalipse?",
+      "options": ["Paulo", "Pedro", "João", "Moisés"],
+      "correctIndex": 2,
+      "explanation": "O Apocalipse foi escrito pelo apóstolo João, que recebeu visões enquanto estava exilado."
+    },
+    {
+      "id": 3,
+      "difficulty": "medium",
+      "weight": 2,
+      "question": "Onde João estava quando recebeu as visões do Apocalipse?",
+      "options": ["Jerusalém", "Roma", "Antioquia", "Ilha de Patmos"],
+      "correctIndex": 3,
+      "explanation": "João recebeu as visões enquanto estava exilado na ilha de Patmos."
+    },
+    {
+      "id": 4,
+      "difficulty": "medium",
+      "weight": 2,
+      "question": "Qual era um dos principais contextos em que o livro de Apocalipse foi escrito?",
+      "options": [
+        "Tempo de paz em Israel",
+        "Grande prosperidade da igreja",
+        "Perseguição aos cristãos",
+        "Expansão política de Roma"
+      ],
+      "correctIndex": 2,
+      "explanation": "O livro foi escrito em um contexto de perseguição, trazendo esperança aos cristãos."
+    },
+    {
+      "id": 5,
+      "difficulty": "hard",
+      "weight": 3,
+      "question": "Qual é o principal propósito do livro de Apocalipse?",
+      "options": [
+        "Revelar Jesus Cristo e trazer esperança em meio às tribulações",
+        "Prever datas exatas do fim do mundo",
+        "Assustar os leitores com catástrofes",
+        "Explicar todos os mistérios da Bíblia"
+      ],
+      "correctIndex": 0,
+      "explanation": "O Apocalipse revela Jesus Cristo e fortalece a esperança dos cristãos, mesmo em meio às dificuldades."
+    }
+  ],
+  "resultRanges": [
+    {
+      "min": 0,
+      "max": 2,
+      "title": "Iniciante",
+      "message": "Você está começando a entender o livro de Apocalipse.",
+      "cta": {
+        "title": "Comece pelo básico",
+        "description": "Participe da Escola Bíblica e aprenda os fundamentos do Apocalipse de forma clara.",
+        "buttonText": "Quero começar",
+        "link": "/escola-biblica"
+      }
+    },
+    {
+      "min": 3,
+      "max": 4,
+      "title": "Intermediário",
+      "message": "Você já tem uma boa base sobre o Apocalipse.",
+      "cta": {
+        "title": "Aprofunde seu conhecimento",
+        "description": "Venha estudar conosco e entender os símbolos e mensagens mais profundas.",
+        "buttonText": "Quero me aprofundar",
+        "link": "/escola-biblica"
+      }
+    },
+    {
+      "min": 5,
+      "max": 9,
+      "title": "Avançado",
+      "message": "Excelente! Você já tem uma boa compreensão introdutória do Apocalipse.",
+      "cta": {
+        "title": "Prepare-se para níveis mais profundos",
+        "description": "Participe da Escola Bíblica e avance para interpretações mais profundas.",
+        "buttonText": "Quero avançar",
+        "link": "/escola-biblica"
+      }
+    }
+  ]
+}

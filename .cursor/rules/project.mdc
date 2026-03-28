@@ -1,0 +1,57 @@
+# Next.js App Router Project Guidelines
+
+## Documentation Resources
+
+- https://nextjs.org/docs/app
+
+## Package Installation
+
+- Do **not** install Remix or React Router packages.
+
+## Routing
+
+This project uses Next.js App Router with file-based routing. All routes are under `app/(site)/` for routes with the main layout (Navbar + Footer), or directly under `app/` for routes without the layout.
+
+Route pages should export a default function component. For server-side data, use async Server Components. For client interactivity, add `"use client"` directive.
+
+## Data Loading
+
+- Prefer server-side data loading via async Server Components.
+- Data loading should occur in page components or server utilities, not in feature components.
+
+## Import Statements
+
+- Use `~` for imports instead of relative paths (maps to project root).
+- Use `next/link` for `Link`, `next/navigation` for `usePathname`, `useParams`, `useRouter`.
+
+## Feature Components
+
+Should be placed under `~/features` and their React function should **not** be exported by default.
+
+Example:
+
+```typescript
+export function ComponentName() {}
+```
+
+## UI Components
+
+- Use Shadcn UI for building the UI. Exclusively.
+- Use icons from Lucide React. Exclusively.
+- Installed Shadcn UI components are located in `~/components/ui`.
+- If a component is missing, install it using Shadcn's CLI.
+
+## Project Structure
+
+```
+app/              # Next.js App Router pages
+  (site)/         # Route group with Navbar+Footer layout
+  globals.css     # Global styles (Tailwind v4)
+components/       # UI and custom components
+  ui/             # Shadcn UI components
+features/         # Feature-specific components
+lib/              # Utilities (cn, etc.)
+data/             # Static data files
+server/           # Server types and data
+public/           # Static assets
+```

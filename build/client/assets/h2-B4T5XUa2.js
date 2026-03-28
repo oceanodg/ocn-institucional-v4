@@ -1,0 +1,1 @@
+import{p as s}from"./chunk-PVWAREVJ-DIaTsoHx.js";import{c as o}from"./utils-D-KgF5mV.js";function e({children:t,className:r}){return s.jsx("h2",{className:o("scroll-m-20 pb-2 text-2xl lg:text-3xl font-semibold tracking-tight first:mt-0 leading-7",r),children:t})}export{e as H};

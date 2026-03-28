@@ -1,0 +1,1 @@
+import{p as e}from"./chunk-PVWAREVJ-DIaTsoHx.js";import{c as m}from"./utils-D-KgF5mV.js";function i({children:t,className:s}){return e.jsx("ul",{className:m("list-disc list-outside leading-6 pl-3.5 sm:pl-3.5 mt-4 text-left sm:text-left text-muted-foreground space-y-3 sm:space-y-1",s),children:t})}export{i as U};

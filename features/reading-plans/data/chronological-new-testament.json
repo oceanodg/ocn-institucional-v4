@@ -1,0 +1,372 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "passages": "Lucas 1; João 1:1-14"
+    },
+    {
+      "day": 2,
+      "passages": "Mateus 1; Lucas 2:1-38"
+    },
+    {
+      "day": 3,
+      "passages": "Mateus 2; Lucas 2:39-52"
+    },
+    {
+      "day": 4,
+      "passages": "Mateus 3; Marcos 1; Lucas 3"
+    },
+    {
+      "day": 5,
+      "passages": "Mateus 4; Lucas 4-5; João 1:15-51"
+    },
+    {
+      "day": 6,
+      "passages": "João 2-4"
+    },
+    {
+      "day": 7,
+      "passages": "Marcos 2"
+    },
+    {
+      "day": 8,
+      "passages": "João 5"
+    },
+    {
+      "day": 9,
+      "passages": "Mateus 12:1-21; Marcos 3; Lucas 6"
+    },
+    {
+      "day": 10,
+      "passages": "Mateus 5-7"
+    },
+    {
+      "day": 11,
+      "passages": "Mateus 8:1-13; Lucas 7"
+    },
+    {
+      "day": 12,
+      "passages": "Mateus 11"
+    },
+    {
+      "day": 13,
+      "passages": "Mateus 12:22-50; Lucas 11"
+    },
+    {
+      "day": 14,
+      "passages": "Mateus 13; Lucas 8"
+    },
+    {
+      "day": 15,
+      "passages": "Mateus 8:14-34; Marcos 4-5"
+    },
+    {
+      "day": 16,
+      "passages": "Mateus 9-10"
+    },
+    {
+      "day": 17,
+      "passages": "Mateus 14; Marcos 6; Lucas 9:1-17"
+    },
+    {
+      "day": 18,
+      "passages": "João 6"
+    },
+    {
+      "day": 19,
+      "passages": "Mateus 15; Marcos 7"
+    },
+    {
+      "day": 20,
+      "passages": "Mateus 16; Marcos 8; Lucas 9:18-27"
+    },
+    {
+      "day": 21,
+      "passages": "Mateus 17; Marcos 9; Lucas 9:28-62"
+    },
+    {
+      "day": 22,
+      "passages": "Mateus 18"
+    },
+    {
+      "day": 23,
+      "passages": "João 7-8"
+    },
+    {
+      "day": 24,
+      "passages": "João 9:1-41; João 10:1-21"
+    },
+    {
+      "day": 25,
+      "passages": "Lucas 10; João 10:22-42"
+    },
+    {
+      "day": 26,
+      "passages": "Lucas 12-13"
+    },
+    {
+      "day": 27,
+      "passages": "Lucas 14-15"
+    },
+    {
+      "day": 28,
+      "passages": "Lucas 16; Lucas 17:1-10"
+    },
+    {
+      "day": 29,
+      "passages": "João 11"
+    },
+    {
+      "day": 30,
+      "passages": "Lucas 17:11-37; Lucas 18:1-14"
+    },
+    {
+      "day": 31,
+      "passages": "Mateus 19; Marcos 10"
+    },
+    {
+      "day": 32,
+      "passages": "Mateus 20-21"
+    },
+    {
+      "day": 33,
+      "passages": "Lucas 18:15-43; Lucas 19:1-48"
+    },
+    {
+      "day": 34,
+      "passages": "Marcos 11; João 12"
+    },
+    {
+      "day": 35,
+      "passages": "Mateus 22; Marcos 12"
+    },
+    {
+      "day": 36,
+      "passages": "Mateus 23; Lucas 20-21"
+    },
+    {
+      "day": 37,
+      "passages": "Marcos 13"
+    },
+    {
+      "day": 38,
+      "passages": "Mateus 24"
+    },
+    {
+      "day": 39,
+      "passages": "Mateus 25"
+    },
+    {
+      "day": 40,
+      "passages": "Mateus 26; Marcos 14"
+    },
+    {
+      "day": 41,
+      "passages": "Lucas 22; João 13"
+    },
+    {
+      "day": 42,
+      "passages": "João 14-17"
+    },
+    {
+      "day": 43,
+      "passages": "Mateus 27; Marcos 15"
+    },
+    {
+      "day": 44,
+      "passages": "Lucas 23; João 18-19"
+    },
+    {
+      "day": 45,
+      "passages": "Mateus 28; Marcos 16"
+    },
+    {
+      "day": 46,
+      "passages": "Lucas 24; João 20-21"
+    },
+    {
+      "day": 47,
+      "passages": "Atos 1-3"
+    },
+    {
+      "day": 48,
+      "passages": "Atos 4-6"
+    },
+    {
+      "day": 49,
+      "passages": "Atos 7-8"
+    },
+    {
+      "day": 50,
+      "passages": "Atos 9-10"
+    },
+    {
+      "day": 51,
+      "passages": "Atos 11-12"
+    },
+    {
+      "day": 52,
+      "passages": "Atos 13-14"
+    },
+    {
+      "day": 53,
+      "passages": "Tiago 1-5"
+    },
+    {
+      "day": 54,
+      "passages": "Atos 15-16"
+    },
+    {
+      "day": 55,
+      "passages": "Gálatas 1-3"
+    },
+    {
+      "day": 56,
+      "passages": "Gálatas 4-6"
+    },
+    {
+      "day": 57,
+      "passages": "Atos 17; Atos 18:1-18"
+    },
+    {
+      "day": 58,
+      "passages": "1 Tessalonicenses 1-5; 2 Tessalonicenses 1-3"
+    },
+    {
+      "day": 59,
+      "passages": "Atos 18:19-28; Atos 19:1-41"
+    },
+    {
+      "day": 60,
+      "passages": "1 Coríntios 1-4"
+    },
+    {
+      "day": 61,
+      "passages": "1 Coríntios 5-8"
+    },
+    {
+      "day": 62,
+      "passages": "1 Coríntios 9-11"
+    },
+    {
+      "day": 63,
+      "passages": "1 Coríntios 12-14"
+    },
+    {
+      "day": 64,
+      "passages": "1 Coríntios 15-16"
+    },
+    {
+      "day": 65,
+      "passages": "2 Coríntios 1-4"
+    },
+    {
+      "day": 66,
+      "passages": "2 Coríntios 5-9"
+    },
+    {
+      "day": 67,
+      "passages": "2 Coríntios 10-13"
+    },
+    {
+      "day": 68,
+      "passages": "Atos 20:1-3; Romanos 1-3"
+    },
+    {
+      "day": 69,
+      "passages": "Romanos 4-7"
+    },
+    {
+      "day": 70,
+      "passages": "Romanos 8-10"
+    },
+    {
+      "day": 71,
+      "passages": "Romanos 11-13"
+    },
+    {
+      "day": 72,
+      "passages": "Romanos 14-16"
+    },
+    {
+      "day": 73,
+      "passages": "Atos 20:4-38; Atos 21-22; Atos 23:1-35"
+    },
+    {
+      "day": 74,
+      "passages": "Atos 24-26"
+    },
+    {
+      "day": 75,
+      "passages": "Atos 27-28"
+    },
+    {
+      "day": 76,
+      "passages": "Colossenses 1-4; Filemom 1"
+    },
+    {
+      "day": 77,
+      "passages": "Efésios 1-6"
+    },
+    {
+      "day": 78,
+      "passages": "Filipenses 1-4"
+    },
+    {
+      "day": 79,
+      "passages": "1 Timóteo 1-6"
+    },
+    {
+      "day": 80,
+      "passages": "Tito 1-3"
+    },
+    {
+      "day": 81,
+      "passages": "1 Pedro 1-5"
+    },
+    {
+      "day": 82,
+      "passages": "Hebreus 1-6"
+    },
+    {
+      "day": 83,
+      "passages": "Hebreus 7-10"
+    },
+    {
+      "day": 84,
+      "passages": "Hebreus 11-13"
+    },
+    {
+      "day": 85,
+      "passages": "2 Timóteo 1-4"
+    },
+    {
+      "day": 86,
+      "passages": "2 Pedro 1-3; Judas 1"
+    },
+    {
+      "day": 87,
+      "passages": "1 João 1-5"
+    },
+    {
+      "day": 88,
+      "passages": "2 João 1; 3 João 1"
+    },
+    {
+      "day": 89,
+      "passages": "Apocalipse 1-5"
+    },
+    {
+      "day": 90,
+      "passages": "Apocalipse 6-11"
+    },
+    {
+      "day": 91,
+      "passages": "Apocalipse 12-18"
+    },
+    {
+      "day": 92,
+      "passages": "Apocalipse 19-22"
+    }
+  ]
+}

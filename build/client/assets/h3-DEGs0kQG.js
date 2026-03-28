@@ -1,0 +1,1 @@
+import{p as r}from"./chunk-PVWAREVJ-DIaTsoHx.js";import{c as x}from"./utils-D-KgF5mV.js";function e({children:t,className:m}){return r.jsx("h3",{className:x("scroll-m-20 text-xl md:text-xl lg:text-2xl font-medium tracking-tight",m),children:t})}export{e as H};
