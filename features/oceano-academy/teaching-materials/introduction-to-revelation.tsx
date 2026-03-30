@@ -33,7 +33,7 @@ export function IntroductionToRevelation() {
       <Separator className="my-8" />
 
       <Container className="mb-10 sm:mb-16">
-        <H2 id="materials-didactic">Materiais Didáticos</H2>
+        <H2 id="materials-didactic">Materiais de Apoio</H2>
 
         <UL className="mt-0">
           <li>
