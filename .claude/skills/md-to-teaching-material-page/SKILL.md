@@ -11,7 +11,7 @@ description: >
   "faz a página desse curso/lição/material".
 ---
 
-# md-to-react-page
+# md-to-teaching-material-page
 
 Converte um arquivo Markdown de material didático no formato do Oceano Academy em um componente de página React TypeScript (`.tsx`), usando os componentes customizados do projeto.
 
@@ -20,7 +20,12 @@ Converte um arquivo Markdown de material didático no formato do Oceano Academy 
 ## Inputs esperados
 
 - Um arquivo `.md` com estrutura de material didático (curso, lição, apostila).
-- O arquivo pode vir como upload ou colado no chat.
+- Um arquivo `page.tsx` existente que será **alterado** (não criado do zero).
+
+> **IMPORTANTE — verificação antes de executar:**
+> Se o usuário não fornecer o arquivo `page.tsx`, **pare e solicite-o** antes de prosseguir:
+> _"Para aplicar as alterações, preciso do arquivo `page.tsx` que será modificado. Pode enviá-lo?"_
+> Somente continue após receber o arquivo. Nunca crie um `page.tsx` do zero se não foi fornecido um.
 
 ### Estrutura típica do Markdown de input
 
@@ -51,13 +56,11 @@ Texto...
 
 ## Output esperado
 
-Um arquivo `page.tsx` com:
+O arquivo `page.tsx` fornecido pelo usuário, **modificado** com o conteúdo gerado a partir do markdown:
 
-- Componente React default export nomeado de acordo com o título do curso (PascalCase)
-- Uso dos componentes customizados listados abaixo
-- Sumário com links âncora gerados a partir dos títulos
-- Separadores entre as seções principais
-- Texto estruturado com parágrafos `<P>` individuais por parágrafo do markdown
+- Componente React default export atualizado com o novo conteúdo
+- Imports preservados ou atualizados conforme necessário
+- Estrutura existente respeitada; apenas o conteúdo derivado do markdown é substituído
 
 ---
 
@@ -196,20 +199,24 @@ Cada subseção da lição:
 
 ## Processo de execução
 
-1. **Leia o markdown** e identifique:
+1. **Verifique os inputs:** se o `page.tsx` não foi fornecido, solicite-o ao usuário e aguarde. Não prossiga sem ele.
+
+2. **Leia o markdown** e identifique:
 
    - Título do curso (primeiro `##`)
    - Itens do sumário
    - Lições e suas subseções
    - Parágrafos de conteúdo
 
-2. **Mapeie os IDs** de todas as âncoras seguindo as regras acima.
+3. **Leia o `page.tsx`** fornecido e entenda sua estrutura atual (imports, nome do componente, seções existentes).
 
-3. **Gere o TSX** completo seguindo a estrutura e componentes definidos.
+4. **Mapeie os IDs** de todas as âncoras seguindo as regras acima.
 
-4. **Salve** o arquivo como `page.tsx` em `/mnt/user-data/outputs/page.tsx`.
+5. **Gere o conteúdo TSX** completo seguindo a estrutura e componentes definidos, substituindo o corpo do componente existente.
 
-5. **Apresente** o arquivo com `present_files`.
+6. **Salve** o arquivo alterado em `/mnt/user-data/outputs/page.tsx`, preservando o nome original.
+
+7. **Apresente** o arquivo com `present_files`.
 
 ---
 
