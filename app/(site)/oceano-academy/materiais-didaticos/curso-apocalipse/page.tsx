@@ -196,14 +196,14 @@ export default function CursoApocalipse() {
           <P className="">
             O Apocalipse, longe de ser um livro de medo, apresenta-se como uma
             mensagem de esperança para a igreja. Desde o início, a Escritura
-            declara bem- aventurado aquele que lê, ouve e guarda as palavras
+            declara bem-aventurado aquele que lê, ouve e guarda as palavras
             desta profecia (Ap 1.3), revelando seu caráter edificante e
-            consolador. E ao final, Cristo reaffirma essa mesma bem-
-            aventurança, lembrando que feliz é aquele que guarda a profecia (Ap
-            22.7), fechando o livro com uma promessa de alegria e vitória.
-            Assim, quem se aproxima do Apocalipse com o coração aberto descobre
-            não um anúncio de terror, mas uma revelação de glória, esperança e
-            triunfo para os que pertencem ao Senhor.
+            consolador. E ao final, Cristo reafirma essa mesma bem-aventurança,
+            lembrando que feliz é aquele que guarda a profecia (Ap 22.7),
+            fechando o livro com uma promessa de alegria e vitória. Assim, quem
+            se aproxima do Apocalipse com o coração aberto descobre não um
+            anúncio de terror, mas uma revelação de glória, esperança e triunfo
+            para os que pertencem ao Senhor.
           </P>
           <P className="">
             Enquanto o versículo base da lição, Apocalipse 1.19, organiza o
