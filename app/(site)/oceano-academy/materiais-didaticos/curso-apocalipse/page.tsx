@@ -1022,7 +1022,7 @@ export default function CursoApocalipse() {
             direta e contínua.
           </P>
           <P className="">
-            Outro detalle significativo é a ausência de noite, já que a glória
+            Outro detalhe significativo é a ausência de noite, já que a glória
             de Deus ilumina a cidade, segundo Apocalipse 21.23. Esse simbolismo
             destaca que nada obscuro, falso ou pecaminoso terá espaço na
             eternidade. As portas da cidade permanecem sempre abertas, indicando
@@ -1065,7 +1065,7 @@ export default function CursoApocalipse() {
             eterna com o Criador. Nenhuma barreira, nenhum véu, nenhuma
             distância. O nome de Deus estará na fronte de Seus servos, indicando
             pertencimento absoluto e irrevogável. A luz eterna que procede do
-            Señor elimina qualquer possibilidade de trevas, inaugurando um
+            Senhor elimina qualquer possibilidade de trevas, inaugurando um
             reinado que jamais terá fim.
           </P>
         </div>
@@ -1076,13 +1076,13 @@ export default function CursoApocalipse() {
           </H3>
           <P className="">
             Nos versos finais do livro, o Apocalipse assume um tom pastoral e
-            convocatório. Cristo reaffirma repetidamente que vem em breve, como
+            convocatório. Cristo reafirma repetidamente que vem em breve, como
             registrado em Apocalipse 22.7, 12 e 20. Essa insistência não é
             acidental; ela enfatiza que a esperança cristã é fundamentada na
-            promessa do retorno do Señor. A proximidade dessa vinda deve motivar
-            o crente à fidelidade, à santidade e à vigilância. Não se trata de
-            especulação sobre datas, mas de postura espiritual diante do que
-            Deus revelou.
+            promessa do retorno do Senhor. A proximidade dessa vinda deve
+            motivar o crente à fidelidade, à santidade e à vigilância. Não se
+            trata de especulação sobre datas, mas de postura espiritual diante
+            do que Deus revelou.
           </P>
           <P className="">
             O texto também apresenta bem-aventuranças e advertências. Os que
@@ -1100,7 +1100,7 @@ export default function CursoApocalipse() {
             estende a todos que têm sede, oferecendo gratuitamente da água da
             vida. A conclusão do livro une, portanto, duas verdades
             fundamentais: a certeza da volta de Cristo e a oferta contínua da
-            salvação. Assim, João encerra sua visão reaffirmando a esperança
+            salvação. Assim, João encerra sua visão reafirmando a esperança
             cristã e convidando a igreja a permanecer firme até o dia em que
             essa promessa se cumprirá.
           </P>
@@ -1131,10 +1131,10 @@ export default function CursoApocalipse() {
           </P>
           <P className="">
             Por fim, o livro do Apocalipse nos leva a uma confissão simples e
-            poderosa: "Ora, vem, Señor Jesus", conforme Apocalipse 22.20. Que
+            poderosa: "Ora, vem, Senhor Jesus", conforme Apocalipse 22.20. Que
             essa oração seja a expressão constante do seu coração, que aguarda
-            com esperança viva o cumprimento de todas as promessas do Señor. E
-            que a certeza da eternidade com Deus nos impulse a viver com
+            com esperança viva o cumprimento de todas as promessas do Senhor. E
+            que a certeza da eternidade com Deus nos impulsione a viver com
             fidelidade e amor até o último dia.
           </P>
         </div>
