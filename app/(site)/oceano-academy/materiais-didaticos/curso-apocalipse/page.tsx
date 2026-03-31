@@ -446,8 +446,8 @@ export default function CursoApocalipse() {
             subir e ver as realidades celestiais que revelam o curso da história
             segundo a perspectiva divina, conforme Apocalipse 4.1. Quando o céu
             se abre diante de nós, percebemos que tudo o que ocorre na Terra
-            está sob o olhar atento daquele que reigns no trono e conduz todas
-            as coisas para o cumprimento soberano de Seu propósito eterno.
+            está sob o olhar atento daquele que reina no trono e conduz todas as
+            coisas para o cumprimento soberano de Seu propósito eterno.
           </P>
           <P className="">
             À medida que o leitor avança por estes capítulos, torna-se evidente
@@ -464,7 +464,7 @@ export default function CursoApocalipse() {
           <P className="">
             Esta introdução procura despertar o leitor para compreender que o
             Apocalipse não é um livro de terror, mas de esperança, pois mostra
-            que o mal não triumphará. Mesmo diante das figuras mais sombrias e
+            que o mal não triunfará. Mesmo diante das figuras mais sombrias e
             dos eventos mais intensos, o trono de Deus permanece inabalável,
             como está descrito em Apocalipse 4.2. Portanto, ao longo desta
             lição, enfatizaremos não apenas os juízos, mas a soberania de Deus,
@@ -581,15 +581,15 @@ export default function CursoApocalipse() {
           </P>
           <P className="">
             No capítulo 14, porém, João contempla o Cordeiro e os cento e
-            quarenta e quatro mil, representando o pueblo israelita fiel do
+            quarenta e quatro mil, representando o povo israelita fiel do
             Senhor, preservados vivos durante a grande Tribulação. Essa
             contraposição entre o sistema do anticristo e o povo de Deus mostra
-            que, apesar da pressão e da perseguição, o Señor preserva Seus
+            que, apesar da pressão e da perseguição, o Senhor preserva Seus
             servos e garante que seu nome esteja escrito no céu. Além disso,
             três anjos proclamam mensagens de juízo e advertência, evidenciando
             que, mesmo nos momentos mais sombrios da história, Deus não cessa de
-            anunciAR sua verdade. Esse conjunto de visões reaffirma que a
-            vitória final pertence ao Cordeiro.
+            anunciar sua verdade. Esse conjunto de visões reafirma que a vitória
+            final pertence ao Cordeiro.
           </P>
         </div>
 
@@ -647,7 +647,7 @@ export default function CursoApocalipse() {
             Além disso, a progressão dos juízos demonstra tanto a paciência
             quanto a justiça de Deus. Ele oferece oportunidades de
             arrependimento, mas também estabelece limites para o mal. A queda da
-            Babilônia e a volta gloriosa de Cristo reaffirmam que todo sistema
+            Babilônia e a volta gloriosa de Cristo reafirmam que todo sistema
             que se levanta contra Deus será destruído e que o Reino de Cristo
             prevalecerá. Essa certeza alimenta a esperança da igreja ao longo
             das eras.
@@ -656,8 +656,8 @@ export default function CursoApocalipse() {
             Por fim, esta lição nos prepara para compreender os eventos finais
             do Apocalipse, especialmente o Milênio, o juízo final e a nova
             criação. O estudo desta seção do livro fortalece a fé do leitor,
-            lembra que Deus está no controle e reaffirma que, no fim, o bem
-            triumphará porque Cristo já venceu. Assim, somos chamados a
+            lembra que Deus está no controle e reafirma que, no fim, o bem
+            triunfará porque Cristo já venceu. Assim, somos chamados a
             permanecer fiéis, vigilantes e cheios de esperança.
           </P>
         </div>
