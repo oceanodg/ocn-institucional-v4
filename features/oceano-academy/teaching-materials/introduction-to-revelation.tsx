@@ -63,7 +63,7 @@ export function IntroductionToRevelation() {
               rel="noopener noreferrer"
               className="hover:underline underline-offset-4 text-blue-500"
             >
-              Palavras Cruzadas
+              Palavras-Cruzadas
             </a>
           </li>
           <li>
