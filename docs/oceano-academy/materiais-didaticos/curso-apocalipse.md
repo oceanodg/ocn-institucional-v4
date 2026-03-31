@@ -556,9 +556,7 @@ glória de estar para sempre com o Senhor.
 
 O capítulo 21 se inicia com João vendo um novo céu e uma nova terra, e essa
 renovação completa marca um novo começo para toda a criação. Essa nova realidade
-não é fruto apenas de restauração, mas de um ato criador direto de Deus, que estabelece
-
-uma ordem inabalável e eterna. A antiga criação, marcada pela presença do pecado, já
+não é fruto apenas de restauração, mas de um ato criador direto de Deus, que estabelece uma ordem inabalável e eterna. A antiga criação, marcada pela presença do pecado, já
 não existe. Essa transformação radical está diretamente ligada à vitória final de Cristo,
 pois Ele faz novas todas as coisas, como registrado em Apocalipse 21.5. A promessa de
 que Deus habitará com os homens revela a intenção divina desde o princípio:
