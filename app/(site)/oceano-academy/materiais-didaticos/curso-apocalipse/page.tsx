@@ -747,7 +747,7 @@ export default function CursoApocalipse() {
           <P className="">
             Por fim, a declaração de que Satanás será solto por "pouco tempo"
             após os mil anos nos prepara para a última fase da história antes da
-            eternidade. Esse detalle mostra que Deus não age de forma
+            eternidade. Esse detalhe mostra que Deus não age de forma
             arbitrária; Ele conduz todos os acontecimentos para revelar
             plenamente Sua justiça e Sua santidade. Contudo, até que cheguemos a
             esse momento, o capítulo nos apresenta o governo pacífico de Cristo,
@@ -780,7 +780,7 @@ export default function CursoApocalipse() {
             expressão "bem-aventurado e santo" aplicada aos participantes da
             primeira ressurreição reforça que o Milênio é um privilégio
             destinado aos que seguiram a Cristo com fidelidade durante a grande
-            Tribulação. É um tempo em que o governo do Señor se torna visível e
+            Tribulação. É um tempo em que o governo do Senhor se torna visível e
             experimentado em plenitude.
           </P>
           <P className="">
@@ -805,8 +805,8 @@ export default function CursoApocalipse() {
             divino. Durante o Milênio, apesar da paz e da justiça reinantes,
             muitos nascerão e crescerão sem experimentar diretamente a tentação
             como a conhecemos hoje. Assim, quando Satanás é libertado, as
-            escolhas humanas são postas à prova, revelando quem realmente segue
-            a Cristo por convicção e quem apenas se beneficiava das
+            escolhas humanas são colocadas à prova, revelando quem realmente
+            segue a Cristo por convicção e quem apenas se beneficiava das
             circunstâncias favoráveis. Esse momento final demonstra que o
             problema do pecado não está nas condições externas, mas na
             disposição interna de cada coração.
@@ -895,7 +895,7 @@ export default function CursoApocalipse() {
             Por fim, esta lição prepara o terreno para a última parte do livro
             do Apocalipse, que descreve o triunfo absoluto de Deus e a criação
             de um novo céu e uma nova terra. É com expectativa santa que
-            avanzamos para a próxima lição, certos de que o plano redentor de
+            avançamos para a próxima lição, certos de que o plano redentor de
             Deus culmina não no juízo, mas na restauração eterna.
           </P>
         </div>
