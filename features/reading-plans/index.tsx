@@ -62,7 +62,21 @@ export function ReadingPlans() {
         </div>
       </HeroContainer>
 
-      <Container className="mb-10 sm:mb-16">
+      <Separator className="my-14" />
+
+      <Container className="">
+        <div className="flex flex-col gap-4">
+          <CTABox
+            title="Marcador de Leitura Bíblica"
+            description="Baixe e imprima o seu marcador de leitura bíblica para acompanhar o seu progresso."
+            buttonLink="https://drive.google.com/file/d/1fu29D2tIQeWY1sZcaWkxyV3HSuz3yEoA/view?usp=sharing"
+            buttonText="Baixar Agora"
+            openInNewTab={true}
+          />
+        </div>
+      </Container>
+
+      <Container className="mt-6 sm:mt-8 mb-10 sm:mb-16">
         <Table>
           <TableHeader>
             <TableRow>
@@ -141,20 +155,6 @@ export function ReadingPlans() {
             />
           </TableBody>
         </Table>
-      </Container>
-
-      <Separator className="my-14" />
-
-      <Container className="mb-10 sm:mb-16">
-        <div className="flex flex-col gap-4">
-          <CTABox
-            title="Marcador de Leitura Bíblica"
-            description="Baixe e imprima o seu marcador de leitura bíblica. Então marque facilmente cada capítulo lido e acompanhe seu progresso."
-            buttonLink="https://drive.google.com/file/d/1fu29D2tIQeWY1sZcaWkxyV3HSuz3yEoA/view?usp=sharing"
-            buttonText="Baixar Agora"
-            openInNewTab={true}
-          />
-        </div>
       </Container>
     </section>
   );
