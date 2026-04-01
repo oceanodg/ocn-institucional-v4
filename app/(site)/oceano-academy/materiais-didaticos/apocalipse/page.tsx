@@ -13,7 +13,9 @@ export default function CursoApocalipse() {
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col gap-2">
           <H1 className="text-left">Apocalipse</H1>
-          <P className="mt-0">Um estudo sobre os últimos dias.</P>
+          <P className="mt-0">
+            Revelação final de Deus sobre o fim e a vitória de Cristo.
+          </P>
         </div>
       </HeroContainer>
 
@@ -30,6 +32,55 @@ export default function CursoApocalipse() {
               className="hover:underline underline-offset-4 text-blue-500"
             >
               Apostila
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1FvbL--DAWYE1-NIL-nMfG3jxSllXPKfJ/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline underline-offset-4 text-blue-500"
+            >
+              Infográfico Lição 1
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://youtu.be/FIksgWA6I1s"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline underline-offset-4 text-blue-500"
+            >
+              Vídeo Lição 1
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1bTnk3yKBBU9ia2wPn8yesS7Tm5VAAPTB/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline underline-offset-4 text-blue-500"
+            >
+              Palavras-Cruzadas
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1kWdqSpZeoSrZgO_Aqo1FGbWDuRiA4iX-/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline underline-offset-4 text-blue-500"
+            >
+              Caça-Palavras
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://drive.google.com/file/d/12WShs5taDocfJkvxI9vr-nk10P1_sZHf/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline underline-offset-4 text-blue-500"
+            >
+              Respostas
             </a>
           </li>
         </UL>
@@ -1147,7 +1198,7 @@ export default function CursoApocalipse() {
         <div className="flex flex-col gap-8">
           <div className="flex flex-col">
             <P className="mt-0">
-              <span className="font-semibold">Curso:</span> Curso Apocalipse
+              <span className="font-semibold">Curso:</span> Apocalipse
             </P>
             <P className="mt-0">
               <span className="font-semibold">Ano:</span> 2026
