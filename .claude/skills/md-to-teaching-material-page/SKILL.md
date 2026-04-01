@@ -76,8 +76,8 @@ O arquivo `page.tsx` fornecido pelo usuário, **modificado** com o conteúdo ger
 | `HeroContainer`                  | `~/components/hero`                                                                          | Wrapper do cabeçalho hero                            |
 | `Container`                      | `~/components/container`                                                                     | Wrapper de seção com margens                         |
 | `UL`                             | `~/components/ui/ul`                                                                         | Lista não-ordenada                                   |
-| `SummaryLi`                      | `~/features/oceano-academy/teaching-materials/components/summary-li`                         | Item do sumário (aceita prop `subList` para subitem) |
-| `AllTeachingMaterialsBackButton` | `~/features/oceano-academy/teaching-materials/components/all-teaching-materials-back-button` | Botão de voltar                                      |
+| `SummaryLi`                      | `~/components/summary-li`                         | Item do sumário (aceita prop `subList` para subitem) |
+| `AllTeachingMaterialsBackButton` | `~/components/back-buttons/all-teaching-materials` | Botão de voltar                                      |
 
 ---
 

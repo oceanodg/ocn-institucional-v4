@@ -1,9 +1,9 @@
 import { HeroContainer } from "~/components/hero";
-import { AllTeachingMaterialsBackButton } from "../../../../../features/oceano-academy/teaching-materials/components/all-teaching-materials-back-button";
+import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { UL } from "~/components/ui/ul";
-import { SummaryLi } from "~/features/oceano-academy/teaching-materials/components/summary-li";
+import { SummaryLi } from "~/components/summary-li";
 
 export default function CursoApocalipse() {
   return (

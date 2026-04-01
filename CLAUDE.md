@@ -35,10 +35,13 @@ components/           # UI and custom components
 ├── ui/               # Shadcn UI components
 ├── navbar/           # Navigation components
 ├── hero/             # Hero section components
+├── back-buttons/     # Back navigation buttons
+├── course-cta/       # Course CTA components
+├── projects/         # Project-specific shared components
+├── quizzes/          # Quiz client component
 └── footer.tsx        # Footer component
-features/             # Feature-specific components
 lib/                  # Utilities (cn helper)
-data/                 # Static data files
+data/                 # Static data files (menu-links, courses, reading-plans, churches, projects)
 server/               # Server-side types and data
 ├── types/            # TypeScript type definitions
 └── data/             # JSON data (quizzes, etc.)
@@ -52,9 +55,9 @@ This project uses **Next.js App Router** with file-based routing. Routes with th
 ### Component Organization
 
 - **UI Components** (`components/ui/`): Shadcn UI components
-- **Feature Components** (`features/`): Feature-specific components (don't export as default)
 - **Custom Components** (`components/`): Reusable custom components
 - **Layout Components** (`app/*/layout.tsx`): Layout wrappers
+- **Page content lives directly in `page.tsx` files** - no separate "feature" wrappers
 
 ### Data Loading
 
@@ -67,7 +70,7 @@ This project uses **Next.js App Router** with file-based routing. Routes with th
 - Use `~` for imports (mapped to project root via tsconfig paths)
 - Import from `next/link` for navigation links
 - Import from `next/navigation` for `usePathname`, `useParams`, `useRouter`
-- Example: `import { Component } from '~/features/some-feature'`
+- Example: `import { Component } from '~/components/some-component'`
 
 ### Styling
 

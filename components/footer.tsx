@@ -4,7 +4,7 @@
 import Link from "next/link";
 import { Globe, Instagram, Youtube } from "lucide-react";
 import { Separator } from "~/components/ui/separator";
-import { menuLinks } from "~/features/menu-links";
+import { menuLinks } from "~/data/menu-links";
 
 export const Footer = () => {
   return (

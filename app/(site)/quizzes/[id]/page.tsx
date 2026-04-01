@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import fs from "fs/promises";
 import path from "path";
-import { Quizzes } from "~/features/quizzes";
+import { Quizzes } from "~/components/quizzes";
 import type { Quiz } from "~/server/types";
 
 export default async function QuizPage({

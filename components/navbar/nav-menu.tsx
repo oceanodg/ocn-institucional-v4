@@ -14,7 +14,7 @@ import {
   NavigationMenuContent,
 } from "~/components/ui/navigation-menu";
 import { cn } from "~/lib/utils";
-import { menuLinks } from "~/features/menu-links";
+import { menuLinks } from "~/data/menu-links";
 
 export const NavMenu = (props: NavigationMenuProps) => {
   const pathname = usePathname();

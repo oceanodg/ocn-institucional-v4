@@ -16,7 +16,7 @@ import {
   AccordionTrigger,
 } from "~/components/ui/accordion";
 import { Menu } from "lucide-react";
-import { menuLinks } from "~/features/menu-links";
+import { menuLinks } from "~/data/menu-links";
 
 export const NavigationSheet = () => {
   const [open, setOpen] = useState(false);
