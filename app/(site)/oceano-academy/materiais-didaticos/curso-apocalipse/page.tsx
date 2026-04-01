@@ -12,7 +12,7 @@ export default function CursoApocalipse() {
 
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col gap-2">
-          <H1 className="text-left">Curso Apocalipse</H1>
+          <H1 className="text-left">Apocalipse</H1>
           <P className="mt-0">Um estudo sobre o Apocalipse.</P>
         </div>
       </HeroContainer>
