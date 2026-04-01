@@ -1,9 +1,25 @@
+import {
+  ArrowDownToLine,
+  FileImage,
+  NotepadText,
+  SquarePlay,
+  Tv,
+  Video,
+} from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { UL } from "~/components/ui/ul";
 import { SummaryLi } from "~/components/summary-li";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHeader,
+  TableRow,
+} from "~/components/ui/table";
+import { LinkSmall } from "~/components/ui/link-small";
 
 export default function CursoApocalipse() {
   return (
@@ -23,67 +39,78 @@ export default function CursoApocalipse() {
 
       <Container className="mb-10 sm:mb-16">
         <H2 id="materials-didactic">Materiais de Apoio</H2>
-        <UL className="mt-0">
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1LNPbSqst5OOeNVjhGzmwB13PYwPflCQg/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline underline-offset-4 text-blue-500"
-            >
-              Apostila
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1FvbL--DAWYE1-NIL-nMfG3jxSllXPKfJ/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline underline-offset-4 text-blue-500"
-            >
-              Infográfico Lição 1
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://youtu.be/FIksgWA6I1s"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline underline-offset-4 text-blue-500"
-            >
-              Vídeo Lição 1
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1bTnk3yKBBU9ia2wPn8yesS7Tm5VAAPTB/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline underline-offset-4 text-blue-500"
-            >
-              Palavras-Cruzadas
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1kWdqSpZeoSrZgO_Aqo1FGbWDuRiA4iX-/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline underline-offset-4 text-blue-500"
-            >
-              Caça-Palavras
-            </a>{" "}
-            |{" "}
-            <a
-              href="https://drive.google.com/file/d/12WShs5taDocfJkvxI9vr-nk10P1_sZHf/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline underline-offset-4 text-blue-500"
-            >
-              Respostas
-            </a>
-          </li>
-        </UL>
+
+        <Table>
+          <TableHeader>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold w-[110px] sm:w-[160px]">
+                Apostila
+              </TableCell>
+              <TableCell>
+                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                  <LinkSmall href="https://drive.google.com/file/d/1LNPbSqst5OOeNVjhGzmwB13PYwPflCQg/view?usp=sharing">
+                    <NotepadText className="size-4" />
+                    Apocalipse
+                  </LinkSmall>
+                </div>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                  <LinkSmall href="https://drive.google.com/file/d/1FvbL--DAWYE1-NIL-nMfG3jxSllXPKfJ/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    Lição 1
+                  </LinkSmall>
+                </div>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">Vídeos</TableCell>
+              <TableCell>
+                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                  <LinkSmall href="https://youtu.be/FIksgWA6I1s">
+                    <SquarePlay className="size-4" />
+                    Lição 1
+                  </LinkSmall>
+                </div>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Palavras-Cruzadas
+              </TableCell>
+              <TableCell>
+                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                  <LinkSmall href="https://drive.google.com/file/d/1bTnk3yKBBU9ia2wPn8yesS7Tm5VAAPTB/view?usp=sharing">
+                    <NotepadText className="size-4" />
+                    Palavras-Cruzadas
+                  </LinkSmall>
+                </div>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Caça-Palavras
+              </TableCell>
+              <TableCell>
+                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                  <LinkSmall href="https://drive.google.com/file/d/1kWdqSpZeoSrZgO_Aqo1FGbWDuRiA4iX-/view?usp=sharing">
+                    <NotepadText className="size-4" />
+                    Caça-Palavras
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/12WShs5taDocfJkvxI9vr-nk10P1_sZHf/view?usp=sharing">
+                    <NotepadText className="size-4" />
+                    Respostas
+                  </LinkSmall>
+                </div>
+              </TableCell>
+            </TableRow>
+          </TableHeader>
+        </Table>
       </Container>
 
       <Separator className="my-8" />
