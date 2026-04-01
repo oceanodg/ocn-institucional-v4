@@ -229,7 +229,7 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "Apocalipse",
-        link: "/oceano-academy/materiais-didaticos/curso-apocalipse",
+        link: "/oceano-academy/materiais-didaticos/apocalipse",
       },
     ],
   },
