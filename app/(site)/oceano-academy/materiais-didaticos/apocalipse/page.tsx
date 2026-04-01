@@ -1,11 +1,4 @@
-import {
-  ArrowDownToLine,
-  FileImage,
-  NotepadText,
-  SquarePlay,
-  Tv,
-  Video,
-} from "lucide-react";
+import { FileImage, NotepadText, SquarePlay, Workflow } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -63,6 +56,19 @@ export default function CursoApocalipse() {
                 <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
                   <LinkSmall href="https://drive.google.com/file/d/1FvbL--DAWYE1-NIL-nMfG3jxSllXPKfJ/view?usp=sharing">
                     <FileImage className="size-4" />
+                    Lição 1
+                  </LinkSmall>
+                </div>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Mapas Mentais
+              </TableCell>
+              <TableCell>
+                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                  <LinkSmall href="https://drive.google.com/file/d/1_D_1MZ0XBNg-jGyhngs9BXwHilNKhgrd/view?usp=drive_link">
+                    <Workflow className="size-4" />
                     Lição 1
                   </LinkSmall>
                 </div>
