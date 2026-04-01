@@ -40,7 +40,7 @@ export function ProjectInvestment(props: ProjectInvestmentProps) {
           <TableBody>
             {items.map((item: InvestmentItem) => (
               <TableRow key={item.description}>
-                <TableCell className="text-left text-muted-foreground break-words whitespace-normal">
+                <TableCell className="text-left text-muted-foreground wrap-break-word whitespace-normal">
                   {item.description}
                 </TableCell>
                 <TableCell className="border-l text-right">

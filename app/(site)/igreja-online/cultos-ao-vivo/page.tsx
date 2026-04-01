@@ -94,7 +94,7 @@ export default function CultosAoVivoPage() {
               </a>
             </div>
 
-            <div className="w-full sm:w-auto sm:flex-shrink-0 mt-3 sm:mt-0">
+            <div className="w-full sm:w-auto mt-3 sm:mt-0">
               <Button
                 variant="outline"
                 size="lg"

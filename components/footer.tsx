@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <div className="flex flex-col border-t bg-gray-50">
       <footer className="">
-        <div className="max-w-screen-lg mx-auto p-6 sm:p-8">
+        <div className="max-w-5xl mx-auto p-6 sm:p-8">
           <div className="py-12 flex flex-col sm:flex-row items-start justify-between gap-x-8 gap-y-10 px-6 xl:px-0">
             <div>
               {/* Logo */}
@@ -48,7 +48,11 @@ export const Footer = () => {
             </span>
 
             <div className="flex items-center gap-5 text-muted-foreground">
-              <a href="https://www.oceanodagraca.com/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.oceanodagraca.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Globe className="h-4.5 w-4.5" />
               </a>
               <a
