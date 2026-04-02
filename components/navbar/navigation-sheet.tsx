@@ -73,7 +73,7 @@ export const NavigationSheet = () => {
                             href={item.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-sm text-gray-700 hover:text-gray-700/80 transition-colors"
+                            className="text-md font-medium text-gray-700 hover:text-gray-700/80 transition-colors"
                             onClick={handleLinkClick}
                           >
                             {item.title}
@@ -82,7 +82,7 @@ export const NavigationSheet = () => {
                           <Link
                             key={item.title}
                             href={item.href}
-                            className="text-sm text-gray-700 hover:text-gray-700/80 transition-colors"
+                            className="text-md font-medium text-gray-700 hover:text-gray-700/80 transition-colors"
                             onClick={handleLinkClick}
                           >
                             {item.title}
@@ -97,7 +97,7 @@ export const NavigationSheet = () => {
               <Link
                 key={href}
                 href={href}
-                className={`text-sm text-gray-700 hover:text-gray-700/80 transition-colors ${
+                className={`text-md font-medium text-gray-700 hover:text-gray-700/80 transition-colors ${
                   isCurrentPage(href) ? activeClass : ""
                 }`}
                 onClick={handleLinkClick}
