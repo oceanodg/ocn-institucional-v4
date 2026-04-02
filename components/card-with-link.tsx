@@ -7,6 +7,7 @@ import {
 } from "~/components/ui/card";
 import { ArrowRight } from "lucide-react";
 import { P } from "./ui";
+import { lora } from "~/lib/fonts";
 
 export function CardWithLink({
   title,
@@ -32,7 +33,9 @@ export function CardWithLink({
         className="contents space-y-1"
       >
         <div className="flex-1">
-          <CardHeader className="pt-0 pb-0 flex-row items-center gap-3 text-xl sm:text-2xl font-semibold">
+          <CardHeader
+            className={`pt-0 pb-0 flex-row items-center gap-3 text-xl sm:text-2xl font-medium text-gray-700 ${lora.className}`}
+          >
             {title}
           </CardHeader>
 

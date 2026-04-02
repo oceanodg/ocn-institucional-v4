@@ -4,6 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { Button, P } from "./ui";
 import { Container } from "./container";
 import { twMerge } from "tailwind-merge";
+import { lora } from "~/lib/fonts";
 
 export function CTABox({
   title,
@@ -30,11 +31,15 @@ export function CTABox({
     <Container className="bg-white rounded-lg border">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 sm:gap-8">
         <div className="flex-1">
-          <div className="text-xl sm:text-2xl font-semibold">{title}</div>
+          <div
+            className={`text-xl sm:text-2xl font-semibold text-gray-700 ${lora.className}`}
+          >
+            {title}
+          </div>
           <P className="mt-2 sm:mt-1 text-left">{description}</P>
         </div>
 
-        <div className="w-full sm:w-auto sm:flex-shrink-0">
+        <div className="w-full sm:w-auto sm:shrink-0">
           <Button
             variant={buttonVariant}
             size="lg"
