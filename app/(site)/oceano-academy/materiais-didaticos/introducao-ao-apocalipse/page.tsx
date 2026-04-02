@@ -13,6 +13,7 @@ import {
 } from "~/components/ui/table";
 import { LinkSmall } from "~/components/ui/link-small";
 import { FileImage, NotepadText, SquarePlay, Workflow } from "lucide-react";
+import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
 
 export default function IntroducaoApocalipsePage() {
   return (
@@ -38,12 +39,12 @@ export default function IntroducaoApocalipsePage() {
                 Apostila
               </TableCell>
               <TableCell>
-                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1jqytl-aS6bHqZNnwTsocs463itks3Sso/view?usp=sharing">
                     <NotepadText className="size-4" />
                     Apostila
                   </LinkSmall>
-                </div>
+                </TableCellLinksContainer>
               </TableCell>
             </TableRow>
             {/* <TableRow className="hover:bg-transparent">
@@ -51,12 +52,12 @@ export default function IntroducaoApocalipsePage() {
                 Infográfico
               </TableCell>
               <TableCell>
-                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1eVMetjoFVPauDWO9aK4hbEvCWDcQ3g81/view?usp=sharing">
                     <FileImage className="size-4" />
                     Infográfico
                   </LinkSmall>
-                </div>
+                </TableCellLinksContainer>
               </TableCell>
             </TableRow> */}
             {/* <TableRow className="hover:bg-transparent">
@@ -64,23 +65,23 @@ export default function IntroducaoApocalipsePage() {
                 Mapas Mentais
               </TableCell>
               <TableCell>
-                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1_D_1MZ0XBNg-jGyhngs9BXwHilNKhgrd/view?usp=drive_link">
                     <Workflow className="size-4" />
                     Lição 1
                   </LinkSmall>
-                </div>
+                </TableCellLinksContainer>
               </TableCell>
             </TableRow> */}
             {/* <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">Vídeo</TableCell>
               <TableCell>
-                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                <TableCellLinksContainer>
                   <LinkSmall href="https://youtu.be/24rkpLp0GX8">
                     <SquarePlay className="size-4" />
                     Vídeo
                   </LinkSmall>
-                </div>
+                </TableCellLinksContainer>
               </TableCell>
             </TableRow> */}
             <TableRow className="hover:bg-transparent">
@@ -88,12 +89,12 @@ export default function IntroducaoApocalipsePage() {
                 Palavras-Cruzadas
               </TableCell>
               <TableCell>
-                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1KKl3Msd4AvXjGcg6I3J4QqOH3Bx7Zz00/view?usp=drive_link">
                     <NotepadText className="size-4" />
                     Palavras-Cruzadas
                   </LinkSmall>
-                </div>
+                </TableCellLinksContainer>
               </TableCell>
             </TableRow>
             <TableRow className="hover:bg-transparent">
@@ -101,7 +102,7 @@ export default function IntroducaoApocalipsePage() {
                 Caça-Palavras
               </TableCell>
               <TableCell>
-                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1nwJ5AwAr35gjn3IyPvrt6uQ0t9KQU53q/view?usp=sharing">
                     <NotepadText className="size-4" />
                     Caça-Palavras
@@ -110,7 +111,7 @@ export default function IntroducaoApocalipsePage() {
                     <NotepadText className="size-4" />
                     Respostas
                   </LinkSmall>
-                </div>
+                </TableCellLinksContainer>
               </TableCell>
             </TableRow>
           </TableHeader>
