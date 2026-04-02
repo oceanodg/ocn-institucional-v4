@@ -19,9 +19,10 @@ export function LinkSmall({
       rel="noopener noreferrer"
       className={cn(
         "inline-flex gap-1.5 items-center",
-        "w-auto px-2 py-1 rounded-sm font-medium",
+        "max-w-full px-2 py-1 rounded-sm font-medium",
         "text-blue-500 hover:text-blue-600",
         "bg-blue-50 hover:bg-blue-100",
+        "truncate",
         className
       )}
       {...props}
