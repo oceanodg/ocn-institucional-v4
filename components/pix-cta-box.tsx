@@ -4,6 +4,7 @@ import { Check, Copy } from "lucide-react";
 import { useState } from "react";
 import { Button, P } from "./ui";
 import { Container } from "./container";
+import { lora } from "~/lib/fonts";
 
 interface PixCTABoxProps {
   pixKey: string;
@@ -26,13 +27,15 @@ export function PixCTABox({ pixKey, pixDescription }: PixCTABoxProps) {
     <Container className="bg-white rounded-lg border">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 sm:gap-8">
         <div className="flex-1">
-          <div className="text-xl sm:text-2xl font-semibold">
+          <div
+            className={`text-xl sm:text-2xl font-semibold text-gray-700 ${lora.className}`}
+          >
             {pixDescription}
           </div>
           <P className="mt-2 sm:mt-1 text-left">{pixKey}</P>
         </div>
 
-        <div className="w-full sm:w-auto sm:flex-shrink-0">
+        <div className="w-full sm:w-auto sm:shrink-0">
           <Button
             variant="outline"
             size="lg"

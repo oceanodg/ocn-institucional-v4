@@ -23,7 +23,7 @@ export function InfoCardWithImage({
 
       <div className="flex-1 space-y-2">
         <CardHeader
-          className={`px-0 pb-0 pt-8 flex-row items-center text-xl sm:text-2xl font-semibold ${lora.className}`}
+          className={`px-0 pb-0 pt-8 flex-row items-center text-xl sm:text-2xl font-semibold text-gray-700 ${lora.className}`}
         >
           {title}
         </CardHeader>
