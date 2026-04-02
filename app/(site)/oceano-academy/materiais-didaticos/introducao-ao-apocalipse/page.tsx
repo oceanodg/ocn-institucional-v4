@@ -46,7 +46,7 @@ export default function IntroducaoApocalipsePage() {
                 </div>
               </TableCell>
             </TableRow>
-            <TableRow className="hover:bg-transparent">
+            {/* <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
                 Infográfico
               </TableCell>
@@ -58,7 +58,7 @@ export default function IntroducaoApocalipsePage() {
                   </LinkSmall>
                 </div>
               </TableCell>
-            </TableRow>
+            </TableRow> */}
             {/* <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
                 Mapas Mentais
@@ -72,7 +72,7 @@ export default function IntroducaoApocalipsePage() {
                 </div>
               </TableCell>
             </TableRow> */}
-            <TableRow className="hover:bg-transparent">
+            {/* <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">Vídeo</TableCell>
               <TableCell>
                 <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
@@ -82,7 +82,7 @@ export default function IntroducaoApocalipsePage() {
                   </LinkSmall>
                 </div>
               </TableCell>
-            </TableRow>
+            </TableRow> */}
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
                 Palavras-Cruzadas
