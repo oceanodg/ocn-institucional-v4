@@ -130,6 +130,9 @@ export default function CursoApocalipse() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-1-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-1-para-comecar">Para começar</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -161,6 +164,9 @@ export default function CursoApocalipse() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-2-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-2-para-comecar">Para começar</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -190,6 +196,9 @@ export default function CursoApocalipse() {
             <a href="#lesson-3">Lição 3 – O reino milenar de Cristo</a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-3-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-3-para-comecar">Para começar</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -213,6 +222,9 @@ export default function CursoApocalipse() {
           </SummaryLi>
           <SummaryLi>
             <a href="#lesson-4">Lição 4 – Novos céus e nova terra</a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-4-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-4-para-comecar">Para começar</a>
@@ -250,9 +262,7 @@ export default function CursoApocalipse() {
         <H2 id="lesson-1">Lição 1 – As coisas que tens visto e as que são</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-1-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Apresentar a visão do Cristo glorificado e as mensagens às sete
             igrejas, levando-nos a compreender a própria condição espiritual e a
@@ -510,9 +520,7 @@ export default function CursoApocalipse() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-2-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Compreender a soberania de Deus no Apocalipse, reconhecendo que os
             juízos, personagens e acontecimentos revelam a justiça divina e a
@@ -753,9 +761,7 @@ export default function CursoApocalipse() {
         <H2 id="lesson-3">Lição 3 – O reino milenar de Cristo</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-3-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Compreender o propósito do Milênio e dos eventos finais do
             Apocalipse, reconhecendo a soberania de Cristo, o desfecho do mal e
@@ -991,9 +997,7 @@ export default function CursoApocalipse() {
         <H2 id="lesson-4">Lição 4 – Novos céus e nova terra</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-4-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Compreender a esperança eterna revelada nos capítulos finais do
             Apocalipse, reconhecendo a nova criação como o cumprimento

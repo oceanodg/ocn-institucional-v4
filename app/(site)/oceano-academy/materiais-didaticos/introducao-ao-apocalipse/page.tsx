@@ -128,6 +128,9 @@ export default function IntroducaoApocalipsePage() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-1-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-1-introduction">Introdução</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -153,6 +156,9 @@ export default function IntroducaoApocalipsePage() {
               Lição 2 – As quatro escolas clássicas de interpretação do
               Apocalipse
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-2-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-2-introducao">Introdução</a>
@@ -189,6 +195,9 @@ export default function IntroducaoApocalipsePage() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-3-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-3-introducao">Introdução</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -222,6 +231,9 @@ export default function IntroducaoApocalipsePage() {
               Lição 4 – Esperança que transforma: implicações pastorais e
               discernimento escatológico
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-4-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-4-introducao">Introdução</a>
@@ -267,9 +279,7 @@ export default function IntroducaoApocalipsePage() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-1-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Apresentar os fundamentos bíblicos e hermenêuticos da escatologia,
             afirmando a autoridade das Escrituras e a centralidade de Cristo,
@@ -486,9 +496,7 @@ export default function IntroducaoApocalipsePage() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-2-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Apresentar e comparar preterismo, historicismo, futurismo e
             idealismo para orientar uma leitura bíblica fiel e cristocêntrica.
@@ -723,9 +731,7 @@ export default function IntroducaoApocalipsePage() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-3-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Apresentar e distinguir correntes milenistas e posições sobre
             Arrebatamento/Tribulação para orientar uma leitura bíblica fiel,
@@ -971,9 +977,7 @@ export default function IntroducaoApocalipsePage() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-4-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Aplicar a escatologia à vida e ao ministério, guiando a igreja em
             vigilância, santidade e missão, com discernimento bíblico e
