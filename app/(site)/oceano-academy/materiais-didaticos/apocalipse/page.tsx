@@ -13,6 +13,7 @@ import {
   TableRow,
 } from "~/components/ui/table";
 import { LinkSmall } from "~/components/ui/link-small";
+import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
 
 export default function CursoApocalipse() {
   return (
@@ -40,12 +41,12 @@ export default function CursoApocalipse() {
                 Apostila
               </TableCell>
               <TableCell>
-                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1LNPbSqst5OOeNVjhGzmwB13PYwPflCQg/view?usp=sharing">
                     <NotepadText className="size-4" />
                     Apocalipse
                   </LinkSmall>
-                </div>
+                </TableCellLinksContainer>
               </TableCell>
             </TableRow>
             <TableRow className="hover:bg-transparent">
@@ -53,12 +54,12 @@ export default function CursoApocalipse() {
                 Infográficos
               </TableCell>
               <TableCell>
-                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1uT-yBZP55VC16dzg4xI-aTzb8gVekCIS/view?usp=sharing">
                     <FileImage className="size-4" />
-                    Lição 1
+                    Cristo Glorificado
                   </LinkSmall>
-                </div>
+                </TableCellLinksContainer>
               </TableCell>
             </TableRow>
             <TableRow className="hover:bg-transparent">
@@ -66,23 +67,23 @@ export default function CursoApocalipse() {
                 Mapas Mentais
               </TableCell>
               <TableCell>
-                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1_D_1MZ0XBNg-jGyhngs9BXwHilNKhgrd/view?usp=drive_link">
                     <Workflow className="size-4" />
                     Lição 1
                   </LinkSmall>
-                </div>
+                </TableCellLinksContainer>
               </TableCell>
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">Vídeos</TableCell>
               <TableCell>
-                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                <TableCellLinksContainer>
                   <LinkSmall href="https://youtu.be/FIksgWA6I1s">
                     <SquarePlay className="size-4" />
                     Lição 1
                   </LinkSmall>
-                </div>
+                </TableCellLinksContainer>
               </TableCell>
             </TableRow>
             <TableRow className="hover:bg-transparent">
@@ -90,12 +91,12 @@ export default function CursoApocalipse() {
                 Palavras-Cruzadas
               </TableCell>
               <TableCell>
-                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1bTnk3yKBBU9ia2wPn8yesS7Tm5VAAPTB/view?usp=sharing">
                     <NotepadText className="size-4" />
                     Palavras-Cruzadas
                   </LinkSmall>
-                </div>
+                </TableCellLinksContainer>
               </TableCell>
             </TableRow>
             <TableRow className="hover:bg-transparent">
@@ -103,7 +104,7 @@ export default function CursoApocalipse() {
                 Caça-Palavras
               </TableCell>
               <TableCell>
-                <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
+                <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1kWdqSpZeoSrZgO_Aqo1FGbWDuRiA4iX-/view?usp=sharing">
                     <NotepadText className="size-4" />
                     Caça-Palavras
@@ -112,7 +113,7 @@ export default function CursoApocalipse() {
                     <NotepadText className="size-4" />
                     Respostas
                   </LinkSmall>
-                </div>
+                </TableCellLinksContainer>
               </TableCell>
             </TableRow>
           </TableHeader>
