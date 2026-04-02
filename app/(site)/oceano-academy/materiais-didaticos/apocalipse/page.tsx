@@ -54,7 +54,7 @@ export default function CursoApocalipse() {
               </TableCell>
               <TableCell>
                 <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
-                  <LinkSmall href="https://drive.google.com/file/d/1FvbL--DAWYE1-NIL-nMfG3jxSllXPKfJ/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1uT-yBZP55VC16dzg4xI-aTzb8gVekCIS/view?usp=sharing">
                     <FileImage className="size-4" />
                     Lição 1
                   </LinkSmall>
