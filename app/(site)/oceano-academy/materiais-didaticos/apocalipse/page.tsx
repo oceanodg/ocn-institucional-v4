@@ -48,7 +48,7 @@ export default function CursoApocalipse() {
                 </div>
               </TableCell>
             </TableRow>
-            {/* <TableRow className="hover:bg-transparent">
+            <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
                 Infográficos
               </TableCell>
@@ -60,7 +60,7 @@ export default function CursoApocalipse() {
                   </LinkSmall>
                 </div>
               </TableCell>
-            </TableRow> */}
+            </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
                 Mapas Mentais
