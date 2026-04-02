@@ -22,7 +22,7 @@ export default function EscolaBiblicaPage() {
       <Container className="mb-10 sm:mb-16">
         <H2>Cursos</H2>
 
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 md:gap-8">
+        <div className="grid grid-cols-1 gap-10 sm:gap-8 md:grid-cols-2 lg:grid-cols-3 ">
           {schools["escola-biblica"].courses.map((course) => (
             <CardWithImageAndLink
               key={course.title}
