@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader } from "~/components/ui/card";
 import { P } from "./ui";
+import { lora } from "~/lib/fonts";
 
 export function InfoCardWithImage({
   title,
@@ -21,7 +22,9 @@ export function InfoCardWithImage({
       </div>
 
       <div className="flex-1 space-y-2">
-        <CardHeader className="px-0 pb-0 pt-8 flex-row items-center text-xl sm:text-2xl font-semibold">
+        <CardHeader
+          className={`px-0 pb-0 pt-8 flex-row items-center text-xl sm:text-2xl font-semibold ${lora.className}`}
+        >
           {title}
         </CardHeader>
 
