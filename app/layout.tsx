@@ -1,12 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import Script from "next/script";
-import "./globals.css";
+import { inter } from "~/lib/fonts";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Igreja Oceano da Graça",
