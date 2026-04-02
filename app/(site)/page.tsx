@@ -38,7 +38,10 @@ export default function WelcomePage() {
     <section className="relative backdrop-blur-sm">
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col gap-2">
-          <H1 className="text-left">Bem-vindo à Igreja Oceano da Graça!</H1>
+          <H1 className="font-semibold text-left flex flex-col gap-0">
+            <span className="text-gray-500 italic">Bem-vindo à</span>
+            <span className="text-gray-700">Igreja Oceano da Graça</span>
+          </H1>
           <P className="mt-0">
             Aqui você encontra um espaço preparado para viver a fé. Venha ser
             família com a gente!
