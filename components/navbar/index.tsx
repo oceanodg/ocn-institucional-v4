@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
     <div className="bg-muted">
       <nav className="h-16 bg-background border-b">
-        <div className="h-full flex items-center justify-between max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="h-full flex items-center justify-between max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-8">
             <Link href="/">
               <img

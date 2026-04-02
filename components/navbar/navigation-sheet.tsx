@@ -4,11 +4,7 @@ import { useState, useCallback } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button } from "~/components/ui/button";
-import {
-  Sheet,
-  SheetContent,
-  SheetTrigger,
-} from "~/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "~/components/ui/sheet";
 import {
   Accordion,
   AccordionContent,
@@ -62,7 +58,7 @@ export const NavigationSheet = () => {
               <Accordion key={title} type="single" collapsible>
                 <AccordionItem value={title} className="border-none">
                   <AccordionTrigger
-                    className={`py-0 hover:no-underline ${
+                    className={`py-0 hover:no-underline text-gray-700 ${
                       isCurrentPage(href) ? activeClass : ""
                     }`}
                   >
@@ -77,7 +73,7 @@ export const NavigationSheet = () => {
                             href={item.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                            className="text-sm text-gray-700 hover:text-gray-700/80 transition-colors"
                             onClick={handleLinkClick}
                           >
                             {item.title}
@@ -86,7 +82,7 @@ export const NavigationSheet = () => {
                           <Link
                             key={item.title}
                             href={item.href}
-                            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                            className="text-sm text-gray-700 hover:text-gray-700/80 transition-colors"
                             onClick={handleLinkClick}
                           >
                             {item.title}
@@ -101,7 +97,9 @@ export const NavigationSheet = () => {
               <Link
                 key={href}
                 href={href}
-                className={isCurrentPage(href) ? activeClass : ""}
+                className={`text-sm text-gray-700 hover:text-gray-700/80 transition-colors ${
+                  isCurrentPage(href) ? activeClass : ""
+                }`}
                 onClick={handleLinkClick}
               >
                 {title}

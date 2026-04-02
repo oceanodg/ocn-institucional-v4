@@ -39,7 +39,7 @@ export const NavMenu = (props: NavigationMenuProps) => {
               <>
                 <NavigationMenuTrigger
                   className={cn(
-                    "text-[15px] font-normal h-10 px-4 py-2 mr-1 cursor-pointer",
+                    "text-[15px] font-normal h-10 px-4 py-2 mr-1 cursor-pointer text-gray-700 hover:text-gray-700/80",
                     isCurrentPage(href) ? activeClass : ""
                   )}
                   onPointerEnter={(e) => e.preventDefault()}
@@ -62,7 +62,7 @@ export const NavMenu = (props: NavigationMenuProps) => {
                               href={item.href}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                              className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-gray-700"
                             >
                               <div className="text-sm font-medium leading-none">
                                 {item.title}
@@ -71,7 +71,7 @@ export const NavMenu = (props: NavigationMenuProps) => {
                           ) : (
                             <Link
                               href={item.href}
-                              className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                              className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-gray-700"
                             >
                               <div className="text-sm font-medium leading-none">
                                 {item.title}
@@ -87,7 +87,7 @@ export const NavMenu = (props: NavigationMenuProps) => {
             ) : (
               <Button
                 variant="ghost"
-                className="text-[15px] font-normal mr-1"
+                className="text-[15px] font-normal mr-1 text-gray-700 hover:text-gray-700/80"
                 asChild
               >
                 <Link
@@ -116,14 +116,14 @@ const ListItem = React.forwardRef<
         <Link
           ref={ref}
           className={cn(
-            "block select-none space-y-2 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            "block select-none space-y-2 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground text-gray-700",
             className
           )}
           {...props}
         >
           <props.icon className="mb-4 h-6 w-6" />
           <div className="text-sm font-semibold leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+          <p className="line-clamp-2 text-sm leading-snug text-gray-700">
             {children}
           </p>
         </Link>
