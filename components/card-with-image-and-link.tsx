@@ -56,7 +56,7 @@ export function CardWithImageAndLink({
 
         <CardFooter className="pt-4">
           <div className="flex items-center gap-2">
-            <span className="flex items-center gap-2 font-medium text-black hover:text-black/70 hover:cursor-pointer text-sm">
+            <span className="flex items-center gap-2 font-medium text-gray-700 hover:text-gray-700/70 hover:cursor-pointer text-sm">
               {linkText} <ArrowRight className="size-4" />
             </span>
           </div>
