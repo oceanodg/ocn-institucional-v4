@@ -2,6 +2,7 @@ import { Container } from "~/components/container";
 import { HeroContainer } from "~/components/hero";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { UL } from "~/components/ui/ul";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 
 type Material = {
   title: string;
@@ -272,38 +273,41 @@ export default function MateriaisDidaticosPage() {
       <Separator className="my-10" />
 
       <div className="space-y-0">
-        {/* <Container className="py-0 sm:py-0">
-          <div>
-            <P className="flex items-center gap-2">
-              Clique nos links abaixo para acessar os materiais didáticos da
-              Escola Bíblica.
-            </P>
-          </div>
-        </Container> */}
-
         <Container className="mb-10 sm:mb-16">
-          <H2>Antigo Testamento</H2>
+          <Tabs defaultValue="novo" className="w-full">
+            <TabsList className="mb-6" variant="line">
+              <TabsTrigger value="antigo">Antigo Testamento</TabsTrigger>
+              <TabsTrigger value="novo">Novo Testamento</TabsTrigger>
+            </TabsList>
 
-          {oldTestamentMaterials.map((material) => (
-            <div key={material.title}>
-              <H3>{material.title}</H3>
-              <UL className="list-disc">
-                {material.materials.map(materialLI)}
-              </UL>
-            </div>
-          ))}
-        </Container>
+            <TabsContent value="antigo">
+              <section className="py-5 flex flex-col gap-8 sm:gap-10 mb-10">
+                <H2>Antigo Testamento</H2>
+                {oldTestamentMaterials.map((material) => (
+                  <div key={material.title}>
+                    <H3>{material.title}</H3>
+                    <UL className="list-disc">
+                      {material.materials.map(materialLI)}
+                    </UL>
+                  </div>
+                ))}
+              </section>
+            </TabsContent>
 
-        <Container className="mb-10 sm:mb-16">
-          <H2>Novo Testamento</H2>
-          {newTestamentMaterials.map((material) => (
-            <div key={material.title}>
-              <H3>{material.title}</H3>
-              <UL className="list-disc">
-                {material.materials.map(materialLI)}
-              </UL>
-            </div>
-          ))}
+            <TabsContent value="novo">
+              <section className="py-5 flex flex-col gap-8 sm:gap-10 mb-10">
+                <H2>Novo Testamento</H2>
+                {newTestamentMaterials.map((material) => (
+                  <div key={material.title}>
+                    <H3>{material.title}</H3>
+                    <UL className="list-disc">
+                      {material.materials.map(materialLI)}
+                    </UL>
+                  </div>
+                ))}
+              </section>
+            </TabsContent>
+          </Tabs>
         </Container>
       </div>
     </section>
