@@ -39,7 +39,7 @@ export function PixCTABox({ pixKey, pixDescription }: PixCTABoxProps) {
           <Button
             variant="outline"
             size="lg"
-            className="h-12 hover:cursor-pointer bg-gray-700 hover:bg-gray-700/80 text-white hover:text-white w-full sm:w-80"
+            className="h-12 hover:cursor-pointer bg-gray-900 hover:bg-gray-900/80 text-white hover:text-white w-full sm:w-80"
             onClick={handleCopyPix}
           >
             {showCheckIcon ? (
