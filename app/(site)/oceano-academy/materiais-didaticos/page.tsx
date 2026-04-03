@@ -98,7 +98,7 @@ const newTestamentMaterials: MaterialGroup[] = [
     materials: [
       {
         title: "Mateus",
-        link: "https://drive.google.com/file/d/19h0gpUvWjRwC22KNRLdn0jkwy7i28uq4/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/mateus",
       },
       {
         title: "Marcos",
