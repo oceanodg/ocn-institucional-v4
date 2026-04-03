@@ -1,9 +1,13 @@
+import { NotepadText } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { UL } from "~/components/ui/ul";
 import { SummaryLi } from "~/components/summary-li";
+import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
+import { LinkSmall } from "~/components/ui/link-small";
+import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
 
 export default function CursoMarcos() {
   return (
@@ -14,8 +18,8 @@ export default function CursoMarcos() {
         <div className="flex flex-col gap-2">
           <H1 className="text-left">Os Evangelhos: Marcos</H1>
           <P className="mt-0">
-            O evangelho de ação que apresenta Jesus como servo poderoso,
-            repleto de milagres e autoridade divina.
+            O evangelho de ação que apresenta Jesus como servo poderoso, repleto
+            de milagres e autoridade divina.
           </P>
         </div>
       </HeroContainer>
@@ -24,7 +28,24 @@ export default function CursoMarcos() {
 
       <Container className="mb-10 sm:mb-16">
         <H2 id="materials-didactic">Materiais de Apoio</H2>
-        <UL className="mt-0">{""}</UL>
+
+        <Table>
+          <TableHeader>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold w-[110px] sm:w-[160px]">
+                Apostila
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1Fv97OYLq0BnH7CtliODGiUxnIMwNsF4V/view?usp=sharing">
+                    <NotepadText className="size-4" />
+                    Marcos
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+          </TableHeader>
+        </Table>
       </Container>
 
       <Separator className="my-8" />
@@ -37,6 +58,9 @@ export default function CursoMarcos() {
             <a href="#lesson-1">
               Lição 1 – As Boas-Novas do Evangelho de Cristo
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-1-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-1-introducao">Introdução</a>
@@ -69,6 +93,9 @@ export default function CursoMarcos() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-2-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-2-introducao">Introdução</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -94,9 +121,10 @@ export default function CursoMarcos() {
           </SummaryLi>
 
           <SummaryLi>
-            <a href="#lesson-3">
-              Lição 3 – A Autoridade de Jesus em Ação
-            </a>
+            <a href="#lesson-3">Lição 3 – A Autoridade de Jesus em Ação</a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-3-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-3-introducao">Introdução</a>
@@ -126,9 +154,10 @@ export default function CursoMarcos() {
           </SummaryLi>
 
           <SummaryLi>
-            <a href="#lesson-4">
-              Lição 4 – O Chamado ao Discipulado de Jesus
-            </a>
+            <a href="#lesson-4">Lição 4 – O Chamado ao Discipulado de Jesus</a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-4-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-4-introducao">Introdução</a>
@@ -168,15 +197,11 @@ export default function CursoMarcos() {
 
       {/* LIÇÃO 1 */}
       <Container className="mb-10 sm:mb-16">
-        <H2 id="lesson-1">
-          Lição 1 – As Boas-Novas do Evangelho de Cristo
-        </H2>
+        <H2 id="lesson-1">Lição 1 – As Boas-Novas do Evangelho de Cristo</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
-          <P className="mt-0">
+          <H3 id="lesson-1-objetivo-geral">Objetivo Geral</H3>
+          <P className="">
             Ensinar ao leitor sobre as particularidades do livro de Marcos, suas
             características, seu autor, bem como entender a mensagem central
             desse livro.
@@ -186,19 +211,19 @@ export default function CursoMarcos() {
         <div className="flex flex-col gap-4">
           <H3 id="lesson-1-introducao">Introdução</H3>
           <P className="">
-            O Livro de Marcos é um dos evangelhos sinóticos. O termo sinótico vem
-            de duas palavras gregas, cujo significado é &quot;ver
+            O Livro de Marcos é um dos evangelhos sinóticos. O termo sinótico
+            vem de duas palavras gregas, cujo significado é &quot;ver
             conjuntamente&quot;. Dessa forma, Mateus, Marcos e Lucas tratam
             basicamente dos mesmos aspectos da vida e ministério de Cristo. Dos
             evangelhos sinóticos, Marcos é o evangelho mais curto da Bíblia.
           </P>
           <P className="">
             Segundo Darrell Bock (2006), o Evangelho de Marcos é geralmente
-            considerado o primeiro evangelho que foi escrito, ainda que esse fato
-            não tenha um consenso unânime, a maioria dos estudiosos crê que
-            Marcos foi escrito antes dos outros. Por isso, William Barclay (2009)
-            o considerava o livro mais importante do mundo, já que serviu de
-            fonte para os outros evangelhos.
+            considerado o primeiro evangelho que foi escrito, ainda que esse
+            fato não tenha um consenso unânime, a maioria dos estudiosos crê que
+            Marcos foi escrito antes dos outros. Por isso, William Barclay
+            (2009) o considerava o livro mais importante do mundo, já que serviu
+            de fonte para os outros evangelhos.
           </P>
           <P className="">
             Contudo, fica a pergunta, por qual motivo quatro evangelhos? Temos
@@ -210,8 +235,8 @@ export default function CursoMarcos() {
             evangelho universal e apresentou Jesus como Deus, o verbo encarnado.
             Acrescente-se que, o evangelho de Marcos fornece uma breve narrativa
             de três anos da campanha conduzida pelo &quot;comandante&quot; da
-            salvação da humanidade, visando à libertação das almas e à derrota de
-            Satanás, e completada pelas obras, os sofrimentos, a morte, a
+            salvação da humanidade, visando à libertação das almas e à derrota
+            de Satanás, e completada pelas obras, os sofrimentos, a morte, a
             ressurreição e o triunfo final de Cristo. Assim, os evangelhos foram
             destinados a pessoas diferentes e com propósitos variados.
           </P>
@@ -229,16 +254,16 @@ export default function CursoMarcos() {
             sendo que João era seu nome hebraico e Marcos seu nome romano. A
             segunda coisa que nos chama a atenção é que Marcos é considerado o
             autor do Evangelho que leva o seu nome. Embora ele não tenha sido um
-            discípulo de Cristo, ele presenciou muitos fatos da sua vida, uma vez
-            que morava em Jerusalém e sua casa se tornou um ponto de encontro da
-            igreja. Logo, Marcos não foi discípulo de Jesus, mas de Pedro.
-            Ademais, temos várias informações importantes sobre esse personagem
-            nas Escrituras.
+            discípulo de Cristo, ele presenciou muitos fatos da sua vida, uma
+            vez que morava em Jerusalém e sua casa se tornou um ponto de
+            encontro da igreja. Logo, Marcos não foi discípulo de Jesus, mas de
+            Pedro. Ademais, temos várias informações importantes sobre esse
+            personagem nas Escrituras.
           </P>
           <P className="">
             Marcos era filho de Maria, mulher de Jerusalém, cuja casa estava
-            aberta para os primeiros cristãos (At 12.12). Isso significa que João
-            Marcos procedia de uma família de muitos bens materiais e tinha
+            aberta para os primeiros cristãos (At 12.12). Isso significa que
+            João Marcos procedia de uma família de muitos bens materiais e tinha
             familiaridade com a Igreja.
           </P>
           <P className="">
@@ -249,25 +274,25 @@ export default function CursoMarcos() {
             mais tarde, a proposta de Barnabé de levá-lo consigo na segunda
             viagem missionária provocou uma contenda entre Barnabé e Paulo.
             Assim, o apóstolo julgou melhor não levar com eles um
-            &quot;desertor&quot;. Porém, Barnabé, que era primo de Marcos, achava
-            que ele deveria ter a oportunidade de se redimir e, assim, separou-se
-            de Paulo e levou Marcos consigo para Chipre (At 15.36-41). João
-            Marcos justificou a confiança de Barnabé, pois relatos posteriores
-            demonstram que foi bem-sucedido no ministério. Isso fica claro quando
-            Pedro o mencionou favoravelmente (1 Pe 5.13), e Paulo mudou sua
-            opinião a respeito dele, pois Marcos foi chamado por ele para
-            ajudá-lo no final da sua vida, a ponto de escrever: &quot;Traga Marcos
-            com você, porque ele me é útil para o ministério&quot; (2 Tm 4:11).
-            Isso nos prova a mudança de conduta e o conceito de Paulo acerca de
-            Marcos.
+            &quot;desertor&quot;. Porém, Barnabé, que era primo de Marcos,
+            achava que ele deveria ter a oportunidade de se redimir e, assim,
+            separou-se de Paulo e levou Marcos consigo para Chipre (At
+            15.36-41). João Marcos justificou a confiança de Barnabé, pois
+            relatos posteriores demonstram que foi bem-sucedido no ministério.
+            Isso fica claro quando Pedro o mencionou favoravelmente (1 Pe 5.13),
+            e Paulo mudou sua opinião a respeito dele, pois Marcos foi chamado
+            por ele para ajudá-lo no final da sua vida, a ponto de escrever:
+            &quot;Traga Marcos com você, porque ele me é útil para o
+            ministério&quot; (2 Tm 4:11). Isso nos prova a mudança de conduta e
+            o conceito de Paulo acerca de Marcos.
           </P>
           <P className="">
             Além disso, o testemunho abundante dos pais da Igreja torna bastante
             claro que Marcos acompanhou Pedro a Roma como seu intérprete e que
             compilou esse evangelho aproveitando as pregações de Pedro. Seu nome
             latino – Marcos – parece indicar que foi educado nos círculos
-            romanos. Esses dados o tornam adequado para escrever um evangelho aos
-            romanos.
+            romanos. Esses dados o tornam adequado para escrever um evangelho
+            aos romanos.
           </P>
         </div>
 
@@ -278,42 +303,42 @@ export default function CursoMarcos() {
           <P className="">
             Como dito antes, o evangelho de Marcos foi o primeiro a ser escrito.
             Não existe um consenso unânime acerca da data da sua redação;
-            todavia, ele deve ter sido escrito entre 55 e 70 d.C., ou seja, antes
-            da destruição de Jerusalém no ano 70 d.C., uma vez que ele não faz
-            qualquer menção desse fato predito por Jesus. Jerusalém foi destruída
-            pelo exército romano sob a liderança de Tito, depois de 143 dias de
-            cerco. Durante essa batalha, 600 mil judeus foram mortos e milhares
-            levados cativos.
+            todavia, ele deve ter sido escrito entre 55 e 70 d.C., ou seja,
+            antes da destruição de Jerusalém no ano 70 d.C., uma vez que ele não
+            faz qualquer menção desse fato predito por Jesus. Jerusalém foi
+            destruída pelo exército romano sob a liderança de Tito, depois de
+            143 dias de cerco. Durante essa batalha, 600 mil judeus foram mortos
+            e milhares levados cativos.
           </P>
           <P className="">
             Irineu e outros pais da igreja defenderam a tese de que Marcos foi
             escrito depois do martírio de Pedro e Paulo. Contudo, essa posição
-            contraria a tese da maioria dos estudiosos que afirmam que Marcos foi
-            o primeiro evangelho escrito, sendo a fonte primária dos demais.
+            contraria a tese da maioria dos estudiosos que afirmam que Marcos
+            foi o primeiro evangelho escrito, sendo a fonte primária dos demais.
           </P>
           <P className="">
             O consenso entre os estudiosos é que Marcos foi escrito de Roma para
-            os cristãos que viviam em Roma, pois Marcos está presente com Paulo em
-            sua primeira prisão e é chamado para estar com ele em sua segunda
-            prisão. Nesse tempo, Roma era a maior cidade do mundo, com mais de um
-            milhão de habitantes, e Nero era o imperador. Nero começou a reinar
-            em 54 d.C., com a idade de 16 anos. Os primeiros anos do seu reinado
-            foram de relativa paz e, por isso, por volta do ano 60 d.C., Paulo
-            apelou para ser julgado em Roma (At 25.10,11).
+            os cristãos que viviam em Roma, pois Marcos está presente com Paulo
+            em sua primeira prisão e é chamado para estar com ele em sua segunda
+            prisão. Nesse tempo, Roma era a maior cidade do mundo, com mais de
+            um milhão de habitantes, e Nero era o imperador. Nero começou a
+            reinar em 54 d.C., com a idade de 16 anos. Os primeiros anos do seu
+            reinado foram de relativa paz e, por isso, por volta do ano 60 d.C.,
+            Paulo apelou para ser julgado em Roma (At 25.10,11).
           </P>
           <P className="">
-            Para os estudiosos, o relato de Marcos foi redigido para satisfazer o
-            pedido urgente do povo de Roma por um resumo dos ensinos de Pedro. As
-            evidências podem ser destacadas a seguir: em primeiro lugar, Marcos
-            enfatiza mais as obras de Cristo que seus ensinos, a ênfase nesse
-            evangelho é sobre atividade, pois os romanos estavam mais
-            interessados em ação que em palavras, por isso Marcos descreve mais os
-            milagres de Cristo que seus ensinos; em segundo lugar, Marcos
+            Para os estudiosos, o relato de Marcos foi redigido para satisfazer
+            o pedido urgente do povo de Roma por um resumo dos ensinos de Pedro.
+            As evidências podem ser destacadas a seguir: em primeiro lugar,
+            Marcos enfatiza mais as obras de Cristo que seus ensinos, a ênfase
+            nesse evangelho é sobre atividade, pois os romanos estavam mais
+            interessados em ação que em palavras, por isso Marcos descreve mais
+            os milagres de Cristo que seus ensinos; em segundo lugar, Marcos
             apresenta Jesus como servo, por esta causa o Evangelho de Marcos não
             se inicia com genealogia, uma vez que os romanos não estavam
-            interessados em genealogia, mas em ação; em terceiro lugar, Marcos se
-            detém em explicar os termos judaicos aos seus leitores; quando Jesus
-            ressuscitou a filha de Jairo, tomou-a pela mão e lhe disse:
+            interessados em genealogia, mas em ação; em terceiro lugar, Marcos
+            se detém em explicar os termos judaicos aos seus leitores; quando
+            Jesus ressuscitou a filha de Jairo, tomou-a pela mão e lhe disse:
             &quot;Talita cume&quot;, que quer dizer: &quot;Menina eu te mando,
             levanta-te&quot; (Mc 5.21); em quarto lugar, Marcos preocupou-se em
             explicar os costumes judaicos para seus leitores (Mc 7.3,4; 7.11;
@@ -336,35 +361,37 @@ export default function CursoMarcos() {
             única entre os Evangelhos. O estilo de escrever foi descrito como
             vigoroso e dramático. Como um Evangelho vigoroso, Marcos descreve os
             eventos da vida de Jesus, de modo sucinto e vívido, com a perícia
-            pitoresca de um gênio literário. Um realismo vivo caracteriza tanto o
-            estilo de Marcos como o seu relato não rebuscado dos fatos. Além
-            disso, os acontecimentos são descritos sem alteração ou interpretação
-            extensiva, e sua apresentação é marcada por uma qualidade objetiva
-            encontrada nos relatórios de testemunhas oculares, ou seja, Marcos
-            fala diretamente aos seus leitores, usando perguntas retóricas que os
-            próprios leitores gostariam de fazer a si mesmos, tais como:
-            &quot;Mas quem é este que até o vento e o mar lhe obedecem?&quot; (Mc
-            4.41). Ainda podemos sentir, em qualquer parte do texto, um vigor e
-            tom de urgência. Acrescente-se que, a palavra característica deste
-            Evangelho de ação é <em>euthys</em>, que ocorre 41 vezes e é
-            traduzida nas várias versões como &quot;diretamente&quot;,
-            &quot;imediatamente&quot;, &quot;em seguida&quot;, e &quot;logo&quot;.
+            pitoresca de um gênio literário. Um realismo vivo caracteriza tanto
+            o estilo de Marcos como o seu relato não rebuscado dos fatos. Além
+            disso, os acontecimentos são descritos sem alteração ou
+            interpretação extensiva, e sua apresentação é marcada por uma
+            qualidade objetiva encontrada nos relatórios de testemunhas
+            oculares, ou seja, Marcos fala diretamente aos seus leitores, usando
+            perguntas retóricas que os próprios leitores gostariam de fazer a si
+            mesmos, tais como: &quot;Mas quem é este que até o vento e o mar lhe
+            obedecem?&quot; (Mc 4.41). Ainda podemos sentir, em qualquer parte
+            do texto, um vigor e tom de urgência. Acrescente-se que, a palavra
+            característica deste Evangelho de ação é <em>euthys</em>, que ocorre
+            41 vezes e é traduzida nas várias versões como
+            &quot;diretamente&quot;, &quot;imediatamente&quot;, &quot;em
+            seguida&quot;, e &quot;logo&quot;.
           </P>
           <P className="">
             Outras características importantes distinguem o Evangelho de Marcos:
             sendo um Evangelho de ação, ele enfatiza mais aquilo que Jesus fez,
-            do que suas palavras. Por isso, Marcos registra 18 milagres de Jesus,
-            mas somente quatro das suas parábolas. Jesus é apresentado como servo
-            que está sempre em atividade. Ele descreve Cristo, ocupado,
-            deslocando-se de um lugar para outro, curando, libertando, pregando e
-            ensinando as pessoas.
+            do que suas palavras. Por isso, Marcos registra 18 milagres de
+            Jesus, mas somente quatro das suas parábolas. Jesus é apresentado
+            como servo que está sempre em atividade. Ele descreve Cristo,
+            ocupado, deslocando-se de um lugar para outro, curando, libertando,
+            pregando e ensinando as pessoas.
           </P>
           <P className="">
             O livro é totalmente kerigmático em sua ênfase, ou seja, o livro
             começa focando o cerne da sua mensagem: &quot;Princípio do evangelho
             de Jesus Cristo, Filho de Deus&quot; (1.1). Jesus apresenta-se nesse
-            evangelho como pregador, proclamador, por essa mensagem deve-se dar a
-            vida, ela deve ser pregada ao mundo inteiro (Mc 13.10; 14.9; 16.15).
+            evangelho como pregador, proclamador, por essa mensagem deve-se dar
+            a vida, ela deve ser pregada ao mundo inteiro (Mc 13.10; 14.9;
+            16.15).
           </P>
           <P className="">
             Podemos observar ainda que Marcos enfatiza a popularidade do
@@ -375,16 +402,16 @@ export default function CursoMarcos() {
           </P>
           <P className="">
             Jesus disse ao povo, aos discípulos, aos líderes religiosos e aos
-            opositores que ele era o Filho de Deus. Ele demonstrou seu poder para
-            perdoar, curar, libertar e deter as forças da natureza. Ele provou
-            ser o Filho de Deus rompendo os grilhões da morte e saindo da
+            opositores que ele era o Filho de Deus. Ele demonstrou seu poder
+            para perdoar, curar, libertar e deter as forças da natureza. Ele
+            provou ser o Filho de Deus rompendo os grilhões da morte e saindo da
             sepultura.
           </P>
           <P className="">
             O autor apresenta Jesus como aquele que tem poder para operar
-            milagres, uma vez que ressalta mais os milagres de Cristo do que seus
-            sermões. Em cada capítulo do evangelho, até seu ministério final em
-            Jerusalém, há registro de pelo menos um milagre.
+            milagres, uma vez que ressalta mais os milagres de Cristo do que
+            seus sermões. Em cada capítulo do evangelho, até seu ministério
+            final em Jerusalém, há registro de pelo menos um milagre.
           </P>
           <P className="">
             Por fim, Marcos enfatiza o sofrimento de Cristo, porque nenhum outro
@@ -395,35 +422,36 @@ export default function CursoMarcos() {
         <div className="flex flex-col gap-4">
           <H3 id="lesson-1-a-mensagem-central">4. A Mensagem Central</H3>
           <P className="">
-            O primeiro versículo desse evangelho é tanto o título do livro quanto
-            a síntese do seu conteúdo. Alguns comentaristas como William
-            Hendriksen relaciona a palavra &quot;princípio&quot; com a atuação de
-            João Batista nos versículos seguintes, mas a melhor compreensão é que
-            Marcos está introduzindo o conteúdo de todo o evangelho.
+            O primeiro versículo desse evangelho é tanto o título do livro
+            quanto a síntese do seu conteúdo. Alguns comentaristas como William
+            Hendriksen relaciona a palavra &quot;princípio&quot; com a atuação
+            de João Batista nos versículos seguintes, mas a melhor compreensão é
+            que Marcos está introduzindo o conteúdo de todo o evangelho.
           </P>
           <P className="">
-            A Bíblia menciona três começos, vejamos: primeiro, no princípio era o
-            verbo (Jo 1.1) – esse princípio está antes do tempo, no bojo da
-            eternidade. Ele não pode ser datado. Segundo, no princípio criou Deus
-            os céus e a terra (Gn 1.1) – esse começo é quando nos movemos da
-            eternidade para o tempo. Nenhum estudioso conseguiu precisamente
+            A Bíblia menciona três começos, vejamos: primeiro, no princípio era
+            o verbo (Jo 1.1) – esse princípio está antes do tempo, no bojo da
+            eternidade. Ele não pode ser datado. Segundo, no princípio criou
+            Deus os céus e a terra (Gn 1.1) – esse começo é quando nos movemos
+            da eternidade para o tempo. Nenhum estudioso conseguiu precisamente
             datar esse princípio, embora ele esteja dentro do tempo. Terceiro,
-            princípio do evangelho de Jesus Cristo, Filho de Deus (Mc 1.1) – esse
-            princípio começa quando Jesus Cristo se fez carne. Jesus Cristo é o
-            evangelho. Esse princípio pode ser datado. Marcos fala do princípio
-            do evangelho, porque o evangelho estende-se à obra de Cristo por meio
-            do seu Espírito e sua igreja, conforme o ensino de Atos 1.1.
+            princípio do evangelho de Jesus Cristo, Filho de Deus (Mc 1.1) –
+            esse princípio começa quando Jesus Cristo se fez carne. Jesus Cristo
+            é o evangelho. Esse princípio pode ser datado. Marcos fala do
+            princípio do evangelho, porque o evangelho estende-se à obra de
+            Cristo por meio do seu Espírito e sua igreja, conforme o ensino de
+            Atos 1.1.
           </P>
           <P className="">
             Porém, a parte mais importante do evangelho não é o que nós devemos
             fazer, mas o que Deus fez por nós em Cristo. O evangelho não é
             discussão nem debate, mas uma proclamação, ele está centrado na
-            pessoa de Jesus Cristo. Logo, o conteúdo do evangelho é Jesus Cristo:
-            sua vida, obra, morte, ressurreição, governo e segunda vinda.
-            Ademais, como Marcos escreveu seu evangelho para os romanos, que
-            davam grande importância à concisão, vai direto ao assunto, e já no
-            princípio do versículo destaca o título pleno do Senhor, que abarca
-            sua humanidade, sua missão redentora e sua divindade. Ele é
+            pessoa de Jesus Cristo. Logo, o conteúdo do evangelho é Jesus
+            Cristo: sua vida, obra, morte, ressurreição, governo e segunda
+            vinda. Ademais, como Marcos escreveu seu evangelho para os romanos,
+            que davam grande importância à concisão, vai direto ao assunto, e já
+            no princípio do versículo destaca o título pleno do Senhor, que
+            abarca sua humanidade, sua missão redentora e sua divindade. Ele é
             plenamente homem (Jesus). Ele é o ungido de Deus (Cristo). Ele é
             plenamente divino (Filho de Deus).
           </P>
@@ -432,8 +460,8 @@ export default function CursoMarcos() {
             evangelho. Sem essa doutrina não teremos nada sólido debaixo dos
             nossos pés, pois nossos corações são fracos e são muitos os nossos
             pecados. Assim, precisamos de um redentor que seja capaz de salvar
-            completamente e libertar-nos da ira vindoura. Nós temos esse Salvador
-            em Jesus Cristo, Ele é o Deus forte (Is 9.6).
+            completamente e libertar-nos da ira vindoura. Nós temos esse
+            Salvador em Jesus Cristo, Ele é o Deus forte (Is 9.6).
           </P>
         </div>
 
@@ -442,11 +470,11 @@ export default function CursoMarcos() {
           <P className="">
             Por tudo que estudamos até aqui, podemos concluir que o Evangelho de
             Marcos é único. Ele não se trata de uma biografia de Jesus como as
-            descritas nos livros de Mateus e Lucas, mas relata as obras de Cristo
-            e tudo o que Ele fez, apresentando Jesus como o Rei Salvador, nosso
-            redentor. Aquele que venceu os demônios, a enfermidade e a morte. Sua
-            ênfase nas obras poderosas e miraculosas de Cristo torna esse livro
-            repleto de ação, expressivo e muito atraente.
+            descritas nos livros de Mateus e Lucas, mas relata as obras de
+            Cristo e tudo o que Ele fez, apresentando Jesus como o Rei Salvador,
+            nosso redentor. Aquele que venceu os demônios, a enfermidade e a
+            morte. Sua ênfase nas obras poderosas e miraculosas de Cristo torna
+            esse livro repleto de ação, expressivo e muito atraente.
           </P>
           <P className="">
             Como vimos, ainda, Marcos é o evangelho de ação. Nele Jesus é
@@ -469,10 +497,8 @@ export default function CursoMarcos() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
-          <P className="mt-0">
+          <H3 id="lesson-2-objetivo-geral">Objetivo Geral</H3>
+          <P className="">
             Abordar os primeiros milagres de Jesus identificados no Evangelho de
             Marcos.
           </P>
@@ -482,48 +508,48 @@ export default function CursoMarcos() {
           <H3 id="lesson-2-introducao">Introdução</H3>
           <P className="">
             A Natureza do Miraculoso, o que vem a ser isso? O termo milagre é
-            aplicado a ocasiões incomuns, até mesmo por aqueles que não acreditam
-            no sobrenatural. Nem sempre é fácil atribuir o verdadeiro significado
-            bíblico à palavra. É provável que a definição mais simples, segundo
-            C. S. Lewis, seja: &quot;Uma interferência na natureza por um poder
-            sobrenatural&quot;. Para J. Gresham Machen (1984): &quot;Um milagre é
-            um evento no mundo exterior, que é trabalhado pelo poder imediato de
-            Deus&quot;, ou seja, a obra divina é milagrosa quando Deus utiliza o
-            seu poder criativo, como o utilizou quando fez todas as coisas a
-            partir do nada. Além disso, um milagre está além da capacidade
-            intelectual do homem.
+            aplicado a ocasiões incomuns, até mesmo por aqueles que não
+            acreditam no sobrenatural. Nem sempre é fácil atribuir o verdadeiro
+            significado bíblico à palavra. É provável que a definição mais
+            simples, segundo C. S. Lewis, seja: &quot;Uma interferência na
+            natureza por um poder sobrenatural&quot;. Para J. Gresham Machen
+            (1984): &quot;Um milagre é um evento no mundo exterior, que é
+            trabalhado pelo poder imediato de Deus&quot;, ou seja, a obra divina
+            é milagrosa quando Deus utiliza o seu poder criativo, como o
+            utilizou quando fez todas as coisas a partir do nada. Além disso, um
+            milagre está além da capacidade intelectual do homem.
           </P>
           <P className="">
             Qual o propósito dos milagres? Alguns veem os milagres como eventos
-            isolados na vida dos profetas ou do Senhor Jesus Cristo. No entanto o
-            que podemos enxergar nos textos bíblicos é que o desespero de uma
+            isolados na vida dos profetas ou do Senhor Jesus Cristo. No entanto
+            o que podemos enxergar nos textos bíblicos é que o desespero de uma
             pessoa, a seriedade de uma situação, ou a iniciativa de um profeta
-            ditou se um milagre deveria ou não ser realizado. Mas os milagres não
-            estão espalhados em uma confusão geral ao longo da Bíblia Sagrada. Em
-            cada caso, os milagres serviriam para dar crédito à mensagem e ao
-            mensageiro de Deus, em ligações importantes no desenvolvimento da
-            tradição judaico-cristã, além disso, eles preservaram a verdade de
-            Deus.
+            ditou se um milagre deveria ou não ser realizado. Mas os milagres
+            não estão espalhados em uma confusão geral ao longo da Bíblia
+            Sagrada. Em cada caso, os milagres serviriam para dar crédito à
+            mensagem e ao mensageiro de Deus, em ligações importantes no
+            desenvolvimento da tradição judaico-cristã, além disso, eles
+            preservaram a verdade de Deus.
           </P>
           <P className="">
             Na nossa lição, vamos evidenciar alguns dos milagres de Jesus, uma
-            vez que durante seu ministério terreno, Ele os usou para demonstrar a
-            sua divindade, para provar que era o Enviado de Deus, para sustentar
-            o seu Messianato, para ministrar com compaixão às multidões
-            necessitadas, para guiar seus seguidores à fé salvadora, para
-            evidenciar um renascimento espiritual interior, e como auxílio na
-            instrução e preparação de seus discípulos para o ministério que eles
-            estavam prestes a desempenhar. Os milagres de Jesus estão relatados
-            ao longo dos quatro Evangelhos, e alguns milagres são mencionados em
-            mais de um Evangelho.
+            vez que durante seu ministério terreno, Ele os usou para demonstrar
+            a sua divindade, para provar que era o Enviado de Deus, para
+            sustentar o seu Messianato, para ministrar com compaixão às
+            multidões necessitadas, para guiar seus seguidores à fé salvadora,
+            para evidenciar um renascimento espiritual interior, e como auxílio
+            na instrução e preparação de seus discípulos para o ministério que
+            eles estavam prestes a desempenhar. Os milagres de Jesus estão
+            relatados ao longo dos quatro Evangelhos, e alguns milagres são
+            mencionados em mais de um Evangelho.
           </P>
           <P className="">
-            Sendo assim, Marcos dedica a maior parte do seu Evangelho a contar os
-            milagres de Jesus mais do que qualquer um dos demais autores. Para
-            ele, esses milagres eram a demonstração do poder de Jesus – Seu poder
-            sobre as enfermidades, as forças do mal e, até mesmo, a natureza.
-            Assim, muitos o procuravam para serem curados e saciados, alguns se
-            perguntavam quem era Jesus realmente, e outros o seguiam.
+            Sendo assim, Marcos dedica a maior parte do seu Evangelho a contar
+            os milagres de Jesus mais do que qualquer um dos demais autores.
+            Para ele, esses milagres eram a demonstração do poder de Jesus – Seu
+            poder sobre as enfermidades, as forças do mal e, até mesmo, a
+            natureza. Assim, muitos o procuravam para serem curados e saciados,
+            alguns se perguntavam quem era Jesus realmente, e outros o seguiam.
           </P>
         </div>
 
@@ -561,8 +587,8 @@ export default function CursoMarcos() {
             verdade.
           </P>
           <P className="">
-            Quanto à autoridade sobre os demônios, precisamos antes lembrar que a
-            possessão demoníaca é um fato inegável. Na possessão os espíritos
+            Quanto à autoridade sobre os demônios, precisamos antes lembrar que
+            a possessão demoníaca é um fato inegável. Na possessão os espíritos
             malignos assumem o controle da personalidade humana, e muitas vezes
             os demônios se infiltram no meio da congregação do povo de Deus.
             Contudo, Jesus, quando curou o endemoninhado de Cafarnaum (Mc
@@ -572,8 +598,9 @@ export default function CursoMarcos() {
             homens desses espíritos. Em um desses casos, o demônio reconheceu
             Jesus como o Santo de Deus, mas Cristo recusou o testemunho de uma
             fonte tão indigna. Marcos percebeu a relevante repercussão que esse
-            milagre de Jesus teve e decidiu enfatizar que &quot;logo correu a sua
-            fama (de Jesus) por toda a província da Galiléia&quot; (Mc 1.28).
+            milagre de Jesus teve e decidiu enfatizar que &quot;logo correu a
+            sua fama (de Jesus) por toda a província da Galiléia&quot; (Mc
+            1.28).
           </P>
           <P className="">
             Podemos ver também a autoridade de Jesus para curar, nesse caso, a
@@ -581,8 +608,8 @@ export default function CursoMarcos() {
             curou totalmente a sogra de Simão Pedro, pois não apenas a febre
             passou, mas as forças daquela senhora foram renovadas, para que ela
             servisse a Jesus e aos Seus discípulos. Na segunda situação, Jesus,
-            movido de grande compaixão, não somente curou o leproso, mas também o
-            tocou. Quantas vezes vemos a necessidade de alguém, mas não nos
+            movido de grande compaixão, não somente curou o leproso, mas também
+            o tocou. Quantas vezes vemos a necessidade de alguém, mas não nos
             sentimos tocados por ela nem nos envolvemos na situação? A Bíblia
             apresenta mais de 400 passagens que nos exortam a cuidar dos
             necessitados.
@@ -601,43 +628,44 @@ export default function CursoMarcos() {
           </H3>
           <P className="">
             Segundo D. L. Moody, Jesus, provavelmente, por necessidade de
-            isolamento e descanso, propôs uma viagem através do lago da Galiléia,
-            quando enfrenta uma grande tempestade. Essa tempestade é descrita por
-            Marcos (4.35-41). Logo em seguida ele descreve a libertação do homem
-            endemoninhado que Cristo encontrou do outro lado (5.1-20).
+            isolamento e descanso, propôs uma viagem através do lago da
+            Galiléia, quando enfrenta uma grande tempestade. Essa tempestade é
+            descrita por Marcos (4.35-41). Logo em seguida ele descreve a
+            libertação do homem endemoninhado que Cristo encontrou do outro lado
+            (5.1-20).
           </P>
           <P className="">
             Ir &quot;para a outra margem&quot; do mar da Galiléia, que na
-            verdade é um lago, é velejar por mais de 12 quilômetros, o que parece
-            ser fácil. No entanto, sua geografia é capaz de surpreender com
-            variações climáticas das mais diversas. Até hoje é comum um grande
-            temporal de vento acontecer durante a noite nesse mar. O ar quente
-            tropical que surge da superfície do lago se junta ao ar frio das
-            colinas ao redor, e o resultado turbulento disso faz com que se
+            verdade é um lago, é velejar por mais de 12 quilômetros, o que
+            parece ser fácil. No entanto, sua geografia é capaz de surpreender
+            com variações climáticas das mais diversas. Até hoje é comum um
+            grande temporal de vento acontecer durante a noite nesse mar. O ar
+            quente tropical que surge da superfície do lago se junta ao ar frio
+            das colinas ao redor, e o resultado turbulento disso faz com que se
             levantem grandes ondas, que tornam a navegação perigosa. Entretanto,
             o que nos chama a atenção é que Jesus diante dessa situação estava
             dormindo e o fato de estar dormindo demonstra Sua verdadeira
-            humanidade. Porém, quando Jesus dá ordens ao vento e ao mar, expressa
-            como Sua deidade era completa, pois somente o Deus Criador pode
-            acalmar o vento e o mar e é isso que Jesus faz em nossas vidas quando
-            estamos diante de uma situação inesperada.
+            humanidade. Porém, quando Jesus dá ordens ao vento e ao mar,
+            expressa como Sua deidade era completa, pois somente o Deus Criador
+            pode acalmar o vento e o mar e é isso que Jesus faz em nossas vidas
+            quando estamos diante de uma situação inesperada.
           </P>
           <P className="">
             Mesmo diante dos relatos desse evangelho, às vezes, não conseguimos
             ver a bondade de Deus nas circunstâncias da vida, no entanto, mesmo
-            assim, Deus continua sendo sempre bom. Dessa forma, as tempestades da
-            vida não anulam a bondade de Deus. Só conseguimos enxergar a
+            assim, Deus continua sendo sempre bom. Dessa forma, as tempestades
+            da vida não anulam a bondade de Deus. Só conseguimos enxergar a
             majestade dos montes quando estamos no vale e é das profundezas da
             nossa angústia que nos erguemos para as maiores conquistas da vida,
             por intermédio de Cristo.
           </P>
           <P className="">
-            Podemos aprender algumas lições com as tempestades da vida: primeiro,
-            elas são inesperadas, elas chegam a nossa vida sem mandar recado, sem
-            pedir licença. Pode ser um acidente, uma enfermidade, uma crise no
-            casamento, um desemprego. Como seguidores de Cristo, devemos estar
-            preparados para as tempestades que acontecerão. As aflições e as
-            tempestades fazem parte da jornada de todo cristão.
+            Podemos aprender algumas lições com as tempestades da vida:
+            primeiro, elas são inesperadas, elas chegam a nossa vida sem mandar
+            recado, sem pedir licença. Pode ser um acidente, uma enfermidade,
+            uma crise no casamento, um desemprego. Como seguidores de Cristo,
+            devemos estar preparados para as tempestades que acontecerão. As
+            aflições e as tempestades fazem parte da jornada de todo cristão.
           </P>
           <P className="">
             Segundo, elas são perigosas. Lucas diz que sobreveio uma tempestade
@@ -654,18 +682,18 @@ export default function CursoMarcos() {
             problema era maior do que a capacidade deles de resolver.
           </P>
           <P className="">
-            Enfim, apresentando um contraste, Marcos narra a ordem que Cristo deu
-            à tempestade: &quot;Cala-te, aquieta-te&quot;. O tempo verbal usado
-            no grego bíblico mostra que ele repreendeu o vento uma vez (ação
-            imediata), e houve grande bonança, ou seja, não houve necessidade de
-            repetir a ordem, pois suscitou obediência imediata. Vimos então que
-            Jesus é perfeitamente Deus. Ele é o criador e interventor na
-            natureza. O vento ouve a sua voz, o mar se acalma quando ele fala.
-            Todo o universo se curva diante da sua autoridade, Ele é o verdadeiro
-            Deus. É ele quem acalma os terremotos da nossa alma. Logo, as
-            tempestades fazem parte do currículo de Jesus para nos fortalecer na
-            fé, pois as provas não vêm para nos destruir, mas para nos
-            fortalecer.
+            Enfim, apresentando um contraste, Marcos narra a ordem que Cristo
+            deu à tempestade: &quot;Cala-te, aquieta-te&quot;. O tempo verbal
+            usado no grego bíblico mostra que ele repreendeu o vento uma vez
+            (ação imediata), e houve grande bonança, ou seja, não houve
+            necessidade de repetir a ordem, pois suscitou obediência imediata.
+            Vimos então que Jesus é perfeitamente Deus. Ele é o criador e
+            interventor na natureza. O vento ouve a sua voz, o mar se acalma
+            quando ele fala. Todo o universo se curva diante da sua autoridade,
+            Ele é o verdadeiro Deus. É ele quem acalma os terremotos da nossa
+            alma. Logo, as tempestades fazem parte do currículo de Jesus para
+            nos fortalecer na fé, pois as provas não vêm para nos destruir, mas
+            para nos fortalecer.
           </P>
         </div>
 
@@ -677,30 +705,31 @@ export default function CursoMarcos() {
             A história do &quot;endemoninhado gadareno&quot; está relatada em
             Marcos 5.1-20. Aqui Marcos descreve na íntegra como Cristo lidou com
             o endemoninhado de Gadara. Já Lucas relata toda a história em 11
-            versículos (Lc 8.23-34), enquanto Mateus usa apenas sete (Mt 8.28-33).
-            Marcos, porém, conta-nos todos os detalhes. Diante deste texto
-            bíblico vamos analisar um relato de libertação de uma pessoa possuída
-            por forças demoníacas.
+            versículos (Lc 8.23-34), enquanto Mateus usa apenas sete (Mt
+            8.28-33). Marcos, porém, conta-nos todos os detalhes. Diante deste
+            texto bíblico vamos analisar um relato de libertação de uma pessoa
+            possuída por forças demoníacas.
           </P>
           <P className="">
             Duas perguntas se tornam importantes para a nossa análise: quanto
             vale uma vida para Jesus? Quanto vale uma vida para Satanás? Jesus
-            fez um alto investimento na vida desse homem gadareno, pois enfrentou
-            a fúria do mar (Mc 4.35-41) e depois a fúria desse homem possesso. O
-            escritor desse Evangelho vai de um mar agitado para um homem agitado.
-            Humanamente, ambos eram indomáveis, mas Jesus os subjugou. E para
-            Satanás? Quanto vale uma vida? Satanás roubou tudo de precioso que
-            aquele homem possuíra: família, liberdade, saúde física e mental,
-            dignidade, paz e decência. Logo, Satanás não faz nada pelas pessoas,
-            mas contra elas, pois domina as pessoas através da possessão,
-            arrasta-as para a impureza, bem como torna-as violentas.
+            fez um alto investimento na vida desse homem gadareno, pois
+            enfrentou a fúria do mar (Mc 4.35-41) e depois a fúria desse homem
+            possesso. O escritor desse Evangelho vai de um mar agitado para um
+            homem agitado. Humanamente, ambos eram indomáveis, mas Jesus os
+            subjugou. E para Satanás? Quanto vale uma vida? Satanás roubou tudo
+            de precioso que aquele homem possuíra: família, liberdade, saúde
+            física e mental, dignidade, paz e decência. Logo, Satanás não faz
+            nada pelas pessoas, mas contra elas, pois domina as pessoas através
+            da possessão, arrasta-as para a impureza, bem como torna-as
+            violentas.
           </P>
           <P className="">
             Um dos principais objetivos do Evangelho, segundo Marcos, é o
-            propósito de derrotar Satanás e suas hostes demoníacas. Logo, o poder
-            de Jesus sobre Satanás fica claramente demonstrado na expulsão de
-            demônios. Além disso, o que Jesus faz pelas pessoas e fez na vida do
-            gadareno? Primeiro, Jesus libertou esse homem da escravidão dos
+            propósito de derrotar Satanás e suas hostes demoníacas. Logo, o
+            poder de Jesus sobre Satanás fica claramente demonstrado na expulsão
+            de demônios. Além disso, o que Jesus faz pelas pessoas e fez na vida
+            do gadareno? Primeiro, Jesus libertou esse homem da escravidão dos
             demônios (5.6-15), porque Cristo é o libertador dos homens. Segundo,
             Jesus devolveu a ele a dignidade da vida, restituiu a sua sanidade
             mental, pois quando Jesus age, Ele restaura a mente, o corpo e a
@@ -711,11 +740,11 @@ export default function CursoMarcos() {
             Jesus dá ao gadareno uma gloriosa missão, pois o enviou como
             missionário para sua casa, para ser uma testemunha na sua terra.
             Antes ele espalhava medo e pavor, agora, anuncia as boas-novas de
-            salvação. O gadareno tornou-se um dos primeiros missionários entre os
-            gentios. Jesus saiu de Gadara, mas deixou uma grande testemunha ali.
-            &quot;Todos se maravilhavam quando ouviam quão grandes coisas Jesus
-            lhe fizera&quot;. Ao final, o gadareno permaneceu dando um vivo e
-            poderoso testemunho da graça e do poder de Jesus.
+            salvação. O gadareno tornou-se um dos primeiros missionários entre
+            os gentios. Jesus saiu de Gadara, mas deixou uma grande testemunha
+            ali. &quot;Todos se maravilhavam quando ouviam quão grandes coisas
+            Jesus lhe fizera&quot;. Ao final, o gadareno permaneceu dando um
+            vivo e poderoso testemunho da graça e do poder de Jesus.
           </P>
         </div>
 
@@ -725,9 +754,9 @@ export default function CursoMarcos() {
             Vários milagres de cura são registrados na Bíblia. No AT, esses
             milagres parecem centralizar-se em torno da época do Êxodo e do
             ministério de Elias e Eliseu. Por outro lado, o NT registra uma
-            proporção maior de milagres de cura, quando foram operados por Cristo
-            ou por seus seguidores, em seu nome. Dos 35 milagres de Cristo
-            registrados no NT, 26 foram de cura. Dentre os de cura vamos
+            proporção maior de milagres de cura, quando foram operados por
+            Cristo ou por seus seguidores, em seu nome. Dos 35 milagres de
+            Cristo registrados no NT, 26 foram de cura. Dentre os de cura vamos
             destacar o da mulher hemorrágica por meio do toque da fé (Mc
             5.24-34).
           </P>
@@ -737,14 +766,15 @@ export default function CursoMarcos() {
             mas duas pessoas se destacam nesse trecho: Jairo e a mulher
             hemorrágica. Entretanto, quem era essa mulher? Ela era uma mulher
             anônima, excluída da comunidade, que perdera todos os seus bens na
-            busca por saúde, pois sofria há doze anos de uma doença que a impedia
-            de ser mãe. Ela aproximou-se de Jesus e com um toque silencioso e
-            anônimo foi curada. Esta cura foi excepcional, não simplesmente
-            porque foi instantânea, mas porque aconteceu sem qualquer
-            participação aparentemente consciente de Cristo. Entretanto, Jesus
-            logo tomou conhecimento do que aconteceu. Não devemos imaginar que o
-            tocar nos vestidos tivesse algum efeito mágico, mas que Jesus em sua
-            onisciência reconheceu o toque da fé e satisfez o desejo da mulher.
+            busca por saúde, pois sofria há doze anos de uma doença que a
+            impedia de ser mãe. Ela aproximou-se de Jesus e com um toque
+            silencioso e anônimo foi curada. Esta cura foi excepcional, não
+            simplesmente porque foi instantânea, mas porque aconteceu sem
+            qualquer participação aparentemente consciente de Cristo.
+            Entretanto, Jesus logo tomou conhecimento do que aconteceu. Não
+            devemos imaginar que o tocar nos vestidos tivesse algum efeito
+            mágico, mas que Jesus em sua onisciência reconheceu o toque da fé e
+            satisfez o desejo da mulher.
           </P>
           <P className="">
             Quanto à expressão &quot;toque da fé&quot;, cabe três destaques:
@@ -752,11 +782,11 @@ export default function CursoMarcos() {
             grande necessidade (Mc 5.25) – aquela mulher apresentava um
             sofrimento prolongado, pois buscou a cura durante 12 anos.
             Apresentava um sofrimento que destruía os seus sonhos, porque perdia
-            sangue diariamente, e ela não apenas estava perdendo a vida, como não
-            poderia gerar vida. Ela sofria também de segregação conjugal, social
-            e religiosa, pois segundo a lei mosaica, uma mulher com fluxo de
-            sangue não podia relacionar-se com as pessoas, nem poderia entrar no
-            templo nem na sinagoga.
+            sangue diariamente, e ela não apenas estava perdendo a vida, como
+            não poderia gerar vida. Ela sofria também de segregação conjugal,
+            social e religiosa, pois segundo a lei mosaica, uma mulher com fluxo
+            de sangue não podia relacionar-se com as pessoas, nem poderia entrar
+            no templo nem na sinagoga.
           </P>
           <P className="">
             Segundo, o &quot;toque da fé&quot; acontece quando nos voltamos a
@@ -794,12 +824,13 @@ export default function CursoMarcos() {
             Através das ações de Jesus, vemos o alcance do poder divino em áreas
             da existência humana: cura, libertação e controle sobre a natureza.
             Cada milagre não apenas demonstra a autoridade de Jesus, mas também
-            sublinha sua compaixão e preocupação com as necessidades das pessoas.
+            sublinha sua compaixão e preocupação com as necessidades das
+            pessoas.
           </P>
           <P className="">
-            Os milagres de cura, em particular, destacam a capacidade de Jesus de
-            restaurar a saúde e a dignidade daqueles que sofrem. Esses atos de
-            cura são um testemunho do amor de Deus e da sua disposição para
+            Os milagres de cura, em particular, destacam a capacidade de Jesus
+            de restaurar a saúde e a dignidade daqueles que sofrem. Esses atos
+            de cura são um testemunho do amor de Deus e da sua disposição para
             intervir nas situações mais desesperadoras da vida.
           </P>
           <P className="">
@@ -807,27 +838,27 @@ export default function CursoMarcos() {
             da tempestade, mostram o domínio de Jesus sobre as forças naturais.
             Estes eventos reforçam a ideia de que Jesus é o Criador, com
             autoridade sobre toda a criação. As tempestades que ele acalma não
-            são apenas físicas, mas também simbólicas das tempestades espirituais
-            e emocionais que enfrentamos. A mensagem é clara: em meio às crises,
-            Jesus é a nossa paz e segurança.
+            são apenas físicas, mas também simbólicas das tempestades
+            espirituais e emocionais que enfrentamos. A mensagem é clara: em
+            meio às crises, Jesus é a nossa paz e segurança.
           </P>
           <P className="">
             Os milagres de libertação, como a cura do endemoninhado gadareno,
             revelam a luta contra as forças do mal e a vitória definitiva de
             Jesus sobre Satanás. Estes milagres demonstram o poder de Jesus para
-            libertar os cativos e transformar vidas, reafirmando que ninguém está
-            fora do alcance da graça de Deus.
+            libertar os cativos e transformar vidas, reafirmando que ninguém
+            está fora do alcance da graça de Deus.
           </P>
           <P className="">
-            Para os cristãos protestantes, os milagres de Jesus devem servir como
-            fonte constante de inspiração e fortalecimento da fé. Eles nos
-            lembram que o mesmo poder que operou através de Jesus está disponível
-            para nós hoje, através do Espírito Santo. Enfrentamos desafios e
-            provações, mas devemos lembrar que Jesus está conosco, pronto para
-            intervir em nossas vidas. Que possamos viver com a confiança de que o
-            Deus dos milagres ainda está ativo, que nossa fé seja fortalecida por
-            esses relatos e que possamos ser testemunhas vivas do seu amor e
-            poder transformador em nosso mundo.
+            Para os cristãos protestantes, os milagres de Jesus devem servir
+            como fonte constante de inspiração e fortalecimento da fé. Eles nos
+            lembram que o mesmo poder que operou através de Jesus está
+            disponível para nós hoje, através do Espírito Santo. Enfrentamos
+            desafios e provações, mas devemos lembrar que Jesus está conosco,
+            pronto para intervir em nossas vidas. Que possamos viver com a
+            confiança de que o Deus dos milagres ainda está ativo, que nossa fé
+            seja fortalecida por esses relatos e que possamos ser testemunhas
+            vivas do seu amor e poder transformador em nosso mundo.
           </P>
         </div>
       </Container>
@@ -839,10 +870,8 @@ export default function CursoMarcos() {
         <H2 id="lesson-3">Lição 3 – A Autoridade de Jesus em Ação</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
-          <P className="mt-0">
+          <H3 id="lesson-3-objetivo-geral">Objetivo Geral</H3>
+          <P className="">
             Discorrer sobre a demonstração do Reino de Deus por meio da pregação
             de Jesus.
           </P>
@@ -903,13 +932,13 @@ export default function CursoMarcos() {
             1. A Importância da Fé na Realização de Milagres
           </H3>
           <P className="">
-            No evangelho escrito por Marcos (11.22-24) observamos a ilustração de
-            Jesus sobre o uso da fé quando diz que é possível que um monte seja
-            lançado ao mar, que é o exemplo de algo simplesmente impossível à
-            compreensão humana. Logo, a intenção de Cristo é deixar claro que
+            No evangelho escrito por Marcos (11.22-24) observamos a ilustração
+            de Jesus sobre o uso da fé quando diz que é possível que um monte
+            seja lançado ao mar, que é o exemplo de algo simplesmente impossível
+            à compreensão humana. Logo, a intenção de Cristo é deixar claro que
             crer é a chave para a realização. No entanto, todas as nossas
-            petições devem ser feitas em nome de Jesus (Jo 15.16) e para que tudo
-            seja segundo a Sua vontade (1 Jo 5.14). O que nos leva a crer
+            petições devem ser feitas em nome de Jesus (Jo 15.16) e para que
+            tudo seja segundo a Sua vontade (1 Jo 5.14). O que nos leva a crer
             poderosamente é o objeto da nossa fé: a verdade.
           </P>
           <P className="">
@@ -919,12 +948,12 @@ export default function CursoMarcos() {
             conseguiram expulsar um demônio que atormentava um jovem. Eles
             perguntaram a Jesus por que isso aconteceu, já que anteriormente
             haviam expulsado demônios. Jesus respondeu advertindo-os sobre a
-            importância da fé e sua falta de perseverança na oração. Ele explicou
-            que a verdadeira fé, mesmo que do tamanho de um grão de mostarda,
-            permite a realização de coisas extraordinárias, ou seja, milagres (Mt
-            17:20). Quem possui tal fé é capaz de dizer a uma montanha:
-            &quot;Vá daqui para lá&quot;, e ela irá; e nada lhes será impossível
-            (Mc 11:23).
+            importância da fé e sua falta de perseverança na oração. Ele
+            explicou que a verdadeira fé, mesmo que do tamanho de um grão de
+            mostarda, permite a realização de coisas extraordinárias, ou seja,
+            milagres (Mt 17:20). Quem possui tal fé é capaz de dizer a uma
+            montanha: &quot;Vá daqui para lá&quot;, e ela irá; e nada lhes será
+            impossível (Mc 11:23).
           </P>
           <P className="">
             Além disso, Jesus fala de uma fé que pode operar milagres e curas, e
@@ -934,13 +963,13 @@ export default function CursoMarcos() {
             Deus&quot;, uma obra de Deus que se manifesta no coração do cristão
             (Mc 9:24). É a plena certeza que Deus transmite ao coração de que
             nossas orações serão respondidas (Mc 11:23). Essa fé é gerada
-            internamente no crente pelo Espírito Santo, não podendo ser produzida
-            pela nossa própria mente (Rm 12:3). Dependemos de Cristo em tudo,
-            pois &quot;Sem mim nada podereis fazer&quot; (Jo 15:5). Devemos
-            buscar Jesus, que é o autor e consumador da nossa fé (Hb 12:2). Sua
-            presença real em nossas vidas e nossa obediência à Sua Palavra são a
-            origem e o segredo da verdadeira fé, que opera sob o controle de
-            Deus.
+            internamente no crente pelo Espírito Santo, não podendo ser
+            produzida pela nossa própria mente (Rm 12:3). Dependemos de Cristo
+            em tudo, pois &quot;Sem mim nada podereis fazer&quot; (Jo 15:5).
+            Devemos buscar Jesus, que é o autor e consumador da nossa fé (Hb
+            12:2). Sua presença real em nossas vidas e nossa obediência à Sua
+            Palavra são a origem e o segredo da verdadeira fé, que opera sob o
+            controle de Deus.
           </P>
           <P className="">
             Por fim, a verdadeira fé sempre opera de acordo com a Palavra de
@@ -966,50 +995,52 @@ export default function CursoMarcos() {
             milagres, Jairo foi ao Seu encontro com a maior necessidade que já
             havia enfrentado, pois ele acreditava que Cristo podia resolver seu
             problema. Aquele homem acreditava que apenas o toque do Mestre
-            poderia curar sua filha, que estava muito enferma. Embora soubéssemos
-            que Jesus poderia curar à distância, a fé de Jairo era inabalável.
+            poderia curar sua filha, que estava muito enferma. Embora
+            soubéssemos que Jesus poderia curar à distância, a fé de Jairo era
+            inabalável.
           </P>
           <P className="">
             No texto de Marcos 5:22-23, vemos Jairo indo a Jesus, levando sua
             causa desesperadora. Ele reconhece a autoridade de Jesus e O busca
             com um profundo senso de urgência. O sofrimento muitas vezes nos
             conduz a Deus. Ernesto Trenchard afirma que a aflição é
-            frequentemente a voz de Deus. As aflições se tornam fontes de bênçãos
-            quando nos trazem a Jesus. Assim, Jairo acreditava que se Jesus fosse
-            com ele e impusesse as mãos sobre sua filha, ela seria salva e
-            viveria. Ele confiava na eficácia do toque de Jesus e via nEle a
-            esperança para sua necessidade urgente. Quando Jairo encontrou Jesus,
-            ele demonstrou três atitudes marcantes: humilhou-se diante de Jesus,
-            clamou com perseverança e com fé. John Henrique Burn diz: &quot;não
-            há lugar na terra mais alto do que aos pés de Jesus&quot;. Jairo
-            acreditava que Cristo tinha autoridade para levantar sua filha do
-            leito da morte.
+            frequentemente a voz de Deus. As aflições se tornam fontes de
+            bênçãos quando nos trazem a Jesus. Assim, Jairo acreditava que se
+            Jesus fosse com ele e impusesse as mãos sobre sua filha, ela seria
+            salva e viveria. Ele confiava na eficácia do toque de Jesus e via
+            nEle a esperança para sua necessidade urgente. Quando Jairo
+            encontrou Jesus, ele demonstrou três atitudes marcantes: humilhou-se
+            diante de Jesus, clamou com perseverança e com fé. John Henrique
+            Burn diz: &quot;não há lugar na terra mais alto do que aos pés de
+            Jesus&quot;. Jairo acreditava que Cristo tinha autoridade para
+            levantar sua filha do leito da morte.
           </P>
           <P className="">
             Jesus então vai com Jairo, levando esperança para seu desespero (Mc
-            5:24). Quando Jesus está conosco, podemos ter a certeza de que Ele se
-            importa com nossa dor e com as pessoas, incluindo nós. Além disso,
-            quando Jesus está conosco, os imprevistos humanos não podem frustrar
-            os propósitos divinos. No caminho, Jesus parou para conversar com uma
-            mulher e libertá-la de seu mal (Mc 5:25). Com isso, Jairo deve ter
-            ficado aflito quando Jesus interrompeu a caminhada até sua casa, mas
-            nada pega Jesus de surpresa, pois Ele tem toda a autoridade. Aquele
-            pai então recebe a notícia de casa: sua filha já morreu, não adianta
-            mais incomodar o Mestre (Mc 5:35). A causa parecia perdida, mas
-            Jesus, ao ouvir aquelas palavras, disse a Jairo: &quot;Não temas, crê
-            somente&quot; (Mc 5:36). Quando Jesus está conosco, a morte e a
-            doença não têm a última palavra (Mc 5:40-42); pelo contrário,
-            precisam se retirar diante da autoridade de Jesus.
+            5:24). Quando Jesus está conosco, podemos ter a certeza de que Ele
+            se importa com nossa dor e com as pessoas, incluindo nós. Além
+            disso, quando Jesus está conosco, os imprevistos humanos não podem
+            frustrar os propósitos divinos. No caminho, Jesus parou para
+            conversar com uma mulher e libertá-la de seu mal (Mc 5:25). Com
+            isso, Jairo deve ter ficado aflito quando Jesus interrompeu a
+            caminhada até sua casa, mas nada pega Jesus de surpresa, pois Ele
+            tem toda a autoridade. Aquele pai então recebe a notícia de casa:
+            sua filha já morreu, não adianta mais incomodar o Mestre (Mc 5:35).
+            A causa parecia perdida, mas Jesus, ao ouvir aquelas palavras, disse
+            a Jairo: &quot;Não temas, crê somente&quot; (Mc 5:36). Quando Jesus
+            está conosco, a morte e a doença não têm a última palavra (Mc
+            5:40-42); pelo contrário, precisam se retirar diante da autoridade
+            de Jesus.
           </P>
           <P className="">
-            Diante da voz do onipotente Filho de Deus, a morte se curva, dobra os
-            joelhos e se prostra, vencida, perante o Criador. Quando Jesus chega
-            à casa do principal da sinagoga, os presentes riram Dele, pois não
-            conheciam o Deus vivo, e por isso, riram incrédulos. Mas Jesus,
+            Diante da voz do onipotente Filho de Deus, a morte se curva, dobra
+            os joelhos e se prostra, vencida, perante o Criador. Quando Jesus
+            chega à casa do principal da sinagoga, os presentes riram Dele, pois
+            não conheciam o Deus vivo, e por isso, riram incrédulos. Mas Jesus,
             diante do coro da morte, ergue-se no solo da ressurreição:
-            &quot;Tomando-a pela mão, disse: Talita cumi, que quer dizer: Menina,
-            eu te mando, levanta-te! Imediatamente, a menina se levantou e
-            pôs-se a andar...&quot; (Mc 5:41-42). Para Jesus, não existe causa
+            &quot;Tomando-a pela mão, disse: Talita cumi, que quer dizer:
+            Menina, eu te mando, levanta-te! Imediatamente, a menina se levantou
+            e pôs-se a andar...&quot; (Mc 5:41-42). Para Jesus, não existe causa
             perdida.
           </P>
         </div>
@@ -1033,26 +1064,27 @@ export default function CursoMarcos() {
             Quanto à incredulidade, a encontramos nos versículos 1 e 2, do
             capítulo 6 desse evangelho. Jesus passa a ministrar em sua terra, na
             região de Nazaré, onde Ele havia crescido. Nesta ocasião as pessoas
-            reconheceram a sabedoria e as maravilhas de Jesus, mas rejeitaram Sua
-            mensagem por causa da dureza de coração e da frieza espiritual.
+            reconheceram a sabedoria e as maravilhas de Jesus, mas rejeitaram
+            Sua mensagem por causa da dureza de coração e da frieza espiritual.
           </P>
           <P className="">
             Primeiro, Jesus oferece uma segunda chance à cidade de Nazaré, pois
             no início do Seu ministério (Lc 4.16-30), Ele já havia sido expulso
             da sinagoga dessa cidade. Agora, Jesus volta em Nazaré dando ao povo
-            uma nova oportunidade. O Povo de Nazaré deveria se sentir o povo mais
-            privilegiado do mundo, pois ali o Filho de Deus havia passado sua
-            infância e juventude, vendo os nazarenos muito de perto a glória de
-            Deus, na face de Cristo (2 Co 4.6), porém eles rejeitaram o
+            uma nova oportunidade. O Povo de Nazaré deveria se sentir o povo
+            mais privilegiado do mundo, pois ali o Filho de Deus havia passado
+            sua infância e juventude, vendo os nazarenos muito de perto a glória
+            de Deus, na face de Cristo (2 Co 4.6), porém eles rejeitaram o
             mensageiro e a mensagem.
           </P>
           <P className="">
-            Segundo, a incredulidade fecha as portas da oportunidade para Nazaré,
-            uma vez que, Jesus não permaneceu lá. Ele foi adiante, não insistiu,
-            Jesus seguiu procurando aqueles que pudessem responder aos Seus
-            milagres e à Sua mensagem. Ele deixou Nazaré pela segunda vez, e não
-            há menção de que tenha voltado lá. Assim, a maioria das pessoas pensa
-            que tem ilimitadas oportunidades para crer, mas isso é engano.
+            Segundo, a incredulidade fecha as portas da oportunidade para
+            Nazaré, uma vez que, Jesus não permaneceu lá. Ele foi adiante, não
+            insistiu, Jesus seguiu procurando aqueles que pudessem responder aos
+            Seus milagres e à Sua mensagem. Ele deixou Nazaré pela segunda vez,
+            e não há menção de que tenha voltado lá. Assim, a maioria das
+            pessoas pensa que tem ilimitadas oportunidades para crer, mas isso é
+            engano.
           </P>
           <P className="">
             Terceiro, a incredulidade de Nazaré fecha as portas para os milagres
@@ -1063,14 +1095,14 @@ export default function CursoMarcos() {
           <P className="">
             Com relação às portas para a proclamação do evangelho, podemos
             observar que quando uma porta se fecha, Deus abre outras. Nesse
-            sentido, Jesus ampliou Seu ministério comissionando os apóstolos, não
-            os chamou apenas para estarem com Ele, mas também para os enviar a
-            pregar e a expelir demônios (Mc 3.14-21). Jesus deu aos apóstolos a
-            mensagem, quando eles saíram a pregar aos homens, não criaram a
+            sentido, Jesus ampliou Seu ministério comissionando os apóstolos,
+            não os chamou apenas para estarem com Ele, mas também para os enviar
+            a pregar e a expelir demônios (Mc 3.14-21). Jesus deu aos apóstolos
+            a mensagem, quando eles saíram a pregar aos homens, não criaram a
             mensagem; levaram a mensagem. Eles não levaram aos homens as suas
             opiniões, mas a verdade de Deus. Os apóstolos pregaram o
-            arrependimento, curaram os enfermos, expulsaram demônios, eles tinham
-            a palavra e o poder.
+            arrependimento, curaram os enfermos, expulsaram demônios, eles
+            tinham a palavra e o poder.
           </P>
         </div>
 
@@ -1090,11 +1122,12 @@ export default function CursoMarcos() {
             narrativa com os eventos que aconteceram depois que João Batista foi
             entregue à prisão, assim como fizeram os escritores dos outros
             Evangelhos Sinóticos. No versículo 16, Jesus anunciou o Reino de
-            Deus, pois esse era o tema de muitas profecias do Antigo Testamento e
-            algo muito familiar para aqueles que ouviam Jesus. O
+            Deus, pois esse era o tema de muitas profecias do Antigo Testamento
+            e algo muito familiar para aqueles que ouviam Jesus. O
             &quot;Arrependei-vos e crede&quot; são atos de fé. Quando alguém
-            aceita o único e verdadeiro objeto de sua fé, deixa de ser uma pessoa
-            comum, porque só Jesus pode preencher o vazio de Deus que há em nós.
+            aceita o único e verdadeiro objeto de sua fé, deixa de ser uma
+            pessoa comum, porque só Jesus pode preencher o vazio de Deus que há
+            em nós.
           </P>
           <P className="">
             Em primeiro lugar, Jesus só iniciou o seu ministério de pregação
@@ -1119,37 +1152,37 @@ export default function CursoMarcos() {
           </P>
           <P className="">
             Além dos locais geográficos, cabe destacar também os temas das
-            pregações de Jesus, sendo ele subdividido em tema geral e particular.
-            Quanto ao tema geral, Jesus pregou o evangelho de Deus. O proclamado
-            inicia seu ministério sendo o proclamador. Jesus começou espalhando a
-            alegria das boas-novas num berço de trevas e opressão. O evangelho de
-            Deus deve ser o tema de toda pregação cristã. Mas, o que significa a
-            palavra evangelho? Ela significa boas-novas, Jesus veio para trazer
-            boas notícias. O evangelho é a promessa de vida; de perdão, de
-            libertação, e de salvação. Esse tema é a mais esplêndida notícia que
-            já soou neste mundo. O homem sem o evangelho está em trevas, o homem
-            não podia conhecer quem é Deus. Jesus veio mostrar a verdade acerca
-            de Deus.
+            pregações de Jesus, sendo ele subdividido em tema geral e
+            particular. Quanto ao tema geral, Jesus pregou o evangelho de Deus.
+            O proclamado inicia seu ministério sendo o proclamador. Jesus
+            começou espalhando a alegria das boas-novas num berço de trevas e
+            opressão. O evangelho de Deus deve ser o tema de toda pregação
+            cristã. Mas, o que significa a palavra evangelho? Ela significa
+            boas-novas, Jesus veio para trazer boas notícias. O evangelho é a
+            promessa de vida; de perdão, de libertação, e de salvação. Esse tema
+            é a mais esplêndida notícia que já soou neste mundo. O homem sem o
+            evangelho está em trevas, o homem não podia conhecer quem é Deus.
+            Jesus veio mostrar a verdade acerca de Deus.
           </P>
           <P className="">
             Quanto ao tema particular, consiste na plenitude do tempo, pois o
             próprio Deus põe fim à espera, uma vez que o povo esperou a vinda do
-            Messias milhares de anos e, finalmente, eis o dia chegado. Jesus veio
-            ao mundo na plenitude dos tempos (Gl 4.4). Essa chegada trouxe também
-            o Reino, que traz salvação aos homens, indica a soberania, o domínio,
-            o reinado de Deus, reconhecido no coração e ativo na vida do seu
-            povo, efetuando completa salvação.
+            Messias milhares de anos e, finalmente, eis o dia chegado. Jesus
+            veio ao mundo na plenitude dos tempos (Gl 4.4). Essa chegada trouxe
+            também o Reino, que traz salvação aos homens, indica a soberania, o
+            domínio, o reinado de Deus, reconhecido no coração e ativo na vida
+            do seu povo, efetuando completa salvação.
           </P>
           <P className="">
             Com relação ao Reino de Deus, fica uma pergunta: quais as condições
             para se entrar nele? Jesus não tinha apenas uma boa-nova para
             anunciar, mas também uma exigência a fazer. Ele apresenta duas
             condições para se entrar no Reino: arrependimento e crer no
-            evangelho. Arrependimento é uma palavra grega,{" "}
-            <em>metanoia</em>, que significa mudança de mente. J.B. Carvalho, em
-            seu livro Metanoia, fala que &quot;para a maioria dos cristãos, na
-            tradição e na tradução, <em>metanoia</em> se tornou arrependimento –
-            seria uma mudança de rota, a conversão, o novo nascimento. Contudo,{" "}
+            evangelho. Arrependimento é uma palavra grega, <em>metanoia</em>,
+            que significa mudança de mente. J.B. Carvalho, em seu livro
+            Metanoia, fala que &quot;para a maioria dos cristãos, na tradição e
+            na tradução, <em>metanoia</em> se tornou arrependimento – seria uma
+            mudança de rota, a conversão, o novo nascimento. Contudo,{" "}
             <em>metanoia</em> é mais que uma única experiência de mudança de
             mente, é uma mudança de mente continuada e sustentada. A{" "}
             <em>metanoia</em> começa na conversão e dura para toda a vida.
@@ -1161,10 +1194,10 @@ export default function CursoMarcos() {
             E o que significa crer no evangelho? Egidio Gioia responde:
             &quot;Significa crer em Deus, pois o evangelho é de Deus. Significa
             crer no Filho de Deus, pois Jesus pregou o evangelho de Deus.
-            Significa crer no Espírito Santo, pois o Espírito Santo ungiu a Jesus
-            para pregar o evangelho (...) Crer no evangelho é crer em Cristo
-            crucificado, ressuscitado e glorificado. Crer em Cristo é ter a vida
-            eterna&quot;.
+            Significa crer no Espírito Santo, pois o Espírito Santo ungiu a
+            Jesus para pregar o evangelho (...) Crer no evangelho é crer em
+            Cristo crucificado, ressuscitado e glorificado. Crer em Cristo é ter
+            a vida eterna&quot;.
           </P>
         </div>
 
@@ -1173,25 +1206,25 @@ export default function CursoMarcos() {
           <P className="">
             Posto isso, as escrituras nos ensinam que com a fé podemos realizar
             milagres, e que ter fé em Deus realiza o impossível. Assim,
-            dependemos de Cristo em tudo, &quot;Sem mim nada podereis fazer&quot;
-            (Jo 15.5). Logo, buscamos, nesse estudo, destacar a autoridade de
-            Jesus, mostramos Ele como soberano, pois o Filho de Deus tem a
-            preeminência. Diante Dele, todo o joelho se dobra no céu, na terra e
-            debaixo da terra. Ele tem poder sobre a natureza, os demônios, a
-            enfermidade e a morte. Ele tem toda a autoridade e todo poder no Céu
-            e na Terra.
+            dependemos de Cristo em tudo, &quot;Sem mim nada podereis
+            fazer&quot; (Jo 15.5). Logo, buscamos, nesse estudo, destacar a
+            autoridade de Jesus, mostramos Ele como soberano, pois o Filho de
+            Deus tem a preeminência. Diante Dele, todo o joelho se dobra no céu,
+            na terra e debaixo da terra. Ele tem poder sobre a natureza, os
+            demônios, a enfermidade e a morte. Ele tem toda a autoridade e todo
+            poder no Céu e na Terra.
           </P>
           <P className="">
-            Descrevemos ainda dois tipos de reações diante dos milagres de Jesus,
-            a incredulidade e a fé. Quando Jesus chega a sua terra, Nazaré, para
-            ministrar, os habitantes daquela região rejeitaram Sua mensagem e
-            devido à incredulidade deles, Cristo não foi capaz de realizar ali
-            nenhum milagre. Onde o Senhor Jesus deveria ter podido encontrar a
-            maior fé Nele, descobriu a mais persistente incredulidade. Porém,
-            diferente daquela reação, temos as pessoas com fé suficiente, que
-            recebiam e criam na mensagem, eram abençoadas, criam na Palavra de
-            Deus, ficavam maravilhadas com os milagres que Jesus e os apóstolos
-            faziam.
+            Descrevemos ainda dois tipos de reações diante dos milagres de
+            Jesus, a incredulidade e a fé. Quando Jesus chega a sua terra,
+            Nazaré, para ministrar, os habitantes daquela região rejeitaram Sua
+            mensagem e devido à incredulidade deles, Cristo não foi capaz de
+            realizar ali nenhum milagre. Onde o Senhor Jesus deveria ter podido
+            encontrar a maior fé Nele, descobriu a mais persistente
+            incredulidade. Porém, diferente daquela reação, temos as pessoas com
+            fé suficiente, que recebiam e criam na mensagem, eram abençoadas,
+            criam na Palavra de Deus, ficavam maravilhadas com os milagres que
+            Jesus e os apóstolos faziam.
           </P>
           <P className="">
             Por fim, vimos que a pregação é a obra mais importante que se pode
@@ -1212,43 +1245,40 @@ export default function CursoMarcos() {
         <H2 id="lesson-4">Lição 4 – O Chamado ao Discipulado de Jesus</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
-          <P className="mt-0">
-            Discorrer sobre o chamado dos discípulos de Jesus.
-          </P>
+          <H3 id="lesson-4-objetivo-geral">Objetivo Geral</H3>
+          <P className="">Discorrer sobre o chamado dos discípulos de Jesus.</P>
         </div>
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-4-introducao">Introdução</H3>
           <P className="">
             A palavra grega <em>mathetes</em> empregada para discípulo é usada
-            aproximadamente 270 vezes nos Evangelhos e livro de Atos. Ela é usada
-            para definir um pupilo que se submete aos processos de aprendizado
-            sob a responsabilidade de um professor. O conceito prevaleceu no
-            Antigo Testamento e é exemplificado pelos &quot;filhos dos
-            profetas&quot; (2 Rs 6.1), que foram os aprendizes que mais tarde
-            substituíram Samuel, Elias e Eliseu. No Novo Testamento, em um
+            aproximadamente 270 vezes nos Evangelhos e livro de Atos. Ela é
+            usada para definir um pupilo que se submete aos processos de
+            aprendizado sob a responsabilidade de um professor. O conceito
+            prevaleceu no Antigo Testamento e é exemplificado pelos &quot;filhos
+            dos profetas&quot; (2 Rs 6.1), que foram os aprendizes que mais
+            tarde substituíram Samuel, Elias e Eliseu. No Novo Testamento, em um
             sentido amplo, Jesus usou a palavra &quot;discípulo&quot; como
             aqueles seus seguidores vindos sob influência de seu ensino. Os
             discípulos de Jesus, hoje e naqueles dias, são aqueles que respondem
             ao seu convite: &quot;Aprendei de mim&quot; (Mt 11.29). Em sentido
-            estrito, discípulo aplica-se ao círculo interno dos Doze, chamados em
-            meio a um grupo maior para que pudessem estar com Cristo.
+            estrito, discípulo aplica-se ao círculo interno dos Doze, chamados
+            em meio a um grupo maior para que pudessem estar com Cristo.
           </P>
           <P className="">
             A cruz de Cristo é símbolo de sofrimento, morte, vergonha, zombaria,
-            rejeição e renúncia pessoal. Quando um crente toma a sua cruz e segue
-            a Cristo, ele nega-se a si mesmo (Lc 14.26,27) e precisa decidir
-            abraçar três tipos de lutas: (1) lutar contra o pecado, crucificando
-            suas próprias concupiscências; (2) lutar contra Satanás e os poderes
-            das trevas, para estender o Reino de Deus, bem como a perseguição que
-            surge por resistirmos aos falsos mestres que distorcem o verdadeiro
-            evangelho; e, (3) sofrer o ódio e o escárnio do mundo por
-            testificarmos contra as suas obras más, por separarmo-nos dele moral
-            e espiritualmente e por rejeitarmos seus padrões e suas filosofias
-            que são contrárias aos princípios cristãos.
+            rejeição e renúncia pessoal. Quando um crente toma a sua cruz e
+            segue a Cristo, ele nega-se a si mesmo (Lc 14.26,27) e precisa
+            decidir abraçar três tipos de lutas: (1) lutar contra o pecado,
+            crucificando suas próprias concupiscências; (2) lutar contra Satanás
+            e os poderes das trevas, para estender o Reino de Deus, bem como a
+            perseguição que surge por resistirmos aos falsos mestres que
+            distorcem o verdadeiro evangelho; e, (3) sofrer o ódio e o escárnio
+            do mundo por testificarmos contra as suas obras más, por
+            separarmo-nos dele moral e espiritualmente e por rejeitarmos seus
+            padrões e suas filosofias que são contrárias aos princípios
+            cristãos.
           </P>
           <P className="">
             No caminho para Jerusalém, via Jericó, ocorreu a maior e mais
@@ -1277,13 +1307,13 @@ export default function CursoMarcos() {
         <div className="flex flex-col gap-4">
           <H3 id="lesson-4-a-eleicao-dos-doze">1. A Eleição dos Doze</H3>
           <P className="">
-            No evangelho de Marcos 3:13-19, temos a eleição dos doze. Jesus tinha
-            muitos discípulos, mas separou doze para serem apóstolos. Discípulo é
-            um aprendiz, enquanto apóstolo é um enviado com uma missão maior, um
-            embaixador em nome do Rei. A ordem é: primeiro converter, depois
-            ordenar. Estes doze eram os apóstolos de Jesus – um grupo enviado
-            para cumprir uma missão específica – e chamados a participar do
-            ministério de milagres de Jesus.
+            No evangelho de Marcos 3:13-19, temos a eleição dos doze. Jesus
+            tinha muitos discípulos, mas separou doze para serem apóstolos.
+            Discípulo é um aprendiz, enquanto apóstolo é um enviado com uma
+            missão maior, um embaixador em nome do Rei. A ordem é: primeiro
+            converter, depois ordenar. Estes doze eram os apóstolos de Jesus –
+            um grupo enviado para cumprir uma missão específica – e chamados a
+            participar do ministério de milagres de Jesus.
           </P>
           <P className="">
             Muitos poderiam ser discípulos, mas apenas um grupo seleto foi
@@ -1308,18 +1338,18 @@ export default function CursoMarcos() {
           </P>
           <P className="">
             A segunda é que Jesus escolheu de forma soberana, conforme a sua
-            própria vontade. O evangelista Marcos registra isso em Mc 3:13. Jesus
-            não fez uma pesquisa de opinião entre a multidão para escolher os
-            doze, nem escolheu a liderança da igreja por critérios humanistas.
-            Ele chama a quem quer, pois é soberano.
+            própria vontade. O evangelista Marcos registra isso em Mc 3:13.
+            Jesus não fez uma pesquisa de opinião entre a multidão para escolher
+            os doze, nem escolheu a liderança da igreja por critérios
+            humanistas. Ele chama a quem quer, pois é soberano.
           </P>
           <P className="">
             A terceira verdade é que Jesus escolheu e capacitou, pois os homens
             que Ele escolheu não possuíam qualidades especiais, não eram todos
             ricos, não tinham posição social influente, eram homens comuns,
             limitados, alguns iletrados, outros de temperamentos explosivos.
-            Contudo, Jesus os escolheu, ensinou, equipou e revestiu de poder. Com
-            esses homens, Ele transformou o mundo.
+            Contudo, Jesus os escolheu, ensinou, equipou e revestiu de poder.
+            Com esses homens, Ele transformou o mundo.
           </P>
           <P className="">
             Quem foram esses doze eleitos por Jesus? Cristo os escolheu
@@ -1327,10 +1357,10 @@ export default function CursoMarcos() {
             doze são um espelho da nova família de Deus, composta de diferentes
             pessoas, lugares, profissões e ideologias. São pessoas limitadas e
             imperfeitas, que frequentemente discordam sobre muitos assuntos.
-            Havia no grupo de Jesus desde um serviçal de Roma até um nacionalista
-            que defendia a guerra contra Roma. Esse grupo tão heterogêneo
-            aprendeu a viver sob o senhorio de Cristo e tornou-se uma bênção para
-            o mundo.
+            Havia no grupo de Jesus desde um serviçal de Roma até um
+            nacionalista que defendia a guerra contra Roma. Esse grupo tão
+            heterogêneo aprendeu a viver sob o senhorio de Cristo e tornou-se
+            uma bênção para o mundo.
           </P>
           <P className="">
             A escolha foi soberana e baseada na graça, não nos méritos, já que a
@@ -1351,8 +1381,8 @@ export default function CursoMarcos() {
           </H3>
           <P className="">
             O ensinamento registrado em Marcos 8:34-38 é o resultado natural do
-            sofrimento de Cristo. Se alguém quer seguir a Cristo, deve andar pelo
-            caminho que Ele andou: o caminho da abnegação e da cruz. A cruz
+            sofrimento de Cristo. Se alguém quer seguir a Cristo, deve andar
+            pelo caminho que Ele andou: o caminho da abnegação e da cruz. A cruz
             simboliza sofrimento, e a abnegação fala da prontidão em sofrer por
             alguém. Quem não se dispõe a carregar a cruz, não usará a coroa.
             Jesus sabia que as multidões O seguiam apenas pelos milagres e não
@@ -1367,14 +1397,15 @@ export default function CursoMarcos() {
             importantes em relação ao discipulado:
           </P>
           <P className="">
-            O discipulado é um convite pessoal, pois Jesus começa com uma chamada
-            condicional: &quot;Se alguém quiser...&quot;. A soberania de Deus não
-            violenta a vontade humana; é preciso existir uma predisposição para
-            seguir a Cristo. Muitos querem apenas o glamour do evangelho, mas não
-            a cruz. Querem os milagres, mas não a renúncia. Querem a
-            prosperidade e a saúde, mas não o arrependimento. Querem o paraíso na
-            terra, mas não a bem-aventurança no céu. O discipulado tem um preço
-            a ser pago, mas somente para aqueles que quiserem.
+            O discipulado é um convite pessoal, pois Jesus começa com uma
+            chamada condicional: &quot;Se alguém quiser...&quot;. A soberania de
+            Deus não violenta a vontade humana; é preciso existir uma
+            predisposição para seguir a Cristo. Muitos querem apenas o glamour
+            do evangelho, mas não a cruz. Querem os milagres, mas não a
+            renúncia. Querem a prosperidade e a saúde, mas não o arrependimento.
+            Querem o paraíso na terra, mas não a bem-aventurança no céu. O
+            discipulado tem um preço a ser pago, mas somente para aqueles que
+            quiserem.
           </P>
           <P className="">
             O discipulado é um convite para uma relação pessoal com Jesus:
@@ -1407,11 +1438,12 @@ export default function CursoMarcos() {
           </P>
           <P className="">
             Além disso, o discípulo conhece a necessidade da renúncia (Mc 8:35).
-            Os valores de um discípulo estão invertidos: ganhar é perder e perder
-            é ganhar. Para garantir a vida eterna, é preciso deixar de lado os
-            bens materiais e os relacionamentos aos quais tanto nos apegamos (Mt
-            16:24-27). A aparente perda material significa ganho, enquanto o
-            aparente ganho material pode ser considerado uma perda (Mt 19:21).
+            Os valores de um discípulo estão invertidos: ganhar é perder e
+            perder é ganhar. Para garantir a vida eterna, é preciso deixar de
+            lado os bens materiais e os relacionamentos aos quais tanto nos
+            apegamos (Mt 16:24-27). A aparente perda material significa ganho,
+            enquanto o aparente ganho material pode ser considerado uma perda
+            (Mt 19:21).
           </P>
           <P className="">
             O discípulo também sabe o valor inestimável da vida. Em Marcos 8:36,
@@ -1420,19 +1452,19 @@ export default function CursoMarcos() {
             <em>psyché</em>. Este princípio se aplica tanto ao nível físico
             quanto ao espiritual. Que valor há em obter tudo o que o mundo
             oferece se uma pessoa morre e não pode desfrutá-lo? Ou, qual a
-            virtude de acumular um mundo de posses terrenas durante alguns poucos
-            anos se isso significa perder a vida eterna? O valor de uma simples
-            alma tem um significado extraordinário no Reino de Cristo.
+            virtude de acumular um mundo de posses terrenas durante alguns
+            poucos anos se isso significa perder a vida eterna? O valor de uma
+            simples alma tem um significado extraordinário no Reino de Cristo.
           </P>
           <P className="">
             Enfim, o discípulo é alguém que não se envergonha de Cristo (Mc
             8:38). Quando Cristo usou a expressão &quot;se envergonhar de mim e
             das minhas palavras&quot;, estava estabelecendo um contraste com a
-            atitude de disposição de perder a vida por causa Dele e do Evangelho.
-            Envergonhar-se é negar Cristo na hora da provação em vez de ficar com
-            Ele, mesmo sob o risco da morte. Da mesma maneira, quando o Senhor
-            vier como Juiz, Ele se envergonhará e repudiará aqueles que O
-            repudiaram.
+            atitude de disposição de perder a vida por causa Dele e do
+            Evangelho. Envergonhar-se é negar Cristo na hora da provação em vez
+            de ficar com Ele, mesmo sob o risco da morte. Da mesma maneira,
+            quando o Senhor vier como Juiz, Ele se envergonhará e repudiará
+            aqueles que O repudiaram.
           </P>
         </div>
 
@@ -1452,8 +1484,8 @@ export default function CursoMarcos() {
           </P>
           <P className="">
             Ele lembrou os doze apóstolos do padrão de grandeza estipulado pelo
-            mundo: os governadores e dignitários têm as pessoas sob seu domínio e
-            exercem autoridade sobre elas. Entretanto, esse não deve ser o
+            mundo: os governadores e dignitários têm as pessoas sob seu domínio
+            e exercem autoridade sobre elas. Entretanto, esse não deve ser o
             costume entre os seguidores de Cristo. Pelo contrário, aquele que
             quer tornar-se grande deve ser o que serve aos seus companheiros. O
             próprio Jesus foi o exemplo supremo de alguém que manifestava a
@@ -1465,13 +1497,13 @@ export default function CursoMarcos() {
             Segundo Rick Warren, fomos moldados para servir a Deus; estamos na
             Terra para fazer uma contribuição, não fomos criados apenas para
             consumir recursos. Deus nos projetou para que nossa vida faça a
-            diferença; fomos criados para acrescentar à vida na Terra, não apenas
-            para extrair. Fomos criados e salvos para servir a Deus. A Bíblia
-            diz: &quot;Foi ele quem nos salvou e nos escolheu para o seu santo
-            trabalho, não porque merecêssemos, mas porque esse era o seu plano
-            muito antes do princípio do mundo – mostrar o seu amor e sua bondade
-            para conosco por meio de Cristo&quot; (2 Tm 1:9). Não fomos salvos
-            pelo serviço, mas para o serviço.
+            diferença; fomos criados para acrescentar à vida na Terra, não
+            apenas para extrair. Fomos criados e salvos para servir a Deus. A
+            Bíblia diz: &quot;Foi ele quem nos salvou e nos escolheu para o seu
+            santo trabalho, não porque merecêssemos, mas porque esse era o seu
+            plano muito antes do princípio do mundo – mostrar o seu amor e sua
+            bondade para conosco por meio de Cristo&quot; (2 Tm 1:9). Não fomos
+            salvos pelo serviço, mas para o serviço.
           </P>
           <P className="">
             No Reino de Deus, temos um lugar, um propósito, um papel e uma
@@ -1481,8 +1513,8 @@ export default function CursoMarcos() {
             para sempre. Servir é o caminho para a verdadeira importância. É por
             meio do ministério que descobrimos o significado da vida. A Palavra
             de Deus diz: &quot;Todos achamos nosso significado e função, como
-            parte do seu corpo&quot; (Rm 12:5). Ao servirmos juntos na família de
-            Deus, nossa vida assume uma importância eterna.
+            parte do seu corpo&quot; (Rm 12:5). Ao servirmos juntos na família
+            de Deus, nossa vida assume uma importância eterna.
           </P>
           <P className="">
             Logo, Jesus, percebendo a ambição no coração dos Seus discípulos,
@@ -1521,26 +1553,26 @@ export default function CursoMarcos() {
           </P>
           <P className="">
             Segundo, a boa nova de Jesus precisa ser pregada (Mc 16:15). O verbo
-            &quot;pregar&quot; é outra palavra preferida de Marcos, encontrada 14
-            vezes neste evangelho, enquanto aparece apenas nove vezes em Mateus e
-            Lucas. Marcos enfatiza que Cristo veio pregando (Mc 1:14), chamou
-            seus discípulos para pregar (Mc 3:14), enviou-os a pregar e agora
-            ordena que preguem em todo o mundo. Dewey Mulholland afirma que estar
-            calado é um perigo maior que perseguição e morte; o evangelho só é
-            boas-novas se for compartilhado.
+            &quot;pregar&quot; é outra palavra preferida de Marcos, encontrada
+            14 vezes neste evangelho, enquanto aparece apenas nove vezes em
+            Mateus e Lucas. Marcos enfatiza que Cristo veio pregando (Mc 1:14),
+            chamou seus discípulos para pregar (Mc 3:14), enviou-os a pregar e
+            agora ordena que preguem em todo o mundo. Dewey Mulholland afirma
+            que estar calado é um perigo maior que perseguição e morte; o
+            evangelho só é boas-novas se for compartilhado.
           </P>
           <P className="">
             Terceiro, a boa nova de Jesus precisa ser recebida (Mc 16:16). O
             evangelho só é experimentado como boas-novas quando é recebido e
-            crido. A Palavra de Deus é como uma espada de dois gumes: traz vida e
-            também sentencia com a morte.
+            crido. A Palavra de Deus é como uma espada de dois gumes: traz vida
+            e também sentencia com a morte.
           </P>
           <P className="">
             Por último, a boa nova de Jesus precisa ser confirmada (Mc 16:18).
             Adolf Pohl afirma que os sinais não estão vinculados a cargos, mas à
             fé que permite que Deus seja Deus. Os sinais fazem parte do contexto
-            missionário, pois o fato de &quot;acompanharem&quot; pressupõe que os
-            discípulos estão em missão para difundir o evangelho.
+            missionário, pois o fato de &quot;acompanharem&quot; pressupõe que
+            os discípulos estão em missão para difundir o evangelho.
           </P>
           <P className="">
             Enfim, a igreja é chamada para ser um sinal de Cristo vivo e
@@ -1559,8 +1591,8 @@ export default function CursoMarcos() {
             Muitos dos seguidores de Jesus poderiam ser chamados de discípulos
             porque ouviam o Mestre e criam no que Ele dizia. Entretanto, Cristo
             escolheu apenas um grupo seleto e heterogêneo para confiar a ele a
-            tarefa de levar o evangelho a todo o mundo. Um grupo como esse era um
-            risco incrível, mas em Cristo, não há galileu nem judeu, nem
+            tarefa de levar o evangelho a todo o mundo. Um grupo como esse era
+            um risco incrível, mas em Cristo, não há galileu nem judeu, nem
             conservador nem progressista, nem pecador nem cobrador nem zelote.
             Foi feito algo novo! Todos nós temos limitações. Jesus pode
             transformar um Tomé cético e incrédulo, num homem crente. Ele pode
@@ -1604,12 +1636,12 @@ export default function CursoMarcos() {
         <H2 id="references">Referências Bibliográficas</H2>
         <div className="flex flex-col gap-4">
           <P className="">
-            CARVALHO, JB. Metanoia: A Chave Está em sua mente. Brasília:
-            Editora Chara, 2018.
+            CARVALHO, JB. Metanoia: A Chave Está em sua mente. Brasília: Editora
+            Chara, 2018.
           </P>
           <P className="">
-            LOPES, Hernandes Dias. Marcos o Evangelho dos milagres. 2. Ed. –
-            São Paulo: Hagnos, 2012. (Comentários Expositivos Hagnos).
+            LOPES, Hernandes Dias. Marcos o Evangelho dos milagres. 2. Ed. – São
+            Paulo: Hagnos, 2012. (Comentários Expositivos Hagnos).
           </P>
           <P className="">
             PEARLMAN, Myer. Conhecendo as doutrinas da Bíblia / Myer Pearlman:
@@ -1667,9 +1699,7 @@ export default function CursoMarcos() {
             <P className="mt-0">Márcio Rezende</P>
           </div>
           <div className="flex flex-col">
-            <P className="mt-0 font-semibold">
-              Projeto Gráfico e Diagramação:
-            </P>
+            <P className="mt-0 font-semibold">Projeto Gráfico e Diagramação:</P>
             <P className="mt-0">Márcio Rezende</P>
           </div>
           <div className="flex flex-col">
