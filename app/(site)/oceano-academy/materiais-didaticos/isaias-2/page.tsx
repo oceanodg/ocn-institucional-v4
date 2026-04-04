@@ -295,6 +295,7 @@ export default function CursoIsaias2() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-7-objetivo-geral">Objetivo Geral</H3>
+          <P className="mt-0">Texto áureo: Isaías 30.18</P>
           <P className="mt-0">
             Demonstrar a denúncia do pecado e o livramento de Deus.
           </P>
@@ -302,7 +303,7 @@ export default function CursoIsaias2() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-7-introducao">Introdução</H3>
-          <P className="mt-0">Texto áureo: Isaías 30.18</P>
+
           <P className="">
             Encontramos nos capítulos em referência (cap. 28-35) que, naquele
             momento, o propósito de Deus era evidenciar princípios e aplicações
@@ -746,7 +747,6 @@ export default function CursoIsaias2() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-9-objetivo-geral">Objetivo Geral</H3>
-          <P className="mt-0">Texto áureo: Isaías 38.16</P>
           <P className="mt-0">
             Destacar a cura do rei Ezequias e a necessidade de se manter alerta.
           </P>
@@ -754,6 +754,7 @@ export default function CursoIsaias2() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-9-introducao">Introdução</H3>
+          <P className="mt-0">Texto áureo: Isaías 38.16</P>
           <P className="">
             O rei Ezequias encontra-se agora moribundo, pois padecia de uma
             enfermidade mortal. Esse prólogo histórico está elencado em 2Rs
@@ -955,12 +956,12 @@ export default function CursoIsaias2() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-10-objetivo-geral">Objetivo Geral</H3>
-          <P className="mt-0">Texto áureo: Isaías 40.22,23</P>
           <P className="mt-0">Demonstrar a grandiosidade do Senhor.</P>
         </div>
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-10-introducao">Introdução</H3>
+          <P className="mt-0">Texto áureo: Isaías 40.22,23</P>
           <P className="">
             O livro do profeta Isaías é comumente conhecido entre os estudiosos
             como a &quot;mini Bíblia&quot;, pois possui 66 capítulos, que se
@@ -1380,7 +1381,6 @@ export default function CursoIsaias2() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-12-objetivo-geral">Objetivo Geral</H3>
-          <P className="mt-0">Texto áureo: Isaías 55.6,7</P>
           <P className="mt-0">
             Destacar as promessas de Deus e os alertas sobre o pecado.
           </P>
@@ -1388,6 +1388,7 @@ export default function CursoIsaias2() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-12-introducao">Introdução</H3>
+          <P className="mt-0">Texto áureo: Isaías 55.6,7</P>
           <P className="">
             Deus concede inspiração ao profeta Isaías para que escreva seus
             alertas e evidencie suas promessas ao povo contemporâneo. Contudo,
@@ -1590,12 +1591,12 @@ export default function CursoIsaias2() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-13-objetivo-geral">Objetivo Geral</H3>
-          <P className="mt-0">Texto áureo: Isaías 61.1-3</P>
           <P className="mt-0">Demonstrar que do Senhor é o reino e a glória.</P>
         </div>
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-13-introducao">Introdução</H3>
+          <P className="mt-0">Texto áureo: Isaías 61.1-3</P>
           <P className="">
             A grandiosa obra de restauração do povo judeu (60.15-22) ocorrerá
             plenamente no futuro. Naquele momento, o Messias se apresentará como
