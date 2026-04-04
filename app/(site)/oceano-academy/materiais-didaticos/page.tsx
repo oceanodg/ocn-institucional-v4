@@ -106,7 +106,7 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "Lucas",
-        link: "https://drive.google.com/file/d/1FUsn59OUpWohICD6K3bQWT-5KreF_zzh/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/lucas",
       },
       {
         title: "João",
