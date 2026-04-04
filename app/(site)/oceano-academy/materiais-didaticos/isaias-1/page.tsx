@@ -275,6 +275,7 @@ export default function CursoIsaias1() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-1-introducao">Introdução</H3>
+          <P className="mt-0">Texto áureo: Isaías 1</P>
           <P className="">
             Que bênção começarmos o estudo de mais uma revista, sendo que, desta
             vez, estaremos aprendendo sobre o livro do profeta Isaías, que se
@@ -288,13 +289,13 @@ export default function CursoIsaias1() {
             a.C. e é um dos mais compreensíveis do Antigo Testamento. É um dos
             profetas maiores e se coloca em quinto lugar em termos de extensão,
             após Gênesis, Salmos, Jeremias e Ezequiel. Isaías é considerado por
-            muitos como o quinto evangelho. É considerado também uma miniBíblia
+            muitos como o quinto evangelho. É considerado também uma mini Bíblia
             por conter 66 capítulos, assim como toda a Bíblia Sagrada. Isaías
-            significa &quot;Jeová salva&quot;. Ele era filho de Amós e foi
-            profeta de Jerusalém por 40 anos. O contexto da época era que tanto
-            Israel quanto Judá estavam sendo ameaçados por inimigos externos,
-            por conta da sua falta de retidão e idolatria exacerbada, causando a
-            ira de Deus, a despeito de todo alerta ao arrependimento.
+            significa “Jeová salva”. Ele era filho de Amós e foi profeta de
+            Jerusalém por 40 anos. O contexto da época era que tanto Israel
+            quanto Judá estavam sendo ameaçados por inimigos externos, por conta
+            da sua falta de retidão e idolatria exacerbada, causando a ira de
+            Deus, a despeito de todo alerta ao arrependimento.
           </P>
           <P className="">
             Tudo isso nos remete às consequências do pecado, mas em
@@ -321,11 +322,11 @@ export default function CursoIsaias1() {
           <P className="">
             Deus alertou o Seu povo para se cuidar e não adotar os cultos e a
             idolatria dos povos de Canaã (Jz 2.18,19), mas a desobediência e a
-            convivência com os pecados dos cananeus passaram a envolver
+            conviv ência com os pecados dos cananeus passaram a envolver
             diretamente os israelitas (Jz 3.4,5). Eles chegaram a queimar em
             sacrifício seus próprios filhos ao deus Moloque, praticaram
             feitiçaria, magia, adivinhação, toda imoralidade sexual com
-            prostitutas cultuais (1 Rs 14.24; 2 Rs 21.6; 2 Cr 33.5).
+            prostitutas cultuais (1Rs 14.24; 2Rs 21.6; 2Cr 33.5).
           </P>
           <P className="">
             Não obstante todo esse cenário de perversão e condenação futura,
@@ -369,7 +370,7 @@ export default function CursoIsaias1() {
             Santidade é a qualidade de quem escolhe viver separado das coisas
             erradas do mundo, do pecado, vivendo em fidelidade e cumprimento da
             Palavra de Deus. Santificação é o processo de tornar alguém santo, é
-            uma toda graça Divina para com todos aqueles que são receptivos a
+            um ato da graça Divina para com todos aqueles que são receptivos a
             essa ação. Tudo é questão de escolha, como veremos a seguir.
           </P>
         </div>
@@ -400,10 +401,10 @@ export default function CursoIsaias1() {
             19,20). Isso é livre arbítrio, é cada pessoa optar por uma vida em
             abundância ou à condenação eterna (Mt 7.13,14). A chancela e a
             certeza do cumprimento veio do próprio Deus, no versículo 20:
-            &quot;porque a boca do Senhor o disse&quot;. Isso nos remete à
-            realidade da Palavra de Deus aos que O escolherem, mas, em
-            contrapartida àqueles que optarem pela segunda alternativa, a
-            condenação eterna no inferno. A escolha é nossa!
+            “porque a boca do Senhor o disse”. Isso nos remete à realidade da
+            Palavra de Deus aos que O escolherem, mas, em contrapartida àqueles
+            que optarem pela segunda alternativa, a condenação eterna no
+            inferno. A escolha é nossa!
           </P>
         </div>
 
@@ -438,7 +439,7 @@ export default function CursoIsaias1() {
             Muitas vezes, passamos por situações desfavoráveis, simplesmente
             porque nos recusamos a dar ouvidos à voz de Deus. Assim como Judá,
             ficamos à mercê do inimigo, presos, cativos e distantes de Deus,
-            simplesmente porque escolhemos o caminho errado (Pv 14.12).
+            simplesmente por que escolhemos o caminho errado (Pv 14.12).
           </P>
         </div>
 
@@ -487,6 +488,7 @@ export default function CursoIsaias1() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-2-introducao">Introdução</H3>
+          <P className="mt-0">Texto áureo: Isaías 2-5</P>
           <P className="">
             Que bom reencontrar você aqui! Isso significa que você está firme no
             propósito de perseverança e de dedicação em aprender sobre o livro
@@ -513,9 +515,8 @@ export default function CursoIsaias1() {
             condenados. Isaías ainda demonstrou a falta do conhecimento do povo
             de Israel ilustrando com a parábola da vinha má. Israel é a vinha e
             essa atitude de negligência em relação a Deus faria com que eles
-            fossem &quot;consumidos pelo fogo&quot; (Is 5.24-30). Preparados?
-            Vamos então para mais uma jornada de conhecimento. Deus abençoe a
-            todos!
+            fossem “consumidos pelo fogo” (Is 5.24-30). Preparados? Vamos então
+            para mais uma jornada de conhecimento. Deus abençoe a todos!
           </P>
         </div>
 
@@ -562,26 +563,25 @@ export default function CursoIsaias1() {
             No capítulo 3 de Isaías, há dois julgamentos, sendo um de Judá e de
             Jerusalém e o outro, das mulheres de Jerusalém. Haveria fome e
             escassez entre eles, tamanha que ninguém desejaria governá-los, onde
-            Deus lhes daria meninos por chefes e crianças por governantes (v.
-            4).
+            Deus lhes daria meninos por chefes e crianças por governantes (v.4).
           </P>
           <P className="">
             O primeiro julgamento foi por conta do excesso de confiança em sua
             abundância e prosperidade, além do desvio do alvo de adoração, ao
             invés de ser o Senhor Deus, eles estavam adorando deuses falsos
             esquecendo-se do Verdadeiro, corrompendo-se, tendo atitudes iguais
-            ou piores às dos pagãos, ao ponto de serem comparados com Sodoma (v.
-            9). Os versículos de 1 a 4 dizem que o Senhor tiraria: &quot;o
-            sustento e o apoio, todo sustento de pão e todo sustento de
-            água&quot;, &quot;o valente, o guerreiro e o juiz; o profeta, o
-            adivinho e o ancião&quot;, &quot;o capitão de cinquenta, o nobre, o
-            conselheiro, o hábil artífice e o perito em encantamentos&quot;. Em
-            contrapartida, Deus faria com que houvesse consolo para os justos
-            (vv. 10,11). Isso demonstra a misericórdia de Deus para com aqueles
-            que permanecem fiéis, a despeito de tudo de errado que os cercam.
+            ou piores às dos pagãos, ao ponto de serem comparados com Sodoma
+            (v.9). Os versículos de 1 a 4 dizem que o Senhor tiraria: “o
+            sustento e o apoio, todo sustento de pão e todo sustento de água”,
+            “o valente, o guerreiro e o juiz; o profeta, o adivinho e o ancião”,
+            “o capitão de cinquenta, o nobre, o conselheiro, o hábil artífice e
+            o perito em encantamentos”. Em contrapartida, Deus faria com que
+            houvesse consolo para os justos (vv.10,11). Isso demonstra a
+            misericórdia de Deus para com aqueles que permanecem fiéis, a
+            despeito de tudo de errado que os cercam.
           </P>
           <P className="">
-            Quanto ao segundo julgamento (vv. 16-26), o profeta trouxe palavras
+            Quanto ao segundo julgamento (vv.16-26), o profeta trouxe palavras
             duras contra as damas da corte da alta classe de Jerusalém que,
             altivas, andavam vaidosas, orgulhosas, enfeitadas. Deus disse que
             suas vestes luxuosas seriam trocadas por panos de sacos, teriam suas
@@ -595,32 +595,32 @@ export default function CursoIsaias1() {
           </H3>
           <P className="">
             Com somente seis versículos, no capítulo 4, Deus revelou ao profeta
-            sobre o Renovo do Senhor (v. 2) que, naquele Dia, seria de
-            &quot;beleza e de glória&quot;. Esse Renovo é Jesus Cristo. Por Seu
-            intermédio, Deus restaurará todas as coisas, não apenas para o povo
-            escolhido, os judeus, mas para toda a humanidade, do passado, do
-            presente e do futuro, em extensão escatológica, desde que O tenham
-            recebido ou O recebam como Senhor e Salvador.
+            sobre o Renovo do Senhor (v.2) que, naquele Dia, seria de “beleza e
+            de glória”. Esse Renovo é Jesus Cristo. Por Seu intermédio, Deus
+            restaurará todas as coisas, não apenas para o povo escolhido, os
+            judeus, mas para toda a humanidade, do passado, do presente e do
+            futuro, em extensão escatológica, desde que O tenham recebido ou O
+            recebam como Senhor e Salvador.
           </P>
           <P className="">
-            O termo &quot;renovo&quot; apresenta dois sentidos: primeiro,
-            representa o fruto da terra onde o profeta faz uma analogia
-            demonstrando que Jesus Cristo, quando veio, veio como um rebento da
-            raiz de Davi, aparentemente morta (Is 53.2; Jr 23.5; 33.15). O Novo
-            Testamento explica que Jesus é o filho de Davi (por isso, a raiz de
-            Davi) que traz salvação eterna a todos que se entregarem a Ele, a
-            crerem Nele (Jo 15.1-8). O segundo sentido representa os frutos
-            espirituais produzidos por Cristo (Is 11.1).
+            O termo “renovo” apresenta dois sentidos: primeiro, representa o
+            fruto da terra onde o profeta faz uma analogia demonstrando que
+            Jesus Cristo, quando veio, veio como um rebento da raiz de Davi,
+            aparentemente morta (Is 53.2; Jr 23.5; 33.15). O Novo Testamento
+            explica que Jesus é o filho de Davi (por isso, a raiz de Davi) que
+            traz salvação eterna a todos que se entregarem a Ele, a crerem Nele
+            (Jo 15.1-8). O segundo sentido representa os frutos espirituais
+            produzidos por Cristo (Is 11.1).
           </P>
           <P className="">
             O reinado de beleza e glória faz alusão ao Reino de Jesus que será
             permeado de uma beleza que olhos jamais viram, ouvidos não ouviram,
-            corações não foram penetrados sobre isso (1 Co 2.9); haverá coisas
-            inefáveis, indizíveis (2 Co 12.4). Deus purificará seu povo (v. 4),
+            corações não foram penetrados sobre isso (1Co 2.9); haverá coisas
+            inefáveis, indizíveis (2Co 12.4). Deus purificará seu povo (v. 4),
             restaurará a fertilidade da terra e abençoará toda habitação pela
-            Sua presença; será a proteção de Jerusalém (v. 5). Acima da nuvem de
-            fumaça de cada habitação, estará o tabernáculo, símbolo da proteção
-            de Deus e de Sua comunhão com o Seu povo (v. 6).
+            Sua presença; será a proteção de Jerusa- lém (v.5). Acima da nuvem
+            de fumaça de cada habitação, estará o tabernáculo, símbolo da
+            proteção de Deus e de Sua comunhão com o Seu povo (v.6).
           </P>
         </div>
 
@@ -630,26 +630,26 @@ export default function CursoIsaias1() {
           </H3>
           <P className="">
             O filho de Amós, no capítulo 5, entoou um cântico popular ao Senhor
-            (&quot;meu amado&quot;), por meio de uma parábola, a da vinha má.
-            Embora essa parábola fale de destruição, Israel ainda foi
-            apresentado como a &quot;planta preferida do Senhor&quot; (v. 7),
-            demonstrando o amor de Deus para com os Seus.
+            (“meu amado”), por meio de uma parábola, a da vinha má. Embora essa
+            parábola fale de destruição, Israel ainda foi apresentado como a
+            “planta preferida do Senhor” (v.7), demonstrando o amor de Deus para
+            com o Seus.
           </P>
           <P className="">
-            Os frutos da vinha do Senhor dos Exércitos eram &quot;uvas
-            bravas&quot; ao invés de &quot;uvas boas&quot; (v. 2), significando
-            que seus pecados trouxeram julgamento sobre a terra. Depois são
-            apresentados seis &quot;ais&quot; evidenciando: cobiça (vv. 8-10),
-            embriaguez (vv. 11-17), indiferença (vv. 18,19), distorção de
-            princípios (v. 20), orgulho (v. 21) e injustiça (vv. 22-25). Nos
-            versículos 24 e 25, Deus disse que Sua ira não se aplacaria, da
-            mesma forma que em Isaías 9.12, 17, 21 e 10.4. Deus julgaria por
-            completo o Seu povo por meio de escravidão e do cativeiro de Israel,
-            reino do Norte, pelos assírios e de Judá, reino do Sul, pelos
-            babilônios. Deus sempre levou muito a sério o pecado da humanidade e
-            nada, absolutamente, deixará de ser julgado. A solução contra a
-            condenação, concretizada em Jesus, é recebê-Lo, entregar a vida a
-            Ele e permitir que o Espírito Santo faça habitação em nós.
+            Os frutos da vinha do Senhor dos Exércitos eram “uvas bravas” ao
+            invés de “uvas boas” (v.2), significando que seus pecados trouxeram
+            julgamento sobre a terra. Depois são apresentados seis “ais”
+            evidenciando: cobiça (vv.8- 10), embriaguez (vv.11-17), indiferença
+            (vv. 18,19), distorção de princípios (v.20), orgulho (v.21) e
+            injustiça (vv. 22-25). Nos versículos 24 e 25, Deus disse que Sua
+            ira não se aplacaria, da mesma forma que em Isaías 9.12,17,21 e
+            10.4. Deus julgaria por completo o Seu povo por meio de escravidão e
+            do cativeiro de Israel, reino do Norte, pelos assírios e de Judá,
+            reino do Sul, pelos babilônios. Deus sempre levou muito a sério o
+            pecado da humanidade e nada, absolutamente, deixará de ser julgado.
+            A solução contra a condenação, concretizada em Jesus, é recebê-Lo,
+            entregar a vida a Ele e permitir que o Espírito Santo faça habitação
+            em nós.
           </P>
           <P className="">
             Nesse capítulo, aprendemos que, rapidamente, a música se transformou
@@ -707,10 +707,11 @@ export default function CursoIsaias1() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-3-introducao">Introdução</H3>
+          <P className="mt-0">Texto áureo: Isaías 6</P>
           <P className="">
             É uma alegria imensa aprender a Palavra do Senhor, não é? Dando
             continuidade ao nosso estudo, abordaremos agora o capítulo 6 de
-            Isaías, onde o profeta, mesmo perdendo um amigo, o rei, vê o Trono
+            Isaías, onde o profeta, mesmo perdendo um amigo, o rei, v ê o Trono
             de Deus e os serafins por cima Dele clamando uns aos outros e
             declarando que a glória do Senhor enche a terra.
           </P>
@@ -725,17 +726,17 @@ export default function CursoIsaias1() {
           </P>
           <P className="">
             É importante a observação da função do chamado na obra de Deus. No
-            caso em comento, Israel estava envolto em toda sorte de pecados,
+            caso em comento, Israel estava envol- to em toda sorte de pecados,
             idolatria, alianças pagãs, consulta de adivinhos, prostituição,
             pecados sexuais e muitos outros. Deus iria levantar alguém para ser
             o Seu porta-voz, aquele que traria as revelações, os alertas e
             também exporia o julgamento do Senhor diante de todas aquelas
             práticas. Então, surge a pergunta que ressoa ainda hoje em todos os
-            corações: &quot;A quem enviarei, e quem há de ir por nós?&quot;. E
-            aí, qual é a sua resposta? Saiba que prestaremos conta diante do
-            Senhor dos Exércitos, caso não cumpramos o que nos está determinado,
-            fazendo a diferença nesse mundo tão pecaminoso e maligno. Que Deus
-            nos abençoe!
+            corações: “ A quem enviarei, e quem há de ir por nós?”. E aí, qual é
+            a sua resposta? Saiba que prestaremos conta diante do Senhor dos
+            Exércitos, caso não cumpramos o que nos está determinado, fazendo a
+            diferença nesse mundo tão pecaminoso e maligno. Que Deus nos
+            abençoe!
           </P>
         </div>
 
@@ -748,14 +749,14 @@ export default function CursoIsaias1() {
             O detalhe interessante é que Deus apareceu para o filho de Amós, no
             ano da morte do rei Uzias, aproximadamente 740 a.C. Esse rei foi um
             dos maiores líderes de Judá, apesar de ter sido disciplinado nos
-            últimos anos de sua vida (2 Cr 26.16-21). Ao que tudo indica, Isaías
+            últimos anos de sua vida (2Cr 26.16-21). Ao que tudo indica, Isaías
             era amigo do rei e sentiu a grandiosa perda.
           </P>
           <P className="">
             O que seria da nação? Afinal o seu rei havia morrido. Incertezas e
             interrogações sempre surgem diante de situações desfavoráveis que
             atravessamos. O trono humano estava sem rei e o próximo a ocupar não
-            se sabia como seria o seu reinado. Apesar disso, o profeta vê o
+            se sabia como seria o seu reinado. Apesar disso, o profeta v ê o
             Senhor assentado sobre um alto e sublime trono. Entendeu? Deus
             continua tendo o domínio, o controle sobre tudo, sobre todas as
             coisas. Ele continua no Seu trono com Sua Majestade e Glória. Nada,
@@ -764,13 +765,13 @@ export default function CursoIsaias1() {
           <P className="">
             Atente-se que as abas das vestes do Senhor enchiam o templo,
             demonstrando toda a infinita glória de Deus. Serafins, que
-            significam &quot;seres ardentes&quot;, os mesmos citados em
-            Apocalipse 4.6-9, clamavam: &quot;Santo, santo, santo...&quot; (v.
-            3). Isso nos faz entender que Santo é o Deus Pai, Santo é o Deus
-            Filho e Santo é o Deus Espírito Santo, ou seja, a Trindade é Santa.
-            Isaías olhou para o Senhor. Devemos olhar para Deus em todos os
-            momentos. Olhe para Ele e jamais se deixe enfraquecer, pelo
-            contrário, encha-se de força, de esperança e de renovação.
+            significam “seres arden- tes”, os mesmos citados em Apocalipse
+            4.6-9, clamavam: “Santo, santo, santo...” (v.3). Isso nos faz
+            entender que Santo é o Deus Pai, Santo é o Deus Filho e Santo é o
+            Deus Espírito Santo, ou seja, a Trindade é Santa. Isaías olhou para
+            o Senhor. Devemos olhar para Deus em todos os momentos. Olhe para
+            Ele e jamais se deixe enfraquecer, pelo contrário, encha-se de
+            força, de esperança e de renovação.
           </P>
         </div>
 
@@ -779,19 +780,18 @@ export default function CursoIsaias1() {
             2. Isaías olha para si mesmo
           </H3>
           <P className="">
-            Isaías, antes de anunciar os &quot;ais&quot; ao povo, primeiramente
-            confessou a Deus o seu próprio pecado dizendo: &quot;Ai de mim!
-            Estou perdido! Porque sou homem de lábios impuros...&quot; (v. 5).
-            Todas as pessoas que se aproximam do Senhor, diante da Sua
-            santidade, passam pela mesma experiência de Isaías, que é externada
-            por meio de confissão de pecados, choro, pranto, arrependimento,
-            mudança de atitudes e reconhecimento de quem nós somos. Precisamos
-            mais disso!
+            Isaías, antes de anunciar os “ais” ao povo, primeiramente confessou
+            a Deus o seu próprio pecado dizendo: “ Ai de mim! Estou perdido!
+            Porque sou homem de lábios impuros...” (v.5). Todas as pessoas que
+            se aproximam do Senhor, diante da Sua santidade, passam pela mesma
+            experiência de Isaías, que é externada por meio de confissão de
+            pecados, choro, pranto, arrependimento, mudança de atitudes e
+            reconhecimento de quem nós somos. Precisamos mais disso!
           </P>
           <P className="">
             Olhar para nós mesmos é uma ação que está em desuso ultimamente.
-            Muitos se olham para os outros, sem enxergar nossos próprios
-            defeitos (Mt 7.3-5). Em contrapartida, reaprenda a olhar para si.
+            Muito se olha para os outros, sem enxergar nossos próprios defeitos
+            (Mt 7.3-5). Em contrapartida, reaprenda a olhar para si.
             Diariamente, faça análises introspectivas para alcance do
             aperfeiçoamento cristão, para uma vida de santidade, de temor e
             reverência às coisas de Deus. Reinvente-se, mas sempre baseie a
@@ -816,34 +816,34 @@ export default function CursoIsaias1() {
             3. Chega o momento da decisão
           </H3>
           <P className="">
-            &quot;A quem enviarei, e quem há de ir por nós?&quot; (v. 8). Vamos
-            analisar essa pergunta. Diante de todo questionamento, quem o faz,
-            espera uma resposta positiva ou negativa. Será que temos o poder da
-            decisão, da resposta? Creio que sim! Muitas pessoas dizem
-            &quot;não&quot; para o chamado de Deus, recusando-se a exercer os
-            seus ministérios e, quando os exercem, acham que os mesmos são
-            descartáveis, podendo &quot;dar um tempo&quot; por causa de assuntos
-            seculares, particulares. Observe ainda que Deus falou &quot;por
-            nós&quot;. Quem estava em pecado era o povo de Judá, mas Deus se
-            colocou junto com eles, não como pecador, o que é impossível para
-            Deus, mas como Aquele que jamais abandona o Seu povo, como Aquele
-            que sustenta quem diz &quot;sim&quot; para o chamado. Ele vai junto
-            e garante o que for necessário para o cumprimento da missão.
+            “A quem enviarei, e quem há de ir por nós?” (v.8). Vamos analisar
+            essa pergunta. Diante de todo questionamento, quem o faz, espera uma
+            resposta positiva ou negativa. Será que temos o poder da decisão, da
+            resposta? Creio que sim! Muitas pessoas dizem “não” para o chamado
+            de Deus, recusando-se a exercer os seus ministérios e, quando os
+            exercem, acham que os mesmos são descartáveis, podendo “dar um
+            tempo” por causa de assuntos seculares, particulares. Observe ainda
+            que Deus falou “por nós”. Quem estava em pecado era o povo de Judá,
+            mas Deus se colocou junto com eles, não como pecador, o que é
+            impossível para Deus, mas como Aquele que jamais abandona o Seu
+            povo, como Aquele que sustenta quem diz “sim” para o chamado. Ele
+            vai junto e garante o que for necessário para o cumprimento da
+            missão.
           </P>
           <P className="">
             Entenda que o chamado é uma evidência do amor, da graça de Deus,
             onde Ele estende a outras pessoas a chance de serem alcançados, por
-            meio de nós. Por isso, devemos ser &quot;instrumentos&quot; no Seu
-            Reino para resgate daqueles que necessitam experimentar a porção
-            dessa misericórdia. E quem o Senhor utilizará? Seres humanos, como
-            eu e você. O chamado é para nós!
+            meio de nós. Por isso, devemos ser "instrumentos" no Seu Reino para
+            resgate daqueles que necessitam experimentar a porção dessa
+            misericórdia. E quem o Senhor utilizará? Seres humanos, como eu e
+            você. O chamado é para nós!
           </P>
           <P className="">
             Infelizmente, poucos respondem aos seus chamados! Fácil não é, mas o
             regozijo de ganhar almas para Deus, de proclamar a Sua Palavra, de
             fazer a Sua obra é indescritível. Isso sem falar que haverá galardão
-            para aqueles que fizerem a obra com excelência (1 Co 3.11-15).
-            Então, &quot;ide&quot;!
+            para aqueles que fizerem a obra com excelência (1 Co 3.11- 15).
+            Então, “ide”!
           </P>
         </div>
 
@@ -852,8 +852,8 @@ export default function CursoIsaias1() {
           <P className="">
             Todo chamado tem um motivo específico ou geral. No caso de Isaías
             foi por conta dos pecados de Israel. Por isso, Deus citou o
-            versículo 9: &quot;Vá e diga a este povo: Ouçam; ouçam, mas sem
-            entender. Vejam; vejam, mas sem perceber&quot;. À primeira vista, a
+            versículo 9: “Vá e diga a este povo: “Ouçam; ouçam, mas sem
+            entender. Vejam; vejam, mas sem perceber”. À primeira vista, a
             tarefa específica de Isaías demonstrou ter sido dar ocasião ao
             endurecimento final da nação, anunciando a sua destruição. Evidente
             que o propósito divino é, antes, permitir ao povo o arrependimento,
@@ -871,12 +871,12 @@ export default function CursoIsaias1() {
           <P className="">
             Quando um povo, ainda que seja o povo escolhido, se posiciona contra
             Deus, até mesmo as Suas misericórdias não se furtam de proceder ao
-            julgamento dessas ações. Isaías perguntou no versículo 11: &quot;Até
-            quando, Senhor?&quot; Deus respondeu que seria até que a terra fosse
-            assolada e o povo desaparecesse. Atente-se para o termo &quot;décima
-            parte&quot; do versículo 13! Isso significa que um restante será
-            deixado, que também será destruído, ficando somente o toco, a raiz,
-            de onde ainda brotará um Rebento, um Renovo, Jesus. Que tremendo!
+            julgamento dessas ações. Isaías perguntou no versículo 11: “ Até
+            quando, Senhor?” Deus respondeu que seria até que a terra fosse
+            assolada e o povo desaparecesse. Atente-se para o termo “décima
+            parte” do versículo 13! Isso significa que um restante será deixado,
+            que também será destruído, ficando somente o toco, a raiz, de onde
+            ainda brotará um Rebento, um Renovo, Jesus. Que tremendo!
           </P>
         </div>
 
@@ -895,7 +895,7 @@ export default function CursoIsaias1() {
           </P>
           <P className="">
             Quando nos aproximamos do Senhor, de Sua santidade, reconhecemos
-            quem somos. Por isso, essa autoanálise deve ser feita diariamente
+            quem somos. Por isso, essa auto análise deve ser feita diariamente
             para que nos aperfeiçoemos e nos livremos dos pecados que, tão
             tenazmente, nos assedia. Todo obreiro, servo de Deus, deve viver em
             santidade, com a vida no altar do Senhor, não achando normal as
@@ -919,6 +919,7 @@ export default function CursoIsaias1() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-4-objetivo-geral">Objetivo Geral</H3>
+          <P className="mt-0">Texto áureo: Isaías 7-12</P>
           <P className="mt-0">
             Demonstrar o plano de Deus em relação à vinda do Messias profetizada
             por Isaías.
@@ -934,8 +935,8 @@ export default function CursoIsaias1() {
             pelo mundo. Não se esqueça de que essas profecias aconteceram mais
             de sete séculos antes do Seu nascimento! Deus já sabia de tudo; Ele
             tem o controle de tudo, de todas as coisas. O filho de Amós foi o
-            escolhido, mas teve que dizer &quot;sim&quot; (lição anterior), para
-            ser a voz profética naquela nação.
+            escolhido, mas teve que dizer “sim” (lição anterior), para ser a voz
+            profética naquela nação.
           </P>
           <P className="">
             O contexto da época era de crescimento de poder dos assírios, que
@@ -945,9 +946,9 @@ export default function CursoIsaias1() {
             Secretamente, o rei Acaz, negociava uma aliança com os assírios para
             proteger Judá (2 Rs 16.1-9). Porque Acaz não deu ouvidos a Isaías,
             Deus afastou-se dele e deu um sinal a toda a casa de Davi, conforme
-            o verso 14, do capítulo 7: &quot;Eis que a virgem conceberá e dará à
-            luz um filho e lhe chamará Emanuel.&quot; Isso se concretizou em
-            Maria, conforme Mateus 1.23.
+            o verso 14, do capítulo 7: “Eis que a virgem conceberá e dará à luz
+            um filho e lhe chamará Emanuel.” Isso se concretizou em Má- ria,
+            conforme Mateus 1.23.
           </P>
           <P className="">
             Ele veio conforme foi profetizado. O sinal se cumpriu exatamente
@@ -966,13 +967,13 @@ export default function CursoIsaias1() {
           <P className="">
             Foi profetizado que a virgem conceberia, daria à luz a um filho, e o
             Seu nome seria Emanuel (Is 7.14) e isso aconteceu exatamente
-            conforme fora previsto! Emanuel significa &quot;Deus conosco&quot;.
-            Deus estaria conosco, por intermédio do Seu Filho. A concepção foi
-            pelo Espírito Santo (Lc 1.31-35). Jesus nasceu de uma mãe humana,
-            mas Ele já existia antes de Maria, na eternidade passada (Jo 1.1-3;
-            3.13). O Messias veio para salvar o ser humano da condenação eterna,
-            pelos seus pecados. Por meio da morte e do derramamento do sangue de
-            Jesus na cruz, a porta, mesmo estreita (Mt 7.13,14), foi aberta. O
+            conforme fora previsto! Emanuel significa “Deus co- nosco”. Deus
+            estaria conosco, por intermédio do Seu Filho. A concepção foi pelo
+            Espírito Santo (Lc 1.31-35). Jesus nasceu de uma mãe humana, mas Ele
+            já existia antes de Maria, na eternidade passada (Jo 1.1-3; 3.13). O
+            Messias veio para salvar o ser humano da condenação eterna, pelos
+            seus pecados. Por meio da morte e do derramamento do sangue de Jesus
+            na cruz, a porta, mesmo estreita (Mt 7.13,14), foi aberta. O
             sacrifício foi perfeito, o preço foi pago. A partir daí, todos
             aqueles que confessarem a Jesus Cristo como Senhor e Salvador,
             seriam salvos (Rm 10.9,10).
@@ -986,11 +987,10 @@ export default function CursoIsaias1() {
           </P>
           <P className="">
             Cristo não é sobrenome de Jesus, mas é uma palavra do latim
-            &quot;Christu&quot;, derivado do grego &quot;Khristós&quot;, que
-            significa &quot;ungido&quot;, derivado do hebraico
-            &quot;Mashiach&quot; que significa &quot;Messias&quot;. Jesus Cristo
-            é o Messias tão esperado pelo povo judeu, mas não recebido e
-            reconhecido por eles (Jo 1.11). Por isso a salvação foi estendida
+            “Christu”, derivado do grego “Khristós”, que significa “ungido”,
+            derivado do hebraico “Mashiach” que significa “Messias”. Je- sus
+            Cristo é o Messias tão esperado pelo povo judeu, mas não recebido e
+            reconhe- cido por eles (Jo 1.11). Por isso a salvação foi estendida
             aos gentios. Todos que recebem a Jesus formam a Sua Igreja.
           </P>
         </div>
@@ -1003,9 +1003,8 @@ export default function CursoIsaias1() {
             Judá iria pagar pela sua infidelidade e pecados. Juntamente com a
             profecia do menino Emanuel, outros dois foram mencionados no
             capítulo 8 de Isaías. Ambos eram filhos do profeta. Eram
-            &quot;Sear-Jasube&quot;, que significa &quot;um resto volverá&quot;
-            e &quot;Maer-Salal-Hás-Baz&quot;, que quer dizer
-            &quot;rápido-despojo-presa-segura&quot;.
+            “Sear-Jasube”, que significa “um resto volverá” e
+            “Maer-Salal-Hás-Baz”, que quer dizer “rápido-despojo-presa-segura”.
           </P>
           <P className="">
             O primeiro nome remete à certeza da consumação do cativeiro
@@ -1015,7 +1014,7 @@ export default function CursoIsaias1() {
             profeta foi por conta da Síria e Israel que seriam rapidamente
             despojados. O nome desse filho de Isaías expressava a ideia de
             rápido livramento. Foi o que aconteceu! Os assírios vitoriosos
-            arremeteram com imensa força sobre Judá (v. 8) e somente foram
+            arremeteram com imensa força sobre Judá (v.8) e somente foram
             contidos pela intervenção poderosa do Senhor (Is 37.36). Dessa
             forma, os nomes dos filhos de Isaías evidenciaram os motivos de suas
             proclamações diárias em Judá: livramento presente, cativeiro
@@ -1044,9 +1043,9 @@ export default function CursoIsaias1() {
             O Rei dos reis e Senhor dos Senhores viria e Isaías foi a voz
             profética do Antigo Testamento que mais detalhou a Sua vinda e o Seu
             poder (Is 7.14; 8.14; 9.6,7; 22.22; 25.8; 28.16; 35.5,6; 53.2-12).
-            Por isso ele é conhecido como o &quot;profeta messiânico&quot;.
-            Todas as profecias do advento foram cumpridas. É importante saber
-            que no Novo Testamento, o livro mais citado é o livro de Isaías.
+            Por isso ele é conhecido como o “profeta messiânico”. Todas as
+            profecias do advento foram cumpridas. É importante saber que no Novo
+            Testamento, o livro mais citado é o livro de Isaías.
           </P>
           <P className="">
             Os judeus creem que Isaías foi um profeta de Deus, mas não
@@ -1057,12 +1056,12 @@ export default function CursoIsaias1() {
             não teria aparência, nem formosura, seria desprezado e rejeitado
             entre os homens. Em contrapartida, com a Sua morte, Ele venceria e
             reinaria para todo sempre. Por isso, Isaías também o descreveu, no
-            versículo 6, como &quot;Maravilhoso conselheiro&quot; onde o Seu
-            Reino será indescritível e governado com sabedoria e justiça;
-            &quot;Deus Forte&quot;, demonstrando a Sua força e poder; &quot;Pai
-            da Eternidade&quot;, pois Seu Reinado é eterno, &quot;Príncipe da
-            Paz&quot;, pois no Seu Reino haverá paz. Todos que reconhecem Jesus
-            como O Messias e O recebem, passam a fazer parte do Seu Reino.
+            versículo 6, como “Maravilhoso conselheiro” onde o Seu Reino será
+            indescritível e governado com sabedoria e justiça; “Deus Forte",
+            demonstrando a Sua força e poder; “Pai da Eternidade”, pois Seu
+            Reinado é eterno, “Príncipe da Paz”, pois no Seu Reino haverá paz.
+            Todos que reconhecem Jesus como O Messias e O recebem, passam a
+            fazer parte do Seu Reino.
           </P>
         </div>
 
@@ -1087,9 +1086,9 @@ export default function CursoIsaias1() {
           <P className="">
             Ocorrerá a restauração da criação, onde a natureza poderá desfrutar
             da harmonia, regozijo e paz da mesma forma que havia antes do pecado
-            (11.6-9). Será o Reinado Milenar de Jesus. Dentre as linhas
-            doutrinárias, cremos na &quot;Dispensacionalista&quot;. Dessa forma,
-            Jesus arrebatará a igreja antes da Grande Tribulação, e voltará para
+            (11.6- 9). Será o Reinado Milenar de Jesus. Dentre as linhas
+            doutrinárias, cremos na “Dispensacionalista”. Dessa forma, Jesus
+            arrebatará a igreja antes da Grande Tribulação, e voltará para
             salvar Israel antes do Milênio quando ocorrerá a Batalha do
             Armagedom, onde Satanás será preso por mil anos. A Igreja
             arrebatada, já terá passado pelo Tribunal de Cristo e pelas Bodas do
@@ -1107,8 +1106,8 @@ export default function CursoIsaias1() {
             Mesmo Judá e Israel estarem prestes a serem levados cativos, Deus,
             por intermédio do profeta Isaías, animou o povo quanto à esperança
             futura, detalhando a vinda do Messias, onde um menino nasceria de
-            uma virgem e se chamaria Emanuel, o &quot;Deus conosco&quot;. Deus
-            estaria conosco, por intermédio de Jesus Cristo.
+            uma virgem e se chamaria Emanuel, o “Deus conosco”. Deus estaria
+            conosco, por intermédio de Jesus Cristo.
           </P>
           <P className="">
             A nossa esperança deve estar exclusivamente em Jesus. Ele é a nossa
@@ -1139,6 +1138,7 @@ export default function CursoIsaias1() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-5-objetivo-geral">Objetivo Geral</H3>
+          <P className="mt-0">Texto áureo: Isaías 13-23</P>
           <P className="mt-0">
             Demonstrar ao leitor a disciplina de Deus sobre as nações da Terra.
           </P>
@@ -1167,13 +1167,13 @@ export default function CursoIsaias1() {
           </P>
           <P className="">
             Todo líder mundial, mesmo com seu poderio militar, econômico,
-            financeiro, tecnológico tem a oportunidade de reconhecer que
-            &quot;...o Altíssimo tem domínio sobre os reinos do mundo e os dá a
-            quem ele quer.&quot; (Dn 4.25). Diferente disso, eles têm escolhido
-            o caminho da apostasia, da apologia ao erro, do descrédito à Bíblia
-            e a Deus. Todos serão julgados pelo Soberano Juiz. Quem dera
-            entendessem o Salmo 33.12 que diz: &quot;Feliz a nação cujo Deus é o
-            Senhor, e o povo que ele escolheu para a sua herança.&quot;!
+            financeiro, tecnológico tem a oportunidade de reconhecer que “...o
+            Altíssimo tem domínio sobre os reinos do mundo e os dá a quem ele
+            quer.” (Dn 4.25). Diferente disso, eles têm escolhido o caminho da
+            apostasia, da apologia ao erro, do descrédito à Bíblia e a Deus.
+            Todos serão julgados pelo Soberano Juiz. Quem dera entendessem o
+            Salmo 33.12 que diz: “Feliz a nação cujo Deus é o Senhor, e o povo
+            que ele escolheu para a sua herança.”!
           </P>
         </div>
 
@@ -1183,27 +1183,26 @@ export default function CursoIsaias1() {
           </H3>
           <P className="">
             As atitudes do povo de Judá e de Jerusalém se confundiam com as dos
-            vizinhos pagãos. O provérbio popular era &quot;comamos e bebamos,
-            porque amanhã morreremos&quot; (Is 22.13) e &quot;Vamos nos
-            encharcar de bebidas fortes.&quot; (Is 56.12). Foi por essas
-            atitudes que Isaías os colocou na lista das nações que sentiriam o
-            juízo de Deus. Ainda assim, a misericórdia do Senhor livraria Judá
-            da invasão assíria, mas não os pouparia dos babilônios. Isso porque
-            não houve arrependimento sincero e abandono dessas práticas
-            malignas. O juízo viria, mas seria envolvido em uma porção de
-            misericórdia.
+            vizinhos pagãos. O provérbio popular era “comamos e bebamos, porque
+            amanhã morreremos” (Is 22.13) e “Vamos nos encharcar de bebidas
+            fortes.” (Is 56.12). Foi por essas atitudes que Isaías os colocou na
+            lista das nações que sentiriam o juízo de Deus. Ainda assim, a
+            misericórdia do Senhor livraria Judá da invasão assíria, mas não os
+            pouparia dos babilônios. Isso porque não houve arrependimento
+            sincero e abandono dessas práticas malignas. O juízo viria, mas
+            seria envolvido em uma porção de misericórdia.
           </P>
           <P className="">
             Misericórdia é uma característica diretamente ligada ao amor de
             Deus. No Antigo Testamento, dentre os seus significados, encontramos
-            &quot;hanan&quot;, que dá ideia de graça e favor. Já no Novo
-            Testamento, destaca-se &quot;eleos&quot;, que significa compaixão e
-            piedade. Os versículos 22 e 23, do capítulo 3, de Lamentações
-            afirmam: &quot;As misericórdias do Senhor são a causa de não sermos
-            consumidos, porque as suas misericórdias não têm fim; renovam-se
-            cada manhã. Grande é a tua fidelidade.&quot; Observe que a palavra
-            &quot;misericórdia&quot; aqui está no plural, dando entendimento de
-            que a mesma é infinita, renovando-se a cada manhã.
+            “hanan”, que dá ideia de graça e favor. Já no Novo Testamento,
+            destaca-se “eleos”, que significa compaixão e piedade. Os versículos
+            22 e 23, do capítulo 3, de Lamentações afirmam: “ As misericórdias
+            do Senhor são a causa de não sermos consumidos, porque as suas
+            misericórdias não têm fim; renovam-se cada manhã. Grande é a tua
+            fidelidade.” Observe que a palavra “misericórdia” aqui está no
+            plural, dando entendimento de que a mesma é infinita, renovando-se a
+            cada manhã.
           </P>
           <P className="">
             Judá e Israel fizeram de tudo para não serem conquistados pelos
@@ -1232,7 +1231,7 @@ export default function CursoIsaias1() {
             destruiu todo o seu exército quando este ameaçava invadir Jerusalém.
             A Filístia foi exterminada pela guerra e pela fome. Moabe, que era
             fruto do incesto de Ló com sua filha, foi invadido e arrasado pela
-            Assíria. Damasco (Síria) sofreu juntamente com Efraim, por serem
+            Assí- ria. Damasco (Síria) sofreu juntamente com Efraim, por serem
             aliados contra Judá, sendo tomada pelos inimigos.
           </P>
           <P className="">
@@ -1257,24 +1256,24 @@ export default function CursoIsaias1() {
           </H3>
           <P className="">
             Deus usou nações ímpias para executar o juízo sobre o Seu povo, por
-            conta dos seus pecados. Mas, Ele não &quot;fechou os olhos&quot;
-            diante dos erros dessas nações. É o caso da Babilônia, a primeira
-            nação citada nos capítulos 13 e 14, onde a sua queda foi declarada.
-            A Babilônia suplantaria a Assíria, que era a nação dominadora no
-            tempo de Isaías. O império da Média, que naquela época era
-            desconhecido, posteriormente destruiria a Babilônia.
+            conta dos seus pecados. Mas, Ele não “fechou os olhos” diante dos
+            erros dessas nações. É o caso da Babilônia, a primeira nação citada
+            nos capítulos 13 e 14, onde a sua queda foi declarada. A Babilônia
+            suplantaria a Assíria, que era a nação dominadora no tempo de
+            Isaías. O império da Média, que naquela época era desconhecido,
+            posteriormente destruiria a Babilônia.
           </P>
           <P className="">
-            O ponto importante a ser observado é que os judeus seriam levados
-            presos pelo rei babilônio, ficariam cativos por setenta anos como
+            O ponto importante a ser obser- vado é que os judeus seriam levados
+            presos pelo rei babilônio, ficariam ca- tivos por setenta anos como
             escravos, mas, com a queda da Babilônia, eles voltariam para
-            Jerusalém, reconstruiriam os muros da cidade, suas casas e o templo,
-            conforme descrito nos livros de Esdras e Neemias. Quando uma nação
-            trata outra com injustiça, Deus não deixa de fazer justiça e
+            Jerusalém, reconstrui- riam os muros da cidade, suas casas e o
+            templo, conforme descrito nos livros de Esdras e Neemias. Quando uma
+            nação trata outra com injustiça, Deus não deixa de fazer justiça e
             disciplinar quem assim age. O Senhor, no Seu trono, tem o controle
             de tudo e não deixará de punir toda injustiça e pecado,
             principalmente, se o reflexo desse erro e injustiça for contra o
-            povo de Deus (1 Cr 16.22).
+            povo de Deus (1Cr 16.22).
           </P>
           <P className="">
             Quando uma nação se torna inimiga de Deus e se volta contra Ele
@@ -1301,15 +1300,15 @@ export default function CursoIsaias1() {
           <P className="">
             Aqueles que não reconhecerem o perfeito plano de salvação de Deus,
             por intermédio do Messias, Jesus Cristo, serão condenados (Hb 9.27).
-            Comparecerão diante do Grande Trono Branco (Ap 20.11-15). Todos os
+            Comparecerão diante do Grande Trono Bran- co (Ap 20.11-15). Todos os
             grandes, os pequenos, de todas as épocas, de todos os lugares serão
             julgados, um por um segundo as suas obras. Não haverá defesa, pois
-            rejeitaram o Advogado (1 Jo 2.1). A única sentença será a condenação
+            rejeitaram o Advogado (1Jo 2.1). A única sentença será a condenação
             no lago de fogo e enxofre. Se o nome não estiver no livro da vida, o
             fim será a condenação eterna. Mas, quem recebeu a Jesus e se
             entregou a Ele, tem o nome escrito nesse livro, e não será
             condenado, pois o preço já foi pago. Comparecerão diante do Tribunal
-            de Cristo (2 Co 5.10) para prestação de contas de suas obras e
+            de Cristo (2Co 5.10) para prestação de contas de suas obras e
             recebimento do galardão, não para condenação.
           </P>
           <P className="">
@@ -1342,12 +1341,11 @@ export default function CursoIsaias1() {
             ninguém escapará.
           </P>
           <P className="">
-            Qual é a solução então? A única solução se chama &quot;Jesus
-            Cristo&quot;. Somente Ele pode nos livrar do inferno, da condenação
-            eterna e nos proporcionar a dádiva de estarmos com Ele no céu. Para
-            que arriscar? Não queira &quot;pagar para ver&quot;. Corra e receba
-            a Jesus, caso ainda não tenha feito. Sim, agora mesmo, aí onde você
-            está.
+            Qual é a solução então? A única solução se chama “Jesus Cristo”.
+            Somente Ele pode nos livrar do inferno, da condenação eterna e nos
+            proporcionar a dádiva de estarmos com Ele no céu. Para que arriscar?
+            Não queira “pagar para ver”. Corra e receba a Jesus, caso ainda não
+            tenha feito. Sim, agora mesmo, aí onde você está.
           </P>
         </div>
       </Container>
@@ -1367,25 +1365,25 @@ export default function CursoIsaias1() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-6-introducao">Introdução</H3>
+          <P className="mt-0">Texto áureo: Isaías 24-27</P>
           <P className="">
-            Vamos estudar um pouco de escatologia baseada nas profecias
-            apocalípticas de Isaías? Apocalipse vem do grego
-            &quot;apokálypsis&quot; e significa &quot;revelação&quot;,
-            &quot;manifestação&quot;; é a revelação das coisas que irão
-            acontecer. Deus revela aos profetas sobre o que irá ocorrer,
-            conforme vemos em Amós 3.7: &quot;Certamente o Senhor Deus não fará
-            coisa alguma, sem primeiro revelar o seu segredo aos seus servos, os
-            profetas.&quot;.
+            Vamos estudar um pouco de escatologia baseada nas profecías
+            apocalípticas de Isaías? Apocalipse vem do grego “apokálypsis” e
+            significa “revelação”, “manifestação”; é a revelação das coisas que
+            irão acontecer. Deus revela aos profetas sobre o que irá ocorrer,
+            conforme vemos em Amós 3.7: "Certamente o Senhor Deus não fará coisa
+            alguma, sem primeiro revelar o seu segredo aos seus servos, os
+            profetas.”.
           </P>
           <P className="">
             Na lição anterior, baseada nos capítulos 13 a 23, aprendemos sobre
             os juízos proferidos contra dez nações e em particular, Judá. Agora,
             a ênfase do juízo é sobre o mundo inteiro. Será um julgamento
-            universal e englobará pessoas de todos os tempos. Esse será o
-            &quot;Dia do Senhor&quot;. No Novo Testamento esse dia está
-            registrado em Mateus 24, Marcos 13 e Apocalipse 6-19. Deus julgará
-            todos os transgressores que são amantes do pecado, das obras carnais
-            (Gl 5.19-21). Estes não herdarão o Reino de Deus.
+            universal e englobará pessoas de todos os tempos. Esse será o “Dia
+            do Senhor”. No Novo Testamento esse dia está registrado em Mateus
+            24, Marcos 13 e Apocalipse 6-19. Deus julgará todos os
+            transgressores que são amantes do pecado, das obras carnais (Gl
+            5.19-21). Estes não herdarão o Reino de Deus.
           </P>
           <P className="">
             O filho de Amós foi o porta-voz de alerta do povo daquela época e
@@ -1395,8 +1393,8 @@ export default function CursoIsaias1() {
             proporcionando vida eterna àqueles que se renderem ao Seu Plano de
             Salvação. A despeito de todas as profecias apocalípticas, Deus
             demonstra o Seu amor, proteção e salvação à humanidade. Quem se
-            submete ao Senhor, com certeza, verá que verdadeiramente &quot;valeu
-            a pena&quot;!
+            submete ao Senhor, com certeza, verá que verdadeiramente "valeu a
+            pena”!
           </P>
         </div>
 
@@ -1419,17 +1417,16 @@ export default function CursoIsaias1() {
             vemos a degradação da Terra, o homem se atola em seus pecados e
             desobediência. Há séculos, o planeta vem sendo poluído, devastado e
             Deus tem ouvido o gemido da natureza. Paulo descreveu isso em
-            Romanos 1.18-2.16. Em Isaías 24.5, o profeta disse que: &quot;A
-            terra está contaminada por causa dos seus moradores, porque
-            transgridiram as leis, violaram os estatutos e quebraram a aliança
-            eterna.&quot;
+            Romanos 1.18-2.16. Em Isaías 24.5, o profeta disse que: "A terra
+            está contaminada por causa dos seus moradores, porque transgridem as
+            leis, violam os estatutos e quebram a aliança eterna."
           </P>
           <P className="">
-            O versículo 18 cita a abertura das &quot;represas do alto&quot;, nos
-            fazendo lembrar do dilúvio (Gn 7.11). Jesus nos alertou em Mateus
-            24.37-42 que a humanidade se tornaria como nos dias de Noé, onde
-            todos comiam, bebiam, casavam-se e se davam em casamento, até o dia
-            do juízo, o dilúvio. É importante sabermos que no Dia do Senhor, não
+            O versículo 18 cita a abertura das “represas do alto”, nos fazendo
+            lembrar do dilúvio (Gn 7.11). Jesus nos alertou em Mateus 24.37-42
+            que a humanidade se tornaria como nos dias de Noé, onde todos
+            comiam, bebiam, casavam-se e se davam em casamento, até o dia do
+            juízo, o dilúvio. É importante sabermos que no Dia do Senhor, não
             somente a humanidade será afetada, mas também Satanás e suas hostes
             malignas. Deus julgará todos e tudo para inaugurar uma nova terra,
             um novo tempo eterno.
@@ -1439,12 +1436,12 @@ export default function CursoIsaias1() {
         <div className="flex flex-col gap-4">
           <H3 id="lesson-6-a-abolicao-da-morte">2. A abolição da morte</H3>
           <P className="">
-            No capítulo 25, o profeta citou que: &quot;Tragará a morte para
-            sempre, e, assim, o Senhor Deus enxugará as lágrimas de todos os
-            rostos, e tirará de toda a terra o vexame do seu povo, porque o
-            Senhor falou&quot;, dando esperança de vida eterna sem ter que
-            passar pela morte, pela dor da perda de entes queridos, onde esse
-            inimigo será destruído para sempre.
+            No capítulo 25, o profeta citou que: “Tragará a morte para sempre,
+            e, assim, o Senhor Deus enxugará as lágrimas de todos os rostos, e
+            tirará de toda a terra o vexame do seu povo, por- que o Senhor
+            falou”, dando esperança de vida eterna sem ter que passar pela
+            morte, pela dor da perda de entes queridos, onde esse inimigo será
+            destruído para sempre.
           </P>
           <P className="">
             Quando o homem e a mulher pecaram no Éden (Gn 3), três tipos de
@@ -1453,20 +1450,19 @@ export default function CursoIsaias1() {
             não tem Jesus em sua vida. Já a eterna, a pior das três, é a
             condenação eterna ao inferno. Pelo sacrifício de Jesus Cristo, essas
             mortes foram vencidas. A carnal não mais existirá pois seremos
-            arrebatados e teremos corpos glorificados (1 Co 15.35-49). A
+            arrebatados e teremos corpos glorificados (1Co 15.35.49). A
             espiritual é eliminada quando recebemos a Jesus como Senhor e
             Salvador. Somos religados a Deus, pois é o nosso espírito que está
             ligado às coisas de Deus. A morte eterna não acontecerá para os
             salvos em Cristo Jesus, pois a promessa é de vida eterna.
           </P>
           <P className="">
-            O último inimigo a ser vencido e destruído será a morte (1 Co 15.26,
+            O último inimigo a ser vencido e destruído será a morte (1Co 15.26,
             54; Ap 21.4). Com a ressurreição de Jesus, Ele venceu a morte e nos
-            dará a vida eterna. Ainda no versículo 8, é dito que &quot;Deus
-            enxugará todas as lágrimas&quot;, sendo que na eternidade não haverá
-            tristeza, nem choro. A tristeza do funeral foi transformada em
-            alegria da festa de casamento. A noiva estará para sempre com o
-            Noivo.
+            dará a vida eterna. Ainda no versículo 8, é dito que “Deus enxugará
+            todas as lágrimas”, sendo que na eternidade não haverá tristeza, nem
+            choro. A tristeza do funeral foi transformada em alegria da festa de
+            casamento. A noiva estará para sempre com o Noivo.
           </P>
         </div>
 
@@ -1475,35 +1471,34 @@ export default function CursoIsaias1() {
             3. Deus ama, protege e salva o seu povo
           </H3>
           <P className="">
-            O capítulo 26 se inicia com a expressão &quot;naquele dia&quot; que
-            se refere ao &quot;Dia do Senhor&quot; e todas as bênçãos vinculadas
-            que se seguirão quando o Senhor derrotar todos os seus inimigos. Há
-            promessas para o povo de Deus. No contexto de Isaías, Samaria tinha
-            sido destruída pelos inimigos assírios, Jerusalém, pelos babilônios,
-            mas a Nova Jerusalém será invencível, será eterna, não haverá
-            inimigos para o povo salvo.
+            O capítulo 26 se inicia com a expressão “naquele dia” que se refere
+            ao “Dia do Senhor” e todas as bênçãos vinculadas que se seguirão
+            quando o Senhor derrotar todos os seus inimigos. Há promessas para o
+            povo de Deus. No contexto de Isaías, Samaria tinha sido destruída
+            pelos inimigos assírios, Jerusalém, pelos babilônios, mas a Nova
+            Jerusalém será invencível, será eterna, não haverá inimigos para o
+            povo salvo.
           </P>
           <P className="">
-            No &quot;Dia do Senhor&quot;, Deus julgará e condenará toda a
-            arrogância das nações da Terra, mas Jerusalém será purificada (Zc
-            13.1), será justificada para um povo santo (Is 26.2). No versículo
-            3, a palavra &quot;paz&quot;, que no hebraico é &quot;shalom&quot;,
-            dá entendimento muito mais além do que o refrigério do fim de uma
-            guerra. Alcança bênçãos inimagináveis, indescritíveis, perfeitas e
-            eternas. O verso 4 chancela quem promete a bênção, a &quot;rocha
-            eterna&quot;, o Senhor que é Deus Forte, Eterno. Essas promessas são
-            para aqueles que &quot;confiam sempre no Senhor&quot;.
+            No “Dia do Senhor”, Deus julgará e condenará toda a arrogância das
+            nações da Terra, mas Jerusalém será purificada (Zc 13.1), será
+            justificada para um povo santo (Is 26.2). No versículo 3, a palavra
+            “paz”, que no hebraico é “shalom”, dá entendimento muito mais além
+            do que o refrigério do fim de uma guerra. Alcança bênçãos
+            inimagináveis, indescritíveis, perfeitas e eternas. O verso 4
+            chancela quem promete a bênção, a “rocha eterna”, o Senhor que é
+            Deus Forte, Eterno. Essas promessas são para aqueles que “confiam
+            sempre no Senhor”.
           </P>
           <P className="">
-            Dos versículos 7 a 11, é enfatizado sobre a &quot;vereda
-            plaina&quot;. Isso dá ideia de restauração, pois, os judeus, ao
-            longo de sua história, andaram por caminhos tortuosos e atolados no
-            pecado. A promessa é de caminhos aplainados, livres de oscilações e
-            obstáculos. Dos versos 12 a 18, são citadas as &quot;dores de
-            parto&quot;, por causa das transgressões e pecados do povo de
-            Israel. Mas os versos 19 a 21 citam o &quot;orvalho
-            vivificador&quot; que é aquele que dá vida nova ao solo e à
-            vegetação. Essas são promessas a Israel.
+            Dos versículos 7 a 11, é enfatizado sobre a “vereda plaina”. Isso dá
+            ideia de restauração, pois, os judeus, ao longo de sua história,
+            andaram por caminhos tortuosos e atolados no pecado. A promessa é de
+            caminhos aplainados, livres de oscilações e obstáculos. Dos versos
+            12 a 18, são citadas as “dores de parto”, por causa das
+            transgressões e pecados do povo de Israel. Mas os versos 19 a 21
+            citam o “orvalho vivificador” que é aquele que dá vida nova ao solo
+            e à vegetação. Essas são promessas a Israel.
           </P>
         </div>
 
@@ -1512,34 +1507,34 @@ export default function CursoIsaias1() {
             4. A revivificação da vinha do Senhor
           </H3>
           <P className="">
-            Aprendemos na lição 2 sobre a &quot;parábola da vinha do
-            Senhor&quot; (Is 5.1-7) que remete à tristeza fúnebre. No capítulo
-            27, o contexto é de um cântico alegre do revivescimento da vinha. É
-            a vida, a revivificação do povo de Deus que estava morto e
-            condenado. A videira é Israel. No tempo de Isaías, a videira estava
-            produzindo uvas bravas, mas no Reino de Deus, Israel florescerá,
-            brotará e frutificará (v. 6). A Bíblia ainda cita outras duas
-            vinhas: Cristo e a Igreja (Jo 15), e a &quot;videira da terra&quot;
-            (Ap 14.18), que simboliza os gentios na terra. Aqueles que pertencem
-            a Deus, sendo Sua &quot;vinha&quot; devem ser ramos firmes, fiéis e
-            produzir frutos bons, doces e que glorifiquem ao Seu Dono.
+            Aprendemos na lição 2 sobre a “parábola da vinha do Senhor” (Is 5.1-
+            7) que remete à tristeza fúnebre. No capítulo 27, o contexto é de um
+            cântico alegre do revivescimento da vinha. É a vida, a revivificação
+            do povo de Deus que estava morto e condenado. A videira é Israel. No
+            tempo de Isaías, a videira estava produzindo uvas bravas, mas no
+            Reino de Deus, Israel florescerá, brotará e frutificará (v. 6). A
+            Bíblia ainda cita outras duas vinhas: Cristo e a Igreja (Jo 15), e a
+            “videira da terra” (Ap 14.18), que simboliza os gentios na terra.
+            Aqueles que pertencem a Deus, sendo Sua “vinha” devem ser ramos
+            firmes, fiéis e produzir frutos bons, doces e que glorifiquem ao Seu
+            Dono.
           </P>
           <P className="">
             Da mesma forma que no capítulo 26, o 27 também se inicia com
-            &quot;naquele dia&quot;. O Leviatã será destruído. As nações ao
-            redor de Israel tinham vários mitos e lendas sobre monstros marinhos
-            e um deles era comparado ao leviatã ou dragão (algumas traduções
-            citam &quot;crocodilo&quot;). Deus abaterá esse inimigo, ou seja,
-            destruirá definitivamente a Satanás, que aqui é figurado como esse
-            leviatã. Naquele Dia, não mais haverá escravidão de Satanás e de
-            seus falsos deuses que seduz o mundo para os adorar.
+            “naquele dia”. O Leviatã será destruído. As nações ao redor de
+            Israel tinham vários mitos e lendas sobre monstros marinhos e um
+            deles era comparado ao leviatã ou dragão (algumas traduções citam
+            “crododilo”). Deus abaterá esse inimigo, ou seja, destruirá
+            definitivamente a Satanás, que aqui é figurado como esse leviatã.
+            Naquele Dia, não mais haverá escravidão de Satanás e de seus falsos
+            deuses que seduz o mundo para os adorar.
           </P>
           <P className="">
-            Isaías finaliza o capítulo, nos versículos 12 e 13, enfatizando o
-            livramento do povo de Israel da escravidão das nações gentias. A
+            Isaías finaliza o capítulo, nos ver- sículos 12 e 13, enfatizando o
+            livramen- to do povo de Israel da escravidão das nações gentias. A
             vitória será comemorada na eternidade como uma festa que não terá
-            fim, com muita alegria e com o &quot;ressoar da trombeta&quot;. Você
-            estará nessa festa?
+            fim, com muita alegria e com o “ressoar da trombeta”. Você estará
+            nessa festa?
           </P>
         </div>
 
@@ -1557,10 +1552,9 @@ export default function CursoIsaias1() {
           <P className="">
             Todos os inimigos de Deus serão destruídos e o último será a morte.
             Jesus venceu e tem autoridade para decretar o fim da morte. Ele
-            ressuscitou e tem poder sobre a morte. Romanos 6.23 diz que &quot;o
-            salário do pecado é a morte&quot;, mas o versículo continua e diz
-            que &quot;mas o dom gratuito de Deus é a vida eterna em Cristo
-            Jesus&quot;.
+            ressuscitou e tem poder sobre a morte. Romanos 6.23 diz que “o
+            salário do pecado é a morte”, mas o versículo continua e diz que
+            “mas o dom gratuito de Deus é a vida eterna em Cristo Jesus”.
           </P>
           <P className="">
             Deus continua amando o Seu povo e proporcionando oportunidades de
