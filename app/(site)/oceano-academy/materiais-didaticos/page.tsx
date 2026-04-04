@@ -60,11 +60,11 @@ const oldTestamentMaterials: MaterialGroup[] = [
     materials: [
       {
         title: "Isaías (Módulo 1)",
-        link: "https://drive.google.com/file/d/1gTSXK2HEoIV9u9KYAk7heojbrBEsLsfo/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/isaias-1",
       },
       {
         title: "Isaías (Módulo 2)",
-        link: "https://drive.google.com/file/d/1CsmXlXjmYKjQWZU5ZBQzkzR2o9fXEwVS/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/isaias-2",
       },
       { title: "Jeremias" },
       { title: "Lamentações de Jeremias" },
