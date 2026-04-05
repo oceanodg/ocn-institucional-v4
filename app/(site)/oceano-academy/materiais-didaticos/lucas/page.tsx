@@ -328,12 +328,14 @@ export default function CursoLucas() {
             comparação com a autoria e o caráter histórico da obra. O livro é
             composto a partir de testemunhos de viva voz (Lc 1.1-4). Entre as
             fontes, destaca-se um grupo de mulheres que seguiram o Senhor (Lc
-            8.1-3; 10.38-42; 23.27-31; 23.55-24.10). Entre elas, Maria, a mãe de
-            Jesus, ocupa uma posição especial, sendo descrita como alguém que
-            guardava todas as coisas, meditando-as em seu coração (cf. Lc 2.19,
-            51). Além dessas testemunhas, Lucas utilizou fontes escritas,
-            principalmente o Evangelho de Marcos. Os trechos mais importantes
-            que são paralelos a Marcos são três:
+            8.1-3; 10.38-42; 23.27-31; 23.55-24.10).
+          </P>
+          <P className="">
+            Entre elas, Maria, a mãe de Jesus, ocupa uma posição especial, sendo
+            descrita como alguém que guardava todas as coisas, meditando-as em
+            seu coração (cf. Lc 2.19, 51). Além dessas testemunhas, Lucas
+            utilizou fontes escritas, principalmente o Evangelho de Marcos. Os
+            trechos mais importantes que são paralelos a Marcos são três:
           </P>
           <P className="">
             Primeiro, Lc 4.14-6.19 é paralelo a Marcos 1.14-3: Começo da
