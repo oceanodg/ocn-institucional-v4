@@ -197,6 +197,9 @@ export default function IntroducaoCartasPaulinasPage() {
           <SummaryLi subList>
             <a href="#lesson-4-conclusao">Conclusão</a>
           </SummaryLi>
+          <SummaryLi>
+            <a href="#editorial">Editorial</a>
+          </SummaryLi>
         </UL>
       </Container>
 
@@ -1777,6 +1780,43 @@ export default function IntroducaoCartasPaulinasPage() {
       </Container>
 
       <Separator className="my-8" />
+
+      <Container className="mb-10 sm:mb-16">
+        <H2 id="editorial">Editorial</H2>
+        <div className="flex flex-col gap-8">
+          <div className="flex flex-col">
+            <P className="mt-0">
+              <span className="font-semibold">Curso:</span> Introdução às Cartas
+              Paulinas
+            </P>
+            <P className="mt-0">
+              <span className="font-semibold">Ano:</span> 2024
+            </P>
+            <P className="mt-0">
+              <span className="font-semibold">1ª Edição</span>
+            </P>
+          </div>
+          <div className="flex flex-col">
+            <P className="mt-0 font-semibold">Conselho Editorial:</P>
+            <P className="mt-0">Pr Sinval Júlio de Souza</P>
+            <P className="mt-0">Pr Lúcio Andres</P>
+            <P className="mt-0">Braitner Lobato</P>
+          </div>
+          <div className="flex flex-col">
+            <P className="mt-0 font-semibold">Revisão:</P>
+            <P className="mt-0">Pr Lúcio Andres</P>
+            <P className="mt-0">Wagner Monteiro</P>
+          </div>
+          <div className="flex flex-col">
+            <P className="mt-0 font-semibold">Projeto Gráfico e Diagramação:</P>
+            <P className="mt-0">Wagner Monteiro</P>
+          </div>
+          <div className="flex flex-col">
+            <P className="mt-0 font-semibold">Comentaristas:</P>
+            <P className="mt-0">Diógenes Luiz da Silva Filho</P>
+          </div>
+        </div>
+      </Container>
     </section>
   );
 }
