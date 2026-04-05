@@ -119,7 +119,7 @@ const newTestamentMaterials: MaterialGroup[] = [
     materials: [
       {
         title: "Atos dos Apóstolos",
-        link: "https://drive.google.com/file/d/1hxws88uPWOOF70X8MRp9NZRzecX_TFDp/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/atos",
       },
     ],
   },
