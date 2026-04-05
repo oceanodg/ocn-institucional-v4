@@ -110,7 +110,7 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "João",
-        link: "https://drive.google.com/file/d/1BOOFXMBL7lvufbiHPeCTHJ-Mio4uFwl3/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/joao",
       },
     ],
   },
