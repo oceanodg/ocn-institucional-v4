@@ -136,11 +136,11 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "1 Coríntios",
-        link: "https://drive.google.com/file/d/1rmzOF3dEmFNaBAjkw2FWBirtp3ckzxnh/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/corintios",
       },
       {
         title: "2 Coríntios",
-        link: "https://drive.google.com/file/d/1rmzOF3dEmFNaBAjkw2FWBirtp3ckzxnh/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/corintios",
       },
       {
         title: "Gálatas",
