@@ -152,7 +152,7 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "Filipenses",
-        link: "https://drive.google.com/file/d/1fZy2ZL39xzwLo3YVaK4Ng784g2r_HnJr/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/filipenses",
       },
       {
         title: "Colossenses",
