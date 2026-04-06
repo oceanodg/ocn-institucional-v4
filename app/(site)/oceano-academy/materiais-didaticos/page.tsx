@@ -128,7 +128,7 @@ const newTestamentMaterials: MaterialGroup[] = [
     materials: [
       {
         title: "Introdução às Cartas Paulinas",
-        link: "https://drive.google.com/file/d/1eW57j-NbUN2XpL9njr_aPXpWUCUESlWM/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/introducao-cartas-paulinas",
       },
       {
         title: "Romanos",
