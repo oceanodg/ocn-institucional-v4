@@ -144,7 +144,7 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "Gálatas",
-        link: "https://drive.google.com/file/d/1MHsV1a7wEmgFkYCmlqYqP8W_qOvSi9ME/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/galatas",
       },
       {
         title: "Efésios",
