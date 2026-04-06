@@ -1,9 +1,13 @@
+import { NotepadText } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { UL } from "~/components/ui/ul";
 import { SummaryLi } from "~/components/summary-li";
+import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
+import { LinkSmall } from "~/components/ui/link-small";
+import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
 
 export default function CursoCartasJoaoEJudas() {
   return (
@@ -24,9 +28,24 @@ export default function CursoCartasJoaoEJudas() {
 
       <Container className="mb-10 sm:mb-16">
         <H2 id="materials-didactic">Materiais de Apoio</H2>
-        <UL className="mt-0">
-          <li />
-        </UL>
+
+        <Table>
+          <TableHeader>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold w-[110px] sm:w-[160px]">
+                Apostila
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1bLpcHJZ-B0jJcMg9vY354SBKwSHwcNp-/view?usp=sharing">
+                    <NotepadText className="size-4" />
+                    Cartas de João e Judas
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+          </TableHeader>
+        </Table>
       </Container>
 
       <Separator className="my-8" />
@@ -38,6 +57,9 @@ export default function CursoCartasJoaoEJudas() {
             <a href="#lesson-1">
               Lição 1 – Deus é Luz e Deus é Amor: A Vida dos Filhos de Deus
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-1-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-1-para-comecar">Para Começar</a>
@@ -78,6 +100,9 @@ export default function CursoCartasJoaoEJudas() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-2-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-2-para-comecar">Para Começar</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -111,6 +136,9 @@ export default function CursoCartasJoaoEJudas() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-3-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-3-para-comecar">Para Começar</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -142,6 +170,9 @@ export default function CursoCartasJoaoEJudas() {
               Lição 4 – Edificar, Guardar e Alcançar: Perseverança no Amor de
               Deus
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-4-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-4-para-comecar">Para Começar</a>
@@ -185,9 +216,7 @@ export default function CursoCartasJoaoEJudas() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-1-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Compreender os eixos centrais de 1 João — Cristo verdadeiro
             (encarnação), comunhão, obediência, amor fraternal, discernimento
@@ -276,13 +305,12 @@ export default function CursoCartasJoaoEJudas() {
             combinam com a verdade do Evangelho.
           </P>
           <P className="">
-            Sendo assim, João confronta dois extremos: negar o pecado
-            (&quot;não temos pecado&quot;) e banalizá-lo (&quot;pecado não
-            importa&quot;). O caminho bíblico é confissão e fé na obra de
-            Cristo: &quot;Se confessarmos os nossos pecados, ele é fiel e justo
-            para nos perdoar os pecados e nos purificar de toda injustiça&quot;
-            (1Jo 1.9, NAA). Não é a autoconfiança, mas a graça que nos mantém
-            em pé.
+            Sendo assim, João confronta dois extremos: negar o pecado (&quot;não
+            temos pecado&quot;) e banalizá-lo (&quot;pecado não importa&quot;).
+            O caminho bíblico é confissão e fé na obra de Cristo: &quot;Se
+            confessarmos os nossos pecados, ele é fiel e justo para nos perdoar
+            os pecados e nos purificar de toda injustiça&quot; (1Jo 1.9, NAA).
+            Não é a autoconfiança, mas a graça que nos mantém em pé.
           </P>
           <P className="">
             Para nosso consolo, João apresenta Cristo como nosso &quot;Advogado
@@ -337,8 +365,8 @@ export default function CursoCartasJoaoEJudas() {
             vinda de Cristo (1Jo 2.18, NAA). Nesse tempo, surgem
             &quot;anticristos&quot;: mestres que negam o Filho e tentam desviar
             o rebanho. A estratégia de João não é alarmismo, mas enraizamento:
-            permanecer no que ouviram &quot;desde o princípio&quot; (1Jo 2.24–25,
-            NAA).
+            permanecer no que ouviram &quot;desde o princípio&quot; (1Jo
+            2.24–25, NAA).
           </P>
           <P className="">
             João lembra que a igreja recebeu a unção do Santo (1Jo 2.20, NAA).
@@ -372,20 +400,20 @@ export default function CursoCartasJoaoEJudas() {
             pertencimento e por uma nova natureza. Por isso, João é direto: quem
             nasceu de Deus não transforma o pecado em estilo de vida; o pecado
             pode acontecer, mas já não reina, porque fomos libertos do seu
-            domínio e chamados a andar na luz (1Jo 3.6–10, NAA). A vida do
-            filho não é impecável, mas é irreconciliável com a prática
-            deliberada do mal.
+            domínio e chamados a andar na luz (1Jo 3.6–10, NAA). A vida do filho
+            não é impecável, mas é irreconciliável com a prática deliberada do
+            mal.
           </P>
           <P className="">
             Esse amor do Pai desce do discurso para a mesa e para o bolso,
             tornando-se gesto concreto. &quot;Não amemos de palavra, nem de
-            língua, mas de fato e de verdade&quot; (1Jo 3.18, NAA). O padrão
-            não nasce do nosso esforço, mas do próprio Cristo:
-            &quot;Conhecemos o amor nisto: que ele deu a sua vida por nós; e
-            devemos dar a nossa vida pelos irmãos&quot; (1Jo 3.16, NAA). Onde o
-            amor de Deus é conhecido, a indiferença perde espaço. Servir,
-            repartir e perdoar deixam de ser extras e passam a ser sinais de que
-            a vida nova chegou. Amor que não serve não é amor bíblico.
+            língua, mas de fato e de verdade&quot; (1Jo 3.18, NAA). O padrão não
+            nasce do nosso esforço, mas do próprio Cristo: &quot;Conhecemos o
+            amor nisto: que ele deu a sua vida por nós; e devemos dar a nossa
+            vida pelos irmãos&quot; (1Jo 3.16, NAA). Onde o amor de Deus é
+            conhecido, a indiferença perde espaço. Servir, repartir e perdoar
+            deixam de ser extras e passam a ser sinais de que a vida nova
+            chegou. Amor que não serve não é amor bíblico.
           </P>
           <P className="">
             Essa prática de amor e justiça produz confiança diante de Deus. João
@@ -445,9 +473,9 @@ export default function CursoCartasJoaoEJudas() {
             João encerra com segurança e sobriedade: confiança em oração (1Jo
             5.14–15, NAA), cuidado com o pecado (1Jo 5.16–17, NAA), consciência
             do maligno e de que &quot;estamos no Verdadeiro&quot; (1Jo 5.19–20,
-            NAA). A última frase é um golpe final na idolatria:
-            &quot;Filhinhos, guardem-se dos ídolos&quot; (1Jo 5.21, NAA).
-            Verdade e amor protegem a igreja.
+            NAA). A última frase é um golpe final na idolatria: &quot;Filhinhos,
+            guardem-se dos ídolos&quot; (1Jo 5.21, NAA). Verdade e amor protegem
+            a igreja.
           </P>
         </div>
 
@@ -468,13 +496,14 @@ export default function CursoCartasJoaoEJudas() {
             Portanto, para os nossos dias, o chamado é simples e profundo.
             Permanecemos firmes na Palavra, dependentes do Espírito Santo e
             comprometidos com uma vida de oração que pede segundo a vontade de
-            Deus. Ao mesmo tempo, cultivamos hospitalidade responsável, liderança
-            servidora e discernimento doutrinário, a fim de acolher o que é fiel
-            e fechar a porta ao engano. Por fim, caminhamos com alegria completa
-            na comunhão, certos de que o Deus que nos chamou é poderoso para nos
-            guardar de tropeçar e nos apresentar, com exultação, diante da sua
-            glória (1Jo 1.4; 5.14–15; Jd 24–25, NAA). Assim, seguimos na luz,
-            em amor e em missão, para a glória de Cristo.
+            Deus. Ao mesmo tempo, cultivamos hospitalidade responsável,
+            liderança servidora e discernimento doutrinário, a fim de acolher o
+            que é fiel e fechar a porta ao engano. Por fim, caminhamos com
+            alegria completa na comunhão, certos de que o Deus que nos chamou é
+            poderoso para nos guardar de tropeçar e nos apresentar, com
+            exultação, diante da sua glória (1Jo 1.4; 5.14–15; Jd 24–25, NAA).
+            Assim, seguimos na luz, em amor e em missão, para a glória de
+            Cristo.
           </P>
         </div>
       </Container>
@@ -483,14 +512,10 @@ export default function CursoCartasJoaoEJudas() {
 
       {/* LIÇÃO 2 */}
       <Container className="mb-10 sm:mb-16">
-        <H2 id="lesson-2">
-          Lição 2 – Verdade e Amor na Hospitalidade Cristã
-        </H2>
+        <H2 id="lesson-2">Lição 2 – Verdade e Amor na Hospitalidade Cristã</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-2-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Aplicar os princípios de 2 e 3 João à vida comunitária: caminhar na
             verdade e no amor, exercendo hospitalidade responsável e
@@ -524,10 +549,9 @@ export default function CursoCartasJoaoEJudas() {
           </P>
           <P className="">
             Por fim, João nos lembra do rosto, da conversa e do abraço:
-            &quot;quero falar face a face&quot; (2Jo 12; 3Jo 14, NAA). O
-            cuidado pastoral é pessoal. A verdade se encarna no encontro, a
-            caridade se prova à mesa, e a unidade se preserva no caminhar
-            juntos.
+            &quot;quero falar face a face&quot; (2Jo 12; 3Jo 14, NAA). O cuidado
+            pastoral é pessoal. A verdade se encarna no encontro, a caridade se
+            prova à mesa, e a unidade se preserva no caminhar juntos.
           </P>
         </div>
 
@@ -542,8 +566,8 @@ export default function CursoCartasJoaoEJudas() {
             recebido pela fé, confessado publicamente e guardado na prática
             diária. Essa verdade molda a consciência, regula a vida e orienta a
             comunhão. Quem abraça a verdade é consolidado por graça,
-            misericórdia e paz que não apenas aliviam o coração, mas estruturam a
-            vida da igreja (2Jo 3, NAA).
+            misericórdia e paz que não apenas aliviam o coração, mas estruturam
+            a vida da igreja (2Jo 3, NAA).
           </P>
           <P className="">
             O mandamento que vem desde o princípio é amar uns aos outros (2Jo 5,
@@ -688,14 +712,13 @@ export default function CursoCartasJoaoEJudas() {
         <div className="flex flex-col gap-4">
           <H3 id="lesson-2-conclusao">Conclusão</H3>
           <P className="">
-            Assim, ao percorrermos 2 e 3 João, percebemos que a igreja
-            permanece saudável quando une verdade e amor em cada decisão. Desse
-            modo, a hospitalidade se torna caminho de missão, a doutrina de
-            Cristo serve como critério para parcerias, e a liderança se expressa
-            em serviço humilde. Além disso, a centralidade de Jesus orienta o
-            púlpito e o ensino, enquanto a comunhão face a face fortalece
-            vínculos e cura feridas, conforme anseia o coração pastoral do
-            apóstolo.
+            Assim, ao percorrermos 2 e 3 João, percebemos que a igreja permanece
+            saudável quando une verdade e amor em cada decisão. Desse modo, a
+            hospitalidade se torna caminho de missão, a doutrina de Cristo serve
+            como critério para parcerias, e a liderança se expressa em serviço
+            humilde. Além disso, a centralidade de Jesus orienta o púlpito e o
+            ensino, enquanto a comunhão face a face fortalece vínculos e cura
+            feridas, conforme anseia o coração pastoral do apóstolo.
           </P>
           <P className="">
             Portanto, viver esses princípios hoje requer oração perseverante,
@@ -728,9 +751,7 @@ export default function CursoCartasJoaoEJudas() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-3-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Compreender o chamado de Judas para &quot;batalhar diligentemente
             pela fé&quot; e reconhecer as marcas dos falsos mestres, respondendo
@@ -783,8 +804,8 @@ export default function CursoCartasJoaoEJudas() {
           </P>
           <P className="">
             Para fundamentar sua advertência, Judas recorre à história sagrada:
-            Israel incrédulo, anjos que abandonaram seu estado original, Sodoma e
-            Gomorra — todos exemplos de como Deus julga a impiedade (Jd 5–7,
+            Israel incrédulo, anjos que abandonaram seu estado original, Sodoma
+            e Gomorra — todos exemplos de como Deus julga a impiedade (Jd 5–7,
             NAA). A mensagem é simples e solene, a graça de Deus não é licença,
             é libertação que nos conduz à obediência. Onde a graça é distorcida,
             a igreja perde o rumo.
@@ -813,12 +834,12 @@ export default function CursoCartasJoaoEJudas() {
           </P>
           <P className="">
             O apelo central chega no verso 3, isto é, batalhar diligentemente
-            pela fé entregue &quot;uma vez por todas&quot;. A fé apostólica não é
-            produto em evolução cultural, mas depósito sagrado. Contender, aqui,
-            é empenhar-se com inteligência, humildade e coragem para preservar a
-            sã doutrina e a santidade de vida. Segundo Thomas R. Schreiner,
-            Judas &quot;combina ortodoxia e ortopraxia&quot; ao mostrar que a
-            doutrina certa conduz à vida certa (Schreiner, 2003).
+            pela fé entregue &quot;uma vez por todas&quot;. A fé apostólica não
+            é produto em evolução cultural, mas depósito sagrado. Contender,
+            aqui, é empenhar-se com inteligência, humildade e coragem para
+            preservar a sã doutrina e a santidade de vida. Segundo Thomas R.
+            Schreiner, Judas &quot;combina ortodoxia e ortopraxia&quot; ao
+            mostrar que a doutrina certa conduz à vida certa (Schreiner, 2003).
           </P>
           <P className="">
             No verso 4, o problema é nomeado como pessoas que se infiltraram. A
@@ -844,9 +865,9 @@ export default function CursoCartasJoaoEJudas() {
           <P className="">
             Judas relembra que o Senhor salvou um povo do Egito, mas destruiu os
             que não creram (Jd 5, NAA). Privilégio não substitui perseverança. A
-            história de Israel ensina que incredulidade dentro da comunidade traz
-            juízo. Graça e responsabilidade caminham juntas, quem crê persevera;
-            quem endurece colhe as consequências.
+            história de Israel ensina que incredulidade dentro da comunidade
+            traz juízo. Graça e responsabilidade caminham juntas, quem crê
+            persevera; quem endurece colhe as consequências.
           </P>
           <P className="">
             Os anjos que não guardaram seu lugar foram &quot;guardados&quot; em
@@ -885,12 +906,12 @@ export default function CursoCartasJoaoEJudas() {
             e desprezo à autoridade ordenada por Deus.
           </P>
           <P className="">
-            O contraste aparece no episódio de Miguel, o arcanjo, que, disputando
-            com o diabo acerca do corpo de Moisés, não ousou pronunciar juízo
-            difamatório, mas disse: &quot;O Senhor te repreenda!&quot; (Jd 9,
-            NAA). Se um arcanjo exerce reverência diante do juízo, como falsos
-            mestres ousam blasfemar do que ignoram? Humildade e temor santo são
-            marcas do verdadeiro servo de Deus.
+            O contraste aparece no episódio de Miguel, o arcanjo, que,
+            disputando com o diabo acerca do corpo de Moisés, não ousou
+            pronunciar juízo difamatório, mas disse: &quot;O Senhor te
+            repreenda!&quot; (Jd 9, NAA). Se um arcanjo exerce reverência diante
+            do juízo, como falsos mestres ousam blasfemar do que ignoram?
+            Humildade e temor santo são marcas do verdadeiro servo de Deus.
           </P>
           <P className="">
             Esses enganadores &quot;se corrompem&quot; no que compreendem
@@ -915,9 +936,9 @@ export default function CursoCartasJoaoEJudas() {
             Judas reúne três figuras para desmascarar os intrusos: o caminho de
             Caim (ódio e violência), o erro de Balaão (ganância religiosa) e a
             rebelião de Corá (insurgência contra a autoridade de Deus) — (Jd 11,
-            NAA). Falsos mestres reproduzem velhos pecados com roupagens novas. O
-            diagnóstico é espiritual e ético: coração homicida, olhos cobiçosos
-            e pés insubmissos.
+            NAA). Falsos mestres reproduzem velhos pecados com roupagens novas.
+            O diagnóstico é espiritual e ético: coração homicida, olhos
+            cobiçosos e pés insubmissos.
           </P>
           <P className="">
             Ele os chama de &quot;rochas submersas&quot; nas festas de amor —
@@ -984,9 +1005,7 @@ export default function CursoCartasJoaoEJudas() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-4-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Praticar a perseverança cristã: recordar a palavra apostólica,
             edificar-se na santíssima fé, orar no Espírito, guardar-se no amor
@@ -1001,8 +1020,8 @@ export default function CursoCartasJoaoEJudas() {
             direção. Judas não encerra com denúncia; termina com discipulado.
             Ele nos manda lembrar as palavras dos apóstolos, pois os
             &quot;escarnecedores&quot; que seguem paixões ímpias já haviam sido
-            previstos (Jd 17–18, NAA). Surpresa diminui quando a igreja vive
-            com Bíblia aberta e coração desperto.
+            previstos (Jd 17–18, NAA). Surpresa diminui quando a igreja vive com
+            Bíblia aberta e coração desperto.
           </P>
           <P className="">
             A estratégia de Deus para tempos de confusão não é uma cruzada de
@@ -1101,9 +1120,9 @@ export default function CursoCartasJoaoEJudas() {
           <P className="">
             Judas propõe três atitudes distintas, conforme o estado espiritual
             das pessoas. Primeira: &quot;Tenham compaixão dos que estão na
-            dúvida&quot; (Jd 22, NAA). Há irmãos feridos, confusos, que
-            precisam de paciência, ensino e cuidado. A resposta é abraço e
-            discipulado, não dureza.
+            dúvida&quot; (Jd 22, NAA). Há irmãos feridos, confusos, que precisam
+            de paciência, ensino e cuidado. A resposta é abraço e discipulado,
+            não dureza.
           </P>
           <P className="">
             Segunda: &quot;Salvem alguns, arrebatando-os do fogo&quot; (Jd 23,
@@ -1121,8 +1140,8 @@ export default function CursoCartasJoaoEJudas() {
             como Jesus é.
           </P>
           <P className="">
-            Esse triplo caminho molda ministérios de aconselhamento, disciplina e
-            restauração. Comunidades que praticam essas posturas tornam-se
+            Esse triplo caminho molda ministérios de aconselhamento, disciplina
+            e restauração. Comunidades que praticam essas posturas tornam-se
             hospitais espirituais, não tribunais frios nem spas permissivos.
           </P>
         </div>
@@ -1134,9 +1153,10 @@ export default function CursoCartasJoaoEJudas() {
           <P className="">
             Judas encerra com uma das doxologias mais belas da Escritura.
             &quot;Ora, àquele que é poderoso para vos guardar de tropeçar e para
-            vos apresentar com exultação, imaculados diante da sua glória...&quot;
-            (Jd 24, NAA). A perseverança dos santos repousa no poder do
-            Salvador. Não nos sustentamos a nós mesmos; somos sustentados.
+            vos apresentar com exultação, imaculados diante da sua
+            glória...&quot; (Jd 24, NAA). A perseverança dos santos repousa no
+            poder do Salvador. Não nos sustentamos a nós mesmos; somos
+            sustentados.
           </P>
           <P className="">
             Ele é &quot;o único Deus, nosso Salvador, mediante Jesus Cristo,
