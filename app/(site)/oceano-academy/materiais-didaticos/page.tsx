@@ -176,11 +176,11 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "Tito",
-        link: "https://drive.google.com/file/d/1FVFG8B0bPQQkcGIXLX2e60qx_OCt07de/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/tito-e-filemom",
       },
       {
         title: "Filemon",
-        link: "https://drive.google.com/file/d/1FVFG8B0bPQQkcGIXLX2e60qx_OCt07de/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/tito-e-filemom",
       },
     ],
   },
