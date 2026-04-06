@@ -772,6 +772,59 @@ export default function IntroducaoCartasPaulinasPage() {
             características de diálogo, elas variavam em relação ao tamanho,
             complexidade e flexibilidade.
           </P>
+          <P className="">
+            Para reforçar essa percepção, o nominado autor transcreve um trecho
+            do trabalho de Richards e compara a quantidade de palavras
+            encontradas tanto nas Cartas de Paulo quanto em algumas das cartas
+            de Cícero e de Sêneca.
+          </P>
+
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white border border-gray-300 shadow-md rounded-lg">
+              <thead className="bg-gray-200">
+                <tr>
+                  <th className="py-3 px-4 text-left font-semibold text-gray-700">
+                    Documento
+                  </th>
+                  <th className="py-3 px-4 text-left font-semibold text-gray-700">
+                    Número de Palavras
+                  </th>
+                  <th className="py-3 px-4 text-left font-semibold text-gray-700">
+                    Média de Palavras
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-200 hover:bg-gray-50">
+                  <td className="py-3 px-4 text-gray-700">Cartas de Cícero</td>
+                  <td className="py-3 px-4 text-gray-700">
+                    22 – 2.530 palavras
+                  </td>
+                  <td className="py-3 px-4 text-gray-700">
+                    295 palavras em média
+                  </td>
+                </tr>
+                <tr className="border-t border-gray-200 hover:bg-gray-50">
+                  <td className="py-3 px-4 text-gray-700">Cartas de Sêneca</td>
+                  <td className="py-3 px-4 text-gray-700">
+                    149 – 4.134 palavras
+                  </td>
+                  <td className="py-3 px-4 text-gray-700">
+                    995 palavras em média
+                  </td>
+                </tr>
+                <tr className="border-t border-gray-200 hover:bg-gray-50">
+                  <td className="py-3 px-4 text-gray-700">Cartas de Paulo</td>
+                  <td className="py-3 px-4 text-gray-700">
+                    335 – 7.114 palavras
+                  </td>
+                  <td className="py-3 px-4 text-gray-700">
+                    2.495 palavras em média
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <div className="flex flex-col gap-4">
@@ -971,7 +1024,8 @@ export default function IntroducaoCartasPaulinasPage() {
             abundante (Rm 5.15); enquanto o ato de Adão resultou em condenação,
             o ato de Cristo ainda resulta em absolvição (Rm 5.16); e em terceiro
             lugar, enquanto o ato de Adão causou o reinado da morte, o ato de
-            Cristo trouxe o reinado da vida (Rm 5.17).
+            Cristo trouxe o reinado da vida (Rm 5.17). [trecho extraído da obra
+            de Harvey].
           </P>
           <P className="">
             Em relação ao meio pelo qual essa transferência se realiza, Harvey
@@ -991,6 +1045,102 @@ export default function IntroducaoCartasPaulinasPage() {
             a visualização clara da diferença entre o que éramos e como
             estávamos, para o que nos tornamos em Cristo.
           </P>
+
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white border border-gray-300 shadow-md rounded-lg">
+              <thead className="bg-gray-200">
+                <tr>
+                  <th className="py-3 px-4 text-center font-semibold text-gray-700 w-1/3">
+                    O que éramos/como estávamos
+                  </th>
+                  <th className="py-3 px-4 text-center font-semibold text-gray-700 w-1/6 bg-gray-300">
+                    Pela graça, mediante a fé
+                  </th>
+                  <th className="py-3 px-4 text-center font-semibold text-gray-700 w-1/3">
+                    O que somos/como estamos
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-200 hover:bg-gray-50">
+                  <td className="py-3 px-4 text-gray-700 text-center">
+                    mortos
+                  </td>
+                  <td className="py-3 px-4 bg-gray-100">
+                    <div className="flex justify-center items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-8 w-8 text-gray-500"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                        />
+                      </svg>
+                    </div>
+                  </td>
+                  <td className="py-3 px-4 text-gray-700 text-center">vivos</td>
+                </tr>
+                <tr className="border-t border-gray-200 hover:bg-gray-50">
+                  <td className="py-3 px-4 text-gray-700 text-center">
+                    dominados por Satanás
+                  </td>
+                  <td className="py-3 px-4 bg-gray-100">
+                    <div className="flex justify-center items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-8 w-8 text-gray-500"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                        />
+                      </svg>
+                    </div>
+                  </td>
+                  <td className="py-3 px-4 text-gray-700 text-center">
+                    destinados para boas obras
+                  </td>
+                </tr>
+                <tr className="border-t border-gray-200 hover:bg-gray-50">
+                  <td className="py-3 px-4 text-gray-700 text-center">
+                    desobedientes
+                  </td>
+                  <td className="py-3 px-4 bg-gray-100">
+                    <div className="flex justify-center items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-8 w-8 text-gray-500"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                        />
+                      </svg>
+                    </div>
+                  </td>
+                  <td className="py-3 px-4 text-gray-700 text-center">
+                    membros da família de Deus
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <div className="flex flex-col gap-4">
@@ -1117,7 +1267,8 @@ export default function IntroducaoCartasPaulinasPage() {
             Estudo Pentecostal destaca sete características especiais nessa
             Carta:
           </P>
-          <UL className="mt-0">
+
+          <UL className="ml-1 sm:ml-2 mt-0 text-base sm:text-lg list-decimal">
             <li>Romanos é a mais sistemática Epístola de Paulo;</li>
             <li>
               Paulo escreve em um estilo de pergunta e resposta (ex. 3.1-4);
@@ -1184,10 +1335,11 @@ export default function IntroducaoCartasPaulinasPage() {
             Pode-se afirmar que essa Epístola discorre sobre os problemas que
             uma igreja experimenta quando seus membros persistem nas obras da
             carne (3.13), e Paulo tinha dois motivos principais para escrevê-la:
-            tratar dos sérios problemas da igreja em relação a pecados que os
-            coríntios não levavam muito a sério, mas ele sabia que eram graves;
-            e aconselhar e doutrinar os irmãos daquela cidade sobre assuntos que
-            a própria igreja havia solicitado esclarecimento (1.11).
+            [1] tratar dos sérios problemas da igreja em relação a pecados que
+            os coríntios não levavam muito a sério, mas ele sabia que eram
+            graves; [2] e aconselhar e doutrinar os irmãos daquela cidade sobre
+            assuntos que a própria igreja havia solicitado esclarecimento
+            (1.11).
           </P>
           <P className="">
             O tema principal dessa Carta pode ser definido como &quot;
@@ -1207,12 +1359,12 @@ export default function IntroducaoCartasPaulinasPage() {
           </H3>
           <P className="">
             Escrita entre o final de 55 e o início de 56 d.C., essa Epístola foi
-            direcionada a três classes de pessoas da cidade de Corinto: para
+            direcionada a três classes de pessoas da cidade de Corinto: [1] para
             encorajar a maioria da igreja que lhe era fiel e o tinha como seu
-            pai espiritual; para contestar e desmascarar os falsos apóstolos que
-            continuavam a difamá-lo tentando enfraquecer sua autoridade; e para
-            repreender a minoria da igreja que estava sendo influenciada por
-            seus oponentes e que não estava acatando sua autoridade e sua
+            pai espiritual; [2] para contestar e desmascarar os falsos apóstolos
+            que continuavam a difamá-lo tentando enfraquecer sua autoridade; [3]
+            para repreender a minoria da igreja que estava sendo influenciada
+            por seus oponentes e que não estava acatando sua autoridade e sua
             correção.
           </P>
           <P className="">
@@ -1233,14 +1385,15 @@ export default function IntroducaoCartasPaulinasPage() {
             Assim, nessa Carta Paulo reafirma sua integridade e sua autoridade
             apostólica, os advertindo sobre novas rebeliões. Quanto às
             características especiais, o comentarista da Bíblia de Estudo
-            Pentecostal menciona quatro aspectos: é a mais autobiográfica das
-            Epístolas de Paulo; ultrapassa todas as suas demais Epístolas no que
-            se refere à revelação da intensidade e da profundidade do amor e do
-            cuidado de Paulo por seus filhos espirituais; contém a mais completa
-            teologia do NT sobre o sofrimento do crente; e a utilização de
-            termos-chave tais como: fraqueza, aflição, lágrimas, perigo,
-            tribulação, sofrimento, consolação, verdade, ministério e glória
-            destacam o conteúdo incomparável da 2ª Carta aos Coríntios.
+            Pentecostal menciona quatro aspectos: [1] é a mais autobiográfica
+            das Epístolas de Paulo; [2] ultrapassa todas as suas demais
+            Epístolas no que se refere à revelação da intensidade e da
+            profundidade do amor e do cuidado de Paulo por seus filhos
+            espirituais; [3] contém a mais completa teologia do NT sobre o
+            sofrimento do crente; [4] e a utilização de termos-chave tais como:
+            fraqueza, aflição, lágrimas, perigo, tribulação, sofrimento,
+            consolação, verdade, ministério e glória destacam o conteúdo
+            incomparável da 2ª Carta aos Coríntios.
           </P>
           <P className="">
             Outra característica que deve ser destacada, é que nessa Carta há o
@@ -1283,20 +1436,21 @@ export default function IntroducaoCartasPaulinasPage() {
             Pelo conteúdo da Carta, é possível admitir que os oponentes de
             Paulo, na Galácia, o atacavam pessoalmente com o propósito de
             desestabilizar sua influência nas igrejas. Em síntese, eles o
-            acusavam de: não ser um dos apóstolos originais e, portanto, ser
-            desprovido de autoridade direta (1.1-7); sua mensagem supostamente
-            divergia do evangelho pregado em Jerusalém (1.9; 2.2-10); e sua
-            mensagem da graça resultaria em uma vida iníqua (5.1,13,16,19 e 21).
+            acusavam de: [1] não ser um dos apóstolos originais e, portanto, ser
+            desprovido de autoridade direta (1.1-7); [2] sua mensagem
+            supostamente divergia do evangelho pregado em Jerusalém (1.9;
+            2.2-10); [3] sua mensagem da graça resultaria em uma vida iníqua
+            (5.1,13,16,19 e 21).
           </P>
           <P className="">
-            Quatro características singulares são encontradas nessa epístola: é
-            a defesa mais veemente no NT da natureza do Evangelho, e seu tom
-            enérgico, intenso e urgente mostra-se necessário pois Paulo lidava
-            com pessoas que poderiam deturpar o verdadeiro evangelho; quanto ao
-            número de referências bibliográficas, Gálatas é superada apenas por
-            2º Coríntios; esta é a única Epístola de Paulo na qual ele
-            explicitamente se dirige a várias igrejas; e nessa carta Paulo nos
-            fala sobre o fruto do Espírito (5.22).
+            Quatro características singulares são encontradas nessa epístola:
+            [1] é a defesa mais veemente no NT da natureza do Evangelho, e seu
+            tom enérgico, intenso e urgente mostra-se necessário pois Paulo
+            lidava com pessoas que poderiam deturpar o verdadeiro evangelho; [2]
+            quanto ao número de referências bibliográficas, Gálatas é superada
+            apenas por 2º Coríntios; [3] esta é a única Epístola de Paulo na
+            qual ele explicitamente se dirige a várias igrejas; [4] e nessa
+            carta Paulo nos fala sobre o fruto do Espírito (5.22).
           </P>
         </div>
 
