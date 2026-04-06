@@ -1,9 +1,13 @@
+import { NotepadText } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { UL } from "~/components/ui/ul";
 import { SummaryLi } from "~/components/summary-li";
+import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
+import { LinkSmall } from "~/components/ui/link-small";
+import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
 
 export default function CursoPedro() {
   return (
@@ -25,9 +29,24 @@ export default function CursoPedro() {
 
       <Container className="mb-10 sm:mb-16">
         <H2 id="materials-didactic">Materiais de Apoio</H2>
-        <UL className="mt-0">
-          <li />
-        </UL>
+
+        <Table>
+          <TableHeader>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold w-[110px] sm:w-[160px]">
+                Apostila
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1BOs7TpPH8oot4KZ1HUzc4ut1wXiGAmsh/view?usp=sharing">
+                    <NotepadText className="size-4" />
+                    Cartas de Pedro
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+          </TableHeader>
+        </Table>
       </Container>
 
       <Separator className="my-8" />
@@ -39,6 +58,9 @@ export default function CursoPedro() {
             <a href="#lesson-1">
               Lição 1 – Esperança Viva em Meio ao Sofrimento
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-1-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-1-para-comecar">Para Começar</a>
@@ -71,6 +93,9 @@ export default function CursoPedro() {
             <a href="#lesson-2">
               Lição 2 – Como Peregrinos e Testemunhas no Mundo
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-2-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-2-para-comecar">Para Começar</a>
@@ -106,6 +131,9 @@ export default function CursoPedro() {
             <a href="#lesson-3">
               Lição 3 – Crescimento Espiritual e Verdade Apostólica
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-3-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-3-para-comecar">Para Começar</a>
@@ -146,6 +174,9 @@ export default function CursoPedro() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-4-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-4-para-comecar">Para Começar</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -160,8 +191,7 @@ export default function CursoPedro() {
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-4-a-corrupcao-moral-e-espiritual-dos-falsos-mestres">
-              3. A Corrupção Moral e Espiritual dos Falsos Mestres (2Pe
-              2.10–22)
+              3. A Corrupção Moral e Espiritual dos Falsos Mestres (2Pe 2.10–22)
             </a>
           </SummaryLi>
           <SummaryLi subList>
@@ -188,14 +218,10 @@ export default function CursoPedro() {
 
       {/* LIÇÃO 1 */}
       <Container className="mb-10 sm:mb-16">
-        <H2 id="lesson-1">
-          Lição 1 – Esperança Viva em Meio ao Sofrimento
-        </H2>
+        <H2 id="lesson-1">Lição 1 – Esperança Viva em Meio ao Sofrimento</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-1-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Mostrar que a identidade e a esperança do cristão, fundamentadas na
             obra de Cristo e no novo nascimento, sustentam sua santidade e
@@ -317,9 +343,9 @@ export default function CursoPedro() {
           </P>
           <P className="">
             Pedro conecta santidade à eternidade: a obediência tem valor porque
-            fomos resgatados por um preço eterno. Paulo ecoa isso:
-            &quot;Fostes comprados por preço. Agora, glorificai a Deus no vosso
-            corpo&quot; (1Co 6.20, ARA). A santidade é identidade antes de ser
+            fomos resgatados por um preço eterno. Paulo ecoa isso: &quot;Fostes
+            comprados por preço. Agora, glorificai a Deus no vosso corpo&quot;
+            (1Co 6.20, ARA). A santidade é identidade antes de ser
             comportamento.
           </P>
           <P className="">
@@ -377,12 +403,11 @@ export default function CursoPedro() {
           </P>
           <P className="">
             Pedro identifica a igreja com o Israel espiritual, aplicando aos
-            cristãos títulos antes usados para o povo da aliança (1Pe 2.9):
-            raça eleita, sacerdócio real, nação santa e povo de propriedade
-            exclusiva de Deus. São títulos carregados de missão: &quot;para
-            proclamar as virtudes daquele que vos chamou das trevas para a sua
-            maravilhosa luz&quot; (1Pe 2.9, ARA). A identidade define o
-            propósito.
+            cristãos títulos antes usados para o povo da aliança (1Pe 2.9): raça
+            eleita, sacerdócio real, nação santa e povo de propriedade exclusiva
+            de Deus. São títulos carregados de missão: &quot;para proclamar as
+            virtudes daquele que vos chamou das trevas para a sua maravilhosa
+            luz&quot; (1Pe 2.9, ARA). A identidade define o propósito.
           </P>
           <P className="">
             O apóstolo Pedro não busca redefinir ou anular Israel, mas sim
@@ -394,11 +419,10 @@ export default function CursoPedro() {
           </P>
           <P className="">
             O Apóstolo Paulo confirma isso: &quot;Vós sois o corpo de Cristo e
-            individualmente membros desse corpo&quot; (1Co 12.27, ARA). A
-            igreja é o templo vivo onde Deus habita. Assim, a igreja não é
-            plateia, mas sacerdócio; não é prédio, mas povo. Todo crente é
-            ministro, todo crente é testemunha. Nossa identidade determina nossa
-            missão.
+            individualmente membros desse corpo&quot; (1Co 12.27, ARA). A igreja
+            é o templo vivo onde Deus habita. Assim, a igreja não é plateia, mas
+            sacerdócio; não é prédio, mas povo. Todo crente é ministro, todo
+            crente é testemunha. Nossa identidade determina nossa missão.
           </P>
         </div>
 
@@ -410,10 +434,9 @@ export default function CursoPedro() {
             Pedro não oferece uma resposta simplista ao sofrimento; ele oferece
             uma nova maneira de interpretá-lo. O sofrimento, para o cristão, não
             é o colapso da fé, mas o laboratório onde a fé é provada, refinada e
-            fortalecida. Assim como o ouro só revela sua pureza no fogo, a fé
-            só revela sua autenticidade nas provações (1Pe 1.7). O sofrimento
-            se torna, paradoxalmente, um sinal de que pertencemos ao Reino
-            eterno.
+            fortalecida. Assim como o ouro só revela sua pureza no fogo, a fé só
+            revela sua autenticidade nas provações (1Pe 1.7). O sofrimento se
+            torna, paradoxalmente, um sinal de que pertencemos ao Reino eterno.
           </P>
           <P className="">
             Ao mesmo tempo, Pedro nos lembra que a santidade não é um ideal
@@ -450,14 +473,10 @@ export default function CursoPedro() {
 
       {/* LIÇÃO 2 */}
       <Container className="mb-10 sm:mb-16">
-        <H2 id="lesson-2">
-          Lição 2 – Como Peregrinos e Testemunhas no Mundo
-        </H2>
+        <H2 id="lesson-2">Lição 2 – Como Peregrinos e Testemunhas no Mundo</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-2-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Mostrar como os cristãos são chamados a viver como peregrinos
             santos, testemunhas fiéis e servos de Cristo em todas as esferas da
@@ -472,9 +491,9 @@ export default function CursoPedro() {
             agora ele se volta à conduta. Da teologia ele passa para a prática.
             É a lógica do evangelho: quem nós somos determina como devemos
             viver. Por isso, depois de afirmar que somos &quot;raça eleita,
-            sacerdócio real, nação santa&quot; (1Pe 2.9, ARA), ele
-            imediatamente diz: &quot;Exorto-vos a vos absterdes das paixões
-            carnais, que fazem guerra contra a alma&quot; (1Pe 2.11, ARA).
+            sacerdócio real, nação santa&quot; (1Pe 2.9, ARA), ele imediatamente
+            diz: &quot;Exorto-vos a vos absterdes das paixões carnais, que fazem
+            guerra contra a alma&quot; (1Pe 2.11, ARA).
           </P>
           <P className="">
             Pedro sabe que a igreja vive, mas não pertence ao mundo. Essa tensão
@@ -552,8 +571,8 @@ export default function CursoPedro() {
             pelo contexto profissional. Os &quot;servos&quot; aqui (1Pe 2.18)
             eram trabalhadores domésticos, muitos deles tratados injustamente.
             Em vez de incitar rebelião violenta, o autor aponta para a submissão
-            graciosa como instrumento de testemunho. Ele não legitima injustiças;
-            ele revela um modo cristão de enfrentá-las.
+            graciosa como instrumento de testemunho. Ele não legitima
+            injustiças; ele revela um modo cristão de enfrentá-las.
           </P>
           <P className="">
             A chave é o exemplo de Cristo: &quot;Ele não cometeu pecado... sendo
@@ -561,10 +580,10 @@ export default function CursoPedro() {
             retamente&quot; (1Pe 2.22–23, ARA). Cristo é o modelo supremo de
             submissão redentora. Sua obediência silenciosa derrotou o mal. Isso
             ecoa Isaías 53.7: &quot;Foi oprimido e humilhado, mas não abriu a
-            boca&quot; (ARA). Pedro conecta sofrimento, justiça e redenção em
-            um só fio. W. Barclay comenta: &quot;Pedro não ensina servilismo,
-            mas coragem moral. A submissão cristã é piedade ativa, não
-            passividade covarde&quot; (1958).
+            boca&quot; (ARA). Pedro conecta sofrimento, justiça e redenção em um
+            só fio. W. Barclay comenta: &quot;Pedro não ensina servilismo, mas
+            coragem moral. A submissão cristã é piedade ativa, não passividade
+            covarde&quot; (1958).
           </P>
           <P className="">
             O foco da submissão é entregar a causa a Deus, o Justo Juiz (1Pe
@@ -621,8 +640,8 @@ export default function CursoPedro() {
             espiritualidade contracultural.
           </P>
           <P className="">
-            O apóstolo Pedro cita o Salmo 34 para reforçar a ética da língua,
-            da paz e da justiça (1Pe 3.10–12). Ele reconhece que fazer o bem
+            O apóstolo Pedro cita o Salmo 34 para reforçar a ética da língua, da
+            paz e da justiça (1Pe 3.10–12). Ele reconhece que fazer o bem
             provoca oposição, mas assegura que &quot;melhor é sofrer fazendo o
             bem&quot; (1Pe 3.17, ARA). O fundamento dessa postura é Cristo, que
             sofreu pelos justos e pelos injustos &quot;para conduzir-nos a
@@ -700,9 +719,7 @@ export default function CursoPedro() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-3-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Ensinar que o crescimento espiritual contínuo e a firmeza
             doutrinária são essenciais para resistir ao engano, fortalecer a fé
@@ -764,8 +781,8 @@ export default function CursoPedro() {
           <P className="">
             O Apóstolo afirma que Deus nos concedeu &quot;tudo&quot; — não
             parte, não em parcelas, não sob condição — mas &quot;tudo o que diz
-            respeito à vida e à piedade&quot; (2Pe 1.3, ARA). Isso significa
-            que não precisamos de revelações secretas, acessos especiais ou
+            respeito à vida e à piedade&quot; (2Pe 1.3, ARA). Isso significa que
+            não precisamos de revelações secretas, acessos especiais ou
             misticismos. Tudo já foi dado em Cristo. Paulo declara o mesmo:
             &quot;Nele habita corporalmente toda a plenitude da divindade&quot;
             (Cl 2.9, ARA).
@@ -792,8 +809,8 @@ export default function CursoPedro() {
           <P className="">
             Aqui Pedro une duas verdades fundamentais: Deus concede a graça e o
             crente deve se esforçar. Por isso ele diz: &quot;Empenhai-vos por
-            acrescentar à vossa fé...&quot; (2Pe 1.5, ARA). A fé não é
-            estática; é dinâmica. O novo nascimento é o início, não o fim.
+            acrescentar à vossa fé...&quot; (2Pe 1.5, ARA). A fé não é estática;
+            é dinâmica. O novo nascimento é o início, não o fim.
           </P>
           <P className="">
             Pedro então descreve a famosa &quot;escada das virtudes&quot;: Fé —
@@ -817,8 +834,8 @@ export default function CursoPedro() {
           </P>
           <P className="">
             O Apóstolo Paulo também confirma: &quot;Transformai-vos pela
-            renovação da vossa mente&quot; (Rm 12.2, ARA). Crescimento é
-            chamado bíblico, não opcional. Por isso a maturidade não é destino
+            renovação da vossa mente&quot; (Rm 12.2, ARA). Crescimento é chamado
+            bíblico, não opcional. Por isso a maturidade não é destino
             automático — é construção intencional. Todo dia, cada decisão, cada
             renúncia é um degrau na escada que nos aproxima do caráter de
             Cristo.
@@ -847,12 +864,12 @@ export default function CursoPedro() {
           </P>
           <P className="">
             Por isso Pedro diz: &quot;Procurai com diligência confirmar a vossa
-            vocação e eleição&quot; (2Pe 1.10, ARA). Ele não diz para produzir
-            a salvação, mas para confirmar pela vida o que Deus fez na alma.
-            Obras não salvam, mas confirmam. A promessa é gloriosa: quem cresce
-            não tropeça (2Pe 1.10) e terá ampla entrada no Reino eterno (2Pe
-            1.11). A expressão &quot;ampla entrada&quot; indica recepção honrosa
-            — como atletas que retornam triunfantes para casa (1Co 9.24–25).
+            vocação e eleição&quot; (2Pe 1.10, ARA). Ele não diz para produzir a
+            salvação, mas para confirmar pela vida o que Deus fez na alma. Obras
+            não salvam, mas confirmam. A promessa é gloriosa: quem cresce não
+            tropeça (2Pe 1.10) e terá ampla entrada no Reino eterno (2Pe 1.11).
+            A expressão &quot;ampla entrada&quot; indica recepção honrosa — como
+            atletas que retornam triunfantes para casa (1Co 9.24–25).
           </P>
           <P className="">
             Se há algo que o cristão não pode aceitar é a estagnação. Crescer na
@@ -911,10 +928,10 @@ export default function CursoPedro() {
             A imagem aqui é a de vento enchendo as velas de um navio. Os autores
             humanos escreveram, mas quem os empurrou foi o Espírito. Paulo
             comunga do mesmo entendimento, dizendo que &quot;Toda Escritura é
-            inspirada por Deus&quot; (2Tm 3.16, ARA). A Bíblia é o livro
-            através do qual Deus se comunica de forma viva e dinâmica. Sua
-            inspiração não elimina ou desconsidera a contribuição do autor
-            humano, mas assegura e garante a verdade e a autoridade divinas.
+            inspirada por Deus&quot; (2Tm 3.16, ARA). A Bíblia é o livro através
+            do qual Deus se comunica de forma viva e dinâmica. Sua inspiração
+            não elimina ou desconsidera a contribuição do autor humano, mas
+            assegura e garante a verdade e a autoridade divinas.
           </P>
           <P className="">
             Por isso Pedro diz que a Palavra é &quot;como a luz que brilha em
@@ -932,10 +949,10 @@ export default function CursoPedro() {
         <div className="flex flex-col gap-4">
           <H3 id="lesson-3-conclusao">Conclusão</H3>
           <P className="">
-            O primeiro capítulo da segunda carta de Pedro é um chamado urgente ao
-            crescimento espiritual e à firmeza doutrinária. Pedro sabe que uma
-            fé infantil não resistirá aos vendavais espirituais. Por isso, ele
-            inicia lembrando que Deus já nos deu tudo o que precisamos para
+            O primeiro capítulo da segunda carta de Pedro é um chamado urgente
+            ao crescimento espiritual e à firmeza doutrinária. Pedro sabe que
+            uma fé infantil não resistirá aos vendavais espirituais. Por isso,
+            ele inicia lembrando que Deus já nos deu tudo o que precisamos para
             viver em santidade. A graça é suficiente, mas não dispensa o
             esforço, pois ela inspira dedicação.
           </P>
@@ -964,14 +981,11 @@ export default function CursoPedro() {
       {/* LIÇÃO 4 */}
       <Container className="mb-10 sm:mb-16">
         <H2 id="lesson-4">
-          Lição 4 – Falsos Mestres, Juízo Final e a Esperança da Vinda de
-          Cristo
+          Lição 4 – Falsos Mestres, Juízo Final e a Esperança da Vinda de Cristo
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-4-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Expor a gravidade do engano espiritual promovido pelos falsos
             mestres, revelar o juízo inevitável de Deus sobre eles e firmar o
@@ -984,9 +998,9 @@ export default function CursoPedro() {
           <P className="">
             A última parte da Segunda Carta de Pedro é um alerta vermelho
             piscando. Depois de fundamentar os crentes na verdade (cap. 1), o
-            apóstolo agora expõe o engano com detalhes (cap. 2). Ele não
-            suaviza a mensagem e não usa linguagem diplomática. Ele fala como um
-            pastor que sabe que suas ovelhas estão cercadas por lobos.
+            apóstolo agora expõe o engano com detalhes (cap. 2). Ele não suaviza
+            a mensagem e não usa linguagem diplomática. Ele fala como um pastor
+            que sabe que suas ovelhas estão cercadas por lobos.
           </P>
           <P className="">
             O Apóstolo Pedro sabe que falsos mestres não chegam com placas
@@ -996,9 +1010,9 @@ export default function CursoPedro() {
             destruidoras&quot; (2Pe 2.1, ARA).
           </P>
           <P className="">
-            Por isso, esta lição é direta: o perigo é real, o juízo é certo, e
-            a esperança dos crentes permanece inabalável. Pedro não denuncia
-            para gerar medo, mas para gerar vigilância. Ele quer crentes
+            Por isso, esta lição é direta: o perigo é real, o juízo é certo, e a
+            esperança dos crentes permanece inabalável. Pedro não denuncia para
+            gerar medo, mas para gerar vigilância. Ele quer crentes
             espiritualmente lúcidos, não ingênuos. Ele sabe que a igreja que não
             discerne será devorada pela confusão teológica e moral.
           </P>
@@ -1041,8 +1055,7 @@ export default function CursoPedro() {
             manipulado. Eles moldam discursos a fim de conquistar seguidores e
             obter vantagens. Jesus já havia advertido: &quot;Falsos profetas...
             enganarão a muitos&quot; (Mt 24.11, ARA). Paulo também: &quot;o
-            próprio Satanás se transforma em anjo de luz&quot; (2Co 11.14,
-            ARA).
+            próprio Satanás se transforma em anjo de luz&quot; (2Co 11.14, ARA).
           </P>
           <P className="">
             Engano espiritual não se detecta por aparência, emoção ou
@@ -1061,10 +1074,10 @@ export default function CursoPedro() {
             paciência de Deus não significa impunidade. O juízo é certo, e ele
             usa três exemplos históricos para provar isso: os anjos caídos —
             Deus não poupou os anjos que pecaram, mas os entregou à escuridão
-            (2Pe 2.4; Judas 6); o mundo antigo e o dilúvio — Deus preservou
-            Noé, mas julgou o mundo ímpio (2Pe 2.5; Gn 6–9); e Sodoma e
-            Gomorra — Deus destruiu as cidades corruptas, mas livrou Ló (2Pe
-            2.6–7; Gn 19).
+            (2Pe 2.4; Judas 6); o mundo antigo e o dilúvio — Deus preservou Noé,
+            mas julgou o mundo ímpio (2Pe 2.5; Gn 6–9); e Sodoma e Gomorra —
+            Deus destruiu as cidades corruptas, mas livrou Ló (2Pe 2.6–7; Gn
+            19).
           </P>
           <P className="">
             A mensagem é clara: Deus livra os piedosos, mas reserva juízo para
@@ -1131,10 +1144,10 @@ export default function CursoPedro() {
             A lógica deles era simples: nada muda; tudo continua igual; se Deus
             não interveio até agora, não intervirá. Isso é naturalismo puro,
             filosofia sem transcendência. Pedro responde de três maneiras: eles
-            ignoram a criação — o mundo não surgiu sozinho (Gn 1.1), Deus
-            criou; ignoram o dilúvio — o mundo já foi destruído uma vez como
-            juízo (Gn 6–9); e ignoram o propósito de Deus — o céu e a terra
-            atuais &quot;estão reservados para o fogo&quot; (2Pe 3.7).
+            ignoram a criação — o mundo não surgiu sozinho (Gn 1.1), Deus criou;
+            ignoram o dilúvio — o mundo já foi destruído uma vez como juízo (Gn
+            6–9); e ignoram o propósito de Deus — o céu e a terra atuais
+            &quot;estão reservados para o fogo&quot; (2Pe 3.7).
           </P>
           <P className="">
             No mesmo sentido Paulo afirma que &quot;Deus ordenou os tempos e
@@ -1163,8 +1176,8 @@ export default function CursoPedro() {
           <P className="">
             Pedro conclui com três mandamentos: vivam em santidade e piedade
             (2Pe 3.11) — a iminência do retorno de Cristo reorienta toda a vida
-            do crente; aguardem e apressem a vinda de Cristo (2Pe 3.12) — a
-            vida santa &quot;apressa&quot; a vinda porque coopera com o plano de
+            do crente; aguardem e apressem a vinda de Cristo (2Pe 3.12) — a vida
+            santa &quot;apressa&quot; a vinda porque coopera com o plano de
             Deus; e permaneçam firmes na graça (2Pe 3.17–18) — não se deixem
             levar pelos erros.
           </P>
@@ -1242,9 +1255,7 @@ export default function CursoPedro() {
             <P className="mt-0">Wagner Monteiro</P>
           </div>
           <div className="flex flex-col">
-            <P className="mt-0 font-semibold">
-              Projeto Gráfico e Diagramação:
-            </P>
+            <P className="mt-0 font-semibold">Projeto Gráfico e Diagramação:</P>
             <P className="mt-0">Márcio Rezende</P>
           </div>
           <div className="flex flex-col">
