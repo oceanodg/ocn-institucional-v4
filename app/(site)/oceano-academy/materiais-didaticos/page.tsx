@@ -160,11 +160,11 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "1 Tessalonicenses",
-        link: "https://drive.google.com/file/d/1rz6A0WmWONGlKvGaTJjWsf9m-vUvX9dn/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/tessalonicenses",
       },
       {
         title: "2 Tessalonicenses",
-        link: "https://drive.google.com/file/d/1rz6A0WmWONGlKvGaTJjWsf9m-vUvX9dn/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/tessalonicenses",
       },
       {
         title: "1 Timóteo",
