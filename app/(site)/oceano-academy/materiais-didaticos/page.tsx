@@ -156,7 +156,7 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "Colossenses",
-        link: "https://drive.google.com/file/d/1KzjYNdsRlRoXSWtyY7IK-c2gQQmwP0rX/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/colossenses",
       },
       {
         title: "1 Tessalonicenses",
