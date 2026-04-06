@@ -1,4 +1,10 @@
-import { FileImage, NotepadText, SquarePlay, Workflow } from "lucide-react";
+import {
+  FileImage,
+  NotepadText,
+  SquarePlay,
+  Workflow,
+  Hash,
+} from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -38,7 +44,11 @@ export default function CursoApocalipse() {
                 <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1LNPbSqst5OOeNVjhGzmwB13PYwPflCQg/view?usp=sharing">
                     <NotepadText className="size-4" />
-                    Apocalipse
+                    PDF
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1e0Den_VcQe5w8zohMwrNM7OTHayiGoi2/view?usp=sharing">
+                    <Hash className="size-4" />
+                    MD
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
