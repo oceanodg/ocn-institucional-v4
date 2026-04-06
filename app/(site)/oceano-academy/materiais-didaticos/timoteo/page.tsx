@@ -813,10 +813,11 @@ export default function CursoTimoteo() {
             deseja.&quot; (1Tm 3:1).
           </P>
           <P className="">
-            A palavra grega <em>epískopos</em> significa &quot;supervisor&quot;,
-            &quot;pastor&quot; ou &quot;ancião&quot;. No Novo Testamento, esses
-            termos se referem à mesma função (At 20:17,28). O episcopado,
-            portanto, é um chamado ao cuidado do rebanho.
+            A palavra grega <em>epískopos</em> &nbsp; significa
+            &quot;supervisor&quot;, &quot;pastor&quot; ou &quot;ancião&quot;. No
+            Novo Testamento, esses termos se referem à mesma função (At
+            20:17,28). O episcopado, portanto, é um chamado ao cuidado do
+            rebanho.
           </P>
           <P className="">
             Trata-se de uma obra excelente, mas que exige renúncia e dedicação
@@ -1280,13 +1281,16 @@ export default function CursoTimoteo() {
             sozinha, mas junto com ofertas de cereais e animais — formando um
             culto completo. <strong>Símbolo de alegria e celebração:</strong> o
             vinho derramado representava a alegria da adoração verdadeira.{" "}
-            <strong>Sombra profética:</strong> no Novo Testamento, Paulo usa a
-            imagem da libação para descrever sua vida derramada pelo evangelho
-            (Fp 2.17; 2Tm 4.6), apontando para Cristo como o sacrifício pleno e
-            completo. Adam Clarke interpreta a expressão &quot;já estou sendo
-            oferecido por libação&quot; como uma metáfora para o sacrifício
-            iminente de Paulo, comparando sua morte à oferta derramada em
-            rituais religiosos.
+            <strong>Sombra profética:</strong> &nbsp;no Novo Testamento, Paulo
+            usa a imagem da libação para descrever sua vida derramada pelo
+            evangelho (Fp 2.17; 2Tm 4.6), apontando para Cristo como o
+            sacrifício pleno e completo.
+          </P>
+          <P className="">
+            Adam Clarke interpreta a expressão &quot;já estou sendo oferecido
+            por libação&quot; como uma metáfora para o sacrifício iminente de
+            Paulo, comparando sua morte à oferta derramada em rituais
+            religiosos.
           </P>
           <P className="">
             Quando pensamos em uma vida gasta para o Senhor, somos levados a
@@ -1398,12 +1402,15 @@ export default function CursoTimoteo() {
           <P className="">
             &quot;Já agora a coroa da justiça me está guardada, a qual o Senhor,
             reto juiz, me dará naquele Dia; e não somente a mim, mas também a
-            todos quantos amam a sua vinda&quot; (2Tm 4:8). A vinda de Cristo
-            está atrelada à ideia de justiça. Cristo, como o &quot;reto
-            juiz&quot;, trará a recompensa justa àqueles que viveram para Ele.
-            Essa certeza de justiça no julgamento é a base da esperança cristã.
-            A vinda de Cristo não será apenas um evento de glorificação para
-            Cristo, mas também um momento de vindicação para os seus seguidores.
+            todos quantos amam a sua vinda&quot; (2Tm 4:8).
+          </P>
+          <P className="">
+            A vinda de Cristo &nbsp; está atrelada à ideia de justiça. Cristo,
+            como o &quot;reto juiz&quot;, trará a recompensa justa àqueles que
+            viveram para Ele. Essa certeza de justiça no julgamento é a base da
+            esperança cristã. A vinda de Cristo não será apenas um evento de
+            glorificação para Cristo, mas também um momento de vindicação para
+            os seus seguidores.
           </P>
           <P className="">
             Paulo fala sobre sua morte iminente, mas ele não vê isso como um fim
