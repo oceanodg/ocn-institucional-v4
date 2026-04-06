@@ -1,9 +1,13 @@
+import { NotepadText } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { UL } from "~/components/ui/ul";
 import { SummaryLi } from "~/components/summary-li";
+import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
+import { LinkSmall } from "~/components/ui/link-small";
+import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
 
 export default function CursoColossenses() {
   return (
@@ -24,9 +28,24 @@ export default function CursoColossenses() {
 
       <Container className="mb-10 sm:mb-16">
         <H2 id="materials-didactic">Materiais de Apoio</H2>
-        <UL className="mt-0">
-          <li />
-        </UL>
+
+        <Table>
+          <TableHeader>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold w-[110px] sm:w-[160px]">
+                Apostila
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1KzjYNdsRlRoXSWtyY7IK-c2gQQmwP0rX/view?usp=sharing">
+                    <NotepadText className="size-4" />
+                    Carta aos Colossenses
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+          </TableHeader>
+        </Table>
       </Container>
 
       <Separator className="my-8" />
@@ -38,6 +57,9 @@ export default function CursoColossenses() {
             <a href="#lesson-1">
               Lição 1 – A Supremacia de Cristo: O Senhor Sobre Tudo e Todos
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-1-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-1-introducao">Introdução</a>
@@ -67,9 +89,10 @@ export default function CursoColossenses() {
           </SummaryLi>
 
           <SummaryLi>
-            <a href="#lesson-2">
-              Lição 2 – Vivendo de Modo Digno do Senhor
-            </a>
+            <a href="#lesson-2">Lição 2 – Vivendo de Modo Digno do Senhor</a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-2-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-2-introducao">Introdução</a>
@@ -104,6 +127,9 @@ export default function CursoColossenses() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-3-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-3-introducao">Introdução</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -131,9 +157,10 @@ export default function CursoColossenses() {
           </SummaryLi>
 
           <SummaryLi>
-            <a href="#lesson-4">
-              Lição 4 – O Cristão e a Nova Vida em Cristo
-            </a>
+            <a href="#lesson-4">Lição 4 – O Cristão e a Nova Vida em Cristo</a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-4-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-4-introducao">Introdução</a>
@@ -168,12 +195,13 @@ export default function CursoColossenses() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-5-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-5-introducao">Introdução</a>
           </SummaryLi>
           <SummaryLi subList>
-            <a href="#lesson-5-etica-crista-no-lar">
-              1. Ética Cristã no Lar
-            </a>
+            <a href="#lesson-5-etica-crista-no-lar">1. Ética Cristã no Lar</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-5-o-trabalho-como-servico-ao-senhor">
@@ -209,9 +237,7 @@ export default function CursoColossenses() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-1-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Compreender que somente Cristo é suficiente para a salvação e a vida
             plena, rejeitando qualquer ensino que minimize Sua glória e
@@ -223,8 +249,8 @@ export default function CursoColossenses() {
           <H3 id="lesson-1-introducao">Introdução</H3>
           <P className="">
             Damos início ao nosso estudo da carta de Paulo aos Colossenses. A
-            cidade de Colossos era um povoado de pouca importância no vale do rio
-            Licus, atual Turquia. Próxima a duas cidades mais importantes,
+            cidade de Colossos era um povoado de pouca importância no vale do
+            rio Licus, atual Turquia. Próxima a duas cidades mais importantes,
             Laodicéia e Hierápolis. Também estava aproximo, cerca de 180 km, da
             cidade de Éfeso.
           </P>
@@ -239,8 +265,8 @@ export default function CursoColossenses() {
             A Igreja de Colossos havia sido fundada por Epafras, grande
             colaborador fiel de Paulo. E como acontece em todo lugar onde a
             verdade floresce, o inimigo semeia o joio da mentira. Uma heresia
-            sutil começou a infiltrar-se entre os irmãos colossenses que tentavam
-            diminuir a glória de Cristo.
+            sutil começou a infiltrar-se entre os irmãos colossenses que
+            tentavam diminuir a glória de Cristo.
           </P>
           <P className="">
             Para melhor compreensão do texto de Cl 1.15-20 precisamos analisar o
@@ -253,21 +279,22 @@ export default function CursoColossenses() {
             básicos já eram conhecidos no Primeiro Século, não apenas na Igreja
             Cristã, mas também no Judaísmo da Diáspora (dispersão dos judeus, no
             decorrer dos séculos, por todo o mundo). Esse Gnosticismo
-            religioso-filosófica foi mais uma tendência que um sistema, que podia
-            se adaptar aos grupos judeus, cristãos ou pagãos. Essa heresia
-            comprometia a doutrina da suficiência de Cristo (Cl 2.9-10), ao negar
-            que Ele fosse plenamente capaz de redimir a alma (Hb 9.12) e conceder
-            a verdadeira plenitude da vida (Jo 10.10). Por isso, resistiam em
-            reconhecer em Cristo a primazia absoluta sobre a Igreja, usurpando o
-            lugar que, por direito, pertence somente a Ele, &quot;pois aprouve a Deus
-            que, nele, residisse toda a plenitude&quot; (Cl 1.19), e &quot;Ele é o cabeça do
-            corpo, que é a igreja&quot; (Cl 1.18).
+            religioso-filosófica foi mais uma tendência que um sistema, que
+            podia se adaptar aos grupos judeus, cristãos ou pagãos. Essa heresia
+            comprometia a doutrina da suficiência de Cristo (Cl 2.9-10), ao
+            negar que Ele fosse plenamente capaz de redimir a alma (Hb 9.12) e
+            conceder a verdadeira plenitude da vida (Jo 10.10). Por isso,
+            resistiam em reconhecer em Cristo a primazia absoluta sobre a
+            Igreja, usurpando o lugar que, por direito, pertence somente a Ele,
+            &quot;pois aprouve a Deus que, nele, residisse toda a
+            plenitude&quot; (Cl 1.19), e &quot;Ele é o cabeça do corpo, que é a
+            igreja&quot; (Cl 1.18).
           </P>
           <P className="">
             Em nossa lição vamos observar que um dos propósitos de Paulo ao
-            escrever esta carta foi o de combater essa heresia presente na igreja,
-            mostrando a supremacia e suficiência de Cristo (Cl 1:17; 2:3, 9,
-            10,15).
+            escrever esta carta foi o de combater essa heresia presente na
+            igreja, mostrando a supremacia e suficiência de Cristo (Cl 1:17;
+            2:3, 9, 10,15).
           </P>
         </div>
 
@@ -276,9 +303,10 @@ export default function CursoColossenses() {
             1. Cristo, a Imagem do Deus Invisível
           </H3>
           <P className="">
-            O Filho é &quot;a imagem do Deus invisível&quot;. A natureza e caráter de Deus
-            foram revelados nEle; nEle o invisível tornou-se visível. &quot;O qual é
-            imagem do Deus invisível, o primogênito de toda a criação&quot; (Col 1:15).
+            O Filho é &quot;a imagem do Deus invisível&quot;. A natureza e
+            caráter de Deus foram revelados nEle; nEle o invisível tornou-se
+            visível. &quot;O qual é imagem do Deus invisível, o primogênito de
+            toda a criação&quot; (Col 1:15).
           </P>
           <P className="">
             Cristo é a imagem visível do Deus invisível. O verbo está no tempo
@@ -291,22 +319,24 @@ export default function CursoColossenses() {
           <P className="">
             Jesus existia antes de Deus fazer qualquer coisa. Sendo assim, Ele é
             supremo sobre toda a criação. Ele tem toda a prioridade e autoridade
-            como o primogênito na casa de um rei (Hb 1.2). Ele veio do céu, e não
-            do pó da terra (1 Co 15.47), e Ele é Senhor de todos (Rm 9.5; 10.12;
-            Ap 1.5; 17.14). Cristo é supremo sobre toda a criação.
+            como o primogênito na casa de um rei (Hb 1.2). Ele veio do céu, e
+            não do pó da terra (1 Co 15.47), e Ele é Senhor de todos (Rm 9.5;
+            10.12; Ap 1.5; 17.14). Cristo é supremo sobre toda a criação.
           </P>
           <P className="">
-            Portanto, &quot;a imagem&quot; não pretende sugerir a semelhança física de Deus.
-            Como &quot;a imagem do Deus invisível&quot;, Cristo tornou o Deus Pai conhecido
-            ao homem de uma forma única, na Sua vida, no Seu poder e no Seu
-            ensino. Ele mostrou como Deus realmente é.
+            Portanto, &quot;a imagem&quot; não pretende sugerir a semelhança
+            física de Deus. Como &quot;a imagem do Deus invisível&quot;, Cristo
+            tornou o Deus Pai conhecido ao homem de uma forma única, na Sua
+            vida, no Seu poder e no Seu ensino. Ele mostrou como Deus realmente
+            é.
           </P>
           <P className="">
-            A palavra grega para &quot;imagem&quot; é eikon, que significa a identificação
-            de Cristo com Deus, o Pai, em sua perfeição, infinitude, imensidade,
-            glória e poder. Ele mostra a glória de Deus (2 Co 4.4). Jesus Cristo
-            é o &quot;Filho Unigênito de Deus; gerado pelo seu Pai (procedente do Pai)
-            antes da fundação do mundo&quot;. (Jo 1.1-3).
+            A palavra grega para &quot;imagem&quot; é eikon, que significa a
+            identificação de Cristo com Deus, o Pai, em sua perfeição,
+            infinitude, imensidade, glória e poder. Ele mostra a glória de Deus
+            (2 Co 4.4). Jesus Cristo é o &quot;Filho Unigênito de Deus; gerado
+            pelo seu Pai (procedente do Pai) antes da fundação do mundo&quot;.
+            (Jo 1.1-3).
           </P>
           <P className="">
             Como Cristo é apresentado por Paulo no verso 15 já se observa a
@@ -317,8 +347,8 @@ export default function CursoColossenses() {
             condição divina de Jesus (Jo 1.1,14; 20.28; 1 Tm 2.5). Ele não é um
             ser criado por Deus como os gnósticos ensinavam, mas é o próprio
             Deus, com todos os atributos divinos. Ele declarou sua unidade com o
-            Pai: &quot;Eu e o Pai somos um&quot; (Jo 10.30), e &quot;quem vê a mim vê o Pai&quot; (Jo
-            14.9).
+            Pai: &quot;Eu e o Pai somos um&quot; (Jo 10.30), e &quot;quem vê a
+            mim vê o Pai&quot; (Jo 14.9).
           </P>
         </div>
 
@@ -334,53 +364,56 @@ export default function CursoColossenses() {
             todas as coisas subsistem.
           </P>
           <P className="">
-            Nele, todas as coisas são mantidas unidas, protegidas, e impedidas de
-            se desintegrar (veja At 17.28). Pelo fato de Cristo ser aquele que
-            sustenta toda vida, nada na criação é independente dele. Somente nele
-            e por sua palavra, encontramos o princípio unificador de toda vida (Hb
-            1.2,3). Os colossenses, e todos os crentes, são seus servos que devem
-            confiar nele diariamente, recebendo dele proteção, cuidado e sustento.
+            Nele, todas as coisas são mantidas unidas, protegidas, e impedidas
+            de se desintegrar (veja At 17.28). Pelo fato de Cristo ser aquele
+            que sustenta toda vida, nada na criação é independente dele. Somente
+            nele e por sua palavra, encontramos o princípio unificador de toda
+            vida (Hb 1.2,3). Os colossenses, e todos os crentes, são seus servos
+            que devem confiar nele diariamente, recebendo dele proteção, cuidado
+            e sustento.
           </P>
           <P className="">
-            O Apóstolo vai adiante, e trata a expressão &quot;toda a criação&quot; (v.16),
-            pois Cristo é tanto o agente como o objetivo da criação. Ele não deve
-            ser relegado à mesma posição inferior como os demais poderes
-            espirituais. A criação toda encontra seu objetivo em Cristo. O uso do
-            tempo perfeito no grego (ektisthe) mostra que o que ocorreu na
-            atividade criativa de Deus continua a ocorrer no presente. Ficamos com
-            a impressão de que Paulo preocupa-se muito no sentido de evitar
-            quaisquer enganos e mal-entendidos nesta questão. Ele enfatiza que
-            todas as coisas foram criadas por Cristo, e amplia esse conceito
-            usando os termos: &quot;nos céus e na terra e visíveis e invisíveis&quot; (Cl
-            1.16). Isto inclui todas as forças espirituais, sejam tronos, sejam
-            dominações, sejam principados, sejam potestades.
+            O Apóstolo vai adiante, e trata a expressão &quot;toda a
+            criação&quot; (v.16), pois Cristo é tanto o agente como o objetivo
+            da criação. Ele não deve ser relegado à mesma posição inferior como
+            os demais poderes espirituais. A criação toda encontra seu objetivo
+            em Cristo. O uso do tempo perfeito no grego (ektisthe) mostra que o
+            que ocorreu na atividade criativa de Deus continua a ocorrer no
+            presente. Ficamos com a impressão de que Paulo preocupa-se muito no
+            sentido de evitar quaisquer enganos e mal-entendidos nesta questão.
+            Ele enfatiza que todas as coisas foram criadas por Cristo, e amplia
+            esse conceito usando os termos: &quot;nos céus e na terra e visíveis
+            e invisíveis&quot; (Cl 1.16). Isto inclui todas as forças
+            espirituais, sejam tronos, sejam dominações, sejam principados,
+            sejam potestades.
           </P>
           <P className="">
-            Estes termos representam a classificação das forças espirituais usada
-            pelas pessoas do primeiro século. Elas acreditavam que o mundo era
-            habitado por todo tipo de forças estranhas, as quais representavam
-            ameaça aos seres humanos (Romanos 8.38; 1 Coríntios 15.24; Efésios
-            1.21; 6.12; 1 Pedro 3.22). O ponto enfático de Paulo é que todas as
-            manifestações de poderes estão sujeitas à superioridade de Cristo,
-            visto terem sido criados por Ele e para Ele, assim, Cristo é o Senhor
-            de todos esses poderes (Cl. 2.10, 15).
+            Estes termos representam a classificação das forças espirituais
+            usada pelas pessoas do primeiro século. Elas acreditavam que o mundo
+            era habitado por todo tipo de forças estranhas, as quais
+            representavam ameaça aos seres humanos (Romanos 8.38; 1 Coríntios
+            15.24; Efésios 1.21; 6.12; 1 Pedro 3.22). O ponto enfático de Paulo
+            é que todas as manifestações de poderes estão sujeitas à
+            superioridade de Cristo, visto terem sido criados por Ele e para
+            Ele, assim, Cristo é o Senhor de todos esses poderes (Cl. 2.10, 15).
           </P>
           <P className="">
-            Ele é o primogênito de toda a criação, visto que Cristo criou todas as
-            coisas (v.16), a palavra primogênito nem sempre fala de nascimento.
-            Deus chamou Israel e os crentes de Seu primogênito (Êxodo 4.22; Hb
-            12.23). A palavra grega implicava duas coisas: &quot;prioridade para toda a
-            criação e soberania sobre toda a criação&quot;. Cristo, sendo Deus, existiu
-            eternamente como o soberano de todos. Podemos confiar em Cristo para
-            nos manter protegidos do poder das trevas porque Cristo é supremo.
+            Ele é o primogênito de toda a criação, visto que Cristo criou todas
+            as coisas (v.16), a palavra primogênito nem sempre fala de
+            nascimento. Deus chamou Israel e os crentes de Seu primogênito
+            (Êxodo 4.22; Hb 12.23). A palavra grega implicava duas coisas:
+            &quot;prioridade para toda a criação e soberania sobre toda a
+            criação&quot;. Cristo, sendo Deus, existiu eternamente como o
+            soberano de todos. Podemos confiar em Cristo para nos manter
+            protegidos do poder das trevas porque Cristo é supremo.
           </P>
           <P className="">
             Cristo é o criador e sustentador de tudo. Tudo significa tudo.
             Portanto, Ele criou tudo nos céus e na terra. Ele criou tudo o que é
             visível e invisível, todos os tronos, domínios, principados ou
-            potestades. Como afirma o autor de Hebreus (1.3): &quot;O qual, sendo o
-            resplendor da sua glória, e a expressa imagem da sua pessoa, e
-            sustentando todas as coisas pela palavra do seu poder (...)&quot;.
+            potestades. Como afirma o autor de Hebreus (1.3): &quot;O qual,
+            sendo o resplendor da sua glória, e a expressa imagem da sua pessoa,
+            e sustentando todas as coisas pela palavra do seu poder (...)&quot;.
           </P>
         </div>
 
@@ -390,42 +423,42 @@ export default function CursoColossenses() {
           </H3>
           <P className="">
             Paulo se posiciona contra os falsos mestres em Colossos que estavam
-            convidando os cristãos para seguirem suas filosofias (Colossenses 2.8)
-            e regras humanas (Colossenses 2.16-23), pois a plenitude só pode ser
-            encontrada em Cristo. Ele enfatiza que Cristo é a única coisa que os
-            irmãos de Colossos precisavam para receber a redenção da alma:
-            &quot;Porque nele habita corporalmente toda a plenitude da divindade.&quot; (Cl
-            2:9).
+            convidando os cristãos para seguirem suas filosofias (Colossenses
+            2.8) e regras humanas (Colossenses 2.16-23), pois a plenitude só
+            pode ser encontrada em Cristo. Ele enfatiza que Cristo é a única
+            coisa que os irmãos de Colossos precisavam para receber a redenção
+            da alma: &quot;Porque nele habita corporalmente toda a plenitude da
+            divindade.&quot; (Cl 2:9).
           </P>
           <P className="">
-            Deus queria que a sua plenitude (significando &quot;perfeição&quot; e
-            &quot;totalidade&quot;) habitasse (&quot;viver permanentemente&quot;) nele (em Cristo).
-            Como Paulo afirmou aos irmãos da igreja de Colossos &quot;porque foi do
-            agrado do Pai que toda a plenitude nele habitasse&quot; (Co 1.19), ou seja,
-            Cristo é o lugar da habitação de Deus; portanto, Cristo é divino,
-            soberano e preeminente. Cristo exibe perfeitamente todos os atributos
-            de Deus.
+            Deus queria que a sua plenitude (significando &quot;perfeição&quot;
+            e &quot;totalidade&quot;) habitasse (&quot;viver
+            permanentemente&quot;) nele (em Cristo). Como Paulo afirmou aos
+            irmãos da igreja de Colossos &quot;porque foi do agrado do Pai que
+            toda a plenitude nele habitasse&quot; (Co 1.19), ou seja, Cristo é o
+            lugar da habitação de Deus; portanto, Cristo é divino, soberano e
+            preeminente. Cristo exibe perfeitamente todos os atributos de Deus.
           </P>
           <P className="">
-            Através desta declaração, Paulo estava refutando a ideia grega de que
-            Jesus não poderia ser humano e divino ao mesmo tempo. Cristo é humano;
-            mas também divino. Isso não quer dizer que exista mais do que um Deus;
-            há um único Deus, em toda a sua plenitude, reside em Cristo. Cristo
-            sempre foi Deus e sempre será Deus. Todo o Ser de Deus (incluindo os
-            seus atributos, características, natureza e ser) habita no Filho.
-            Quando temos a Cristo, temos tudo de Deus na forma humana. Qualquer
-            doutrina que diminua qualquer aspecto de Cristo - seja a sua
-            humanidade ou a sua divindade - é uma falsa doutrina.
+            Através desta declaração, Paulo estava refutando a ideia grega de
+            que Jesus não poderia ser humano e divino ao mesmo tempo. Cristo é
+            humano; mas também divino. Isso não quer dizer que exista mais do
+            que um Deus; há um único Deus, em toda a sua plenitude, reside em
+            Cristo. Cristo sempre foi Deus e sempre será Deus. Todo o Ser de
+            Deus (incluindo os seus atributos, características, natureza e ser)
+            habita no Filho. Quando temos a Cristo, temos tudo de Deus na forma
+            humana. Qualquer doutrina que diminua qualquer aspecto de Cristo -
+            seja a sua humanidade ou a sua divindade - é uma falsa doutrina.
           </P>
           <P className="">
             A plenitude de Deus habita em Cristo, e nesta plenitude Ele
             reconciliou consigo mesmo todas as coisas. Esta reconciliação foi
-            realizada através do sangue de Cristo na cruz. &quot;Reconciliação&quot;
-            significa o restabelecimento de um relacionamento, fazendo com que
-            este relacionamento se torne amigável e pacífico, quando não tinha
-            sido assim. Pelo fato de Cristo ser o Criador e o Sustentador de
-            todas as coisas (Cl 1.17). A sua morte na cruz proporcionou a
-            reconciliação por todas as coisas.
+            realizada através do sangue de Cristo na cruz.
+            &quot;Reconciliação&quot; significa o restabelecimento de um
+            relacionamento, fazendo com que este relacionamento se torne
+            amigável e pacífico, quando não tinha sido assim. Pelo fato de
+            Cristo ser o Criador e o Sustentador de todas as coisas (Cl 1.17). A
+            sua morte na cruz proporcionou a reconciliação por todas as coisas.
           </P>
         </div>
 
@@ -434,8 +467,8 @@ export default function CursoColossenses() {
             4. A Reconciliação da Humanidade Pelo Seu Sangue
           </H3>
           <P className="">
-            Paulo esclarece que a cruz é o elemento central e indispensável para a
-            reconciliação entre Deus e a humanidade. Foi na cruz que Cristo
+            Paulo esclarece que a cruz é o elemento central e indispensável para
+            a reconciliação entre Deus e a humanidade. Foi na cruz que Cristo
             assumiu o lugar do seu povo, tornando-se o substituto perfeito e
             suficiente, e pagando, com seu sacrifício, o preço pelos pecados de
             cada um dos eleitos. Essa mensagem, embora escandalosa para os
@@ -454,13 +487,13 @@ export default function CursoColossenses() {
             Em outras palavras, por meio de Jesus, Deus reconcilia todas as
             coisas à plenitude Dele, tendo feito a paz pelo sangue da Sua cruz.
             Pelo sangue da cruz, Ele fez a paz; e esta paz não é apenas com o
-            homem. Quando pensamos no sangue da cruz, certamente, pensamos em nós
-            mesmos e como nossos pecados são expiados. Graças a Deus por isso.
-            Mas aqui Ele disse: &quot;Tanto as que estão na terra como as que estão nos
-            céus&quot;. O sangue da cruz de nosso Senhor Jesus Cristo tem um
-            significado muito maior. Ele não é apenas para nos reconciliar à
-            plenitude de Deus, mas é para reconciliar todas as coisas, tanto as
-            que estão na terra como as que estão nos céus.
+            homem. Quando pensamos no sangue da cruz, certamente, pensamos em
+            nós mesmos e como nossos pecados são expiados. Graças a Deus por
+            isso. Mas aqui Ele disse: &quot;Tanto as que estão na terra como as
+            que estão nos céus&quot;. O sangue da cruz de nosso Senhor Jesus
+            Cristo tem um significado muito maior. Ele não é apenas para nos
+            reconciliar à plenitude de Deus, mas é para reconciliar todas as
+            coisas, tanto as que estão na terra como as que estão nos céus.
           </P>
           <P className="">
             Na igreja de Colossos os falsos mestres estavam dizendo que os anjos
@@ -476,8 +509,8 @@ export default function CursoColossenses() {
             Quão mais abrangente é o efeito disso. O sangue precioso de nosso
             Senhor Jesus derramado na cruz. Ela não apenas nos redimiu de nossos
             pecados e transgressões, ela nos conduziu de volta à comunhão com
-            Deus para que pudéssemos nos tornar irrepreensíveis, sem culpa, santos
-            perante a presença de Deus. Que grande salvação é essa! É o
+            Deus para que pudéssemos nos tornar irrepreensíveis, sem culpa,
+            santos perante a presença de Deus. Que grande salvação é essa! É o
             fundamento para a reconciliação de todas as coisas manifestada na
             glória do Filho de Deus em sua plenitude.
           </P>
@@ -499,23 +532,24 @@ export default function CursoColossenses() {
             passageiras, experiências místicas ou sinais exteriores, novas
             revelações ou profecias desconectadas com a Palavra de Deus. No
             entanto, a verdade sempre permanece: Cristo é o centro da fé cristã,
-            e nada além d&apos;Ele é necessário. Ele é o fundamento inabalável da
-            nossa confiança.
+            e nada além d&apos;Ele é necessário. Ele é o fundamento inabalável
+            da nossa confiança.
           </P>
           <P className="">
             As Escrituras são claras e suficientes: Cristo é Deus. Ele é o
-            Criador e Redentor de todas as coisas. E é apenas por meio d&apos;Ele na
-            cruz do calvário que a criação, corrompida pelo pecado, pode ser
-            restaurada e transformada em nova criação. Quando perdemos de vista a
-            verdadeira identidade do Redentor, a igreja se desvia tanto na sua
-            adoração quanto na sua prática. Uma visão distorcida de Cristo gera
-            uma vivência cristã igualmente distorcida.
+            Criador e Redentor de todas as coisas. E é apenas por meio
+            d&apos;Ele na cruz do calvário que a criação, corrompida pelo
+            pecado, pode ser restaurada e transformada em nova criação. Quando
+            perdemos de vista a verdadeira identidade do Redentor, a igreja se
+            desvia tanto na sua adoração quanto na sua prática. Uma visão
+            distorcida de Cristo gera uma vivência cristã igualmente distorcida.
           </P>
           <P className="">
             Portanto, que nada nem ninguém tire a supremacia de Cristo em nosso
-            meio. A redenção é obra exclusiva de Cristo. A nossa missão é apontar
-            para Ele. Somente Jesus Cristo pode redimir, restaurar e fazer novas
-            todas as coisas. A Ele seja a glória para todo o sempre. Amém!
+            meio. A redenção é obra exclusiva de Cristo. A nossa missão é
+            apontar para Ele. Somente Jesus Cristo pode redimir, restaurar e
+            fazer novas todas as coisas. A Ele seja a glória para todo o sempre.
+            Amém!
           </P>
         </div>
       </Container>
@@ -527,13 +561,11 @@ export default function CursoColossenses() {
         <H2 id="lesson-2">Lição 2 – Vivendo de Modo Digno do Senhor</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-2-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
-            Levar o aluno a compreender a importância da oração e da intercessão,
-            destacando o papel da fé e a transformação da condição humana a
-            partir da vinda de Jesus.
+            Levar o aluno a compreender a importância da oração e da
+            intercessão, destacando o papel da fé e a transformação da condição
+            humana a partir da vinda de Jesus.
           </P>
         </div>
 
@@ -553,15 +585,15 @@ export default function CursoColossenses() {
           <P className="">
             Naquele contexto, a comunidade cristã de Colossos enfrentava um dos
             mais sérios desafios teológicos da igreja primitiva: o gnosticismo,
-            que distorcia os ensinamentos de Cristo e dos apóstolos. Em resposta,
-            Paulo intercede por aqueles irmãos para que alcançassem o pleno
-            conhecimento de Deus. No entanto, sua oração não se limita à
-            instrução; ele também suplica para que fossem fortalecidos com o poder
-            divino, a fim de traduzirem o conhecimento recebido em conduta
+            que distorcia os ensinamentos de Cristo e dos apóstolos. Em
+            resposta, Paulo intercede por aqueles irmãos para que alcançassem o
+            pleno conhecimento de Deus. No entanto, sua oração não se limita à
+            instrução; ele também suplica para que fossem fortalecidos com o
+            poder divino, a fim de traduzirem o conhecimento recebido em conduta
             prática. Uma fé rica em saber, mas estéril em ações, revela-se
-            incompleta. Deus não apenas nos chama ao conhecimento, mas espera que
-            o traduzamos em uma vida coerente, expressa por meio de obras que
-            testemunhem a fé que professamos.
+            incompleta. Deus não apenas nos chama ao conhecimento, mas espera
+            que o traduzamos em uma vida coerente, expressa por meio de obras
+            que testemunhem a fé que professamos.
           </P>
           <P className="">
             Paulo afirma que Deus tornou os crentes idôneos para participarem da
@@ -572,8 +604,8 @@ export default function CursoColossenses() {
             profundo significado teológico, pois evidencia que a humanidade,
             incapaz de libertar-se do jugo do pecado por seus próprios esforços,
             foi redimida por meio da ação graciosa de Cristo. Como um senhor que
-            resgata escravos, Ele pagou, com Sua própria vida, o preço que nenhum
-            homem poderia quitar, redimindo-nos da escravidão do pecado.
+            resgata escravos, Ele pagou, com Sua própria vida, o preço que
+            nenhum homem poderia quitar, redimindo-nos da escravidão do pecado.
           </P>
         </div>
 
@@ -600,20 +632,20 @@ export default function CursoColossenses() {
             ele direciona suas orações para uma comunidade à qual nunca teve a
             oportunidade de se conectar fisicamente. Segundo Boor (2006), a
             preocupação central de Paulo era precisamente a possibilidade de a
-            igreja ficar estagnada no estágio espiritual em que se encontrava, sem
-            avançar mais profundamente no conhecimento e na sabedoria que Deus
-            lhes havia reservado.
+            igreja ficar estagnada no estágio espiritual em que se encontrava,
+            sem avançar mais profundamente no conhecimento e na sabedoria que
+            Deus lhes havia reservado.
           </P>
           <P className="">
-            Em suas orações, você tem seguido o exemplo de Paulo? Tem colocado as
-            necessidades do próximo acima das suas próprias, ou tem se tornado
-            insensível às dificuldades dos outros, transformando suas orações em
-            um momento centrado apenas em pedidos incessantes a Deus? Paulo
-            exemplifica o verdadeiro amor ao próximo ao abrir mão de suas
-            próprias necessidades para interceder pelo bem do outro, a fim de que
-            a vontade de Deus se torne conhecida por eles. Pois, &quot;Não tenha cada
-            um em vista o que é propriamente seu, senão também cada qual o que é
-            dos outros.&quot; (Fl 2.4).
+            Em suas orações, você tem seguido o exemplo de Paulo? Tem colocado
+            as necessidades do próximo acima das suas próprias, ou tem se
+            tornado insensível às dificuldades dos outros, transformando suas
+            orações em um momento centrado apenas em pedidos incessantes a Deus?
+            Paulo exemplifica o verdadeiro amor ao próximo ao abrir mão de suas
+            próprias necessidades para interceder pelo bem do outro, a fim de
+            que a vontade de Deus se torne conhecida por eles. Pois, &quot;Não
+            tenha cada um em vista o que é propriamente seu, senão também cada
+            qual o que é dos outros.&quot; (Fl 2.4).
           </P>
         </div>
 
@@ -624,19 +656,20 @@ export default function CursoColossenses() {
           <P className="">
             Na igreja primitiva, uma das maiores ameaças à fé cristã era o
             gnosticismo, cujos ensinamentos distorciam a doutrina apostólica.
-            Como observa Lopes (2014, p. 59), &quot;o gnosticismo, com seu misticismo
-            heterodoxo, oferecia outro caminho para o homem chegar à perfeição, à
-            parte do sacrifício expiatório de Cristo&quot;. Embora Paulo não tenha sido
-            o fundador da igreja de Colossos, ele se sentia responsável por
-            protegê-la espiritualmente contra doutrinas enganosas. Por isso,
-            intercede a Deus, pedindo que os colossenses transbordassem no pleno
-            conhecimento de Deus, para que não fossem seduzidos por falsas
-            doutrinas, mas vivessem de maneira digna do Senhor.
+            Como observa Lopes (2014, p. 59), &quot;o gnosticismo, com seu
+            misticismo heterodoxo, oferecia outro caminho para o homem chegar à
+            perfeição, à parte do sacrifício expiatório de Cristo&quot;. Embora
+            Paulo não tenha sido o fundador da igreja de Colossos, ele se sentia
+            responsável por protegê-la espiritualmente contra doutrinas
+            enganosas. Por isso, intercede a Deus, pedindo que os colossenses
+            transbordassem no pleno conhecimento de Deus, para que não fossem
+            seduzidos por falsas doutrinas, mas vivessem de maneira digna do
+            Senhor.
           </P>
           <P className="">
-            Paulo enfatiza que o crescimento no conhecimento de Deus não deve ser
-            um fim em si mesmo, mas deve resultar em transformação prática. O
-            saber teológico é, para ele, instrumento para a formação de um
+            Paulo enfatiza que o crescimento no conhecimento de Deus não deve
+            ser um fim em si mesmo, mas deve resultar em transformação prática.
+            O saber teológico é, para ele, instrumento para a formação de um
             caráter santo, distinto dos padrões mundanos e marcado pela renúncia
             ao pecado. Em outras palavras, o conhecimento de Deus deve gerar, no
             cristão, uma vida de santidade. Seu anseio era que os cristãos de
@@ -667,13 +700,13 @@ export default function CursoColossenses() {
             O conhecimento, por si só, não basta; é necessário vivê-lo. Contudo,
             nem sempre somos capazes de fazê-lo por nossas próprias forças. Por
             isso, Paulo intercede pelos colossenses, pedindo a Deus que os
-            fortaleça com todo poder, pois, sem Sua capacitação, o ser humano não
-            consegue vencer nem mesmo os próprios impulsos e desejos.
+            fortaleça com todo poder, pois, sem Sua capacitação, o ser humano
+            não consegue vencer nem mesmo os próprios impulsos e desejos.
           </P>
           <P className="">
             Deus revela, por meio de Sua Palavra, como devem ser moldadas as
-            atitudes daqueles que O seguem. Pela oração, o Senhor concede poder e
-            capacitação para que Sua vontade seja cumprida. É somente Ele quem
+            atitudes daqueles que O seguem. Pela oração, o Senhor concede poder
+            e capacitação para que Sua vontade seja cumprida. É somente Ele quem
             torna o ser humano apto a resistir às ciladas do maligno, e
             exclusivamente nEle encontramos forças para permanecer firmes no dia
             mau.
@@ -687,14 +720,15 @@ export default function CursoColossenses() {
             oração, que fortalece Seus filhos e os torna mais que vencedores.
           </P>
           <P className="">
-            O apóstolo Paulo afirma que Deus, além de conceder a força necessária
-            para que Seus filhos obedeçam aos preceitos de Sua Palavra, também os
-            qualificou para a glória futura. Por isso, independentemente das
-            adversidades, o crente pode perseverar em alegria, pois reconhece que
-            a existência e as lutas terrenas são transitórias (2Co 4.16–18),
-            enquanto a eternidade o aguarda. Essa esperança não se fundamenta em
-            méritos humanos, mas exclusivamente na bondade de Deus, que, por Sua
-            graça, nos tornou idôneos para a herança dos santos na luz.
+            O apóstolo Paulo afirma que Deus, além de conceder a força
+            necessária para que Seus filhos obedeçam aos preceitos de Sua
+            Palavra, também os qualificou para a glória futura. Por isso,
+            independentemente das adversidades, o crente pode perseverar em
+            alegria, pois reconhece que a existência e as lutas terrenas são
+            transitórias (2Co 4.16–18), enquanto a eternidade o aguarda. Essa
+            esperança não se fundamenta em méritos humanos, mas exclusivamente
+            na bondade de Deus, que, por Sua graça, nos tornou idôneos para a
+            herança dos santos na luz.
           </P>
         </div>
 
@@ -705,25 +739,27 @@ export default function CursoColossenses() {
           <P className="">
             A humanidade encontrava-se em uma condição degradante de condenação,
             subjugada pelo pecado que, ao adentrar o mundo, a lançou nas trevas.
-            Incapaz de libertar-se por méritos próprios, o ser humano necessitava
-            de intervenção redentora. Cristo assumiu a culpa do pecado, cancelando
-            a dívida que nos condenava e removendo toda acusação. Pela cruz,
-            aboliu o registro hostil, expondo-o publicamente e promovendo a
-            reconciliação entre Deus e a humanidade (Cl 2.14).
+            Incapaz de libertar-se por méritos próprios, o ser humano
+            necessitava de intervenção redentora. Cristo assumiu a culpa do
+            pecado, cancelando a dívida que nos condenava e removendo toda
+            acusação. Pela cruz, aboliu o registro hostil, expondo-o
+            publicamente e promovendo a reconciliação entre Deus e a humanidade
+            (Cl 2.14).
           </P>
           <P className="">
             Reduzir a obra de Cristo à ideia de que Ele apenas assumiu o peso do
-            pecado é desconsiderar a gravidade da condição humana diante de Deus.
-            Embora Paulo afirme que nada pode nos separar do amor divino (Rm
-            8.38–39), o ser humano, por escolha, pode afastar-se dEle (Is 59.2).
-            Pedro destaca que quem é vencido torna-se escravo do que o domina
-            (2Pe 2.19), e essa era a situação da humanidade: escrava do pecado,
-            separada de Deus e incapaz de libertar-se. Por isso, a obra de Cristo
-            é essencial. Em Cl 1.14, Paulo declara que, em Cristo, temos redenção
-            e perdão dos pecados. O termo &quot;redenção&quot; refere-se à libertação de um
-            escravo mediante pagamento. Cristo, ao morrer sem pecado, pagou o
-            preço exigido por Deus, libertando-nos do pecado, reconciliando-nos
-            com Ele e concedendo-nos liberdade plena em Cristo.
+            pecado é desconsiderar a gravidade da condição humana diante de
+            Deus. Embora Paulo afirme que nada pode nos separar do amor divino
+            (Rm 8.38–39), o ser humano, por escolha, pode afastar-se dEle (Is
+            59.2). Pedro destaca que quem é vencido torna-se escravo do que o
+            domina (2Pe 2.19), e essa era a situação da humanidade: escrava do
+            pecado, separada de Deus e incapaz de libertar-se. Por isso, a obra
+            de Cristo é essencial. Em Cl 1.14, Paulo declara que, em Cristo,
+            temos redenção e perdão dos pecados. O termo &quot;redenção&quot;
+            refere-se à libertação de um escravo mediante pagamento. Cristo, ao
+            morrer sem pecado, pagou o preço exigido por Deus, libertando-nos do
+            pecado, reconciliando-nos com Ele e concedendo-nos liberdade plena
+            em Cristo.
           </P>
           <P className="">
             Segundo Werner de Boor (2006), Deus, em Sua autoridade soberana,
@@ -731,10 +767,10 @@ export default function CursoColossenses() {
             própria sorte, mas para inseri-lo em uma nova realidade sob Sua
             proteção e governo. Essa libertação não se limita à remoção do jugo
             do pecado e da escravidão espiritual; representa uma transposição
-            ativa para o reino do Filho do Seu amor. Conforme Paulo afirma, fomos
-            trasladados do império das trevas para esse reino de luz, a fim de
-            não mais andarmos em escuridão, mas seguirmos com Cristo, sob Sua luz
-            e direção.
+            ativa para o reino do Filho do Seu amor. Conforme Paulo afirma,
+            fomos trasladados do império das trevas para esse reino de luz, a
+            fim de não mais andarmos em escuridão, mas seguirmos com Cristo, sob
+            Sua luz e direção.
           </P>
         </div>
 
@@ -742,38 +778,39 @@ export default function CursoColossenses() {
           <H3 id="lesson-2-conclusao">Conclusão</H3>
           <P className="">
             Paulo constitui um exemplo digno de imitação. Mesmo diante da
-            iminência da morte, não se apegou às suas próprias circunstâncias; ao
-            contrário, dedicou-se à oração em favor de pessoas com as quais jamais
-            teve contato direto, mas cuja necessidade espiritual ele compreendia
-            profundamente. Sua atitude evidencia que o cuidado com a igreja e a
-            intercessão pelos santos ocupavam lugar prioritário, acima de suas
-            próprias necessidades.
+            iminência da morte, não se apegou às suas próprias circunstâncias;
+            ao contrário, dedicou-se à oração em favor de pessoas com as quais
+            jamais teve contato direto, mas cuja necessidade espiritual ele
+            compreendia profundamente. Sua atitude evidencia que o cuidado com a
+            igreja e a intercessão pelos santos ocupavam lugar prioritário,
+            acima de suas próprias necessidades.
           </P>
           <P className="">
             A intercessão em favor dos colossenses expressa o desejo de que
             fossem cheios do conhecimento de Deus, não apenas para crescerem em
             entendimento, mas para que, por meio disso, evidenciassem sua fé de
             forma concreta, por meio das obras. Afinal, o conhecimento de Deus
-            deve gerar em nós ações coerentes com a nova identidade que recebemos
-            em Cristo.
+            deve gerar em nós ações coerentes com a nova identidade que
+            recebemos em Cristo.
           </P>
           <P className="">
             Mesmo com o conhecimento necessário, muitas vezes não conseguimos
             aplicá-lo em nosso dia a dia por falta de força, domínio próprio e
             poder. O saber, por si só, não basta sem a prática. É em Deus, por
-            meio da oração, que recebemos o poder necessário para viver segundo o
-            que aprendemos. E mantemos sempre a alegria, certos da glória futura,
-            não por mérito nosso, mas porque Deus nos capacitou para ela.
+            meio da oração, que recebemos o poder necessário para viver segundo
+            o que aprendemos. E mantemos sempre a alegria, certos da glória
+            futura, não por mérito nosso, mas porque Deus nos capacitou para
+            ela.
           </P>
           <P className="">
-            A humanidade encontrava-se em estado de condenação, escrava do pecado
-            e sem qualquer perspectiva de escapar desse destino sombrio. No
-            entanto, por meio da intervenção redentora de Cristo, tornou-se
+            A humanidade encontrava-se em estado de condenação, escrava do
+            pecado e sem qualquer perspectiva de escapar desse destino sombrio.
+            No entanto, por meio da intervenção redentora de Cristo, tornou-se
             possível a libertação do seu algoz. Mais do que romper as correntes
             do pecado, Cristo nos trasladou do reino das trevas para o reino do
-            Filho do Seu amor, onde já não andamos em trevas, mas na luz, vivendo
-            uma nova vida orientada por Sua Palavra, e não mais pelos desejos
-            caídos da velha natureza.
+            Filho do Seu amor, onde já não andamos em trevas, mas na luz,
+            vivendo uma nova vida orientada por Sua Palavra, e não mais pelos
+            desejos caídos da velha natureza.
           </P>
         </div>
       </Container>
@@ -782,14 +819,10 @@ export default function CursoColossenses() {
 
       {/* LIÇÃO 3 */}
       <Container className="mb-10 sm:mb-16">
-        <H2 id="lesson-3">
-          Lição 3 – Cuidado Com as Filosofias Enganosas
-        </H2>
+        <H2 id="lesson-3">Lição 3 – Cuidado Com as Filosofias Enganosas</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-3-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Alertar a Igreja a respeito de filosofias e ensinamentos fora da
             Palavra de Deus e orientá-la sob a luz do &quot;verdadeiro
@@ -800,20 +833,21 @@ export default function CursoColossenses() {
         <div className="flex flex-col gap-4">
           <H3 id="lesson-3-introducao">Introdução</H3>
           <P className="">
-            Os cristãos em Colossos aparentemente possuíam &quot;boa disciplina&quot; e
-            &quot;estabilidade&quot;, conforme vemos nos versículos quatro e cinco do
-            capítulo dois. Tendo isto como fundamento, alinhado com o elogio de
-            Paulo por sua fé, citado no capítulo um, o Apóstolo agora prossegue
-            para um dos principais propósitos de sua carta: exortar os
-            colossenses a permanecerem no caminho certo.
+            Os cristãos em Colossos aparentemente possuíam &quot;boa
+            disciplina&quot; e &quot;estabilidade&quot;, conforme vemos nos
+            versículos quatro e cinco do capítulo dois. Tendo isto como
+            fundamento, alinhado com o elogio de Paulo por sua fé, citado no
+            capítulo um, o Apóstolo agora prossegue para um dos principais
+            propósitos de sua carta: exortar os colossenses a permanecerem no
+            caminho certo.
           </P>
           <P className="">
             Notamos que, logo no início da carta, Paulo faz questão de avisá-los
             de que já foram instruídos a respeito da graça de Deus por Epafras,
             chamado por Paulo de conservo; portanto, não deveriam trocar a
-            simplicidade do evangelho de Cristo por rituais complicados que falsos
-            mestres estavam ensinando. Encontramos isso nos versículos seis e
-            sete do primeiro capítulo.
+            simplicidade do evangelho de Cristo por rituais complicados que
+            falsos mestres estavam ensinando. Encontramos isso nos versículos
+            seis e sete do primeiro capítulo.
           </P>
           <P className="">
             Já no primeiro versículo do capítulo dois, Paulo cita a grande luta
@@ -824,16 +858,18 @@ export default function CursoColossenses() {
           </P>
           <P className="">
             Os primeiros sete versículos do capítulo dois explicam melhor o
-            &quot;verdadeiro conhecimento&quot;, que é o próprio Cristo, em quem estão
-            escondidos todos os tesouros da sabedoria e do conhecimento, como
-            descrito no versículo três (&quot;v.3: em quem todos os tesouros da
-            sabedoria e do conhecimento estão ocultos&quot;), quando se refere a Ele.
+            &quot;verdadeiro conhecimento&quot;, que é o próprio Cristo, em quem
+            estão escondidos todos os tesouros da sabedoria e do conhecimento,
+            como descrito no versículo três (&quot;v.3: em quem todos os
+            tesouros da sabedoria e do conhecimento estão ocultos&quot;), quando
+            se refere a Ele.
           </P>
           <P className="">
-            Conhecido como &quot;O príncipe dos pregadores&quot;, Charles H. Spurgeon certa
-            vez disse: &quot;Não consigo suportar as doutrinas falsas, por mais
-            primorosa que seja sua apresentação. Você comeria carne envenenada só
-            porque é servida em um prato de porcelana finíssimo?&quot;
+            Conhecido como &quot;O príncipe dos pregadores&quot;, Charles H.
+            Spurgeon certa vez disse: &quot;Não consigo suportar as doutrinas
+            falsas, por mais primorosa que seja sua apresentação. Você comeria
+            carne envenenada só porque é servida em um prato de porcelana
+            finíssimo?&quot;
           </P>
         </div>
 
@@ -842,27 +878,30 @@ export default function CursoColossenses() {
             1. Firmados e Edificados em Cristo
           </H3>
           <P className="">
-            Paulo manifesta, através do que fora escrito no versículo seis, o seu
-            desejo pelo progresso e crescimento espiritual dos colossenses,
+            Paulo manifesta, através do que fora escrito no versículo seis, o
+            seu desejo pelo progresso e crescimento espiritual dos colossenses,
             trazendo-lhes à memória e enfatizando que já receberam a Cristo:
-            &quot;Ora, como recebestes Cristo Jesus, o Senhor, assim andai nele&quot;,
-            destacando a palavra &quot;como&quot;, que indica um ato conclusivo.
+            &quot;Ora, como recebestes Cristo Jesus, o Senhor, assim andai
+            nele&quot;, destacando a palavra &quot;como&quot;, que indica um ato
+            conclusivo.
           </P>
           <P className="">
-            Ele não diz que apenas receberam a &quot;Doutrina de Cristo&quot;, mas o
-            próprio Senhor, como comentado por Andrew Fausset: &quot;Vocês receberam
-            de uma vez por todas o Espírito da vida em Cristo; coloquem essa vida
-            em prática na conduta de vocês&quot;, como está escrito em Gálatas 5.25:
-            &quot;Se vivemos no Espírito, andemos também no Espírito&quot;.
+            Ele não diz que apenas receberam a &quot;Doutrina de Cristo&quot;,
+            mas o próprio Senhor, como comentado por Andrew Fausset: &quot;Vocês
+            receberam de uma vez por todas o Espírito da vida em Cristo;
+            coloquem essa vida em prática na conduta de vocês&quot;, como está
+            escrito em Gálatas 5.25: &quot;Se vivemos no Espírito, andemos
+            também no Espírito&quot;.
           </P>
           <P className="">
-            Agora, os colossenses estavam construindo sobre o firme fundamento. A
-            planta está crescendo, absorvendo nutrientes e se desenvolvendo. O
+            Agora, os colossenses estavam construindo sobre o firme fundamento.
+            A planta está crescendo, absorvendo nutrientes e se desenvolvendo. O
             fundamento mencionado é a fé em Jesus Cristo. A palavra grega
-            traduzida como &quot;edificado&quot; é bebaioo, que também pode ser traduzida
-            como &quot;confirmado&quot;. Sendo assim, ele confirma e reitera que aquilo já
-            foi apresentado. Em essência, Paulo estava alegando que os crentes de
-            Colossos estavam sendo reforçados na sua fé.
+            traduzida como &quot;edificado&quot; é bebaioo, que também pode ser
+            traduzida como &quot;confirmado&quot;. Sendo assim, ele confirma e
+            reitera que aquilo já foi apresentado. Em essência, Paulo estava
+            alegando que os crentes de Colossos estavam sendo reforçados na sua
+            fé.
           </P>
           <P className="">
             Existe aqui um conjunto de princípios duplos operando. Ambos são
@@ -870,8 +909,8 @@ export default function CursoColossenses() {
             decisão dos crentes de se alinharem com Ele por meio da fé. O
             primeiro pilar desse fundamento é que sua fé estava sendo
             desenvolvida e crescendo em direção a maiores capacidades,
-            compreensão e, consequentemente, recompensas — a &quot;riqueza&quot; mencionada
-            no versículo dois.
+            compreensão e, consequentemente, recompensas — a &quot;riqueza&quot;
+            mencionada no versículo dois.
           </P>
           <P className="">
             O segundo pilar representa um reforço contínuo dessa fé. Assim como
@@ -879,8 +918,8 @@ export default function CursoColossenses() {
             mesma forma deveria ser aprovada a fé desses cristãos. Ou seja, sua
             fé era confirmada, ou estabelecida, na medida em que era praticada.
             Vendo desta forma, os cristãos poderiam avançar para uma maturidade
-            mais plena na fé, &quot;com ações de graça&quot; a Deus, o autor gracioso de
-            toda bênção.
+            mais plena na fé, &quot;com ações de graça&quot; a Deus, o autor
+            gracioso de toda bênção.
           </P>
         </div>
 
@@ -889,29 +928,31 @@ export default function CursoColossenses() {
             2. O Perigo das Doutrinas Humanas
           </H3>
           <P className="">
-            Colossos era uma província romana inundada pelo sistema de pensamento
-            grego, incluindo o politeísmo do panteão, adotado por Roma na Grécia.
-            Trilhar esse caminho significava abraçar o destino explorador e
-            autodestrutivo do paganismo, levando a enganos vazios, segundo a
-            tradição dos homens e segundo os princípios elementares do mundo.
+            Colossos era uma província romana inundada pelo sistema de
+            pensamento grego, incluindo o politeísmo do panteão, adotado por
+            Roma na Grécia. Trilhar esse caminho significava abraçar o destino
+            explorador e autodestrutivo do paganismo, levando a enganos vazios,
+            segundo a tradição dos homens e segundo os princípios elementares do
+            mundo.
           </P>
           <P className="">
             Se o próprio Apóstolo Paulo estivesse lendo a carta aos colossenses,
-            no versículo oito do capítulo dois, ele gritaria: &quot;CUIDADO, ATENÇÃO,
-            OBSERVEM BEM!&quot;. É como se, com esse aviso, ele causasse uma pausa
-            silenciosa, convocando a atenção de todos para o que falaria logo em
-            seguida: &quot;Que ninguém&quot;, prossegue ele, ou seja, que nenhum emissário
-            conhecido do mal, como em Gálatas capítulos um, versículo sete,
-            perverta o verdadeiro Evangelho de Cristo que há em vós e venha vos
-            &quot;enredar&quot;. Este termo expressa a imagem de uma rede que, sendo
-            lançada, acaba retirando alguns peixes do seu habitat natural.
+            no versículo oito do capítulo dois, ele gritaria: &quot;CUIDADO,
+            ATENÇÃO, OBSERVEM BEM!&quot;. É como se, com esse aviso, ele
+            causasse uma pausa silenciosa, convocando a atenção de todos para o
+            que falaria logo em seguida: &quot;Que ninguém&quot;, prossegue ele,
+            ou seja, que nenhum emissário conhecido do mal, como em Gálatas
+            capítulos um, versículo sete, perverta o verdadeiro Evangelho de
+            Cristo que há em vós e venha vos &quot;enredar&quot;. Este termo
+            expressa a imagem de uma rede que, sendo lançada, acaba retirando
+            alguns peixes do seu habitat natural.
           </P>
           <P className="">
-            O &quot;engodo&quot; que poderia atrair as presas para esta &quot;rede&quot; eram as
-            filosofias não legítimas, baseadas em tradições de homens, raciocínio
-            humano e rudimentos mundanos, que, lançados sutilmente, poderiam
-            enganar a muitos, já que não vinham de forma evidente, mas com
-            aparência de algo bom.
+            O &quot;engodo&quot; que poderia atrair as presas para esta
+            &quot;rede&quot; eram as filosofias não legítimas, baseadas em
+            tradições de homens, raciocínio humano e rudimentos mundanos, que,
+            lançados sutilmente, poderiam enganar a muitos, já que não vinham de
+            forma evidente, mas com aparência de algo bom.
           </P>
           <P className="">
             O texto sugere que havia opções alternativas ao caminho de Cristo.
@@ -921,19 +962,20 @@ export default function CursoColossenses() {
             outros caminhos.
           </P>
           <P className="">
-            É importante salientarmos que Paulo não condena toda filosofia, mas a
-            &quot;filosofia&quot; dos heréticos judaico-orientais em Colossos, que alegavam
-            que, para obter a justificação, era necessária a prática da
-            circuncisão — o que, mais tarde, veio a evoluir e se tornar
-            gnosticismo — e que Paulo tanto combate em sua carta aos Romanos.
+            É importante salientarmos que Paulo não condena toda filosofia, mas
+            a &quot;filosofia&quot; dos heréticos judaico-orientais em Colossos,
+            que alegavam que, para obter a justificação, era necessária a
+            prática da circuncisão — o que, mais tarde, veio a evoluir e se
+            tornar gnosticismo — e que Paulo tanto combate em sua carta aos
+            Romanos.
           </P>
           <P className="">
-            O termo &quot;filosofia&quot; aqui é a tradução da palavra que significa
-            literalmente &quot;amor à sabedoria&quot;. Paulo faz uso do termo em clara
-            referência à cosmovisão grega, na qual o intelecto do homem era capaz
-            das maiores conquistas, porém separadas do verdadeiro Deus. Ou seja,
-            palavras sem nenhuma substância, que levavam as pessoas a uma vida
-            fútil e vã.
+            O termo &quot;filosofia&quot; aqui é a tradução da palavra que
+            significa literalmente &quot;amor à sabedoria&quot;. Paulo faz uso
+            do termo em clara referência à cosmovisão grega, na qual o intelecto
+            do homem era capaz das maiores conquistas, porém separadas do
+            verdadeiro Deus. Ou seja, palavras sem nenhuma substância, que
+            levavam as pessoas a uma vida fútil e vã.
           </P>
         </div>
 
@@ -942,38 +984,40 @@ export default function CursoColossenses() {
             3. A Plenitude da Vida em Cristo
           </H3>
           <P className="">
-            No versículo nove, Paulo certifica e confirma sua fala: &quot;porquanto,
-            nele (Cristo), habita, corporalmente, toda a plenitude da
-            Divindade&quot;. Portanto, se há alguma filosofia ou algum ensino que não
-            procede d&apos;Ele e não conduz a Ele, é ilusão, pois somente n&apos;Ele
-            estamos completos, e já não se faz necessário qualquer ensino ou
-            revelação que não venha de Cristo. Esta é, talvez, a descrição mais
-            sucinta da divindade de Cristo.
+            No versículo nove, Paulo certifica e confirma sua fala:
+            &quot;porquanto, nele (Cristo), habita, corporalmente, toda a
+            plenitude da Divindade&quot;. Portanto, se há alguma filosofia ou
+            algum ensino que não procede d&apos;Ele e não conduz a Ele, é
+            ilusão, pois somente n&apos;Ele estamos completos, e já não se faz
+            necessário qualquer ensino ou revelação que não venha de Cristo.
+            Esta é, talvez, a descrição mais sucinta da divindade de Cristo.
           </P>
           <P className="">
-            &quot;Corporalmente&quot;, não apenas como antes de sua encarnação, mas agora
-            como Verbo encarnado, como descrito em João capítulo um, versículo
-            quatorze: &quot;E o Verbo se fez carne e habitou entre nós, cheio de graça
-            e de verdade, e vimos a sua glória, glória como do unigênito do
-            Pai&quot;.
+            &quot;Corporalmente&quot;, não apenas como antes de sua encarnação,
+            mas agora como Verbo encarnado, como descrito em João capítulo um,
+            versículo quatorze: &quot;E o Verbo se fez carne e habitou entre
+            nós, cheio de graça e de verdade, e vimos a sua glória, glória como
+            do unigênito do Pai&quot;.
           </P>
           <P className="">
-            A palavra &quot;plenitude&quot; aqui significa &quot;completude&quot;. Jesus não era um
-            pedaço de Deus, assim como não era um reflexo de Deus. Nada poderia
-            ser acrescentado a Ele para que fosse elevado à divindade de Deus,
-            pois, como escrito no capítulo primeiro, versículo dezenove: &quot;porque
-            aprouve a Deus que, nele, residisse toda a plenitude&quot;.
+            A palavra &quot;plenitude&quot; aqui significa
+            &quot;completude&quot;. Jesus não era um pedaço de Deus, assim como
+            não era um reflexo de Deus. Nada poderia ser acrescentado a Ele para
+            que fosse elevado à divindade de Deus, pois, como escrito no
+            capítulo primeiro, versículo dezenove: &quot;porque aprouve a Deus
+            que, nele, residisse toda a plenitude&quot;.
           </P>
           <P className="">
-            Sendo assim, o termo &quot;divindade&quot; significa, literalmente, &quot;estado de
-            Deus&quot;. Este termo em grego, theótes, é o que utilizamos para
-            descrever alguns atributos do próprio Deus, como: perfeição,
-            supremacia, poder criador do céu e da terra etc. Jesus não era um
-            profeta ou um representante de Deus; Ele era o próprio Deus, em toda
-            Sua plenitude. Deus veio à terra, viveu uma vida perfeita e morreu
-            para nos reconciliar consigo mesmo. É sobre esse entendimento que se
-            sustenta toda a sabedoria. Jesus afirma isso no Evangelho segundo
-            escreveu Mateus, no capítulo vinte e oito, versículo dezoito.
+            Sendo assim, o termo &quot;divindade&quot; significa, literalmente,
+            &quot;estado de Deus&quot;. Este termo em grego, theótes, é o que
+            utilizamos para descrever alguns atributos do próprio Deus, como:
+            perfeição, supremacia, poder criador do céu e da terra etc. Jesus
+            não era um profeta ou um representante de Deus; Ele era o próprio
+            Deus, em toda Sua plenitude. Deus veio à terra, viveu uma vida
+            perfeita e morreu para nos reconciliar consigo mesmo. É sobre esse
+            entendimento que se sustenta toda a sabedoria. Jesus afirma isso no
+            Evangelho segundo escreveu Mateus, no capítulo vinte e oito,
+            versículo dezoito.
           </P>
         </div>
 
@@ -983,55 +1027,57 @@ export default function CursoColossenses() {
           </H3>
           <P className="">
             No versículo dez, Paulo apresenta a recompensa para aqueles que não
-            se deixaram levar por &quot;ventos de doutrinas&quot; ou se &quot;enredar&quot; com as
-            vãs filosofias, explicando que os colossenses, estando unidos com
-            Cristo — &quot;n&apos;Ele&quot; — também estarão plenamente satisfeitos de tudo
-            aquilo que precisam.
+            se deixaram levar por &quot;ventos de doutrinas&quot; ou se
+            &quot;enredar&quot; com as vãs filosofias, explicando que os
+            colossenses, estando unidos com Cristo — &quot;n&apos;Ele&quot; —
+            também estarão plenamente satisfeitos de tudo aquilo que precisam.
           </P>
           <P className="">
             Tendo Cristo como cabeça, autoridade, significa que Ele é quem dá as
             diretrizes. Assim como o cérebro diz ao corpo o que deve fazer, o
             corpo de Cristo, que é a Igreja, deve seguir Seu comando. E somente
-            por meio d&apos;Ele podemos estar &quot;plenos e em toda a plenitude&quot;.
+            por meio d&apos;Ele podemos estar &quot;plenos e em toda a
+            plenitude&quot;.
           </P>
           <P className="">
             Paulo afirma mais uma vez: &quot;Somente n&apos;Ele vocês podem ser
-            aperfeiçoados&quot;. Não importa o que façam, somente em Cristo está toda
-            a primazia de autoridade, sendo o Verbo de Deus. Somente por meio
-            d&apos;Ele veio a existir tudo aquilo que podemos ver, tocar, sentir etc.,
-            assim como está escrito no Evangelho de João, capítulo um, versículo
-            três: &quot;Todas as coisas foram feitas por intermédio dele, e, sem ele,
-            nada do que foi feito se fez.&quot;
+            aperfeiçoados&quot;. Não importa o que façam, somente em Cristo está
+            toda a primazia de autoridade, sendo o Verbo de Deus. Somente por
+            meio d&apos;Ele veio a existir tudo aquilo que podemos ver, tocar,
+            sentir etc., assim como está escrito no Evangelho de João, capítulo
+            um, versículo três: &quot;Todas as coisas foram feitas por
+            intermédio dele, e, sem ele, nada do que foi feito se fez.&quot;
           </P>
           <P className="">
             Todo esse assunto sobre estar em Cristo e andar em Seu caminho
-            contrasta com as &quot;tradições humanas&quot; e &quot;filosofias enganosas&quot; do
-            mundo, contra as quais Paulo advertia aos irmãos de Colossos. Quando
-            dependemos do materialismo, da nossa própria razão ou de qualquer
-            coisa que não seja a supremacia de Cristo, estamos sujeitos a cair
-            nestes tipos de enganos. Ao invés de colhermos os maiores tesouros da
-            vida, o que encontraremos no final é o vazio da perda.
+            contrasta com as &quot;tradições humanas&quot; e &quot;filosofias
+            enganosas&quot; do mundo, contra as quais Paulo advertia aos irmãos
+            de Colossos. Quando dependemos do materialismo, da nossa própria
+            razão ou de qualquer coisa que não seja a supremacia de Cristo,
+            estamos sujeitos a cair nestes tipos de enganos. Ao invés de
+            colhermos os maiores tesouros da vida, o que encontraremos no final
+            é o vazio da perda.
           </P>
         </div>
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-3-conclusao">Conclusão</H3>
           <P className="">
-            A Igreja em Colossos enfrentou falsos ensinamentos que alegavam que a
-            salvação era um processo longo e contínuo, dependente da realização
-            de rituais específicos, e que cada um deles trazia a pessoa mais e
-            mais perto de Deus. Paulo, porém, contradiz essas teorias,
-            enfatizando que a salvação é completa em Cristo. Uma vez em Cristo,
-            nada mais é necessário.
+            A Igreja em Colossos enfrentou falsos ensinamentos que alegavam que
+            a salvação era um processo longo e contínuo, dependente da
+            realização de rituais específicos, e que cada um deles trazia a
+            pessoa mais e mais perto de Deus. Paulo, porém, contradiz essas
+            teorias, enfatizando que a salvação é completa em Cristo. Uma vez em
+            Cristo, nada mais é necessário.
           </P>
           <P className="">
             O sinal de alerta continua aceso e latente. O inimigo das nossas
             almas continua lançando suas redes e, a cada dia que passa, com
-            &quot;engodos&quot; muitas vezes imperceptíveis. Mas, assim como aprendemos, o
-            Evangelho verdadeiro desbanca todo falso ensinamento e traz à
-            plenitude todos aqueles que estão em Cristo. Que possamos estar
-            atentos e avisar ao maior número de pessoas que pudermos por meio da
-            pregação da Palavra do nosso Senhor Jesus Cristo.
+            &quot;engodos&quot; muitas vezes imperceptíveis. Mas, assim como
+            aprendemos, o Evangelho verdadeiro desbanca todo falso ensinamento e
+            traz à plenitude todos aqueles que estão em Cristo. Que possamos
+            estar atentos e avisar ao maior número de pessoas que pudermos por
+            meio da pregação da Palavra do nosso Senhor Jesus Cristo.
           </P>
         </div>
       </Container>
@@ -1043,9 +1089,7 @@ export default function CursoColossenses() {
         <H2 id="lesson-4">Lição 4 – O Cristão e a Nova Vida em Cristo</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-4-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Mostrar que, ao aceitar a Cristo, o crente é chamado a abandonar o
             velho estilo de vida e a se revestir das virtudes que refletem o
@@ -1064,18 +1108,18 @@ export default function CursoColossenses() {
           </P>
           <P className="">
             Ele chama os irmãos de Colossos a evidenciarem a transformação de
-            vida por meio da fé, diferenciando-os das práticas da velha natureza,
-            mudando o olhar e as prioridades da nova vida para as coisas do alto
-            (Cl 3.1-2). Paulo deixa claro que viver com Deus é decidir morrer
-            para o sistema mundano, abandonando tudo que se assemelha aos
-            escravos do pecado (Rm 6.6) e buscando viver inteiramente para Deus,
-            aprendendo d&apos;Ele pela Palavra a maneira de viver dos cidadãos dos
-            céus (Fp 3.20).
+            vida por meio da fé, diferenciando-os das práticas da velha
+            natureza, mudando o olhar e as prioridades da nova vida para as
+            coisas do alto (Cl 3.1-2). Paulo deixa claro que viver com Deus é
+            decidir morrer para o sistema mundano, abandonando tudo que se
+            assemelha aos escravos do pecado (Rm 6.6) e buscando viver
+            inteiramente para Deus, aprendendo d&apos;Ele pela Palavra a maneira
+            de viver dos cidadãos dos céus (Fp 3.20).
           </P>
           <P className="">
-            Paulo destaca que a nova vida é marcada pelo revestimento de virtudes
-            como misericórdia, bondade, humildade, mansidão e amor, que é o
-            vínculo da perfeição (Cl 3.12-14).
+            Paulo destaca que a nova vida é marcada pelo revestimento de
+            virtudes como misericórdia, bondade, humildade, mansidão e amor, que
+            é o vínculo da perfeição (Cl 3.12-14).
           </P>
           <P className="">
             Ele também enfatiza que a vida cristã deve estar harmonizada com a
@@ -1099,14 +1143,15 @@ export default function CursoColossenses() {
             não sermos tolhidos pelas ciladas do inimigo.
           </P>
           <P className="">
-            Quando Paulo diz: &quot;Portanto, se já ressuscitastes com Cristo&quot;, ele
-            não está colocando em dúvida a ação salvífica que já aconteceu na
-            vida do cristão. O que ele está fazendo é chamando os crentes de
-            Colossos — e, consequentemente, a nós — ao despertamento de uma nova
-            vida em Cristo Jesus. Agora que somos novas criaturas, ou seja, com
-            Cristo morremos, mas com Ele também já ressuscitamos; portanto, agora
-            a nossa maneira de viver não deve mais ser semelhante à daqueles que
-            vivem nas práticas pecaminosas de um sistema mundano e corrupto.
+            Quando Paulo diz: &quot;Portanto, se já ressuscitastes com
+            Cristo&quot;, ele não está colocando em dúvida a ação salvífica que
+            já aconteceu na vida do cristão. O que ele está fazendo é chamando
+            os crentes de Colossos — e, consequentemente, a nós — ao
+            despertamento de uma nova vida em Cristo Jesus. Agora que somos
+            novas criaturas, ou seja, com Cristo morremos, mas com Ele também já
+            ressuscitamos; portanto, agora a nossa maneira de viver não deve
+            mais ser semelhante à daqueles que vivem nas práticas pecaminosas de
+            um sistema mundano e corrupto.
           </P>
           <P className="">
             A busca e o alvo do salvo não devem ser mais as coisas efêmeras e
@@ -1128,11 +1173,11 @@ export default function CursoColossenses() {
           </P>
           <P className="">
             Era impossível ao homem voltar à posição de santidade, pureza e
-            relacionamento com Deus, mas aquilo que era impossível ao homem, Deus
-            tornou possível em Cristo Jesus, tornando-se homem (Fp 2.5-11). Agora
-            somos novas criaturas, e a nossa vida está escondida em Cristo.
-            Quando Ele se manifestar em glória, a nossa nova vida também será
-            plenamente manifestada.
+            relacionamento com Deus, mas aquilo que era impossível ao homem,
+            Deus tornou possível em Cristo Jesus, tornando-se homem (Fp 2.5-11).
+            Agora somos novas criaturas, e a nossa vida está escondida em
+            Cristo. Quando Ele se manifestar em glória, a nossa nova vida também
+            será plenamente manifestada.
           </P>
         </div>
 
@@ -1151,22 +1196,23 @@ export default function CursoColossenses() {
           </P>
           <P className="">
             Paulo afirma que devemos mortificar os nossos membros para não
-            praticarmos mais as obras da carne: &quot;a prostituição, a impureza, o
-            apetite desordenado, a vil concupiscência e a avareza, que é
-            idolatria&quot; (Cl 3.5). Essas práticas atraem a ira de Deus, pois Ele é
-            santo (1Pe 1.15-16) e não tem o culpado por inocente (Na 1.3).
-            Quando a medida da iniquidade daqueles que vivem nessas práticas se
-            completa, o Senhor manifesta o Seu juízo, punindo os ofensores.
+            praticarmos mais as obras da carne: &quot;a prostituição, a
+            impureza, o apetite desordenado, a vil concupiscência e a avareza,
+            que é idolatria&quot; (Cl 3.5). Essas práticas atraem a ira de Deus,
+            pois Ele é santo (1Pe 1.15-16) e não tem o culpado por inocente (Na
+            1.3). Quando a medida da iniquidade daqueles que vivem nessas
+            práticas se completa, o Senhor manifesta o Seu juízo, punindo os
+            ofensores.
           </P>
           <P className="">
             Paulo recorda aos crentes de Colossos que as obras da carne
             pertenciam à velha natureza deles e de seus antepassados, e que
             agora, como salvos, não devem mais reproduzi-las. Ele também os
-            adverte que, agora em Cristo, o crente não deve praticar novamente as
-            obras da carne, tais como &quot;ira, cólera, malícia, maledicência e
-            palavras torpes&quot; (Cl 3.8). No novo nascimento não há espaço para as
-            obras da carne, pois elas não condizem com quem foi vivificado pelo
-            Senhor e está em novidade de vida.
+            adverte que, agora em Cristo, o crente não deve praticar novamente
+            as obras da carne, tais como &quot;ira, cólera, malícia,
+            maledicência e palavras torpes&quot; (Cl 3.8). No novo nascimento
+            não há espaço para as obras da carne, pois elas não condizem com
+            quem foi vivificado pelo Senhor e está em novidade de vida.
           </P>
           <P className="">
             O fato de nos entregarmos a Cristo não nos torna isentos de
@@ -1174,15 +1220,15 @@ export default function CursoColossenses() {
             nossa vida com Deus. O sistema mundano é altamente sofisticado e
             ardiloso, buscando seduzir tanto o novo convertido quanto o crente
             amadurecido e bem alicerçado (Tg 1.13-15). Como nos adverte a
-            Escritura: &quot;Aquele, pois, que pensa estar em pé, veja que não caia&quot;
-            (1Co 10.12).
+            Escritura: &quot;Aquele, pois, que pensa estar em pé, veja que não
+            caia&quot; (1Co 10.12).
           </P>
           <P className="">
             Após nos entregarmos a Cristo, precisamos aprender, com o auxílio do
             Espírito Santo, a maneira de vida peculiar aos salvos,
-            desintoxicando-nos de todo lixo pecaminoso. Não é fácil, mas graças a
-            Deus, que nos deu o Espírito Santo para nos ajudar a avançar rumo à
-            estatura de varão perfeito (Ef 4.13).
+            desintoxicando-nos de todo lixo pecaminoso. Não é fácil, mas graças
+            a Deus, que nos deu o Espírito Santo para nos ajudar a avançar rumo
+            à estatura de varão perfeito (Ef 4.13).
           </P>
         </div>
 
@@ -1198,26 +1244,28 @@ export default function CursoColossenses() {
           <P className="">
             O velho homem tinha os trajes manchados pelas obras da carne, à
             semelhança do primeiro Adão; o novo homem foi regenerado por Cristo
-            Jesus, o último Adão, e recebeu d&apos;Ele vestes limpas e novas. Com a
-            morte de Jesus, o velho homem também foi morto; com a Sua
-            ressurreição, o homem que aceita a obra de Cristo na sua vida é feito
-            nova criatura. O antigo morreu, e devemos nos esforçar para mantê-lo
-            morto, pois não há comunhão entre a carne e o Espírito (Gl 5.16-17).
+            Jesus, o último Adão, e recebeu d&apos;Ele vestes limpas e novas.
+            Com a morte de Jesus, o velho homem também foi morto; com a Sua
+            ressurreição, o homem que aceita a obra de Cristo na sua vida é
+            feito nova criatura. O antigo morreu, e devemos nos esforçar para
+            mantê-lo morto, pois não há comunhão entre a carne e o Espírito (Gl
+            5.16-17).
           </P>
           <P className="">
             Em Cristo todas as barreiras foram desfeitas, tanto as do mundo
-            espiritual quanto as do mundo físico. No cristianismo, caem por terra
-            a vaidade, o orgulho, o sentimento de superioridade e o desdém pelos
-            menos favorecidos. O elo que nos identifica é a pessoa e a obra de
-            Cristo Jesus; não há grego nem judeu, circuncisão nem incircuncisão,
-            bárbaro, cita, servo ou livre; mas Cristo é tudo em todos (Cl 3.11).
-            As barreiras são desfeitas: o que antes era desavença e inimizade,
-            agora é comunhão e relacionamento, pois todos entendem que somos
-            pertencentes à família de Deus. No cristianismo é natural ver &quot;os
-            grandes, os bem remunerados e os de posições elevadas&quot; se sentarem
-            para ouvir o simples e menos favorecido, pois todos entendem que o
-            alvo não é o seu ego, mas o bom funcionamento do Corpo de Cristo, do
-            qual Ele é o cabeça e o único que é grande.
+            espiritual quanto as do mundo físico. No cristianismo, caem por
+            terra a vaidade, o orgulho, o sentimento de superioridade e o desdém
+            pelos menos favorecidos. O elo que nos identifica é a pessoa e a
+            obra de Cristo Jesus; não há grego nem judeu, circuncisão nem
+            incircuncisão, bárbaro, cita, servo ou livre; mas Cristo é tudo em
+            todos (Cl 3.11). As barreiras são desfeitas: o que antes era
+            desavença e inimizade, agora é comunhão e relacionamento, pois todos
+            entendem que somos pertencentes à família de Deus. No cristianismo é
+            natural ver &quot;os grandes, os bem remunerados e os de posições
+            elevadas&quot; se sentarem para ouvir o simples e menos favorecido,
+            pois todos entendem que o alvo não é o seu ego, mas o bom
+            funcionamento do Corpo de Cristo, do qual Ele é o cabeça e o único
+            que é grande.
           </P>
           <P className="">
             No cristianismo, os pertencentes à comunidade da fé são regidos pelo
@@ -1244,40 +1292,40 @@ export default function CursoColossenses() {
             que acabou naturalizando o pecado. Hoje, muitos acham difícil
             obedecer ao padrão bíblico de vida, e isso é, de fato, assustador.
             Na prática contínua do pecado, o homem se assemelha ao inimigo de
-            nossas almas (Jo 8.44), e muitos acreditam, equivocadamente, que esse
-            é o estilo de vida ideal a ser seguido.
+            nossas almas (Jo 8.44), e muitos acreditam, equivocadamente, que
+            esse é o estilo de vida ideal a ser seguido.
           </P>
           <P className="">
             Em contraste com a natureza do velho homem, corrompido e morto em
             seus delitos e pecados, o apóstolo Paulo apresenta o padrão de vida
             do homem regenerado — vivificado pelo Espírito e feito nova criatura
-            em Cristo (2Co 5.17). No passado, o convívio social era dominado pela
-            prostituição, idolatria, impureza, cobiça, ira, cólera, mentiras e
-            toda sorte de práticas carnais (Cl 3.5-9). Porém, agora, quem rege a
-            vida do novo homem é o Espírito Santo de Deus (Ef 4.24).
+            em Cristo (2Co 5.17). No passado, o convívio social era dominado
+            pela prostituição, idolatria, impureza, cobiça, ira, cólera,
+            mentiras e toda sorte de práticas carnais (Cl 3.5-9). Porém, agora,
+            quem rege a vida do novo homem é o Espírito Santo de Deus (Ef 4.24).
           </P>
           <P className="">
             Quando o Espírito Santo entra na vida do crente, Ele o reveste com
             amor, a essência do vínculo da perfeição (Cl 3.14). A paz de Cristo,
             antes desconhecida, passa a ser o árbitro entre a razão e a emoção,
             guiando o coração do salvo (Cl 3.15). A mansidão e o domínio próprio
-            tomam o lugar da ira, da cólera e da destruição por elas causadas (Gl
-            5.22-23).
+            tomam o lugar da ira, da cólera e da destruição por elas causadas
+            (Gl 5.22-23).
           </P>
           <P className="">
             As palavras proferidas pelo cristão também são transformadas. Em vez
             de maledicência e conversas torpes, sua boca agora transborda de
             louvores e adoração Àquele que o resgatou do império das trevas e o
             transportou para o Reino do Filho do Seu amor (Cl 1.13). A comunhão
-            com o próximo já não se resume a palavras vazias, mas se expressa por
-            meio de ações concretas, realizadas em nome do Senhor Jesus, exalando
-            por onde passa o bom perfume de Cristo (2Co 2.15). Esse estilo de
-            vida não é apenas um ideal, mas um reflexo prático da nova identidade
-            que o cristão recebeu. Viver em amor e harmonia cristã é permitir
-            que a Palavra de Cristo habite ricamente em nós, instruindo e
-            edificando, com sabedoria, cânticos, salmos e hinos espirituais (Cl
-            3.16), glorificando a Deus em tudo, seja por palavras ou ações (Cl
-            3.17).
+            com o próximo já não se resume a palavras vazias, mas se expressa
+            por meio de ações concretas, realizadas em nome do Senhor Jesus,
+            exalando por onde passa o bom perfume de Cristo (2Co 2.15). Esse
+            estilo de vida não é apenas um ideal, mas um reflexo prático da nova
+            identidade que o cristão recebeu. Viver em amor e harmonia cristã é
+            permitir que a Palavra de Cristo habite ricamente em nós, instruindo
+            e edificando, com sabedoria, cânticos, salmos e hinos espirituais
+            (Cl 3.16), glorificando a Deus em tudo, seja por palavras ou ações
+            (Cl 3.17).
           </P>
         </div>
 
@@ -1285,12 +1333,12 @@ export default function CursoColossenses() {
           <H3 id="lesson-4-conclusao">Conclusão</H3>
           <P className="">
             Diante de tudo o que foi refletido, somos desafiados a viver uma fé
-            autêntica e coerente, não apenas nas palavras, mas principalmente nas
-            atitudes. A vida cristã não é uma performance exterior, mas uma
+            autêntica e coerente, não apenas nas palavras, mas principalmente
+            nas atitudes. A vida cristã não é uma performance exterior, mas uma
             transformação interior operada pelo Espírito Santo, que se revela em
-            frutos visíveis no cotidiano. Deus não se agrada de uma religiosidade
-            vazia, mas de corações quebrantados e comprometidos com a verdade do
-            Evangelho.
+            frutos visíveis no cotidiano. Deus não se agrada de uma
+            religiosidade vazia, mas de corações quebrantados e comprometidos
+            com a verdade do Evangelho.
           </P>
           <P className="">
             A Igreja de Cristo precisa estar atenta aos perigos da aparência sem
@@ -1301,12 +1349,12 @@ export default function CursoColossenses() {
             brilhe em meio às trevas com a luz de Cristo.
           </P>
           <P className="">
-            Que o Espírito Santo nos desperte para uma nova realidade espiritual,
-            renovando em nós o zelo pelas coisas do alto e moldando nosso caráter
-            conforme o modelo do nosso Senhor. Que sejamos encontrados fiéis, não
-            apenas em nossos discursos, mas em cada gesto, escolha e ação. E
-            que, ao final da jornada, possamos ouvir do Senhor: &quot;Bem está, servo
-            bom e fiel.&quot;
+            Que o Espírito Santo nos desperte para uma nova realidade
+            espiritual, renovando em nós o zelo pelas coisas do alto e moldando
+            nosso caráter conforme o modelo do nosso Senhor. Que sejamos
+            encontrados fiéis, não apenas em nossos discursos, mas em cada
+            gesto, escolha e ação. E que, ao final da jornada, possamos ouvir do
+            Senhor: &quot;Bem está, servo bom e fiel.&quot;
           </P>
         </div>
       </Container>
@@ -1320,9 +1368,7 @@ export default function CursoColossenses() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-5-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Mostrar que o primeiro lugar em que se devem perceber as mudanças de
             uma nova vida em Cristo é dentro de casa, no seio familiar, onde o
@@ -1338,11 +1384,11 @@ export default function CursoColossenses() {
             Paulo ensina os crentes em Colossos sobre o convívio familiar, o
             trato entre marido e mulher, pais e filhos, e também no
             relacionamento entre senhores e servos. Pois o primeiro lugar em que
-            devemos mostrar que realmente nascemos de novo é em casa. Não adianta
-            nada ser um bom cristão apenas quando está na igreja ou reunido com
-            outros irmãos, se em casa não tem bom relacionamento com a esposa,
-            com os filhos, se vive uma vida de murmuração e reclamação; isso dá
-            mau testemunho de cristão.
+            devemos mostrar que realmente nascemos de novo é em casa. Não
+            adianta nada ser um bom cristão apenas quando está na igreja ou
+            reunido com outros irmãos, se em casa não tem bom relacionamento com
+            a esposa, com os filhos, se vive uma vida de murmuração e
+            reclamação; isso dá mau testemunho de cristão.
           </P>
           <P className="">
             O cristão deve lembrar que tudo o que fizer deve ser feito com um
@@ -1356,8 +1402,8 @@ export default function CursoColossenses() {
             Deus (Tg 1.19–27).
           </P>
           <P className="">
-            Ao mesmo tempo em que Paulo pede aos colossenses para orarem por ele,
-            ele os anima a perseverar na oração e sempre aproveitar as
+            Ao mesmo tempo em que Paulo pede aos colossenses para orarem por
+            ele, ele os anima a perseverar na oração e sempre aproveitar as
             oportunidades de falar sobre as Boas Novas de Cristo para as
             pessoas, com sabedoria e palavras agradáveis.
           </P>
@@ -1368,9 +1414,7 @@ export default function CursoColossenses() {
         </div>
 
         <div className="flex flex-col gap-4">
-          <H3 id="lesson-5-etica-crista-no-lar">
-            1. Ética Cristã no Lar
-          </H3>
+          <H3 id="lesson-5-etica-crista-no-lar">1. Ética Cristã no Lar</H3>
           <P className="">
             A Sociologia ensina que a família é o primeiro núcleo de
             relacionamento social, onde se inicia a trajetória rumo a uma vida
@@ -1403,25 +1447,25 @@ export default function CursoColossenses() {
           <P className="">
             No âmbito doméstico, Paulo instrui as esposas, em Colossenses 3.18.
             A palavra grega utilizada para &quot;submeter-se&quot; é hypotassein
-            (ὑποτάσσω), que significa &quot;obedecer&quot;, &quot;subjugar&quot; ou &quot;estar em
-            sujeição&quot;. A exortação refere-se à submissão da esposa ao marido,
-            como convém no Senhor. Essa expressão tem sido alvo de resistência
-            por parte de diversos movimentos, os quais interpretam o conceito de
-            submissão como sinônimo de servidão cega e de ausência de voz da
-            mulher, mesmo diante de eventuais erros do esposo. No entanto, o que
-            Paulo realmente propõe é uma submissão bíblica, dentro do casamento,
-            marcada por respeito mútuo, amor e cooperação, e jamais por
-            inferioridade (Ef 5.22).
+            (ὑποτάσσω), que significa &quot;obedecer&quot;, &quot;subjugar&quot;
+            ou &quot;estar em sujeição&quot;. A exortação refere-se à submissão
+            da esposa ao marido, como convém no Senhor. Essa expressão tem sido
+            alvo de resistência por parte de diversos movimentos, os quais
+            interpretam o conceito de submissão como sinônimo de servidão cega e
+            de ausência de voz da mulher, mesmo diante de eventuais erros do
+            esposo. No entanto, o que Paulo realmente propõe é uma submissão
+            bíblica, dentro do casamento, marcada por respeito mútuo, amor e
+            cooperação, e jamais por inferioridade (Ef 5.22).
           </P>
           <P className="">
-            Aos maridos, Paulo ordena: &quot;Amai vossas mulheres&quot; (Ef 5.25–28), com
-            um amor sacrificial, que zela pelo bem-estar da esposa e que se
-            manifesta nas pequenas atitudes cotidianas — no auxílio com os
-            afazeres do lar, no cuidado com os filhos, na sensibilidade às
+            Aos maridos, Paulo ordena: &quot;Amai vossas mulheres&quot; (Ef
+            5.25–28), com um amor sacrificial, que zela pelo bem-estar da esposa
+            e que se manifesta nas pequenas atitudes cotidianas — no auxílio com
+            os afazeres do lar, no cuidado com os filhos, na sensibilidade às
             necessidades emocionais da companheira. Muitos matrimônios naufragam
-            porque o homem se exime de sua responsabilidade no ambiente doméstico
-            e na criação dos filhos, delegando à esposa uma sobrecarga que não
-            lhe pertence exclusivamente.
+            porque o homem se exime de sua responsabilidade no ambiente
+            doméstico e na criação dos filhos, delegando à esposa uma sobrecarga
+            que não lhe pertence exclusivamente.
           </P>
           <P className="">
             Paulo é claro ao estabelecer papéis distintos, mas complementares: à
@@ -1438,11 +1482,11 @@ export default function CursoColossenses() {
             amor (Pv 13.24), não com dureza que fere e desfigura sua identidade.
           </P>
           <P className="">
-            Aos filhos, Paulo ordena: &quot;Obedecei a vossos pais em tudo&quot; (Ef
-            6.1–2). Naturalmente, surge o questionamento: e se os pais não forem
-            cristãos? A resposta é clara: obedeçam no Senhor, ou seja, naquilo
-            que não fira os princípios da fé. Ainda que descrentes, os pais
-            devem ser honrados.
+            Aos filhos, Paulo ordena: &quot;Obedecei a vossos pais em tudo&quot;
+            (Ef 6.1–2). Naturalmente, surge o questionamento: e se os pais não
+            forem cristãos? A resposta é clara: obedeçam no Senhor, ou seja,
+            naquilo que não fira os princípios da fé. Ainda que descrentes, os
+            pais devem ser honrados.
           </P>
           <P className="">
             Vivemos, de fato, em tempos distintos daqueles da Igreja Primitiva,
@@ -1458,11 +1502,11 @@ export default function CursoColossenses() {
             2. O Trabalho Como Serviço ao Senhor
           </H3>
           <P className="">
-            Um fato interessante é que Paulo usa a palavra &quot;servos&quot;, que, em seu
-            contexto original, referia-se aos escravos, e também a palavra
-            &quot;senhor&quot;, que designava o proprietário desses servos. Era comum haver
-            escravos que desempenhavam variadas funções em benefício de seus
-            senhores.
+            Um fato interessante é que Paulo usa a palavra &quot;servos&quot;,
+            que, em seu contexto original, referia-se aos escravos, e também a
+            palavra &quot;senhor&quot;, que designava o proprietário desses
+            servos. Era comum haver escravos que desempenhavam variadas funções
+            em benefício de seus senhores.
           </P>
           <P className="">
             Por esse motivo, Paulo, em nenhuma de suas cartas, se manifesta de
@@ -1477,8 +1521,8 @@ export default function CursoColossenses() {
             com excelência, ainda que não esteja sendo observado ou elogiado por
             seu superior. Essa atitude deve ser a marca do cristão: fazer além
             do que se espera — isso é expressão de um coração transformado por
-            Cristo, e deve se manifestar não apenas no ambiente eclesiástico, mas
-            em todos os espaços onde o salvo estiver inserido.
+            Cristo, e deve se manifestar não apenas no ambiente eclesiástico,
+            mas em todos os espaços onde o salvo estiver inserido.
           </P>
           <P className="">
             Aos senhores (empregadores), Paulo ensina que devem tratar seus
@@ -1486,9 +1530,9 @@ export default function CursoColossenses() {
             verdadeiro Senhor está atento a tudo. Cabe ao patrão agir de maneira
             justa em todas as suas atribuições, bem como demonstrar interesse
             pela vida pessoal e espiritual de seus colaboradores, oferecendo,
-            sempre que possível, apoio nessas áreas. Paulo conclui afirmando que,
-            seja escravo ou senhor, ambos pertencem ao Senhor e são irmãos em
-            Cristo (Ef 6.5–9).
+            sempre que possível, apoio nessas áreas. Paulo conclui afirmando
+            que, seja escravo ou senhor, ambos pertencem ao Senhor e são irmãos
+            em Cristo (Ef 6.5–9).
           </P>
         </div>
 
@@ -1498,10 +1542,10 @@ export default function CursoColossenses() {
           </H3>
           <P className="">
             A oração é o respirar de todo salvo em Cristo, pois é por meio dela
-            que se comunica com Deus. Por isso, Paulo exorta: &quot;Perseverai na
-            oração&quot; (Cl 4.2), recomendando ainda súplicas e intercessões não
-            apenas em favor dele, mas também de todos os que anunciam a Palavra
-            de Deus.
+            que se comunica com Deus. Por isso, Paulo exorta: &quot;Perseverai
+            na oração&quot; (Cl 4.2), recomendando ainda súplicas e intercessões
+            não apenas em favor dele, mas também de todos os que anunciam a
+            Palavra de Deus.
           </P>
           <P className="">
             Perseverar na oração é crer que a situação será mudada, é crer que,
@@ -1527,9 +1571,9 @@ export default function CursoColossenses() {
           </P>
           <P className="">
             É por meio da oração que o cristão recebe discernimento para
-            responder com mansidão a todo aquele que lhe questiona a fé, encontra
-            as palavras certas para aconselhar, e obtém paz diante das crises,
-            mesmo quando a resposta divina for um &quot;não&quot;.
+            responder com mansidão a todo aquele que lhe questiona a fé,
+            encontra as palavras certas para aconselhar, e obtém paz diante das
+            crises, mesmo quando a resposta divina for um &quot;não&quot;.
           </P>
         </div>
 
@@ -1540,15 +1584,15 @@ export default function CursoColossenses() {
           <P className="">
             Nos dias atuais, com o avanço das redes sociais e o compartilhamento
             de informações, são postados vídeos de cristãos bons e ruins.
-            Infelizmente, os ruins acabam se tornando munição para as pessoas que
-            não gostam de ouvir as Boas Novas de Cristo. Deve-se ter um bom
+            Infelizmente, os ruins acabam se tornando munição para as pessoas
+            que não gostam de ouvir as Boas Novas de Cristo. Deve-se ter um bom
             testemunho para com os de fora, e essa era uma das preocupações de
             Paulo quando escreveu para a igreja de Colossos.
           </P>
           <P className="">
-            O cristão não deve ser influenciado pelas coisas deste mundo, mas sim
-            pelo que está escrito na Palavra de Deus. As atitudes e pensamentos
-            devem refletir Cristo.
+            O cristão não deve ser influenciado pelas coisas deste mundo, mas
+            sim pelo que está escrito na Palavra de Deus. As atitudes e
+            pensamentos devem refletir Cristo.
           </P>
           <P className="">
             O cristão é observado todos os dias, em qualquer lugar onde estiver,
@@ -1557,8 +1601,9 @@ export default function CursoColossenses() {
           </P>
           <P className="">
             E é neste momento que devem ser palavras edificantes, palavras
-            sábias, como está escrito: &quot;... seja sempre agradável, temperada com
-            sal, para saberdes como deveis responder a cada um.&quot; (Cl 4:6).
+            sábias, como está escrito: &quot;... seja sempre agradável,
+            temperada com sal, para saberdes como deveis responder a cada
+            um.&quot; (Cl 4:6).
           </P>
         </div>
 
@@ -1586,10 +1631,10 @@ export default function CursoColossenses() {
           <P className="">
             O estudo da carta aos Colossenses nos ensina que Cristo deve ser o
             Senhor em todas as áreas da nossa vida, e devemos fazer a diferença
-            no mundo, combatendo e sabendo distinguir o que é a Palavra de Deus e
-            o que é filosofia humana. A nova vida em Cristo é cheia de desafios e
-            escolhas, sabendo que quando fazemos a escolha certa, teremos a nossa
-            recompensa vinda do Senhor.
+            no mundo, combatendo e sabendo distinguir o que é a Palavra de Deus
+            e o que é filosofia humana. A nova vida em Cristo é cheia de
+            desafios e escolhas, sabendo que quando fazemos a escolha certa,
+            teremos a nossa recompensa vinda do Senhor.
           </P>
         </div>
       </Container>
