@@ -189,7 +189,7 @@ const newTestamentMaterials: MaterialGroup[] = [
     materials: [
       {
         title: "Hebreus",
-        link: "https://drive.google.com/file/d/1PkJhr8y-yvWPnHIMnk4PBIyapQVK8bKz/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/hebreus",
       },
       {
         title: "Tiago",
