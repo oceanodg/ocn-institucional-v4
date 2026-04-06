@@ -1,9 +1,13 @@
+import { NotepadText } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { UL } from "~/components/ui/ul";
 import { SummaryLi } from "~/components/summary-li";
+import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
+import { LinkSmall } from "~/components/ui/link-small";
+import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
 
 export default function CursoHebreus() {
   return (
@@ -12,7 +16,7 @@ export default function CursoHebreus() {
 
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col gap-2">
-          <H1 className="text-left">Aos Hebreus</H1>
+          <H1 className="text-left">Carta aos Hebreus</H1>
           <P className="mt-0">
             A supremacia de Cristo sobre os profetas, anjos, Moisés e o
             sacerdócio levítico: perseverança pela fé.
@@ -24,9 +28,24 @@ export default function CursoHebreus() {
 
       <Container className="mb-10 sm:mb-16">
         <H2 id="materials-didactic">Materiais de Apoio</H2>
-        <UL className="mt-0">
-          <li />
-        </UL>
+
+        <Table>
+          <TableHeader>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold w-[110px] sm:w-[160px]">
+                Apostila
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1PkJhr8y-yvWPnHIMnk4PBIyapQVK8bKz/view?usp=sharing">
+                    <NotepadText className="size-4" />
+                    Carta aos Hebreus
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+          </TableHeader>
+        </Table>
       </Container>
 
       <Separator className="my-8" />
@@ -38,6 +57,9 @@ export default function CursoHebreus() {
             <a href="#lesson-1">
               Lição 1 – A Supremacia de Cristo, o Filho de Deus
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-1-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-1-para-comecar">Para Começar</a>
@@ -67,9 +89,10 @@ export default function CursoHebreus() {
           </SummaryLi>
 
           <SummaryLi>
-            <a href="#lesson-2">
-              Lição 2 – Cristo, o Sumo Sacerdote Fiel
-            </a>
+            <a href="#lesson-2">Lição 2 – Cristo, o Sumo Sacerdote Fiel</a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-2-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-2-para-comecar">Para Começar</a>
@@ -99,9 +122,10 @@ export default function CursoHebreus() {
           </SummaryLi>
 
           <SummaryLi>
-            <a href="#lesson-3">
-              Lição 3 – O Sacerdócio Perfeito de Cristo
-            </a>
+            <a href="#lesson-3">Lição 3 – O Sacerdócio Perfeito de Cristo</a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-3-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-3-para-comecar">Para Começar</a>
@@ -132,6 +156,9 @@ export default function CursoHebreus() {
 
           <SummaryLi>
             <a href="#lesson-4">Lição 4 – A Perseverança da Fé</a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-4-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-4-para-comecar">Para Começar</a>
@@ -170,14 +197,10 @@ export default function CursoHebreus() {
 
       {/* LIÇÃO 1 */}
       <Container className="mb-10 sm:mb-16">
-        <H2 id="lesson-1">
-          Lição 1 – A Supremacia de Cristo, o Filho de Deus
-        </H2>
+        <H2 id="lesson-1">Lição 1 – A Supremacia de Cristo, o Filho de Deus</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-1-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Apresentar a supremacia de Cristo sobre os profetas, anjos e sobre
             toda a criação, destacando sua encarnação e obra sacerdotal em favor
@@ -190,8 +213,8 @@ export default function CursoHebreus() {
           <P className="">
             A carta aos Hebreus não começa com saudações ou apresentações, mas
             com uma declaração teológica poderosa: Deus falou. Essa afirmação,
-            aparentemente simples, carrega um peso enorme. O autor mostra que, ao
-            longo da história, Deus se revelou de muitas maneiras, mas agora
+            aparentemente simples, carrega um peso enorme. O autor mostra que,
+            ao longo da história, Deus se revelou de muitas maneiras, mas agora
             falou de modo pleno e definitivo em seu Filho (Hb 1.1-2). Isso
             significa que não há revelação maior ou mais completa do que a que
             encontramos em Cristo.
@@ -202,14 +225,14 @@ export default function CursoHebreus() {
             judaísmo e dúvidas quanto ao futuro. O autor de Hebreus escreve para
             encorajá-los a perseverar, demonstrando que tudo o que foi revelado
             no Antigo Testamento apontava para Cristo. Como destaca Hernandes
-            Dias Lopes (2009), &quot;a carta aos Hebreus é um convite a manter os
-            olhos fixos em Jesus, mesmo em meio às lutas e perseguições, porque
-            Ele é maior que todos e suficiente para salvar&quot;.
+            Dias Lopes (2009), &quot;a carta aos Hebreus é um convite a manter
+            os olhos fixos em Jesus, mesmo em meio às lutas e perseguições,
+            porque Ele é maior que todos e suficiente para salvar&quot;.
           </P>
           <P className="">
-            O primeiro argumento apresentado é a superioridade de Cristo sobre os
-            profetas e os anjos. Para o judeu, tanto os profetas quanto os anjos
-            eram transmissores da vontade de Deus e, portanto, dignos de
+            O primeiro argumento apresentado é a superioridade de Cristo sobre
+            os profetas e os anjos. Para o judeu, tanto os profetas quanto os
+            anjos eram transmissores da vontade de Deus e, portanto, dignos de
             respeito. O autor, porém, demonstra que o Filho é infinitamente
             superior, pois Ele é o próprio Deus encarnado, sustentador do
             universo e herdeiro de todas as coisas (Hb 1.2-3).
@@ -225,8 +248,8 @@ export default function CursoHebreus() {
             O desafio lançado ao leitor é claro: não negligenciar tão grande
             salvação (Hb 2.3). Ignorar a mensagem do Filho é perder a maior
             oportunidade oferecida por Deus. Por isso, esta lição nos convida a
-            reconhecer a grandeza de Cristo, adorá-lo como Filho eterno de Deus e
-            confiar nele como nosso Salvador perfeito.
+            reconhecer a grandeza de Cristo, adorá-lo como Filho eterno de Deus
+            e confiar nele como nosso Salvador perfeito.
           </P>
         </div>
 
@@ -235,12 +258,12 @@ export default function CursoHebreus() {
             1. Cristo, a Revelação Final de Deus
           </H3>
           <P className="">
-            O autor de Hebreus inicia mostrando que Deus falou &quot;muitas vezes
-            e de muitas maneiras&quot; pelos profetas, mas agora falou pelo Filho.
-            Essa afirmação não despreza os profetas, o que jamais devemos fazer,
-            mas mostra que sua mensagem era parcial, enquanto a de Cristo é
-            completa. Ele é a expressão exata do ser de Deus e o resplendor da
-            sua glória.
+            O autor de Hebreus inicia mostrando que Deus falou &quot;muitas
+            vezes e de muitas maneiras&quot; pelos profetas, mas agora falou
+            pelo Filho. Essa afirmação não despreza os profetas, o que jamais
+            devemos fazer, mas mostra que sua mensagem era parcial, enquanto a
+            de Cristo é completa. Ele é a expressão exata do ser de Deus e o
+            resplendor da sua glória.
           </P>
           <P className="">
             &quot;...a quem constituiu herdeiro de todas as coisas, pelo qual
@@ -251,9 +274,9 @@ export default function CursoHebreus() {
           <P className="">
             Cristo não apenas anuncia a mensagem de Deus, Ele é a mensagem. Ele
             não é um mensageiro entre outros, mas o próprio Deus encarnado.
-            William Barclay (2000) comenta que &quot;em Jesus vemos não apenas um
-            reflexo de Deus, mas o próprio Deus em carne&quot;. Isso significa que
-            olhar para Cristo é ver a revelação plena do Pai.
+            William Barclay (2000) comenta que &quot;em Jesus vemos não apenas
+            um reflexo de Deus, mas o próprio Deus em carne&quot;. Isso
+            significa que olhar para Cristo é ver a revelação plena do Pai.
           </P>
           <P className="">
             Para os cristãos de origem judaica, essa afirmação era radical. Eles
@@ -282,13 +305,13 @@ export default function CursoHebreus() {
             A argumentação se baseia em várias citações do Antigo Testamento,
             mostrando que nenhum anjo foi chamado de Filho ou teve a promessa de
             um trono eterno. Os anjos são espíritos ministradores, mas o Filho é
-            entronizado à direita de Deus. Essa superioridade exige uma resposta:
-            não negligenciar a salvação que Ele nos trouxe.
+            entronizado à direita de Deus. Essa superioridade exige uma
+            resposta: não negligenciar a salvação que Ele nos trouxe.
           </P>
           <P className="">
-            &quot;Como escaparemos nós, se negligenciarmos tão grande salvação? A
-            qual, tendo sido anunciada inicialmente pelo Senhor, foi-nos depois
-            confirmada pelos que a ouviram&quot; (Hb 2.3, ARA).
+            &quot;Como escaparemos nós, se negligenciarmos tão grande salvação?
+            A qual, tendo sido anunciada inicialmente pelo Senhor, foi-nos
+            depois confirmada pelos que a ouviram&quot; (Hb 2.3, ARA).
           </P>
           <P className="">
             Esse alerta é atual. Vivemos em um tempo em que muitos se distraem
@@ -318,9 +341,9 @@ export default function CursoHebreus() {
           </P>
           <P className="">
             &quot;O que vemos é aquele que, por um pouco, tendo sido feito menor
-            que os anjos, Jesus, por causa do sofrimento da morte, foi coroado de
-            glória e de honra, para que, pela graça de Deus, provasse a morte por
-            todo homem&quot; (Hb 2.9, ARA).
+            que os anjos, Jesus, por causa do sofrimento da morte, foi coroado
+            de glória e de honra, para que, pela graça de Deus, provasse a morte
+            por todo homem&quot; (Hb 2.9, ARA).
           </P>
           <P className="">
             Esse texto revela tanto a humilhação quanto a exaltação de Cristo.
@@ -329,15 +352,16 @@ export default function CursoHebreus() {
             objetivo era &quot;conduzir muitos filhos à glória&quot; (Hb 2.10).
           </P>
           <P className="">
-            William Barclay (2000) observa que &quot;Cristo não apenas nos mostrou
-            como viver, mas abriu o caminho para que a humanidade alcançasse o
-            destino que Deus sempre desejou&quot;. Ele é o novo Adão, inaugurando uma
-            nova humanidade.
+            William Barclay (2000) observa que &quot;Cristo não apenas nos
+            mostrou como viver, mas abriu o caminho para que a humanidade
+            alcançasse o destino que Deus sempre desejou&quot;. Ele é o novo
+            Adão, inaugurando uma nova humanidade.
           </P>
           <P className="">
             Isso nos chama a viver como filhos de Deus, reconhecendo que Cristo
-            nos tornou participantes de sua vitória. Devemos viver com dignidade,
-            esperança e fé, sabendo que já temos lugar assegurado na glória.
+            nos tornou participantes de sua vitória. Devemos viver com
+            dignidade, esperança e fé, sabendo que já temos lugar assegurado na
+            glória.
           </P>
         </div>
 
@@ -347,8 +371,8 @@ export default function CursoHebreus() {
           </H3>
           <P className="">
             O autor conclui o capítulo 2 mostrando o propósito da encarnação:
-            Cristo participou da carne e do sangue para destruir o poder da morte
-            e libertar os que estavam sujeitos ao medo. Ele se tornou sumo
+            Cristo participou da carne e do sangue para destruir o poder da
+            morte e libertar os que estavam sujeitos ao medo. Ele se tornou sumo
             sacerdote misericordioso e fiel, capaz de fazer propiciação pelos
             pecados do povo.
           </P>
@@ -360,17 +384,17 @@ export default function CursoHebreus() {
           </P>
           <P className="">
             Aqui está a essência do evangelho: Cristo não apenas morreu, mas se
-            identificou conosco em todas as coisas, inclusive nas tentações. Isso
-            o capacita a nos socorrer quando somos tentados (Hb 2.18). Ele é ao
-            mesmo tempo divino e humano, poderoso e compassivo.
+            identificou conosco em todas as coisas, inclusive nas tentações.
+            Isso o capacita a nos socorrer quando somos tentados (Hb 2.18). Ele
+            é ao mesmo tempo divino e humano, poderoso e compassivo.
           </P>
           <P className="">
             Hernandes Dias Lopes (2009) escreve: &quot;Jesus não é um sacerdote
             distante, mas um que se compadece de nós porque experimentou nossas
             dores e tentações. Ele é poderoso para salvar e misericordioso para
-            compreender&quot;. Diante das lutas diárias, podemos nos aproximar de
-            Cristo com confiança. Ele conhece nossas fraquezas e intercede por
-            nós. Essa verdade deve gerar fé, coragem e segurança em nossa
+            compreender&quot;. Diante das lutas diárias, podemos nos aproximar
+            de Cristo com confiança. Ele conhece nossas fraquezas e intercede
+            por nós. Essa verdade deve gerar fé, coragem e segurança em nossa
             caminhada cristã.
           </P>
         </div>
@@ -391,16 +415,16 @@ export default function CursoHebreus() {
             anunciada por eles exigia obediência, quanto maior é a nossa
             responsabilidade diante da mensagem do Filho! Daí vem o alerta
             solene: &quot;Como escaparemos nós, se negligenciarmos tão grande
-            salvação?&quot; (Hb 2.3, ARA). Esse chamado nos lembra que a fé cristã
-            não pode ser vivida de forma descuidada ou superficial.
+            salvação?&quot; (Hb 2.3, ARA). Esse chamado nos lembra que a fé
+            cristã não pode ser vivida de forma descuidada ou superficial.
           </P>
           <P className="">
             Além disso, refletimos sobre a encarnação de Cristo: Ele se fez
             homem, assumiu nossa fraqueza e experimentou a morte para conduzir
             muitos filhos à glória (Hb 2.10). Como novo Adão, Ele inaugurou uma
             nova humanidade, restaurando o propósito de Deus para sua criação.
-            Sua vitória sobre a morte é também a nossa vitória, pois fomos feitos
-            participantes de sua glória.
+            Sua vitória sobre a morte é também a nossa vitória, pois fomos
+            feitos participantes de sua glória.
           </P>
           <P className="">
             Por fim, fomos lembrados de que Cristo se tornou o sumo sacerdote
@@ -417,8 +441,8 @@ export default function CursoHebreus() {
             ao evangelho, evitando a negligência espiritual e cultivando uma fé
             viva e obediente. Em tempos de dúvida, medo ou tentação, devemos
             lembrar que temos um sumo sacerdote que nos compreende e intercede
-            por nós. Portanto, que vivamos com os olhos fixos em Jesus, confiando
-            plenamente em sua supremacia, descansando em sua obra e
+            por nós. Portanto, que vivamos com os olhos fixos em Jesus,
+            confiando plenamente em sua supremacia, descansando em sua obra e
             testemunhando sua glória em cada área da nossa vida.
           </P>
         </div>
@@ -431,9 +455,7 @@ export default function CursoHebreus() {
         <H2 id="lesson-2">Lição 2 – Cristo, o Sumo Sacerdote Fiel</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-2-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Mostrar que Cristo é superior a Moisés e Arão, que sua obra
             sacerdotal é perfeita e que Ele garante aos crentes acesso seguro a
@@ -456,9 +478,9 @@ export default function CursoHebreus() {
             Cristo é maior que Moisés porque não é apenas um servo fiel na casa
             de Deus, mas o Filho sobre a casa (Hb 3.5-6). Ele é também superior
             a Arão porque exerce um sacerdócio eterno, compassivo e perfeito,
-            capaz de salvar totalmente os que se achegam a Deus por meio dele (Hb
-            5.9). Essa comparação mostra que a antiga aliança era provisória e
-            apontava para a obra maior e definitiva de Cristo.
+            capaz de salvar totalmente os que se achegam a Deus por meio dele
+            (Hb 5.9). Essa comparação mostra que a antiga aliança era provisória
+            e apontava para a obra maior e definitiva de Cristo.
           </P>
           <P className="">
             Entretanto, essa exposição não é apenas teórica. O autor insere
@@ -468,11 +490,11 @@ export default function CursoHebreus() {
             supremacia de Cristo exige perseverança.
           </P>
           <P className="">
-            William Barclay (2000) comenta: &quot;A carta aos Hebreus não é apenas
-            um tratado teológico; é um apelo urgente para que os cristãos não
-            retrocedam, mas sigam firmes até o fim&quot;. É esse o tom que percorre
-            essa segunda parte da carta: encorajamento para permanecer firmes na
-            fé e não desistir diante das provações.
+            William Barclay (2000) comenta: &quot;A carta aos Hebreus não é
+            apenas um tratado teológico; é um apelo urgente para que os cristãos
+            não retrocedam, mas sigam firmes até o fim&quot;. É esse o tom que
+            percorre essa segunda parte da carta: encorajamento para permanecer
+            firmes na fé e não desistir diante das provações.
           </P>
         </div>
 
@@ -491,8 +513,8 @@ export default function CursoHebreus() {
             estabeleceu todas as coisas é Deus. E Moisés era fiel em toda a casa
             de Deus, como servo, para testemunho das coisas que haviam de ser
             anunciadas; Cristo, porém, como Filho, o é sobre a sua própria casa;
-            a qual casa somos nós, se guardarmos firme, até ao fim, a confiança e
-            a exultação da esperança&quot; (Hb 3.4-6, ARA).
+            a qual casa somos nós, se guardarmos firme, até ao fim, a confiança
+            e a exultação da esperança&quot; (Hb 3.4-6, ARA).
           </P>
           <P className="">
             Para os cristãos judeus, essa afirmação era desafiadora. Moisés era
@@ -516,15 +538,15 @@ export default function CursoHebreus() {
             O autor relembra o episódio de Israel no deserto. Embora tivessem
             visto os milagres da libertação do Egito, muitos se rebelaram contra
             Deus e não entraram no descanso prometido. A advertência é clara:
-            &quot;Hoje, se ouvirdes a sua voz, não endureçais o vosso coração&quot;
-            (Hb 3.15, ARA).
+            &quot;Hoje, se ouvirdes a sua voz, não endureçais o vosso
+            coração&quot; (Hb 3.15, ARA).
           </P>
           <P className="">
             Esse trecho mostra que a incredulidade não é apenas um problema do
-            passado. O perigo continua presente: ouvir a Palavra e não misturá-la
-            com fé (Hb 4.2). Por isso, o autor chama os leitores a temerem, para
-            que nenhum deles fique para trás (Hb 4.1). O descanso prometido é
-            espiritual e eterno, alcançado em Cristo.
+            passado. O perigo continua presente: ouvir a Palavra e não
+            misturá-la com fé (Hb 4.2). Por isso, o autor chama os leitores a
+            temerem, para que nenhum deles fique para trás (Hb 4.1). O descanso
+            prometido é espiritual e eterno, alcançado em Cristo.
           </P>
           <P className="">
             &quot;Porque a palavra de Deus é viva, e eficaz, e mais cortante do
@@ -553,13 +575,13 @@ export default function CursoHebreus() {
             Após a advertência contra a incredulidade, o autor apresenta a
             esperança: temos um grande sumo sacerdote que penetrou os céus,
             Jesus, o Filho de Deus. Ele é diferente de todos os sacerdotes do
-            Antigo Testamento, pois é santo e perfeito, mas também misericordioso
-            e compassivo.
+            Antigo Testamento, pois é santo e perfeito, mas também
+            misericordioso e compassivo.
           </P>
           <P className="">
-            &quot;Porque não temos sumo sacerdote que não possa compadecer-se das
-            nossas fraquezas; antes, foi ele tentado em todas as coisas, à nossa
-            semelhança, mas sem pecado. Acheguemo-nos, portanto,
+            &quot;Porque não temos sumo sacerdote que não possa compadecer-se
+            das nossas fraquezas; antes, foi ele tentado em todas as coisas, à
+            nossa semelhança, mas sem pecado. Acheguemo-nos, portanto,
             confiadamente, junto ao trono da graça, a fim de recebermos
             misericórdia e acharmos graça para socorro em ocasião oportuna&quot;
             (Hb 4.15-16, ARA).
@@ -572,9 +594,9 @@ export default function CursoHebreus() {
           </P>
           <P className="">
             Arão e seus sucessores eram sacerdotes falhos, que precisavam
-            oferecer sacrifícios também por si mesmos. Cristo, porém, é sacerdote
-            eterno, chamado por Deus segundo a ordem de Melquisedeque (Hb 5.10).
-            Seu sacerdócio não é temporário, mas eterno.
+            oferecer sacrifícios também por si mesmos. Cristo, porém, é
+            sacerdote eterno, chamado por Deus segundo a ordem de Melquisedeque
+            (Hb 5.10). Seu sacerdócio não é temporário, mas eterno.
           </P>
           <P className="">
             Essa verdade nos chama à oração confiante. Em vez de carregar nossas
@@ -596,26 +618,26 @@ export default function CursoHebreus() {
           <P className="">
             Ele adverte: é impossível restaurar à fé aqueles que, depois de
             iluminados, caem deliberadamente (Hb 6.4-6). Essa é uma das
-            passagens mais severas da carta, lembrando que brincar com a graça de
-            Deus é extremamente perigoso. Logo depois, o tom muda para
-            encorajamento: &quot;Deus não é injusto para ficar esquecido do vosso
-            trabalho e do amor que evidenciastes para com o seu nome&quot; (Hb
-            6.10, ARA).
+            passagens mais severas da carta, lembrando que brincar com a graça
+            de Deus é extremamente perigoso. Logo depois, o tom muda para
+            encorajamento: &quot;Deus não é injusto para ficar esquecido do
+            vosso trabalho e do amor que evidenciastes para com o seu nome&quot;
+            (Hb 6.10, ARA).
           </P>
           <P className="">
             O trecho termina com uma das imagens mais belas de esperança cristã:
-            &quot;Temos essa esperança como âncora da alma, segura e firme, e que
-            penetra além do véu&quot; (Hb 6.19, ARA). Essa âncora é Cristo, nosso
-            precursor que entrou no santuário celestial.
+            &quot;Temos essa esperança como âncora da alma, segura e firme, e
+            que penetra além do véu&quot; (Hb 6.19, ARA). Essa âncora é Cristo,
+            nosso precursor que entrou no santuário celestial.
           </P>
           <P className="">
-            William Barclay (2000) comenta que &quot;a esperança cristã não é mero
-            otimismo, mas certeza baseada na fidelidade de Deus&quot;. Assim, mesmo
-            em meio às advertências, há um convite à perseverança. O cristão
-            deve levar a vida espiritual com seriedade, evitando a preguiça e
-            buscando maturidade na fé. Ao mesmo tempo, deve viver com confiança
-            na fidelidade de Deus, mantendo firme a esperança que é âncora da
-            alma.
+            William Barclay (2000) comenta que &quot;a esperança cristã não é
+            mero otimismo, mas certeza baseada na fidelidade de Deus&quot;.
+            Assim, mesmo em meio às advertências, há um convite à perseverança.
+            O cristão deve levar a vida espiritual com seriedade, evitando a
+            preguiça e buscando maturidade na fé. Ao mesmo tempo, deve viver com
+            confiança na fidelidade de Deus, mantendo firme a esperança que é
+            âncora da alma.
           </P>
         </div>
 
@@ -630,9 +652,9 @@ export default function CursoHebreus() {
           <P className="">
             O autor desconhecido, porém, não deixa de advertir sobre o perigo da
             incredulidade e da apostasia. A fé não pode ser vivida com
-            indolência, mas com vigilância e seriedade. A Palavra de Deus penetra
-            até os recônditos do coração e nos chama a uma resposta imediata de
-            obediência.
+            indolência, mas com vigilância e seriedade. A Palavra de Deus
+            penetra até os recônditos do coração e nos chama a uma resposta
+            imediata de obediência.
           </P>
           <P className="">
             Ao mesmo tempo, há um forte encorajamento: Deus é fiel. Ele não se
@@ -656,9 +678,7 @@ export default function CursoHebreus() {
         <H2 id="lesson-3">Lição 3 – O Sacerdócio Perfeito de Cristo</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-3-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Compreender que o sacerdócio de Cristo é superior ao levítico, que
             seu sacrifício é único e perfeito, inaugurando a nova aliança e
@@ -671,36 +691,37 @@ export default function CursoHebreus() {
           <P className="">
             No Antigo Testamento, o sacerdócio levítico ocupava um papel central
             na vida religiosa de Israel. Por meio dos sacerdotes, o povo
-            apresentava seus sacrifícios e buscava perdão para os pecados. O sumo
-            sacerdote, uma vez por ano, entrava no Santo dos Santos para oferecer
-            expiação pelo povo. Era um sistema estabelecido por Deus, mas também
-            limitado e provisório, pois nunca podia aperfeiçoar a consciência do
-            adorador.
+            apresentava seus sacrifícios e buscava perdão para os pecados. O
+            sumo sacerdote, uma vez por ano, entrava no Santo dos Santos para
+            oferecer expiação pelo povo. Era um sistema estabelecido por Deus,
+            mas também limitado e provisório, pois nunca podia aperfeiçoar a
+            consciência do adorador.
           </P>
           <P className="">
             Em Hebreus 7 a 10, o autor mostra como Cristo cumpre e supera esse
             sistema. Ele é sacerdote segundo a ordem de Melquisedeque, não por
-            descendência levítica, mas por poder de vida indestrutível (Hb 7.16).
-            Seu sacerdócio é eterno, intransferível e perfeito. Seu sacrifício
-            não é repetido anualmente, mas oferecido de uma vez por todas, eficaz
-            para sempre (Hb 10.10).
+            descendência levítica, mas por poder de vida indestrutível (Hb
+            7.16). Seu sacerdócio é eterno, intransferível e perfeito. Seu
+            sacrifício não é repetido anualmente, mas oferecido de uma vez por
+            todas, eficaz para sempre (Hb 10.10).
           </P>
           <P className="">
             Esse contraste revela a grandeza da nova aliança. A lei era sombra
-            dos bens futuros, mas Cristo trouxe a realidade. Agora não precisamos
-            de sacrifícios contínuos, pois sua oferta única nos santificou. Além
-            disso, temos acesso ao Santo dos Santos pelo sangue de Cristo, com
-            ousadia e plena certeza de fé (Hb 10.19-22).
+            dos bens futuros, mas Cristo trouxe a realidade. Agora não
+            precisamos de sacrifícios contínuos, pois sua oferta única nos
+            santificou. Além disso, temos acesso ao Santo dos Santos pelo sangue
+            de Cristo, com ousadia e plena certeza de fé (Hb 10.19-22).
           </P>
           <P className="">
-            William Barclay (2000) comenta que &quot;Hebreus é o livro que mostra
-            de forma mais clara que o cristianismo não é uma continuação do
-            judaísmo, mas seu cumprimento em Cristo&quot;. Ele não apenas substituiu
-            o sacerdócio antigo, mas inaugurou uma ordem totalmente nova.
+            William Barclay (2000) comenta que &quot;Hebreus é o livro que
+            mostra de forma mais clara que o cristianismo não é uma continuação
+            do judaísmo, mas seu cumprimento em Cristo&quot;. Ele não apenas
+            substituiu o sacerdócio antigo, mas inaugurou uma ordem totalmente
+            nova.
           </P>
           <P className="">
-            Essa lição nos convida a valorizar a suficiência da obra de Cristo, a
-            viver em gratidão e a não retroceder ao passado, mas a permanecer
+            Essa lição nos convida a valorizar a suficiência da obra de Cristo,
+            a viver em gratidão e a não retroceder ao passado, mas a permanecer
             firmes na fé.
           </P>
         </div>
@@ -723,15 +744,15 @@ export default function CursoHebreus() {
           <P className="">
             A diferença central é que os sacerdotes levíticos eram mortais,
             sucedidos uns pelos outros, mas Cristo vive para sempre e exerce um
-            sacerdócio permanente. &quot;Por isso também pode salvar totalmente os
-            que por ele se chegam a Deus, vivendo sempre para interceder por
+            sacerdócio permanente. &quot;Por isso também pode salvar totalmente
+            os que por ele se chegam a Deus, vivendo sempre para interceder por
             eles&quot; (Hb 7.25, ARA).
           </P>
           <P className="">
             Isso mostra que nossa salvação não depende de homens falhos, mas de
-            Cristo vivo, que intercede continuamente. Hernandes Dias Lopes (2009)
-            observa: &quot;Cristo não apenas morreu por nós, mas vive para
-            interceder por nós; sua obra é plena e completa&quot;.
+            Cristo vivo, que intercede continuamente. Hernandes Dias Lopes
+            (2009) observa: &quot;Cristo não apenas morreu por nós, mas vive
+            para interceder por nós; sua obra é plena e completa&quot;.
           </P>
           <P className="">
             Essa verdade nos dá segurança. Não estamos à mercê de líderes
@@ -759,8 +780,8 @@ export default function CursoHebreus() {
           <P className="">
             Aqui vemos o cumprimento da profecia de Jeremias 31. A nova aliança
             não depende de tábuas de pedra, mas da ação do Espírito Santo no
-            coração humano. O perdão é definitivo: &quot;dos seus pecados jamais me
-            lembrarei&quot; (Hb 8.12, ARA).
+            coração humano. O perdão é definitivo: &quot;dos seus pecados jamais
+            me lembrarei&quot; (Hb 8.12, ARA).
           </P>
           <P className="">
             William Barclay (2000) comenta que &quot;a antiga aliança exigia
@@ -781,9 +802,9 @@ export default function CursoHebreus() {
           </H3>
           <P className="">
             O autor descreve os rituais do tabernáculo, mostrando que eram
-            símbolos e sombras do verdadeiro. O sumo sacerdote entrava anualmente
-            no Santo dos Santos, mas Cristo entrou no santuário celestial, não
-            com sangue de animais, mas com seu próprio sangue.
+            símbolos e sombras do verdadeiro. O sumo sacerdote entrava
+            anualmente no Santo dos Santos, mas Cristo entrou no santuário
+            celestial, não com sangue de animais, mas com seu próprio sangue.
           </P>
           <P className="">
             &quot;Não por meio de sangue de bodes e de bezerros, mas pelo seu
@@ -798,8 +819,8 @@ export default function CursoHebreus() {
           </P>
           <P className="">
             O mestre Lopes (2009) afirma que &quot;o sangue de Cristo não apenas
-            cobre pecados, mas os remove definitivamente. O que era provisório no
-            Antigo Testamento tornou-se definitivo em Cristo&quot;.
+            cobre pecados, mas os remove definitivamente. O que era provisório
+            no Antigo Testamento tornou-se definitivo em Cristo&quot;.
           </P>
           <P className="">
             Isso nos desafia a viver com consciência limpa, livres da culpa e
@@ -831,8 +852,8 @@ export default function CursoHebreus() {
           <P className="">
             William Barclay (2000) destaca que &quot;Cristo não apenas abriu o
             caminho para Deus, mas é o próprio caminho&quot;. Por isso, o autor
-            exorta: &quot;retenhamos firmes a confissão da esperança, sem vacilar,
-            pois quem fez a promessa é fiel&quot; (Hb 10.23, ARA).
+            exorta: &quot;retenhamos firmes a confissão da esperança, sem
+            vacilar, pois quem fez a promessa é fiel&quot; (Hb 10.23, ARA).
           </P>
           <P className="">
             Essa verdade nos chama a viver com confiança e perseverança. Devemos
@@ -845,16 +866,16 @@ export default function CursoHebreus() {
           <H3 id="lesson-3-conclusao">Conclusão</H3>
           <P className="">
             Na terceira lição, vimos a superioridade absoluta do sacerdócio de
-            Cristo em relação ao levítico. Ele é sacerdote eterno segundo a ordem
-            de Melquisedeque, mediador de uma nova aliança, que inaugurou o
-            acesso ao santuário celestial e ofereceu um sacrifício único e
+            Cristo em relação ao levítico. Ele é sacerdote eterno segundo a
+            ordem de Melquisedeque, mediador de uma nova aliança, que inaugurou
+            o acesso ao santuário celestial e ofereceu um sacrifício único e
             suficiente.
           </P>
           <P className="">
-            Diferente dos sacerdotes humanos, Cristo vive para sempre e intercede
-            continuamente por nós. Sua obra não é parcial, mas definitiva. Ele
-            não apenas nos perdoou, mas nos santificou para sempre, dando-nos
-            ousadia para entrar na presença de Deus.
+            Diferente dos sacerdotes humanos, Cristo vive para sempre e
+            intercede continuamente por nós. Sua obra não é parcial, mas
+            definitiva. Ele não apenas nos perdoou, mas nos santificou para
+            sempre, dando-nos ousadia para entrar na presença de Deus.
           </P>
           <P className="">
             A antiga aliança era sombra; a nova é realidade. Os sacrifícios eram
@@ -878,9 +899,7 @@ export default function CursoHebreus() {
         <H2 id="lesson-4">Lição 4 – A Perseverança da Fé</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-4-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Encorajar os cristãos a viverem pela fé, perseverando nas
             dificuldades, cultivando a santidade e a vida comunitária, enquanto
@@ -897,18 +916,18 @@ export default function CursoHebreus() {
             resposta prática a tudo isso: viver pela fé.
           </P>
           <P className="">
-            O capítulo 11 é uma galeria de testemunhas que viveram pela fé, mesmo
-            sem receberem a plenitude da promessa. Do início ao fim, o cristão é
-            chamado a caminhar confiando em Deus, mesmo em meio às incertezas e
-            sofrimentos. Como resume a célebre definição: &quot;Ora, a fé é a
-            certeza de coisas que se esperam, a convicção de fatos que se não
-            veem&quot; (Hb 11.1, ARA).
+            O capítulo 11 é uma galeria de testemunhas que viveram pela fé,
+            mesmo sem receberem a plenitude da promessa. Do início ao fim, o
+            cristão é chamado a caminhar confiando em Deus, mesmo em meio às
+            incertezas e sofrimentos. Como resume a célebre definição:
+            &quot;Ora, a fé é a certeza de coisas que se esperam, a convicção de
+            fatos que se não veem&quot; (Hb 11.1, ARA).
           </P>
           <P className="">
-            O capítulo 12 nos chama a correr com perseverança a carreira, olhando
-            firmemente para Jesus, o autor e consumador da fé (Hb 12.2). A vida
-            cristã não é uma corrida de velocidade, mas de resistência, marcada
-            por disciplina, santidade e perseverança.
+            O capítulo 12 nos chama a correr com perseverança a carreira,
+            olhando firmemente para Jesus, o autor e consumador da fé (Hb 12.2).
+            A vida cristã não é uma corrida de velocidade, mas de resistência,
+            marcada por disciplina, santidade e perseverança.
           </P>
           <P className="">
             Por fim, o capítulo 13 traz exortações práticas para a vida
@@ -929,9 +948,9 @@ export default function CursoHebreus() {
             1. A Galeria dos Heróis da Fé
           </H3>
           <P className="">
-            O capítulo 11 abre com a definição de fé como certeza e convicção. Em
-            seguida, apresenta exemplos de homens e mulheres que viveram pela fé:
-            Abel, Enoque, Noé, Abraão, Sara, Moisés, Raabe e muitos outros.
+            O capítulo 11 abre com a definição de fé como certeza e convicção.
+            Em seguida, apresenta exemplos de homens e mulheres que viveram pela
+            fé: Abel, Enoque, Noé, Abraão, Sara, Moisés, Raabe e muitos outros.
             Alguns conquistaram vitórias extraordinárias, outros sofreram
             perseguições, mas todos perseveraram olhando para a promessa.
           </P>
@@ -986,14 +1005,14 @@ export default function CursoHebreus() {
           <P className="">
             Hernandes Dias Lopes (2009) lembra que &quot;o sofrimento não é um
             acidente na vida cristã, mas um instrumento de Deus para nos
-            aperfeiçoar&quot;. A disciplina do Senhor não é sinal de abandono, mas
-            de amor.
+            aperfeiçoar&quot;. A disciplina do Senhor não é sinal de abandono,
+            mas de amor.
           </P>
           <P className="">
             Devemos enfrentar as provas não com murmuração, mas com confiança,
             sabendo que Deus as usa para nosso crescimento espiritual. A fé
-            perseverante nos capacita a enxergar além da dor e a continuar firmes
-            na corrida cristã.
+            perseverante nos capacita a enxergar além da dor e a continuar
+            firmes na corrida cristã.
           </P>
         </div>
 
@@ -1005,8 +1024,8 @@ export default function CursoHebreus() {
             O autor exorta os leitores a buscar a paz com todos e a
             santificação, sem a qual ninguém verá o Senhor (Hb 12.14). A fé não
             é apenas vertical (para com Deus), mas também horizontal (para com o
-            próximo). O cristão deve cultivar relacionamentos marcados pela paz e
-            uma vida de santidade diante de Deus.
+            próximo). O cristão deve cultivar relacionamentos marcados pela paz
+            e uma vida de santidade diante de Deus.
           </P>
           <P className="">
             Ele adverte contra a amargura, o exemplo negativo de Esaú e a
@@ -1017,13 +1036,13 @@ export default function CursoHebreus() {
           <P className="">
             &quot;Por isso, recebendo nós um reino inabalável, retenhamos a
             graça, pela qual sirvamos a Deus de modo agradável, com reverência e
-            santo temor; porque o nosso Deus é fogo consumidor&quot; (Hb 12.28-29,
-            ARA).
+            santo temor; porque o nosso Deus é fogo consumidor&quot; (Hb
+            12.28-29, ARA).
           </P>
           <P className="">
             William Barclay (2000) comenta que &quot;a verdadeira fé não gera
-            arrogância, mas reverência; não leva à indiferença, mas a uma vida de
-            serviço e temor diante de Deus&quot;.
+            arrogância, mas reverência; não leva à indiferença, mas a uma vida
+            de serviço e temor diante de Deus&quot;.
           </P>
           <P className="">
             Devemos viver em santidade e reverência, conscientes de que
@@ -1051,8 +1070,8 @@ export default function CursoHebreus() {
           <P className="">
             Ele também lembra da importância de honrar e obedecer às lideranças
             espirituais, pois elas velam pelas almas dos crentes (Hb 13.17). A
-            vida cristã não é vivida isoladamente, mas em comunidade, sob cuidado
-            mútuo.
+            vida cristã não é vivida isoladamente, mas em comunidade, sob
+            cuidado mútuo.
           </P>
           <P className="">
             O capítulo termina com uma bênção sublime: &quot;Ora, o Deus da paz,
@@ -1062,9 +1081,9 @@ export default function CursoHebreus() {
           </P>
           <P className="">
             A fé verdadeira se manifesta em atitudes concretas: amor,
-            hospitalidade, generosidade, pureza, obediência e adoração. O cristão
-            é chamado a viver de forma prática sua fé, servindo ao próximo e
-            confiando nas promessas de Deus.
+            hospitalidade, generosidade, pureza, obediência e adoração. O
+            cristão é chamado a viver de forma prática sua fé, servindo ao
+            próximo e confiando nas promessas de Deus.
           </P>
         </div>
 
@@ -1081,8 +1100,8 @@ export default function CursoHebreus() {
           </P>
           <P className="">
             A carta aos Hebreus encerra-se com uma nota de esperança e
-            encorajamento: Cristo é o grande Pastor que nos conduz pelo sangue da
-            eterna aliança. Ele nos aperfeiçoa para fazermos sua vontade.
+            encorajamento: Cristo é o grande Pastor que nos conduz pelo sangue
+            da eterna aliança. Ele nos aperfeiçoa para fazermos sua vontade.
           </P>
           <P className="">
             A jornada cristã é marcada pela fé que persevera até o fim. Isso
@@ -1126,9 +1145,7 @@ export default function CursoHebreus() {
             <P className="mt-0">Márcio Rezende</P>
           </div>
           <div className="flex flex-col">
-            <P className="mt-0 font-semibold">
-              Projeto Gráfico e Diagramação:
-            </P>
+            <P className="mt-0 font-semibold">Projeto Gráfico e Diagramação:</P>
             <P className="mt-0">Márcio Rezende</P>
           </div>
           <div className="flex flex-col">
