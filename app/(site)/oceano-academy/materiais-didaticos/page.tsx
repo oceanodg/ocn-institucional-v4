@@ -193,7 +193,7 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "Tiago",
-        link: "https://drive.google.com/file/d/1pOXTmU1U1eshlCAOiXEd94G-ewUo9kHD/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/tiago",
       },
       {
         title: "1 Pedro",
