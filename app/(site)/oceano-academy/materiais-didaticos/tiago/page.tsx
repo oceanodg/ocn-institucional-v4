@@ -1,9 +1,13 @@
+import { FileImage, NotepadText, SquarePlay, Workflow } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { UL } from "~/components/ui/ul";
 import { SummaryLi } from "~/components/summary-li";
+import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
+import { LinkSmall } from "~/components/ui/link-small";
+import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
 
 export default function CursoTiago() {
   return (
@@ -24,9 +28,24 @@ export default function CursoTiago() {
 
       <Container className="mb-10 sm:mb-16">
         <H2 id="materials-didactic">Materiais de Apoio</H2>
-        <UL className="mt-0">
-          <li />
-        </UL>
+
+        <Table>
+          <TableHeader>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold w-[110px] sm:w-[160px]">
+                Apostila
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1pOXTmU1U1eshlCAOiXEd94G-ewUo9kHD/view?usp=sharing">
+                    <NotepadText className="size-4" />
+                    Carta de Tiago
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+          </TableHeader>
+        </Table>
       </Container>
 
       <Separator className="my-8" />
@@ -35,9 +54,10 @@ export default function CursoTiago() {
         <H2>Sumário</H2>
         <UL className="mt-0 space-y-2 sm:space-y-2">
           <SummaryLi>
-            <a href="#lesson-1">
-              Lição 1 – A Fé Provada e Perseverante
-            </a>
+            <a href="#lesson-1">Lição 1 – A Fé Provada e Perseverante</a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-1-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-1-para-comecar">Para Começar</a>
@@ -72,6 +92,9 @@ export default function CursoTiago() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-2-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-2-para-comecar">Para Começar</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -80,14 +103,10 @@ export default function CursoTiago() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
-            <a href="#lesson-2-a-lei-real-do-amor">
-              2. A Lei Real do Amor
-            </a>
+            <a href="#lesson-2-a-lei-real-do-amor">2. A Lei Real do Amor</a>
           </SummaryLi>
           <SummaryLi subList>
-            <a href="#lesson-2-fe-sem-obras-e-morta">
-              3. Fé Sem Obras É Morta
-            </a>
+            <a href="#lesson-2-fe-sem-obras-e-morta">3. Fé Sem Obras É Morta</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-2-exemplos-de-abraao-e-raabe-fe-em-acao">
@@ -102,6 +121,9 @@ export default function CursoTiago() {
             <a href="#lesson-3">
               Lição 3 – A Fé Que Controla a Língua e Manifesta Sabedoria
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-3-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-3-para-comecar">Para Começar</a>
@@ -131,9 +153,10 @@ export default function CursoTiago() {
           </SummaryLi>
 
           <SummaryLi>
-            <a href="#lesson-4">
-              Lição 4 – A Fé Perseverante
-            </a>
+            <a href="#lesson-4">Lição 4 – A Fé Perseverante</a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-4-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-4-para-comecar">Para Começar</a>
@@ -175,9 +198,7 @@ export default function CursoTiago() {
         <H2 id="lesson-1">Lição 1 – A Fé Provada e Perseverante</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-1-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Ensinar que a verdadeira fé resiste às provações, gera perseverança
             e se manifesta em obediência.
@@ -188,10 +209,11 @@ export default function CursoTiago() {
           <H3 id="lesson-1-para-comecar">Para Começar</H3>
           <P className="">
             A carta de Tiago é direta, prática e desafiadora. Escrita por Tiago,
-            irmão do Senhor e líder da igreja em Jerusalém (At 15.13-21), ela foi
-            endereçada às &quot;doze tribos que se encontram na Dispersão&quot; (Tg
-            1.1, ARA), ou seja, cristãos judeus espalhados pelo Império Romano,
-            enfrentando perseguições, pressões sociais e provações diárias.
+            irmão do Senhor e líder da igreja em Jerusalém (At 15.13-21), ela
+            foi endereçada às &quot;doze tribos que se encontram na
+            Dispersão&quot; (Tg 1.1, ARA), ou seja, cristãos judeus espalhados
+            pelo Império Romano, enfrentando perseguições, pressões sociais e
+            provações diárias.
           </P>
           <P className="">
             Desde o início, Tiago deixa claro que a fé não é algo teórico ou
@@ -206,8 +228,8 @@ export default function CursoTiago() {
             Logo no primeiro capítulo, ele aborda temas essenciais da vida
             cristã: como enfrentar as provações, como lidar com as tentações, a
             necessidade de sabedoria e a importância de não apenas ouvir, mas
-            praticar a Palavra. Esse é o coração da sua mensagem: fé verdadeira é
-            fé vivida.
+            praticar a Palavra. Esse é o coração da sua mensagem: fé verdadeira
+            é fé vivida.
           </P>
           <P className="">
             É interessante notar que, ao contrário de Paulo, que muitas vezes
@@ -219,8 +241,8 @@ export default function CursoTiago() {
           <P className="">
             Portanto, ao estudarmos esta lição, seremos desafiados a enxergar
             nossas próprias provações sob a ótica da fé, a assumir
-            responsabilidade diante das tentações, a buscar sabedoria do alto e a
-            viver como praticantes da Palavra, e não apenas ouvintes.
+            responsabilidade diante das tentações, a buscar sabedoria do alto e
+            a viver como praticantes da Palavra, e não apenas ouvintes.
           </P>
         </div>
 
@@ -239,12 +261,13 @@ export default function CursoTiago() {
             honrará&quot; (Jo 12.26, ARA).
           </P>
           <P className="">
-            Tiago era líder respeitado da igreja de Jerusalém, mencionado em Atos
-            e em Gálatas (At 12.17; Gl 2.9). No entanto, sua maior identidade
-            não estava em sua posição ou parentesco, mas em seu serviço a Cristo.
-            Como observa André Jácomo Silva (2021), &quot;Tiago não reivindica
-            status, mas submete sua vida ao senhorio de Cristo, ensinando-nos que
-            a liderança cristã é fundamentada no serviço&quot;.
+            Tiago era líder respeitado da igreja de Jerusalém, mencionado em
+            Atos e em Gálatas (At 12.17; Gl 2.9). No entanto, sua maior
+            identidade não estava em sua posição ou parentesco, mas em seu
+            serviço a Cristo. Como observa André Jácomo Silva (2021),
+            &quot;Tiago não reivindica status, mas submete sua vida ao senhorio
+            de Cristo, ensinando-nos que a liderança cristã é fundamentada no
+            serviço&quot;.
           </P>
           <P className="">
             Seu público eram cristãos judeus dispersos, que enfrentavam
@@ -252,10 +275,11 @@ export default function CursoTiago() {
             um tom pastoral: ele os reconhece como povo de Deus em peregrinação.
           </P>
           <P className="">
-            Da mesma forma, a nossa identidade principal também não deve estar em
-            cargos, títulos ou conquistas, mas em sermos servos de Cristo. Assim
-            como Tiago, devemos viver com humildade, sabendo que pertencemos ao
-            Senhor e que nossa missão é servir em meio às lutas do cotidiano.
+            Da mesma forma, a nossa identidade principal também não deve estar
+            em cargos, títulos ou conquistas, mas em sermos servos de Cristo.
+            Assim como Tiago, devemos viver com humildade, sabendo que
+            pertencemos ao Senhor e que nossa missão é servir em meio às lutas
+            do cotidiano.
           </P>
         </div>
 
@@ -283,11 +307,11 @@ export default function CursoTiago() {
           </P>
           <P className="">
             As provações não são motivo de desespero, mas de crescimento. Tiago
-            explica: &quot;sabendo que a provação da vossa fé, uma vez confirmada,
-            produz perseverança. Ora, a perseverança deve ter ação completa, para
-            que sejais perfeitos e íntegros, em nada deficientes&quot; (Tg 1.3-4,
-            ARA). O sofrimento, quando enfrentado com fé, gera maturidade
-            espiritual.
+            explica: &quot;sabendo que a provação da vossa fé, uma vez
+            confirmada, produz perseverança. Ora, a perseverança deve ter ação
+            completa, para que sejais perfeitos e íntegros, em nada
+            deficientes&quot; (Tg 1.3-4, ARA). O sofrimento, quando enfrentado
+            com fé, gera maturidade espiritual.
           </P>
           <P className="">
             Ele também lembra que, em meio às lutas, devemos pedir sabedoria a
@@ -316,23 +340,23 @@ export default function CursoTiago() {
             Tiago distingue provação de tentação. A provação vem de fora e visa
             fortalecer a fé; a tentação surge de dentro, dos desejos
             pecaminosos. &quot;Ninguém, ao ser tentado, diga: Sou tentado por
-            Deus; porque Deus não pode ser tentado pelo mal e ele mesmo a ninguém
-            tenta&quot; (Tg 1.13, ARA).
+            Deus; porque Deus não pode ser tentado pelo mal e ele mesmo a
+            ninguém tenta&quot; (Tg 1.13, ARA).
           </P>
           <P className="">
-            Paulo diz que: &quot;Não vos sobreveio tentação que não fosse humana;
-            mas Deus é fiel e não permitirá que sejais tentados além das vossas
-            forças; pelo contrário, juntamente com a tentação, vos proverá
-            livramento, de sorte que a possais suportar&quot; (1Co 10.13, ARA).
-            Por esse motivo Jesus nos ensinou a orar: &quot;Não nos deixes cair em
-            tentação; mas livra-nos do mal&quot; (Mt 6.13, ARA).
+            Paulo diz que: &quot;Não vos sobreveio tentação que não fosse
+            humana; mas Deus é fiel e não permitirá que sejais tentados além das
+            vossas forças; pelo contrário, juntamente com a tentação, vos
+            proverá livramento, de sorte que a possais suportar&quot; (1Co
+            10.13, ARA). Por esse motivo Jesus nos ensinou a orar: &quot;Não nos
+            deixes cair em tentação; mas livra-nos do mal&quot; (Mt 6.13, ARA).
           </P>
           <P className="">
             O processo da tentação é descrito em etapas: a cobiça atrai e seduz,
             concebe o pecado, e este, uma vez consumado, gera a morte (Tg
             1.14-15). É uma progressão que começa no coração. Por isso, a
-            responsabilidade não é de Deus nem das circunstâncias, mas do próprio
-            homem.
+            responsabilidade não é de Deus nem das circunstâncias, mas do
+            próprio homem.
           </P>
           <P className="">
             Em contraste, Tiago lembra que &quot;toda boa dádiva e todo dom
@@ -357,33 +381,34 @@ export default function CursoTiago() {
             4. A prática da Palavra como marca do cristão
           </H3>
           <P className="">
-            Tiago encerra o capítulo enfatizando que a verdadeira fé não é apenas
-            ouvir, mas praticar a Palavra. &quot;Tornai-vos, pois, praticantes da
-            palavra e não somente ouvintes, enganando-vos a vós mesmos&quot; (Tg
-            1.22, ARA). Jesus destaca que são &quot;Bem-aventurados aqueles que
-            ouvem a palavra de Deus e a guardam&quot; (Lc 11.28, ARA). No mesmo
-            sentido João afirma: &quot;Ora, aquele que diz que permanece nele, esse
-            deve também andar assim como ele andou&quot; (1Jo 2.6, ARA).
+            Tiago encerra o capítulo enfatizando que a verdadeira fé não é
+            apenas ouvir, mas praticar a Palavra. &quot;Tornai-vos, pois,
+            praticantes da palavra e não somente ouvintes, enganando-vos a vós
+            mesmos&quot; (Tg 1.22, ARA). Jesus destaca que são
+            &quot;Bem-aventurados aqueles que ouvem a palavra de Deus e a
+            guardam&quot; (Lc 11.28, ARA). No mesmo sentido João afirma:
+            &quot;Ora, aquele que diz que permanece nele, esse deve também andar
+            assim como ele andou&quot; (1Jo 2.6, ARA).
           </P>
           <P className="">
             Tiago compara o ouvinte negligente a alguém que olha no espelho e
             logo se esquece do que viu (Tg 1.23-24). A Palavra revela nossa
             condição, mas só produz transformação se for obedecida. Por isso,
-            Tiago chama de &quot;lei da liberdade&quot; (Tg 1.25) aquela Palavra que,
-            obedecida, traz verdadeira vida. Além disso, ele mostra que a
+            Tiago chama de &quot;lei da liberdade&quot; (Tg 1.25) aquela Palavra
+            que, obedecida, traz verdadeira vida. Além disso, ele mostra que a
             religião pura e sem mácula é prática: cuidar dos órfãos e viúvas em
             suas tribulações e guardar-se da corrupção do mundo (Tg 1.27). A fé
             autêntica se traduz em compaixão e santidade.
           </P>
           <P className="">
-            Hernandes Dias Lopes (2015) comenta que &quot;Tiago não admite uma fé
-            estéril. A verdadeira religião não está em ritos ou palavras, mas em
-            ações que glorificam a Deus e abençoam o próximo&quot;.
+            Hernandes Dias Lopes (2015) comenta que &quot;Tiago não admite uma
+            fé estéril. A verdadeira religião não está em ritos ou palavras, mas
+            em ações que glorificam a Deus e abençoam o próximo&quot;.
           </P>
           <P className="">
             Isso nos desafia a viver uma fé prática. Não basta frequentar cultos
-            ou ouvir sermões; é preciso colocar a Palavra em ação no cotidiano. O
-            cristão maduro é reconhecido por suas atitudes de amor, justiça e
+            ou ouvir sermões; é preciso colocar a Palavra em ação no cotidiano.
+            O cristão maduro é reconhecido por suas atitudes de amor, justiça e
             santidade.
           </P>
         </div>
@@ -421,9 +446,7 @@ export default function CursoTiago() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-2-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Mostrar que a fé verdadeira não admite acepção de pessoas e se
             comprova por meio de obras de justiça, amor e obediência a Deus.
@@ -434,8 +457,8 @@ export default function CursoTiago() {
           <H3 id="lesson-2-para-comecar">Para Começar</H3>
           <P className="">
             O capítulo 2 da carta de Tiago é um dos mais diretos e práticos de
-            todo o Novo Testamento. Ele aborda dois temas centrais: a tentação de
-            tratar pessoas com distinção e a relação inseparável entre fé e
+            todo o Novo Testamento. Ele aborda dois temas centrais: a tentação
+            de tratar pessoas com distinção e a relação inseparável entre fé e
             obras.
           </P>
           <P className="">
@@ -443,22 +466,22 @@ export default function CursoTiago() {
             desigualdades sociais, era comum a tentação de honrar os ricos e
             desprezar os pobres. Tiago denuncia essa prática como incompatível
             com a fé em Cristo: &quot;Meus irmãos, não tenhais a fé em nosso
-            Senhor Jesus Cristo, Senhor da glória, em acepção de pessoas&quot; (Tg
-            2.1, ARA).
+            Senhor Jesus Cristo, Senhor da glória, em acepção de pessoas&quot;
+            (Tg 2.1, ARA).
           </P>
           <P className="">
             Em seguida, ele enfrenta uma das maiores tensões teológicas do
             cristianismo: fé e obras. Para Tiago, não existe fé verdadeira sem
-            prática. &quot;Assim, também a fé, se não tiver obras, por si só está
-            morta&quot; (Tg 2.17, ARA). A fé não é mero assentimento intelectual,
-            mas confiança viva que se expressa em ação.
+            prática. &quot;Assim, também a fé, se não tiver obras, por si só
+            está morta&quot; (Tg 2.17, ARA). A fé não é mero assentimento
+            intelectual, mas confiança viva que se expressa em ação.
           </P>
           <P className="">
             O Teólogo Hernandes Dias Lopes (2015) afirma que &quot;Tiago não
             contradiz Paulo. Enquanto Paulo combate o legalismo, Tiago combate o
-            formalismo. Paulo ensina que somos salvos pela fé sem as obras; Tiago
-            ensina que a fé verdadeira nunca vem sozinha, mas sempre acompanhada
-            de obras&quot;.
+            formalismo. Paulo ensina que somos salvos pela fé sem as obras;
+            Tiago ensina que a fé verdadeira nunca vem sozinha, mas sempre
+            acompanhada de obras&quot;.
           </P>
           <P className="">
             Portanto, esta lição nos desafia a viver uma fé coerente, sem
@@ -501,18 +524,17 @@ export default function CursoTiago() {
         </div>
 
         <div className="flex flex-col gap-4">
-          <H3 id="lesson-2-a-lei-real-do-amor">
-            2. A lei real do amor
-          </H3>
+          <H3 id="lesson-2-a-lei-real-do-amor">2. A lei real do amor</H3>
           <P className="">
-            Tiago mostra que o mandamento central da Lei é o amor: &quot;Amarás o
-            teu próximo como a ti mesmo&quot; (Tg 2.8, ARA). Essa é a &quot;lei
-            real&quot;, pois foi confirmada por Cristo (Jo 13.34). Negligenciar o
-            amor e praticar acepção de pessoas é quebrar toda a Lei.
+            Tiago mostra que o mandamento central da Lei é o amor: &quot;Amarás
+            o teu próximo como a ti mesmo&quot; (Tg 2.8, ARA). Essa é a
+            &quot;lei real&quot;, pois foi confirmada por Cristo (Jo 13.34).
+            Negligenciar o amor e praticar acepção de pessoas é quebrar toda a
+            Lei.
           </P>
           <P className="">
-            Jesus disse: &quot;Amarás o Senhor, teu Deus... e ao teu próximo como
-            a ti mesmo. Destes dois mandamentos dependem toda a Lei e os
+            Jesus disse: &quot;Amarás o Senhor, teu Deus... e ao teu próximo
+            como a ti mesmo. Destes dois mandamentos dependem toda a Lei e os
             Profetas&quot; (Mt 22.37-40, ARA). Paulo também afirma: &quot;Porque
             toda a lei se cumpre em um só preceito: Amarás o teu próximo como a
             ti mesmo&quot; (Gl 5.14, ARA).
@@ -533,17 +555,15 @@ export default function CursoTiago() {
         </div>
 
         <div className="flex flex-col gap-4">
-          <H3 id="lesson-2-fe-sem-obras-e-morta">
-            3. Fé sem obras é morta
-          </H3>
+          <H3 id="lesson-2-fe-sem-obras-e-morta">3. Fé sem obras é morta</H3>
           <P className="">
             Tiago faz a pergunta central: &quot;Meus irmãos, qual é o proveito,
             se alguém disser que tem fé, mas não tiver obras? Pode, acaso,
             semelhante fé salvá-lo?&quot; (Tg 2.14, ARA). Ele ilustra com um
             exemplo prático: se alguém vê um irmão com fome e não o ajuda, de
             nada adianta dizer &quot;vai em paz&quot;. Ele afirma: &quot;Assim,
-            também a fé, se não tiver obras, por si só está morta&quot; (Tg 2.17,
-            ARA). Aqui está o ponto: fé verdadeira se manifesta em ações
+            também a fé, se não tiver obras, por si só está morta&quot; (Tg
+            2.17, ARA). Aqui está o ponto: fé verdadeira se manifesta em ações
             concretas. Uma fé que não se traduz em obras é apenas ilusão.
           </P>
           <P className="">
@@ -553,13 +573,13 @@ export default function CursoTiago() {
             11.31, ARA) afirma: &quot;Pela fé, Raabe, a meretriz, não foi
             destruída com os desobedientes, porque acolheu, com paz, os
             espias&quot;. William Barclay (1956) observa: &quot;Tiago não nega a
-            necessidade da fé, mas insiste que a fé genuína não pode ser estéril.
-            Ela é sempre dinâmica e ativa&quot;.
+            necessidade da fé, mas insiste que a fé genuína não pode ser
+            estéril. Ela é sempre dinâmica e ativa&quot;.
           </P>
           <P className="">
-            Precisamos avaliar nossa fé. Se ela não se manifesta em amor, serviço
-            e justiça, é sinal de que está morta. O cristão maduro demonstra sua
-            fé em atitudes que refletem o caráter de Cristo.
+            Precisamos avaliar nossa fé. Se ela não se manifesta em amor,
+            serviço e justiça, é sinal de que está morta. O cristão maduro
+            demonstra sua fé em atitudes que refletem o caráter de Cristo.
           </P>
         </div>
 
@@ -581,14 +601,14 @@ export default function CursoTiago() {
           </P>
           <P className="">
             O Professor Hernandes Dias Lopes (2015) afirma: &quot;Abraão e Raabe
-            representam extremos da sociedade: um patriarca e uma prostituta. Mas
-            ambos foram justificados porque sua fé produziu obras. Isso mostra
-            que o critério de Deus não é posição, mas fé obediente&quot;.
+            representam extremos da sociedade: um patriarca e uma prostituta.
+            Mas ambos foram justificados porque sua fé produziu obras. Isso
+            mostra que o critério de Deus não é posição, mas fé obediente&quot;.
           </P>
           <P className="">
             A fé que agrada a Deus não é apenas confissão de lábios, mas
-            obediência e coragem. Devemos ser como Abraão e Raabe: prontos a agir
-            conforme a fé, mesmo quando isso exige sacrifício ou risco.
+            obediência e coragem. Devemos ser como Abraão e Raabe: prontos a
+            agir conforme a fé, mesmo quando isso exige sacrifício ou risco.
           </P>
         </div>
 
@@ -605,10 +625,10 @@ export default function CursoTiago() {
             obediência.
           </P>
           <P className="">
-            Somos desafiados a examinar nossa fé e a viver de modo coerente. Isso
-            significa acolher a todos sem distinção, praticar a misericórdia,
-            servir ao próximo e demonstrar nossa confiança em Deus com atitudes
-            concretas. Uma fé viva é uma fé que se vê.
+            Somos desafiados a examinar nossa fé e a viver de modo coerente.
+            Isso significa acolher a todos sem distinção, praticar a
+            misericórdia, servir ao próximo e demonstrar nossa confiança em Deus
+            com atitudes concretas. Uma fé viva é uma fé que se vê.
           </P>
         </div>
       </Container>
@@ -622,9 +642,7 @@ export default function CursoTiago() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-3-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Ensinar que a fé genuína se expressa no domínio da língua e na
             sabedoria vinda do alto, em contraste com a mundanidade.
@@ -637,9 +655,9 @@ export default function CursoTiago() {
             Tiago é intensamente prático e não evita temas que tocam diretamente
             o cotidiano da igreja. No capítulo 3, ele aborda um dos maiores
             desafios da vida cristã: o controle da língua. Ele reconhece o poder
-            destrutivo das palavras e a responsabilidade ainda maior daqueles que
-            ensinam. A língua pode edificar ou destruir, abençoar ou amaldiçoar,
-            aproximar de Deus ou afastar do próximo.
+            destrutivo das palavras e a responsabilidade ainda maior daqueles
+            que ensinam. A língua pode edificar ou destruir, abençoar ou
+            amaldiçoar, aproximar de Deus ou afastar do próximo.
           </P>
           <P className="">
             No mesmo capítulo, Tiago contrasta dois tipos de sabedoria: a
@@ -654,8 +672,9 @@ export default function CursoTiago() {
             submissão a Deus e a prática da humildade.
           </P>
           <P className="">
-            Assim, esta lição nos desafia a viver uma fé que governa as palavras,
-            busca a sabedoria do alto e se expressa em humildade e paz.
+            Assim, esta lição nos desafia a viver uma fé que governa as
+            palavras, busca a sabedoria do alto e se expressa em humildade e
+            paz.
           </P>
         </div>
 
@@ -664,9 +683,9 @@ export default function CursoTiago() {
             1. A responsabilidade dos mestres e o poder da língua
           </H3>
           <P className="">
-            Tiago adverte que nem todos devem se tornar mestres, porque maior é o
-            juízo sobre quem ensina (Tg 3.1). Isso não significa desestimular o
-            ensino, mas lembrar que o dom da palavra exige responsabilidade.
+            Tiago adverte que nem todos devem se tornar mestres, porque maior é
+            o juízo sobre quem ensina (Tg 3.1). Isso não significa desestimular
+            o ensino, mas lembrar que o dom da palavra exige responsabilidade.
           </P>
           <P className="">
             Ele compara a língua a um leme que dirige um navio ou a uma pequena
@@ -679,11 +698,12 @@ export default function CursoTiago() {
           <P className="">
             A Bíblia confirma essa advertência em Pv 18.21: &quot;A morte e a
             vida estão no poder da língua; o que bem a utiliza come do seu
-            fruto&quot;. Jesus também declarou: &quot;Pois do que há em abundância
-            no coração, disso fala a boca&quot; (Mt 12.34, ARA). Nossas palavras
-            revelam nosso interior. William Barclay (1956) comenta: &quot;Poucas
-            coisas custam tão pouco e têm tanto poder quanto a palavra. Tiago
-            chama o cristão a santificar sua fala como reflexo de sua fé&quot;.
+            fruto&quot;. Jesus também declarou: &quot;Pois do que há em
+            abundância no coração, disso fala a boca&quot; (Mt 12.34, ARA).
+            Nossas palavras revelam nosso interior. William Barclay (1956)
+            comenta: &quot;Poucas coisas custam tão pouco e têm tanto poder
+            quanto a palavra. Tiago chama o cristão a santificar sua fala como
+            reflexo de sua fé&quot;.
           </P>
           <P className="">
             O cristão deve aprender a usar a língua para edificar, consolar e
@@ -705,13 +725,13 @@ export default function CursoTiago() {
           <P className="">
             Essa mesma distinção é encontrada em Pv 2.6: &quot;Porque o Senhor
             dá a sabedoria, e da sua boca vem a inteligência e o
-            entendimento&quot;. Paulo também reforça em 1Co 1.18: &quot;A palavra
-            da cruz é loucura para os que se perdem, mas para nós, que somos
-            salvos, poder de Deus&quot;.
+            entendimento&quot;. Paulo também reforça em 1Co 1.18: &quot;A
+            palavra da cruz é loucura para os que se perdem, mas para nós, que
+            somos salvos, poder de Deus&quot;.
           </P>
           <P className="">
-            Tiago nos chama a demonstrar a sabedoria do alto em &quot;mansidão de
-            sabedoria&quot; (Tg 3.13). Não basta conhecimento; a sabedoria
+            Tiago nos chama a demonstrar a sabedoria do alto em &quot;mansidão
+            de sabedoria&quot; (Tg 3.13). Não basta conhecimento; a sabedoria
             verdadeira se mostra em atitudes humildes e práticas. O mestre
             Hernandes Dias Lopes (2015) observa: &quot;A sabedoria que vem do
             alto não é teórica nem abstrata; é prática e relacional, gerando paz
@@ -729,29 +749,29 @@ export default function CursoTiago() {
             3. As causas das guerras e contendas
           </H3>
           <P className="">
-            Tiago pergunta: &quot;De onde vêm as guerras e contendas que há entre
-            vós? De onde, senão dos prazeres que militam na vossa carne?&quot; (Tg
-            4.1, ARA). A raiz dos conflitos está nos desejos egoístas. O homem
-            deseja, mas não obtém; inveja, mas não conquista; e assim gera
-            contenda.
+            Tiago pergunta: &quot;De onde vêm as guerras e contendas que há
+            entre vós? De onde, senão dos prazeres que militam na vossa
+            carne?&quot; (Tg 4.1, ARA). A raiz dos conflitos está nos desejos
+            egoístas. O homem deseja, mas não obtém; inveja, mas não conquista;
+            e assim gera contenda.
           </P>
           <P className="">
             Paulo escrevendo aos Gálatas (Gl 5.16, ARA) confirma: &quot;Andai no
             Espírito e jamais satisfareis à concupiscência da carne&quot;. Jesus
-            também declarou: &quot;Bem-aventurados os pacificadores, porque serão
-            chamados filhos de Deus&quot; (Mt 5.9, ARA).
+            também declarou: &quot;Bem-aventurados os pacificadores, porque
+            serão chamados filhos de Deus&quot; (Mt 5.9, ARA).
           </P>
           <P className="">
-            Tiago afirma que muitos não recebem porque não pedem; e quando pedem,
-            pedem mal, para gastar em seus prazeres (Tg 4.3). A solução é
+            Tiago afirma que muitos não recebem porque não pedem; e quando
+            pedem, pedem mal, para gastar em seus prazeres (Tg 4.3). A solução é
             resistir ao diabo e submeter-se a Deus (Tg 4.7). William Barclay
             (1956) resume: &quot;A vida cristã é uma luta de lealdades: ou
             servimos a nós mesmos e ao mundo, ou servimos a Deus com
             humildade&quot;.
           </P>
           <P className="">
-            Devemos examinar nossos desejos e reconhecer que muitos conflitos vêm
-            do egoísmo. A fé genuína nos chama a viver em paz, a depender de
+            Devemos examinar nossos desejos e reconhecer que muitos conflitos
+            vêm do egoísmo. A fé genuína nos chama a viver em paz, a depender de
             Deus em oração sincera e a rejeitar a amizade do mundo.
           </P>
         </div>
@@ -775,15 +795,15 @@ export default function CursoTiago() {
             exalte&quot; (1Pe 5.6, ARA).
           </P>
           <P className="">
-            A vida cristã exige humildade em reconhecer a fragilidade da vida e a
-            soberania divina. Negligenciar isso é vanglória e pecado (Tg
+            A vida cristã exige humildade em reconhecer a fragilidade da vida e
+            a soberania divina. Negligenciar isso é vanglória e pecado (Tg
             4.16-17). Hernandes Dias Lopes (2015) comenta: &quot;A humildade é o
             caminho da graça. O soberbo tenta viver sem Deus, mas o humilde
             encontra nele direção e segurança&quot;.
           </P>
           <P className="">
-            Devemos aprender a planejar com sabedoria, mas sempre submetendo tudo
-            à vontade de Deus. A fé verdadeira é humilde e dependente,
+            Devemos aprender a planejar com sabedoria, mas sempre submetendo
+            tudo à vontade de Deus. A fé verdadeira é humilde e dependente,
             reconhecendo que nossa vida está em suas mãos.
           </P>
         </div>
@@ -808,9 +828,9 @@ export default function CursoTiago() {
           <P className="">
             Também vimos que as guerras e contendas surgem de desejos
             desordenados que militam dentro de nós. Em vez de buscar a paz, o
-            coração humano muitas vezes busca satisfação própria. Tiago nos chama
-            a resistir ao diabo e a nos submeter a Deus, porque somente assim
-            poderemos viver reconciliados com o próximo.
+            coração humano muitas vezes busca satisfação própria. Tiago nos
+            chama a resistir ao diabo e a nos submeter a Deus, porque somente
+            assim poderemos viver reconciliados com o próximo.
           </P>
           <P className="">
             Por fim, ele nos advertiu contra a arrogância de planejar sem
@@ -836,9 +856,7 @@ export default function CursoTiago() {
         <H2 id="lesson-4">Lição 4 – A Fé Perseverante</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-4-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Ensinar que a fé genuína persevera nas provações, expressa paciência
             diante das injustiças e manifesta poder por meio da oração,
@@ -860,9 +878,10 @@ export default function CursoTiago() {
             O capítulo 5 é um dos textos mais pastorais do Novo Testamento.
             Tiago não fala a teólogos, mas a crentes cansados, trabalhadores
             explorados, doentes e aflitos. A fé deles estava sendo testada não
-            apenas por perseguições externas, mas também por tentações internas —
-            impaciência, murmuração e desânimo. Por isso, ele insiste: &quot;Sede,
-            pois, irmãos, pacientes, até à vinda do Senhor&quot; (Tg 5.7, ARA).
+            apenas por perseguições externas, mas também por tentações internas
+            — impaciência, murmuração e desânimo. Por isso, ele insiste:
+            &quot;Sede, pois, irmãos, pacientes, até à vinda do Senhor&quot; (Tg
+            5.7, ARA).
           </P>
           <P className="">
             Essa paciência cristã não é passividade. É uma espera ativa,
@@ -874,9 +893,9 @@ export default function CursoTiago() {
           </P>
           <P className="">
             Além da perseverança, Tiago apresenta a oração como o coração da
-            vida cristã. Ele ensina que a oração não é apenas recurso de socorro,
-            mas relacionamento contínuo com o Deus soberano. O apóstolo encerra
-            sua carta apontando para o poder da oração comunitária, a
+            vida cristã. Ele ensina que a oração não é apenas recurso de
+            socorro, mas relacionamento contínuo com o Deus soberano. O apóstolo
+            encerra sua carta apontando para o poder da oração comunitária, a
             restauração dos que erram e o perdão como expressão suprema da fé
             viva.
           </P>
@@ -893,18 +912,18 @@ export default function CursoTiago() {
           </H3>
           <P className="">
             Tiago começa exortando os irmãos a terem paciência &quot;até à vinda
-            do Senhor&quot;. Ele usa três exemplos: o lavrador, os profetas e Jó.
-            O lavrador planta, espera as chuvas e confia na colheita (Tg 5.7).
-            Os profetas suportaram perseguições, mas perseveraram na fidelidade
-            (Tg 5.10). E Jó é o modelo supremo de constância no sofrimento, pois
-            manteve a fé apesar das perdas (Tg 5.11).
+            do Senhor&quot;. Ele usa três exemplos: o lavrador, os profetas e
+            Jó. O lavrador planta, espera as chuvas e confia na colheita (Tg
+            5.7). Os profetas suportaram perseguições, mas perseveraram na
+            fidelidade (Tg 5.10). E Jó é o modelo supremo de constância no
+            sofrimento, pois manteve a fé apesar das perdas (Tg 5.11).
           </P>
           <P className="">
             A esperança cristã não é uma fuga da realidade, mas uma força
-            interior para suportar o presente. Paulo ensina o mesmo: &quot;Porque
-            a nossa leve e momentânea tribulação produz para nós eterno peso de
-            glória&quot; (2Co 4.17, ARA). A paciência bíblica é alimentada pela
-            visão escatológica — o Senhor virá e fará justiça.
+            interior para suportar o presente. Paulo ensina o mesmo:
+            &quot;Porque a nossa leve e momentânea tribulação produz para nós
+            eterno peso de glória&quot; (2Co 4.17, ARA). A paciência bíblica é
+            alimentada pela visão escatológica — o Senhor virá e fará justiça.
           </P>
           <P className="">
             Warren Wiersbe (1984) comenta: &quot;Tiago nos lembra que a fé que
@@ -929,8 +948,8 @@ export default function CursoTiago() {
             O escritor: &quot;Irmãos, não vos queixeis uns dos outros, para não
             serdes julgados&quot; (Tg 5.9, ARA). O sofrimento pode nos tornar
             críticos e impacientes. Em vez de edificar, passamos a murmurar.
-            Tiago lembra que o &quot;Juiz está às portas&quot; (Tg 5.9), ou seja,
-            o Senhor observa nosso coração e nossas palavras.
+            Tiago lembra que o &quot;Juiz está às portas&quot; (Tg 5.9), ou
+            seja, o Senhor observa nosso coração e nossas palavras.
           </P>
           <P className="">
             A murmuração é um sinal de incredulidade. O povo de Israel murmurou
@@ -939,11 +958,11 @@ export default function CursoTiago() {
             não entende os caminhos do Senhor.
           </P>
           <P className="">
-            Russell Shedd (2005) observa que &quot;Tiago não condena a dor, mas a
-            impaciência que gera ressentimento. O silêncio piedoso é fruto da fé
-            que descansa na justiça divina.&quot; Jesus é o exemplo máximo dessa
-            atitude: &quot;Quando ultrajado, não revidava com ultraje; quando
-            maltratado, não fazia ameaças&quot; (1Pe 2.23, ARA).
+            Russell Shedd (2005) observa que &quot;Tiago não condena a dor, mas
+            a impaciência que gera ressentimento. O silêncio piedoso é fruto da
+            fé que descansa na justiça divina.&quot; Jesus é o exemplo máximo
+            dessa atitude: &quot;Quando ultrajado, não revidava com ultraje;
+            quando maltratado, não fazia ameaças&quot; (1Pe 2.23, ARA).
           </P>
           <P className="">
             Em tempos de tensão e provação, é melhor calar e orar do que
@@ -976,8 +995,8 @@ export default function CursoTiago() {
             &quot;Elias era homem semelhante a nós, sujeito aos mesmos
             sentimentos, e orou com fervor&quot; (Tg 5.17, ARA). A oração não
             depende de quem ora, mas do Deus que responde. Hernandes Dias Lopes
-            (2016) escreve: &quot;A oração eficaz é fruto de um coração reto, não
-            de uma técnica espiritual. Deus ouve quem anda em comunhão com
+            (2016) escreve: &quot;A oração eficaz é fruto de um coração reto,
+            não de uma técnica espiritual. Deus ouve quem anda em comunhão com
             Ele.&quot;
           </P>
           <P className="">
@@ -1007,9 +1026,9 @@ export default function CursoTiago() {
           <P className="">
             John Stott (1996) comenta: &quot;A comunhão cristã autêntica inclui
             disciplina e amor. Não podemos ser indiferentes à queda do outro,
-            pois somos guardiões uns dos outros na fé.&quot; O amor cobre multidão
-            de pecados, não por omitir o erro, mas por conduzir o pecador ao
-            arrependimento e à graça.
+            pois somos guardiões uns dos outros na fé.&quot; O amor cobre
+            multidão de pecados, não por omitir o erro, mas por conduzir o
+            pecador ao arrependimento e à graça.
           </P>
           <P className="">
             Por fim, a fé viva é também fé restauradora. Deus nos chama a ser
@@ -1024,8 +1043,8 @@ export default function CursoTiago() {
           <P className="">
             A carta de Tiago termina com uma poderosa síntese da fé cristã: uma
             fé que espera, ora e restaura. A paciência, a oração e o amor são as
-            colunas que sustentam a maturidade espiritual. Tiago não apresenta um
-            cristianismo teórico, mas uma espiritualidade que toca a vida
+            colunas que sustentam a maturidade espiritual. Tiago não apresenta
+            um cristianismo teórico, mas uma espiritualidade que toca a vida
             cotidiana — trabalho, sofrimento, saúde, relacionamentos e
             comunidade.
           </P>
@@ -1034,21 +1053,21 @@ export default function CursoTiago() {
             crente maduro não busca atalhos, mas permanece firme, sabendo que a
             justiça divina prevalecerá. A oração, por sua vez, é a respiração da
             fé. Ela nos mantém ligados à fonte do poder e da paz. E o amor
-            restaurador é o selo da verdadeira comunidade cristã — uma igreja que
-            ora e cuida é uma igreja viva.
+            restaurador é o selo da verdadeira comunidade cristã — uma igreja
+            que ora e cuida é uma igreja viva.
           </P>
           <P className="">
             Tiago encerra sem despedidas formais, talvez para nos lembrar que o
             cristianismo autêntico não termina em palavras, mas em ação. Ele
-            começa e termina falando de fé viva — uma fé que transforma o caráter
-            e muda o mundo.
+            começa e termina falando de fé viva — uma fé que transforma o
+            caráter e muda o mundo.
           </P>
           <P className="">
             A fé que persevera é a fé que ora. A fé que ora é a fé que ama. Que
             o Espírito Santo nos conduza a viver uma espiritualidade madura, que
-            enfrenta o sofrimento com paciência, transforma as aflições em oração
-            e as quedas em restauração. Assim, nossa fé será completa — não
-            apenas falada, mas vivida, como ensinou Tiago.
+            enfrenta o sofrimento com paciência, transforma as aflições em
+            oração e as quedas em restauração. Assim, nossa fé será completa —
+            não apenas falada, mas vivida, como ensinou Tiago.
           </P>
         </div>
       </Container>
@@ -1084,9 +1103,7 @@ export default function CursoTiago() {
             <P className="mt-0">Márcio Rezende</P>
           </div>
           <div className="flex flex-col">
-            <P className="mt-0 font-semibold">
-              Projeto Gráfico e Diagramação:
-            </P>
+            <P className="mt-0 font-semibold">Projeto Gráfico e Diagramação:</P>
             <P className="mt-0">Márcio Rezende</P>
           </div>
           <div className="flex flex-col">
