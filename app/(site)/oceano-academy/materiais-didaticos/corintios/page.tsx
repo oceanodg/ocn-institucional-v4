@@ -1,9 +1,13 @@
+import { NotepadText } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { UL } from "~/components/ui/ul";
 import { SummaryLi } from "~/components/summary-li";
+import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
+import { LinkSmall } from "~/components/ui/link-small";
+import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
 
 export default function CursoCorintios() {
   return (
@@ -23,12 +27,39 @@ export default function CursoCorintios() {
       <Separator className="my-8" />
 
       <Container className="mb-10 sm:mb-16">
+        <H2 id="materials-didactic">Materiais de Apoio</H2>
+
+        <Table>
+          <TableHeader>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold w-[110px] sm:w-[160px]">
+                Apostila
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1rmzOF3dEmFNaBAjkw2FWBirtp3ckzxnh/view?usp=sharing">
+                    <NotepadText className="size-4" />
+                    Cartas aos Coríntios
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+          </TableHeader>
+        </Table>
+      </Container>
+
+      <Separator className="my-8" />
+
+      <Container className="mb-10 sm:mb-16">
         <H2>Sumário</H2>
         <UL className="mt-0 space-y-2 sm:space-y-2">
           <SummaryLi>
             <a href="#lesson-1">
               Lição 1 – Unidade em Cristo: Superando as Divisões na Igreja
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-1-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-1-introducao">Introdução</a>
@@ -63,6 +94,9 @@ export default function CursoCorintios() {
             </a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-2-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-2-introducao">Introdução</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -93,6 +127,9 @@ export default function CursoCorintios() {
             <a href="#lesson-3">
               Lição 3 – Sofrimento e Glória: O Paradoxo da Liderança Cristã
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-3-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-3-introducao">Introdução</a>
@@ -126,6 +163,9 @@ export default function CursoCorintios() {
               Lição 4 – A Generosidade Transformadora: Expressão do Evangelho em
               Ação
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-4-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-4-introducao">Introdução</a>
@@ -169,9 +209,7 @@ export default function CursoCorintios() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-1-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Promover a unidade entre os cristãos ao enfatizar a centralidade de
             Cristo e a importância de superar divisões na igreja.
@@ -243,12 +281,13 @@ export default function CursoCorintios() {
           </H3>
           <P className="">
             A sabedoria de Deus, conforme exposta por Paulo, contrasta de forma
-            contundente com a sabedoria humana (1 Coríntios 1:18-31). Enquanto
-            o mundo valoriza a lógica, as palavras rebuscadas e o poder, Deus
+            contundente com a sabedoria humana (1 Coríntios 1:18-31). Enquanto o
+            mundo valoriza a lógica, as palavras rebuscadas e o poder, Deus
             escolheu a cruz – símbolo de fraqueza e vergonha aos olhos humanos –
-            como o centro de Seu plano redentor. Essa aparente &quot;loucura&quot; divina
-            revela-se infinitamente superior à sabedoria mundana, pois por meio
-            dela Deus destrói a vanglória humana e exalta Sua graça soberana.
+            como o centro de Seu plano redentor. Essa aparente
+            &quot;loucura&quot; divina revela-se infinitamente superior à
+            sabedoria mundana, pois por meio dela Deus destrói a vanglória
+            humana e exalta Sua graça soberana.
           </P>
           <P className="">
             A cruz de Cristo, ao transcender a sabedoria humana, une os cristãos
@@ -363,9 +402,7 @@ export default function CursoCorintios() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-2-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Promover a prática responsável dos dons espirituais, fundamentada no
             amor, para edificação da Igreja, unidade do corpo de Cristo e
@@ -393,15 +430,15 @@ export default function CursoCorintios() {
             Além disso, refletiremos sobre a ordem e a decência que devem
             prevalecer no culto cristão, conforme orientado por Paulo,
             assegurando que tudo seja feito para a edificação da Igreja e para a
-            glória de Deus. Finalmente, concluiremos com a mensagem de
-            esperança contida na gloriosa vitória de Cristo sobre o pecado e a
-            morte, que nos fortalece na certeza da ressurreição e nos motiva a
-            perseverar na obra do Senhor com dedicação e fé. À medida que
-            compreendemos que os dons espirituais são dados para o benefício de
-            toda a Igreja, somos desafiados a exercê-los com responsabilidade,
-            zelo e submissão à vontade divina, encerrando nossa reflexão sobre a
-            primeira carta de Paulo aos Coríntios com um profundo senso de
-            propósito e compromisso com o reino de Deus.
+            glória de Deus. Finalmente, concluiremos com a mensagem de esperança
+            contida na gloriosa vitória de Cristo sobre o pecado e a morte, que
+            nos fortalece na certeza da ressurreição e nos motiva a perseverar
+            na obra do Senhor com dedicação e fé. À medida que compreendemos que
+            os dons espirituais são dados para o benefício de toda a Igreja,
+            somos desafiados a exercê-los com responsabilidade, zelo e submissão
+            à vontade divina, encerrando nossa reflexão sobre a primeira carta
+            de Paulo aos Coríntios com um profundo senso de propósito e
+            compromisso com o reino de Deus.
           </P>
         </div>
 
@@ -421,13 +458,12 @@ export default function CursoCorintios() {
           </P>
           <P className="">
             Paulo enfatiza a diversidade e a complementaridade dos dons
-            espirituais (1 Coríntios 12.4-11). Dons como a palavra de
-            sabedoria, o dom da fé, o discernimento de espíritos e outros são
-            expressões da graça de Deus que operam de maneira coordenada para
-            edificar a Igreja. Cada crente é dotado de um ou mais dons
-            específicos, que, quando exercidos com responsabilidade e submissão
-            ao Espírito, contribuem para o crescimento espiritual do corpo de
-            Cristo.
+            espirituais (1 Coríntios 12.4-11). Dons como a palavra de sabedoria,
+            o dom da fé, o discernimento de espíritos e outros são expressões da
+            graça de Deus que operam de maneira coordenada para edificar a
+            Igreja. Cada crente é dotado de um ou mais dons específicos, que,
+            quando exercidos com responsabilidade e submissão ao Espírito,
+            contribuem para o crescimento espiritual do corpo de Cristo.
           </P>
           <P className="">
             Assim como os membros do corpo humano possuem diferentes funções que
@@ -448,8 +484,8 @@ export default function CursoCorintios() {
           </H3>
           <P className="">
             Com a conclusão do capítulo 12 da primeira carta aos Coríntios,
-            Paulo apresenta uma &quot;excelente trilha&quot; que todo cristão deve
-            trilhar: o caminho do amor. Esse percurso é essencial, pois ele
+            Paulo apresenta uma &quot;excelente trilha&quot; que todo cristão
+            deve trilhar: o caminho do amor. Esse percurso é essencial, pois ele
             estabelece o amor como o fundamento indispensável para o exercício
             de qualquer dom espiritual. Sem amor, até mesmo os dons mais
             notáveis, como profecia ou falar em línguas, perdem completamente
@@ -461,8 +497,8 @@ export default function CursoCorintios() {
             irrita facilmente e não guarda rancor. É um amor que zela pelo bem
             do próximo e se alegra com a verdade (1 Coríntios 13.4-7). Essa
             descrição revela que o amor é mais do que um sentimento; é uma ação
-            intencional, que deve permear todas as nossas atitudes, especialmente
-            no uso dos dons espirituais.
+            intencional, que deve permear todas as nossas atitudes,
+            especialmente no uso dos dons espirituais.
           </P>
           <P className="">
             Na prática, o amor precisa ser a motivação central em tudo o que
@@ -485,8 +521,8 @@ export default function CursoCorintios() {
             decência nas reuniões da igreja (1 Coríntios 14.26-40). Embora os
             dons espirituais sejam fundamentais, seu uso desordenado pode gerar
             confusão e comprometer o testemunho da igreja. Por isso, ele instrui
-            que tudo seja feito &quot;para edificação&quot; (v. 26) e de forma organizada,
-            com cada pessoa contribuindo no momento apropriado.
+            que tudo seja feito &quot;para edificação&quot; (v. 26) e de forma
+            organizada, com cada pessoa contribuindo no momento apropriado.
           </P>
           <P className="">
             A ordem no culto reflete o caráter de Deus, que é um Deus de paz e
@@ -526,15 +562,16 @@ export default function CursoCorintios() {
             Além disso, Paulo descreve a gloriosa transformação que ocorrerá na
             ressurreição dos santos: &quot;Num momento, num abrir e fechar de
             olhos... os mortos ressuscitarão incorruptíveis, e nós seremos
-            transformados&quot; (1 Coríntios 15.52). Esse evento escatológico nos
-            garante a vitória definitiva sobre o pecado e a morte, levando-nos a
-            declarar: &quot;Tragada foi a morte pela vitória&quot; (1 Coríntios 15.54).
+            transformados&quot; (1 Coríntios 15.52). Esse evento escatológico
+            nos garante a vitória definitiva sobre o pecado e a morte,
+            levando-nos a declarar: &quot;Tragada foi a morte pela vitória&quot;
+            (1 Coríntios 15.54).
           </P>
           <P className="">
             Com essa esperança eterna, somos motivados a viver com propósito e a
-            perseverar na obra do Senhor, sabendo que nosso trabalho &quot;não é vão
-            no Senhor&quot; (1 Coríntios 15.58). Essa certeza nos impulsiona a
-            exercer nossos dons espirituais com zelo e dedicação, contribuindo
+            perseverar na obra do Senhor, sabendo que nosso trabalho &quot;não é
+            vão no Senhor&quot; (1 Coríntios 15.58). Essa certeza nos impulsiona
+            a exercer nossos dons espirituais com zelo e dedicação, contribuindo
             para a edificação do corpo de Cristo e para a glória de Deus,
             enquanto aguardamos com fé o dia em que estaremos plenamente
             redimidos na presença do Senhor.
@@ -572,9 +609,7 @@ export default function CursoCorintios() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-3-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Demonstrar que a verdadeira liderança cristã é caracterizada pelo
             paradoxo do sofrimento e da glória, refletindo o caráter de Cristo
@@ -623,12 +658,12 @@ export default function CursoCorintios() {
           <P className="">
             Paulo argumenta que a liderança genuína reflete o caráter de Cristo,
             que não veio para ser servido, mas para servir (Marcos 10.45). Isso
-            significa que o líder cristão autêntico não busca glória pessoal, mas
-            dedica sua vida ao bem dos outros e à glória de Deus. Ele
-            exemplifica isso em sua própria experiência, suportando perseguições,
-            tribulações e rejeição por amor ao Evangelho. A verdadeira
-            liderança, portanto, é uma caminhada de abnegação e fidelidade à
-            missão divina.
+            significa que o líder cristão autêntico não busca glória pessoal,
+            mas dedica sua vida ao bem dos outros e à glória de Deus. Ele
+            exemplifica isso em sua própria experiência, suportando
+            perseguições, tribulações e rejeição por amor ao Evangelho. A
+            verdadeira liderança, portanto, é uma caminhada de abnegação e
+            fidelidade à missão divina.
           </P>
         </div>
 
@@ -647,10 +682,10 @@ export default function CursoCorintios() {
             meio às adversidades.
           </P>
           <P className="">
-            Paulo ainda cita um &quot;espinho na carne&quot;, que o levou, diuturnamente,
-            a depender completamente da graça de Deus. Embora não saibamos
-            exatamente o que era esse espinho, o ponto central é que ele
-            simbolizava uma limitação ou sofrimento que o mantinha humilde e
+            Paulo ainda cita um &quot;espinho na carne&quot;, que o levou,
+            diuturnamente, a depender completamente da graça de Deus. Embora não
+            saibamos exatamente o que era esse espinho, o ponto central é que
+            ele simbolizava uma limitação ou sofrimento que o mantinha humilde e
             consciente de sua necessidade de Deus. Essa dependência, longe de
             ser uma fraqueza, era a fonte de sua força, pois permitia que o
             poder divino agisse por meio dele.
@@ -681,14 +716,14 @@ export default function CursoCorintios() {
             Paulo aplica esse exemplo à liderança cristã, enfatizando que o
             líder deve seguir o mesmo caminho de Cristo. Isso significa colocar
             os interesses dos outros acima dos próprios, suportar críticas e
-            dificuldades com paciência e permanecer fiel à missão de Deus,
-            mesmo diante de oposição. Assim como Cristo glorificou o Pai por
-            meio de sua obediência e sacrifício, os líderes cristãos também
-            devem viver de modo a glorificar a Deus, refletindo o caráter de
-            Cristo em sua vida cotidiana e ministério. A verdadeira liderança no
-            Reino de Deus não se fundamenta em prestígio ou reconhecimento
-            humano, mas na disposição de servir e sofrer pelo evangelho,
-            confiando que a glória vindoura será revelada no tempo de Deus.
+            dificuldades com paciência e permanecer fiel à missão de Deus, mesmo
+            diante de oposição. Assim como Cristo glorificou o Pai por meio de
+            sua obediência e sacrifício, os líderes cristãos também devem viver
+            de modo a glorificar a Deus, refletindo o caráter de Cristo em sua
+            vida cotidiana e ministério. A verdadeira liderança no Reino de Deus
+            não se fundamenta em prestígio ou reconhecimento humano, mas na
+            disposição de servir e sofrer pelo evangelho, confiando que a glória
+            vindoura será revelada no tempo de Deus.
           </P>
           <P className="">
             Vale ressaltar que, essa não é uma responsabilidade exclusiva dos
@@ -723,9 +758,9 @@ export default function CursoCorintios() {
             receberemos a recompensa eterna prometida por Deus (2 Coríntios
             4.16-18). Assim, o Espírito Santo não apenas nos fortalece, mas
             também atua como o agente de nossa transformação, capacitando-nos a
-            viver com fidelidade e graça. Como afirma a Escritura: &quot;[...]
-            a nossa leve e momentânea tribulação produz para nós um peso eterno
-            de glória mui excelente&quot; (2 Coríntios 4.17).
+            viver com fidelidade e graça. Como afirma a Escritura: &quot;[...] a
+            nossa leve e momentânea tribulação produz para nós um peso eterno de
+            glória mui excelente&quot; (2 Coríntios 4.17).
           </P>
         </div>
 
@@ -757,9 +792,7 @@ export default function CursoCorintios() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-4-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Incentivar a prática da generosidade como uma expressão concreta da
             graça de Deus e uma demonstração prática de unidade e amor no corpo
@@ -834,12 +867,12 @@ export default function CursoCorintios() {
             Além disso, a generosidade deve começar dentro do próprio lar. Os
             bens materiais jamais devem ocupar uma posição superior à família,
             pois é nossa responsabilidade cuidar daqueles que Deus nos confiou.
-            O apóstolo Paulo adverte que &quot;se alguém não tem cuidado dos seus, e
-            especialmente dos da sua família, tem negado a fé e é pior do que o
-            descrente&quot; (1 Timóteo 5.8). Esse princípio nos ensina que a
-            verdadeira prosperidade não se mede pela acumulação de riquezas, mas
-            pelo amor, pelo zelo e pela disposição de suprir as necessidades dos
-            que estão ao nosso redor.
+            O apóstolo Paulo adverte que &quot;se alguém não tem cuidado dos
+            seus, e especialmente dos da sua família, tem negado a fé e é pior
+            do que o descrente&quot; (1 Timóteo 5.8). Esse princípio nos ensina
+            que a verdadeira prosperidade não se mede pela acumulação de
+            riquezas, mas pelo amor, pelo zelo e pela disposição de suprir as
+            necessidades dos que estão ao nosso redor.
           </P>
         </div>
 
@@ -922,8 +955,7 @@ export default function CursoCorintios() {
         <div className="flex flex-col gap-8">
           <div className="flex flex-col">
             <P className="mt-0">
-              <span className="font-semibold">Curso:</span> Cartas aos
-              Coríntios
+              <span className="font-semibold">Curso:</span> Cartas aos Coríntios
             </P>
             <P className="mt-0">
               <span className="font-semibold">Ano:</span> 2025
@@ -939,9 +971,7 @@ export default function CursoCorintios() {
             <P className="mt-0">Braitner Lobato</P>
           </div>
           <div className="flex flex-col">
-            <P className="mt-0 font-semibold">
-              Projeto Gráfico e Diagramação:
-            </P>
+            <P className="mt-0 font-semibold">Projeto Gráfico e Diagramação:</P>
             <P className="mt-0">Márcio Resende e Wagner Monteiro</P>
           </div>
           <div className="flex flex-col">
