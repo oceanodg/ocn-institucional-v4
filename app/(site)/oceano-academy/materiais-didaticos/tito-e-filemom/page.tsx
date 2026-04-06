@@ -1,9 +1,13 @@
+import { NotepadText } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { UL } from "~/components/ui/ul";
 import { SummaryLi } from "~/components/summary-li";
+import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
+import { LinkSmall } from "~/components/ui/link-small";
+import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
 
 export default function CursoTitoEFilemom() {
   return (
@@ -24,9 +28,24 @@ export default function CursoTitoEFilemom() {
 
       <Container className="mb-10 sm:mb-16">
         <H2 id="materials-didactic">Materiais de Apoio</H2>
-        <UL className="mt-0">
-          <li />
-        </UL>
+
+        <Table>
+          <TableHeader>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold w-[110px] sm:w-[160px]">
+                Apostila
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1FVFG8B0bPQQkcGIXLX2e60qx_OCt07de/view?usp=sharing">
+                    <NotepadText className="size-4" />
+                    Cartas a Tito e Filemon
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+          </TableHeader>
+        </Table>
       </Container>
 
       <Separator className="my-8" />
@@ -36,6 +55,9 @@ export default function CursoTitoEFilemom() {
         <UL className="mt-0 space-y-2 sm:space-y-2">
           <SummaryLi>
             <a href="#lesson-1">Lição 1 – A Igreja e a Sã Doutrina</a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-1-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-1-para-comecar">Para Começar</a>
@@ -68,6 +90,9 @@ export default function CursoTitoEFilemom() {
             <a href="#lesson-2">Lição 2 – A Vida Cristã e a Sã Doutrina</a>
           </SummaryLi>
           <SummaryLi subList>
+            <a href="#lesson-2-objetivo-geral">Objetivo Geral</a>
+          </SummaryLi>
+          <SummaryLi subList>
             <a href="#lesson-2-para-comecar">Para Começar</a>
           </SummaryLi>
           <SummaryLi subList>
@@ -96,6 +121,9 @@ export default function CursoTitoEFilemom() {
 
           <SummaryLi>
             <a href="#lesson-3">Lição 3 – A Vida Cristã na Sociedade</a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-3-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-3-para-comecar">Para Começar</a>
@@ -128,6 +156,9 @@ export default function CursoTitoEFilemom() {
             <a href="#lesson-4">
               Lição 4 – O Evangelho Que Transforma Relacionamentos
             </a>
+          </SummaryLi>
+          <SummaryLi subList>
+            <a href="#lesson-4-objetivo-geral">Objetivo Geral</a>
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-4-para-comecar">Para Começar</a>
@@ -169,9 +200,7 @@ export default function CursoTitoEFilemom() {
         <H2 id="lesson-1">Lição 1 – A Igreja e a Sã Doutrina</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-1-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Entender a realidade da igreja que havia em Creta e as principais
             qualificações necessárias aos presbíteros e a necessidade do combate
@@ -185,17 +214,17 @@ export default function CursoTitoEFilemom() {
             A carta de Paulo a Tito nos coloca diante de um dos maiores desafios
             da Igreja: manter a verdade do evangelho firme em meio a uma cultura
             hostil e enganosa. Creta era uma sociedade marcada por imoralidade,
-            corrupção e mentiras (Tt 1.12). Não muito diferente do nosso tempo, a
-            Igreja hoje também é pressionada pelo relativismo, por ideologias e
-            falsos mestres. Diante disso, Paulo escreve a Tito, companheiro de
+            corrupção e mentiras (Tt 1.12). Não muito diferente do nosso tempo,
+            a Igreja hoje também é pressionada pelo relativismo, por ideologias
+            e falsos mestres. Diante disso, Paulo escreve a Tito, companheiro de
             longas caminhadas, para organizar a Igreja e estabelecer fundamentos
             sólidos de liderança e doutrina.
           </P>
           <P className="">
             A mensagem é clara: sem a verdade de Deus, a Igreja se perde; sem
-            líderes piedosos, a comunidade enfraquece; sem disciplina espiritual,
-            a fé se torna vulnerável. O que estava em jogo não era apenas a
-            organização, mas o testemunho cristão diante do mundo.
+            líderes piedosos, a comunidade enfraquece; sem disciplina
+            espiritual, a fé se torna vulnerável. O que estava em jogo não era
+            apenas a organização, mas o testemunho cristão diante do mundo.
           </P>
           <P className="">
             Hernandes Dias Lopes (2009) destaca que Tito associa de forma
@@ -218,11 +247,12 @@ export default function CursoTitoEFilemom() {
           <P className="">
             Paulo inicia apresentando-se como &quot;servo de Deus e apóstolo de
             Jesus Cristo&quot; (Tt 1.1). Essa dupla designação mostra tanto sua
-            humildade como sua autoridade. O termo &quot;servo&quot; (<em>doulos</em>)
-            indica submissão total, enquanto &quot;apóstolo&quot; mostra o chamado
-            direto de Cristo. MacArthur (2015) observa que Paulo poderia
-            destacar seus privilégios e experiências extraordinárias, mas
-            preferiu identificar-se, acima de tudo, como servo de Deus.
+            humildade como sua autoridade. O termo &quot;servo&quot; (
+            <em>doulos</em>) indica submissão total, enquanto
+            &quot;apóstolo&quot; mostra o chamado direto de Cristo. MacArthur
+            (2015) observa que Paulo poderia destacar seus privilégios e
+            experiências extraordinárias, mas preferiu identificar-se, acima de
+            tudo, como servo de Deus.
           </P>
           <P className="">
             O propósito de sua missão era promover a fé dos eleitos de Deus e o
@@ -232,18 +262,19 @@ export default function CursoTitoEFilemom() {
             algo que produz vida santa.
           </P>
           <P className="">
-            Além disso, Paulo fundamenta sua mensagem na promessa de vida eterna,
-            a qual o Deus que não pode mentir prometeu antes dos tempos eternos
-            (Tt 1.2). Em contraste com a reputação dos cretenses como mentirosos,
-            Paulo lembra que Deus é absolutamente fiel. Além disso, Paulo faz
-            questão de destacar o caráter de Deus para fortalecer a confiança da
-            igreja num ambiente hostil à verdade.
+            Além disso, Paulo fundamenta sua mensagem na promessa de vida
+            eterna, a qual o Deus que não pode mentir prometeu antes dos tempos
+            eternos (Tt 1.2). Em contraste com a reputação dos cretenses como
+            mentirosos, Paulo lembra que Deus é absolutamente fiel. Além disso,
+            Paulo faz questão de destacar o caráter de Deus para fortalecer a
+            confiança da igreja num ambiente hostil à verdade.
           </P>
           <P className="">
             Por fim, Paulo chama Tito de &quot;meu verdadeiro filho em nossa fé
-            comum&quot; (Tt 1.4). Esse vínculo mostra que a autoridade apostólica
-            não era fria nem burocrática, mas relacional e espiritual. Assim, o
-            ensino vinha acompanhado de amor paternal e discipulado.
+            comum&quot; (Tt 1.4). Esse vínculo mostra que a autoridade
+            apostólica não era fria nem burocrática, mas relacional e
+            espiritual. Assim, o ensino vinha acompanhado de amor paternal e
+            discipulado.
           </P>
         </div>
 
@@ -254,18 +285,18 @@ export default function CursoTitoEFilemom() {
           <P className="">
             Paulo deixou Tito em Creta para pôr em ordem as coisas restantes e
             estabelecer presbíteros em cada cidade (Tt 1.5). A expressão
-            &quot;pôr em ordem&quot; (<em>epidiorthōsē</em>) transmite a ideia de
-            completar o que ainda estava incompleto, como um médico que endireita
-            um osso quebrado. Isso mostra que o trabalho de Tito era pastoral e
-            corretivo.
+            &quot;pôr em ordem&quot; (<em>epidiorthōsē</em>) transmite a ideia
+            de completar o que ainda estava incompleto, como um médico que
+            endireita um osso quebrado. Isso mostra que o trabalho de Tito era
+            pastoral e corretivo.
           </P>
           <P className="">
             Moody (1970) observa que Paulo não conferiu a Tito autoridade
-            ditatorial, mas o orientou a organizar a igreja com base em princípios
-            já estabelecidos, semelhantes ao que foi feito em Atos 14.23, quando
-            Paulo e Barnabé nomearam presbíteros em cada cidade. Ou seja,
-            liderança era uma questão de discernimento espiritual, não de poder
-            pessoal.
+            ditatorial, mas o orientou a organizar a igreja com base em
+            princípios já estabelecidos, semelhantes ao que foi feito em Atos
+            14.23, quando Paulo e Barnabé nomearam presbíteros em cada cidade.
+            Ou seja, liderança era uma questão de discernimento espiritual, não
+            de poder pessoal.
           </P>
           <P className="">
             O contexto cultural de Creta exigia firmeza. Os cretenses eram
@@ -276,9 +307,9 @@ export default function CursoTitoEFilemom() {
             verdade.
           </P>
           <P className="">
-            Esse papel de Tito ilustra que cada geração de líderes deve assumir a
-            responsabilidade de continuar a obra apostólica. Portanto, Tito não
-            apenas organizava uma igreja, mas preservava a pureza da fé.
+            Esse papel de Tito ilustra que cada geração de líderes deve assumir
+            a responsabilidade de continuar a obra apostólica. Portanto, Tito
+            não apenas organizava uma igreja, mas preservava a pureza da fé.
           </P>
         </div>
 
@@ -295,22 +326,23 @@ export default function CursoTitoEFilemom() {
           </P>
           <P className="">
             Essas características mostram que liderança cristã começa dentro do
-            lar. Como Paulo afirma em 1Tm 3.5: &quot;se alguém não sabe governar a
-            própria casa, como cuidará da igreja de Deus?&quot;. Hernandes Dias
-            Lopes (2009) observa que o caráter é o selo do ministério. Não é o
-            talento, mas a vida do líder que garante a saúde da igreja.
+            lar. Como Paulo afirma em 1Tm 3.5: &quot;se alguém não sabe governar
+            a própria casa, como cuidará da igreja de Deus?&quot;. Hernandes
+            Dias Lopes (2009) observa que o caráter é o selo do ministério. Não
+            é o talento, mas a vida do líder que garante a saúde da igreja.
           </P>
           <P className="">
-            Além disso, o presbítero deveria ser &quot;apegado à Palavra fiel&quot;
-            (Tt 1.9). Isso significa lealdade às Escrituras, tanto para ensinar
-            quanto para refutar os contradizentes. Aqui vemos o duplo papel do
-            pastor: edificar os crentes e confrontar os falsos mestres.
+            Além disso, o presbítero deveria ser &quot;apegado à Palavra
+            fiel&quot; (Tt 1.9). Isso significa lealdade às Escrituras, tanto
+            para ensinar quanto para refutar os contradizentes. Aqui vemos o
+            duplo papel do pastor: edificar os crentes e confrontar os falsos
+            mestres.
           </P>
           <P className="">
             MacArthur (2015) lembra que Paulo não exigia perfeição, mas
             integridade comprovada. O líder deveria ser modelo visível do
-            evangelho que pregava. Assim, a igreja seria conduzida não apenas por
-            discursos, mas por exemplos de vida.
+            evangelho que pregava. Assim, a igreja seria conduzida não apenas
+            por discursos, mas por exemplos de vida.
           </P>
         </div>
 
@@ -319,11 +351,11 @@ export default function CursoTitoEFilemom() {
             4. A Ameaça dos Falsos Mestres (Tt 1.10-16)
           </H3>
           <P className="">
-            Nesta parte Paulo alerta que &quot;há muitos insubordinados, faladores
-            vãos e enganadores, especialmente os da circuncisão&quot; (Tt 1.10).
-            Esses falsos mestres perturbavam famílias inteiras e ensinavam por
-            ganância. A ordem de Paulo é direta: &quot;É preciso fazê-los
-            calar&quot; (Tt 1.11).
+            Nesta parte Paulo alerta que &quot;há muitos insubordinados,
+            faladores vãos e enganadores, especialmente os da circuncisão&quot;
+            (Tt 1.10). Esses falsos mestres perturbavam famílias inteiras e
+            ensinavam por ganância. A ordem de Paulo é direta: &quot;É preciso
+            fazê-los calar&quot; (Tt 1.11).
           </P>
           <P className="">
             Moody (1970) observa que a doutrina tem dupla aplicação: exortar os
@@ -350,8 +382,8 @@ export default function CursoTitoEFilemom() {
         <div className="flex flex-col gap-4">
           <H3 id="lesson-1-conclusao">Conclusão</H3>
           <P className="">
-            Nesta primeira lição, aprendemos que Paulo estabelece o fundamento da
-            Igreja: liderança piedosa, sã doutrina e disciplina contra falsos
+            Nesta primeira lição, aprendemos que Paulo estabelece o fundamento
+            da Igreja: liderança piedosa, sã doutrina e disciplina contra falsos
             mestres. A igreja de Creta precisava de ordem, autoridade espiritual
             e proteção contra falsos ensinos.
           </P>
@@ -359,8 +391,8 @@ export default function CursoTitoEFilemom() {
             Hoje também precisamos de líderes íntegros, apegados à Palavra, que
             vivam o evangelho e o defendam. Em nossos dias de relativismo, o
             testemunho da Igreja depende de líderes e membros que unam fé,
-            doutrina e vida. Como Paulo disse: &quot;Tem cuidado de ti mesmo e da
-            doutrina. Persevera nestas coisas, porque, fazendo assim, te
+            doutrina e vida. Como Paulo disse: &quot;Tem cuidado de ti mesmo e
+            da doutrina. Persevera nestas coisas, porque, fazendo assim, te
             salvarás, tanto a ti mesmo como aos que te ouvem&quot; (1Tm 4.16).
           </P>
         </div>
@@ -373,9 +405,7 @@ export default function CursoTitoEFilemom() {
         <H2 id="lesson-2">Lição 2 – A Vida Cristã e a Sã Doutrina</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-2-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
             Compreender a importância da vida cristã e da sã doutrina para a
             vida prática.
@@ -397,14 +427,14 @@ export default function CursoTitoEFilemom() {
             estilo de vida. A doutrina verdadeira precisa ser traduzida em
             comportamento. Hernandes Dias Lopes destaca (2009) que &quot;a
             ortodoxia sem ortopraxia é estérea, e a ortopraxia sem ortodoxia é
-            cega&quot;. Em outras palavras, precisamos tanto da verdade quanto de
-            uma vida coerente com ela.
+            cega&quot;. Em outras palavras, precisamos tanto da verdade quanto
+            de uma vida coerente com ela.
           </P>
           <P className="">
-            No mundo atual, onde há um abismo entre discurso e prática, a carta a
-            Tito nos desafia a viver de forma íntegra, para que a Palavra de Deus
-            não seja difamada (Tt 2.5). O testemunho da Igreja depende não apenas
-            do que prega, mas também do que pratica.
+            No mundo atual, onde há um abismo entre discurso e prática, a carta
+            a Tito nos desafia a viver de forma íntegra, para que a Palavra de
+            Deus não seja difamada (Tt 2.5). O testemunho da Igreja depende não
+            apenas do que prega, mas também do que pratica.
           </P>
         </div>
 
@@ -431,14 +461,14 @@ export default function CursoTitoEFilemom() {
           <P className="">
             MacArthur (2015) comenta que a maturidade não é apenas cronológica,
             mas espiritual. Um idoso na fé deve ser referência de caráter e
-            devoção, alguém que mostre na prática o que significa resistir firmes
-            até o fim.
+            devoção, alguém que mostre na prática o que significa resistir
+            firmes até o fim.
           </P>
           <P className="">
-            Os mais velhos da igreja hoje precisam assumir seu papel de mentores,
-            inspirando as novas gerações a permanecer firmes na fé. Isso
-            significa testemunhar perseverança, transmitir sabedoria bíblica e
-            viver de modo a deixar um legado espiritual (Sl 71.18).
+            Os mais velhos da igreja hoje precisam assumir seu papel de
+            mentores, inspirando as novas gerações a permanecer firmes na fé.
+            Isso significa testemunhar perseverança, transmitir sabedoria
+            bíblica e viver de modo a deixar um legado espiritual (Sl 71.18).
           </P>
         </div>
 
@@ -448,29 +478,29 @@ export default function CursoTitoEFilemom() {
           </H3>
           <P className="">
             Na carta, Paulo recomenda as mulheres mais velhas a instruir as mais
-            jovens a amarem seus maridos e filhos, a serem prudentes, puras, boas
-            donas de casa, bondosas e sujeitas a seus maridos, para que a Palavra
-            de Deus não seja difamada (Tt 2.4-5). Os jovens, por sua vez,
-            deveriam ser sóbrios em tudo (Tt 2.6).
+            jovens a amarem seus maridos e filhos, a serem prudentes, puras,
+            boas donas de casa, bondosas e sujeitas a seus maridos, para que a
+            Palavra de Deus não seja difamada (Tt 2.4-5). Os jovens, por sua
+            vez, deveriam ser sóbrios em tudo (Tt 2.6).
           </P>
           <P className="">
             Paulo também exorta Tito a ser &quot;em tudo exemplo de boas
-            obras&quot; (Tt 2.7). Ou seja, a juventude cristã não é desculpa para
-            imaturidade espiritual, mas oportunidade para o testemunho vivo.
-            Hernandes Dias Lopes (2009) lembra que &quot;o mundo valoriza a
-            juventude pelo vigor físico; a Bíblia valoriza a juventude pela
+            obras&quot; (Tt 2.7). Ou seja, a juventude cristã não é desculpa
+            para imaturidade espiritual, mas oportunidade para o testemunho
+            vivo. Hernandes Dias Lopes (2009) lembra que &quot;o mundo valoriza
+            a juventude pelo vigor físico; a Bíblia valoriza a juventude pela
             santidade e pela coragem de se manter puro&quot;.
           </P>
           <P className="">
             A ênfase dessa recomendação não é apenas em boas intenções, mas em
-            comportamento concreto que glorifique a Deus no lar e na sociedade. A
-            família é apresentada como primeiro campo missionário da fé.
+            comportamento concreto que glorifique a Deus no lar e na sociedade.
+            A família é apresentada como primeiro campo missionário da fé.
           </P>
           <P className="">
             Os jovens da igreja precisam aprender que sua vida é um reflexo do
-            evangelho. Na escola, no trabalho ou nas redes sociais, devem mostrar
-            equilíbrio, pureza e amor. A juventude cristã é chamada a ser um
-            exemplo vivo de santidade (1Tm 4.12).
+            evangelho. Na escola, no trabalho ou nas redes sociais, devem
+            mostrar equilíbrio, pureza e amor. A juventude cristã é chamada a
+            ser um exemplo vivo de santidade (1Tm 4.12).
           </P>
         </div>
 
@@ -482,14 +512,15 @@ export default function CursoTitoEFilemom() {
             Paulo dedica uma parte especial aos servos, instruindo-os a serem
             obedientes a seus senhores, agradando em tudo, não sendo respondões,
             não furtando, mas mostrando fidelidade plena, &quot;para que em tudo
-            sejam ornamento da doutrina de Deus, nosso Salvador&quot; (Tt 2.9-10).
+            sejam ornamento da doutrina de Deus, nosso Salvador&quot; (Tt
+            2.9-10).
           </P>
           <P className="">
             Aqui vemos o princípio revolucionário do evangelho: em vez de
             estimular a revolta, Paulo chama os cristãos a viverem de forma que
             suas vidas sejam adornos do evangelho. Em um contexto em que a
-            escravidão era uma realidade social, a mudança mais profunda não viria
-            por imposição política, mas pela transformação do coração.
+            escravidão era uma realidade social, a mudança mais profunda não
+            viria por imposição política, mas pela transformação do coração.
           </P>
           <P className="">
             MacArthur (2015) lembra que o maior testemunho do evangelho não está
@@ -520,18 +551,18 @@ export default function CursoTitoEFilemom() {
           </P>
           <P className="">
             A graça não é apenas perdão, mas poder transformador que educa o
-            cristão para a santidade. A graça que salva também santifica. Ela nos
-            tira do pecado e nos coloca numa vida de devoção a Deus. Moody (1970)
-            observa que Paulo conclui este trecho com uma nota escatológica: a
-            esperança da volta de Cristo é estímulo para uma vida santa no
-            presente.
+            cristão para a santidade. A graça que salva também santifica. Ela
+            nos tira do pecado e nos coloca numa vida de devoção a Deus. Moody
+            (1970) observa que Paulo conclui este trecho com uma nota
+            escatológica: a esperança da volta de Cristo é estímulo para uma
+            vida santa no presente.
           </P>
           <P className="">
             A vida cristã só pode ser vivida com base na graça. Isso significa
             que não vivemos pela força da disciplina humana, mas pelo poder
-            transformador do Espírito. A graça nos ensina a dizer &quot;não&quot;
-            ao pecado e &quot;sim&quot; à santidade, aguardando a volta de Cristo
-            com esperança (Hb 12.14).
+            transformador do Espírito. A graça nos ensina a dizer
+            &quot;não&quot; ao pecado e &quot;sim&quot; à santidade, aguardando
+            a volta de Cristo com esperança (Hb 12.14).
           </P>
         </div>
 
@@ -539,16 +570,16 @@ export default function CursoTitoEFilemom() {
           <H3 id="lesson-2-conclusao">Conclusão</H3>
           <P className="">
             Nesta lição vimos que a sã doutrina deve se traduzir em um modo de
-            vida santo e equilibrado. Paulo instruiu os mais velhos a viverem com
-            sobriedade e piedade, sendo referência espiritual (Tt 2.1-3). Ensinou
-            também às mulheres e aos jovens a cultivarem amor, pureza e domínio
-            próprio, lembrando que Tito deveria ser um modelo de boas obras em
-            tudo (Tt 2.4-8). Os servos foram orientados a servir com fidelidade,
-            tornando-se exemplo de integridade no trabalho e adornando o
-            evangelho com sua conduta (Tt 2.9-10). Por fim, Paulo mostrou que a
-            graça de Deus é o fundamento que salva, educa e nos impulsiona a
-            viver em santidade, aguardando a bendita esperança da volta de Cristo
-            (Tt 2.11-15).
+            vida santo e equilibrado. Paulo instruiu os mais velhos a viverem
+            com sobriedade e piedade, sendo referência espiritual (Tt 2.1-3).
+            Ensinou também às mulheres e aos jovens a cultivarem amor, pureza e
+            domínio próprio, lembrando que Tito deveria ser um modelo de boas
+            obras em tudo (Tt 2.4-8). Os servos foram orientados a servir com
+            fidelidade, tornando-se exemplo de integridade no trabalho e
+            adornando o evangelho com sua conduta (Tt 2.9-10). Por fim, Paulo
+            mostrou que a graça de Deus é o fundamento que salva, educa e nos
+            impulsiona a viver em santidade, aguardando a bendita esperança da
+            volta de Cristo (Tt 2.11-15).
           </P>
           <P className="">
             O desafio para nós é claro: não basta professar a fé, é preciso
@@ -556,8 +587,8 @@ export default function CursoTitoEFilemom() {
             igreja, cada cristão é chamado a ser exemplo de integridade e amor,
             refletindo a graça que nos salvou. Que cada etapa da vida —
             juventude, maturidade e serviço — seja marcada por um testemunho que
-            glorifique a Deus e mostre ao mundo que a graça transforma não apenas
-            o que cremos, mas também como vivemos.
+            glorifique a Deus e mostre ao mundo que a graça transforma não
+            apenas o que cremos, mas também como vivemos.
           </P>
         </div>
       </Container>
@@ -569,12 +600,10 @@ export default function CursoTitoEFilemom() {
         <H2 id="lesson-3">Lição 3 – A Vida Cristã na Sociedade</H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-3-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
-            Pensar como devemos viver no meio social conforme a palavra de modo a
-            refletir a graça com boas obras.
+            Pensar como devemos viver no meio social conforme a palavra de modo
+            a refletir a graça com boas obras.
           </P>
         </div>
 
@@ -607,19 +636,20 @@ export default function CursoTitoEFilemom() {
             1. Submissão e Boas Obras na Sociedade (Tt 3.1-2)
           </H3>
           <P className="">
-            Neste capítulo Paulo ordena a Tito: &quot;lembra-lhes que se sujeitem
-            aos que governam, às autoridades, sejam obedientes e estejam prontos
-            para toda boa obra&quot; (Tt 3.1). A submissão às autoridades não é
-            servilismo, mas reconhecimento de que a ordem civil faz parte do
-            plano de Deus (Rm 13.1).
+            Neste capítulo Paulo ordena a Tito: &quot;lembra-lhes que se
+            sujeitem aos que governam, às autoridades, sejam obedientes e
+            estejam prontos para toda boa obra&quot; (Tt 3.1). A submissão às
+            autoridades não é servilismo, mas reconhecimento de que a ordem
+            civil faz parte do plano de Deus (Rm 13.1).
           </P>
           <P className="">
             Em Creta havia revoltas constantes, esse ensino soava
             contracultural. O evangelho não chamava para a anarquia, mas para um
-            testemunho de paz e respeito. Além disso, Paulo acrescenta: &quot;não
-            difamem a ninguém, nem sejam altercadores, mas cordatos, dando provas
-            de toda cortesia, para com todos os homens&quot; (Tt 3.2). Essa
-            postura contrasta com a cultura de hostilidade e violência da época.
+            testemunho de paz e respeito. Além disso, Paulo acrescenta:
+            &quot;não difamem a ninguém, nem sejam altercadores, mas cordatos,
+            dando provas de toda cortesia, para com todos os homens&quot; (Tt
+            3.2). Essa postura contrasta com a cultura de hostilidade e
+            violência da época.
           </P>
           <P className="">
             Hoje os cristãos devem ser cidadãos exemplares, obedecendo às leis,
@@ -636,16 +666,16 @@ export default function CursoTitoEFilemom() {
           <P className="">
             Paulo lembra os crentes: &quot;pois nós também, outrora, éramos
             insensatos, desobedientes, desgarrados, escravos de paixões e
-            prazeres diversos, vivendo em malícia e inveja, odiosos e odiando-nos
-            uns aos outros&quot; (Tt 3.3). Essa descrição é um retrato da vida
-            sem Cristo. Paulo recorda essa realidade para gerar humildade. O
-            cristão não deve olhar para o incrédulo com arrogância, mas com
-            compaixão, pois já esteve no mesmo estado.
+            prazeres diversos, vivendo em malícia e inveja, odiosos e
+            odiando-nos uns aos outros&quot; (Tt 3.3). Essa descrição é um
+            retrato da vida sem Cristo. Paulo recorda essa realidade para gerar
+            humildade. O cristão não deve olhar para o incrédulo com arrogância,
+            mas com compaixão, pois já esteve no mesmo estado.
           </P>
           <P className="">
-            Barclay comenta que esse versículo mostra que a maior diferença entre
-            crentes e descrentes não está no mérito humano, mas na graça que
-            transforma.
+            Barclay comenta que esse versículo mostra que a maior diferença
+            entre crentes e descrentes não está no mérito humano, mas na graça
+            que transforma.
           </P>
           <P className="">
             A igreja de hoje precisa lembrar que não somos melhores do que os de
@@ -668,11 +698,11 @@ export default function CursoTitoEFilemom() {
             3.4-5).
           </P>
           <P className="">
-            Hernandes Dias Lopes (2009) afirma que esse texto é &quot;uma síntese
-            magnífica do evangelho: a salvação não vem das obras, mas da graça;
-            não vem do mérito humano, mas da misericórdia divina&quot;. O Espírito
-            Santo é o agente dessa transformação: Ele regenera e renova,
-            conduzindo o crente a uma nova vida.
+            Hernandes Dias Lopes (2009) afirma que esse texto é &quot;uma
+            síntese magnífica do evangelho: a salvação não vem das obras, mas da
+            graça; não vem do mérito humano, mas da misericórdia divina&quot;. O
+            Espírito Santo é o agente dessa transformação: Ele regenera e
+            renova, conduzindo o crente a uma nova vida.
           </P>
           <P className="">
             Essa passagem deve nos lembrar que nossa identidade não está em boas
@@ -689,18 +719,18 @@ export default function CursoTitoEFilemom() {
           </H3>
           <P className="">
             Após refletir sobre a graça, a conclusão que Paulo chega é:
-            &quot;afirmes categoricamente que os que creem em Deus sejam solícitos
-            na prática de boas obras&quot; (Tt 3.8). A fé verdadeira produz
-            frutos visíveis, e a igreja deve ser conhecida não por discussões
-            inúteis, mas por boas obras.
+            &quot;afirmes categoricamente que os que creem em Deus sejam
+            solícitos na prática de boas obras&quot; (Tt 3.8). A fé verdadeira
+            produz frutos visíveis, e a igreja deve ser conhecida não por
+            discussões inúteis, mas por boas obras.
           </P>
           <P className="">
             Podemos observar que Paulo contrasta as boas obras com as
             &quot;contendas tolas, genealogias e debates&quot; (Tt 3.9), que só
-            dividem e nada edificam. A verdadeira fé se manifesta em serviço, não
-            em disputas. Hernandes Dias Lopes (2009) lembra que &quot;a graça que
-            salva também nos impulsiona a servir. A fé sem obras é morta&quot;.
-            Assim, o evangelho gera ação, não apatia.
+            dividem e nada edificam. A verdadeira fé se manifesta em serviço,
+            não em disputas. Hernandes Dias Lopes (2009) lembra que &quot;a
+            graça que salva também nos impulsiona a servir. A fé sem obras é
+            morta&quot;. Assim, o evangelho gera ação, não apatia.
           </P>
           <P className="">
             A igreja precisa ser reconhecida não por brigas doutrinárias ou
@@ -714,9 +744,10 @@ export default function CursoTitoEFilemom() {
           <H3 id="lesson-3-conclusao">Conclusão</H3>
           <P className="">
             Nesta lição aprendemos que a vida cristã não se restringe à
-            comunidade de fé, mas se expressa também na sociedade. Fomos chamados
-            a viver em submissão às autoridades e a dar exemplo de mansidão e
-            cortesia, em um mundo marcado por rebelião e violência (Tt 3.1-2).
+            comunidade de fé, mas se expressa também na sociedade. Fomos
+            chamados a viver em submissão às autoridades e a dar exemplo de
+            mansidão e cortesia, em um mundo marcado por rebelião e violência
+            (Tt 3.1-2).
           </P>
           <P className="">
             Relembramos nossa condição passada sem Cristo, para que não sejamos
@@ -730,11 +761,11 @@ export default function CursoTitoEFilemom() {
           </P>
           <P className="">
             Assim, o convite desta lição é claro: vivamos como cidadãos do Reino
-            de Deus em meio à sociedade, lembrando sempre de onde fomos tirados e
-            pela graça com que fomos salvos. Que nossas vidas reflitam mansidão,
-            humildade e gratidão, e que sejamos conhecidos não por brigas ou
-            divisões, mas por nossas boas obras e por um testemunho de amor que
-            glorifica a Cristo diante do mundo.
+            de Deus em meio à sociedade, lembrando sempre de onde fomos tirados
+            e pela graça com que fomos salvos. Que nossas vidas reflitam
+            mansidão, humildade e gratidão, e que sejamos conhecidos não por
+            brigas ou divisões, mas por nossas boas obras e por um testemunho de
+            amor que glorifica a Cristo diante do mundo.
           </P>
         </div>
       </Container>
@@ -748,12 +779,10 @@ export default function CursoTitoEFilemom() {
         </H2>
 
         <div className="flex flex-col gap-4">
-          <P className="font-semibold text-black dark:text-white">
-            Objetivo Geral
-          </P>
+          <H3 id="lesson-4-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
-            Compreender como o cristão pode contribuir para a reconciliação entre
-            pessoas e provocar a transformação de relacionamentos.
+            Compreender como o cristão pode contribuir para a reconciliação
+            entre pessoas e provocar a transformação de relacionamentos.
           </P>
         </div>
 
@@ -766,10 +795,10 @@ export default function CursoTitoEFilemom() {
           </P>
           <P className="">
             Paulo não trata apenas de doutrina, mas aplica o evangelho em um
-            conflito humano: patrão e escravo, feridos por uma fuga e uma dívida.
-            A resposta do apóstolo não é legalista, mas fundamentada na graça.
-            Hernandes Dias Lopes (2009) chama essa carta de &quot;um manual de
-            reconciliação cristã&quot;.
+            conflito humano: patrão e escravo, feridos por uma fuga e uma
+            dívida. A resposta do apóstolo não é legalista, mas fundamentada na
+            graça. Hernandes Dias Lopes (2009) chama essa carta de &quot;um
+            manual de reconciliação cristã&quot;.
           </P>
           <P className="">
             A lição de Filemom é clara: o evangelho quebra barreiras sociais,
@@ -793,15 +822,15 @@ export default function CursoTitoEFilemom() {
           </P>
           <P className="">
             William Barclay (1998) observa que a introdução mostra a sabedoria
-            pastoral de Paulo: antes de exortar, ele elogia e reforça as virtudes
-            de seu interlocutor.
+            pastoral de Paulo: antes de exortar, ele elogia e reforça as
+            virtudes de seu interlocutor.
           </P>
           <P className="">
-            Podemos aplicar isso ainda hoje, apesar da carta falar de uma relação
-            senhor e servo, pois a nossa fé deve ser marcada por amor visível.
-            Assim como Filemom refrescava os corações dos santos, também devemos
-            ser instrumentos de consolo e encorajamento na vida da igreja (Hb
-            10.24-25).
+            Podemos aplicar isso ainda hoje, apesar da carta falar de uma
+            relação senhor e servo, pois a nossa fé deve ser marcada por amor
+            visível. Assim como Filemom refrescava os corações dos santos,
+            também devemos ser instrumentos de consolo e encorajamento na vida
+            da igreja (Hb 10.24-25).
           </P>
         </div>
 
@@ -821,14 +850,15 @@ export default function CursoTitoEFilemom() {
           </P>
           <P className="">
             Paulo pede que Filemom o receba &quot;não como escravo; antes, muito
-            acima de escravo, como irmão caríssimo&quot; (Fm 16). William Barclay
-            (1998) observa que aqui está a revolução do evangelho: ele não
-            destrói pela força, mas transforma relacionamentos pela graça.
+            acima de escravo, como irmão caríssimo&quot; (Fm 16). William
+            Barclay (1998) observa que aqui está a revolução do evangelho: ele
+            não destrói pela força, mas transforma relacionamentos pela graça.
           </P>
           <P className="">
             O cristão de hoje deve aprender a ver o próximo não segundo
             categorias sociais, mas como irmão em Cristo. Onde há preconceito ou
-            divisão, o evangelho nos chama à reconciliação e à unidade (Gl 3.28).
+            divisão, o evangelho nos chama à reconciliação e à unidade (Gl
+            3.28).
           </P>
         </div>
 
@@ -844,8 +874,9 @@ export default function CursoTitoEFilemom() {
           <P className="">
             MacArthur (2015) observa que Paulo age como mediador, assim como
             Cristo pagou a dívida do pecador perante Deus. Essa é uma ilustração
-            prática do evangelho vivido. O perdão verdadeiro muitas vezes envolve
-            assumir o custo do erro do outro, exatamente como Cristo fez por nós.
+            prática do evangelho vivido. O perdão verdadeiro muitas vezes
+            envolve assumir o custo do erro do outro, exatamente como Cristo fez
+            por nós.
           </P>
           <P className="">
             No relacionamento cristão, somos chamados a perdoar de forma
@@ -867,8 +898,8 @@ export default function CursoTitoEFilemom() {
             Paulo conclui com confiança de que Filemom fará até mais do que ele
             pede: &quot;Certo, como estou, da tua obediência, eu te escrevo,
             sabendo que farás mais do que estou pedindo&quot; (Fm 21). A
-            reconciliação não seria apenas possível, mas inevitável para quem foi
-            alcançado pela graça.
+            reconciliação não seria apenas possível, mas inevitável para quem
+            foi alcançado pela graça.
           </P>
           <P className="">
             Para Dwight Lyman Moody (1970) a carta mostra a essência da
@@ -892,16 +923,16 @@ export default function CursoTitoEFilemom() {
           <P className="">
             A carta a Filemom nos mostrou como o evangelho transforma
             relacionamentos quebrados. Primeiro, vimos o testemunho de fé e amor
-            de Filemom, que já refrescava os corações dos santos e era exemplo de
-            hospitalidade (Fm 1-7). Depois, contemplamos a intercessão amorosa de
-            Paulo em favor de Onésimo, o escravo fugitivo, agora convertido e
-            útil, pedido que o recebesse não mais como servo, mas como irmão em
-            Cristo (Fm 8-16). Em seguida, Paulo se colocou como fiador da dívida
-            de Onésimo, um gesto que aponta diretamente para Cristo, que assumiu
-            em nosso lugar a culpa que não podíamos pagar (Fm 17-19). Por fim,
-            vimos como o evangelho cria um novo padrão de vida comunitária, onde
-            a reconciliação e a fraternidade prevalecem sobre as barreiras
-            sociais (Fm 20-25).
+            de Filemom, que já refrescava os corações dos santos e era exemplo
+            de hospitalidade (Fm 1-7). Depois, contemplamos a intercessão
+            amorosa de Paulo em favor de Onésimo, o escravo fugitivo, agora
+            convertido e útil, pedido que o recebesse não mais como servo, mas
+            como irmão em Cristo (Fm 8-16). Em seguida, Paulo se colocou como
+            fiador da dívida de Onésimo, um gesto que aponta diretamente para
+            Cristo, que assumiu em nosso lugar a culpa que não podíamos pagar
+            (Fm 17-19). Por fim, vimos como o evangelho cria um novo padrão de
+            vida comunitária, onde a reconciliação e a fraternidade prevalecem
+            sobre as barreiras sociais (Fm 20-25).
           </P>
           <P className="">
             Essa carta nos convida a aplicar o evangelho em nossos próprios
@@ -948,9 +979,7 @@ export default function CursoTitoEFilemom() {
             <P className="mt-0">Márcio Rezende</P>
           </div>
           <div className="flex flex-col">
-            <P className="mt-0 font-semibold">
-              Projeto Gráfico e Diagramação:
-            </P>
+            <P className="mt-0 font-semibold">Projeto Gráfico e Diagramação:</P>
             <P className="mt-0">Márcio Rezende</P>
             <P className="mt-0">Wagner Monteiro</P>
           </div>
