@@ -148,7 +148,7 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "Efésios",
-        link: "https://drive.google.com/file/d/14KOv7sIQ5g_Gz33R__1i_oXwBswgq_XN/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/efesios",
       },
       {
         title: "Filipenses",
