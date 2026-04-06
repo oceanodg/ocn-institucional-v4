@@ -197,6 +197,10 @@ export default function IntroducaoCartasPaulinasPage() {
           <SummaryLi subList>
             <a href="#lesson-4-conclusao">Conclusão</a>
           </SummaryLi>
+
+          <SummaryLi>
+            <a href="#references">Referências Bibliográficas</a>
+          </SummaryLi>
           <SummaryLi>
             <a href="#editorial">Editorial</a>
           </SummaryLi>
@@ -1929,6 +1933,50 @@ export default function IntroducaoCartasPaulinasPage() {
             Que as lições aprendidas nos inspirem a viver de modo digno da
             vocação que recebemos (Efésios 4:1), cultivando fé, santidade e amor
             fraternal, enquanto aguardamos o retorno de nosso Senhor.
+          </P>
+        </div>
+      </Container>
+
+      <Separator className="my-8" />
+
+      {/* Referências Bibliográficas */}
+      <Container className="mb-10 sm:mb-16">
+        <H2 id="references">Referências Bibliográficas</H2>
+        <div className="flex flex-col gap-4">
+          <P className="">
+            LOPES, Hernandes Dias.{" "}
+            <em>Paulo, o maior líder do cristianismo.</em> São Paulo: Hagnos,
+            2009. Kindle.
+          </P>
+          <P className="">
+            HARVEY, D. John. <em>Interpretação das Cartas Paulinas.</em> Trad.
+            João Paulo Thomaz de Aquino. São Paulo: Cultura Cristã, 2017.
+          </P>
+          <P className="">
+            <em>Bíblia de Estudo MacArthur</em>, NVI, Capa Dura, Tecido, Leitura
+            Perfeita. ISBN: 9786556895215. Editora: Thomas Nelson Brasil.
+          </P>
+          <P className="">
+            Ad Cummulus. <em>O General Romano Pompeu e os Piratas.</em>{" "}
+            Disponível em:{" "}
+            <a
+              href="http://adcummulus.blogspot.com/2017/02/o-general-romano-pompeu-os-piratas-da.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              adcummulus.blogspot.com
+            </a>
+            .
+          </P>
+          <P className="">
+            MURPHY-O&apos;CONNOR, O.P Jerome. <em>Paulo: Biografia crítica.</em>{" "}
+            Trad. Bárbara Theoto Lambert. Ed. Loyola, 3ª Ed. 2015, SP – Brasil.
+          </P>
+          <P className="">
+            <em>Bíblia de Estudo Pentecostal</em>, Ed. CPAD, 1995. Tradução de
+            João Ferreira de Almeida, Edição Revista e Corrigida, 1995 (SBB –
+            Sociedade Bíblica do Brasil).
           </P>
         </div>
       </Container>
