@@ -168,11 +168,11 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "1 Timóteo",
-        link: "https://drive.google.com/file/d/188fmXS3j1oZpaytCO6Enh3ftMrzOxZSV/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/timoteo",
       },
       {
         title: "2 Timóteo",
-        link: "https://drive.google.com/file/d/188fmXS3j1oZpaytCO6Enh3ftMrzOxZSV/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/timoteo",
       },
       {
         title: "Tito",
