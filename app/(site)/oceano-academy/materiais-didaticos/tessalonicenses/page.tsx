@@ -213,6 +213,7 @@ export default function CursoTessalonicenses() {
             destacando sua fé, amor e esperança, mesmo em meio à perseguição, e
             o exemplo de integridade no ministério de Paulo.
           </P>
+          <P className="mt-0">Texto-base: 1 Tessalonicenses 1–2</P>
         </div>
 
         <div className="flex flex-col gap-4">
@@ -443,6 +444,7 @@ export default function CursoTessalonicenses() {
             arrebatamento, aplicando os ensinamentos de Paulo sobre pureza, amor
             fraternal e consolo na promessa da volta de Cristo.
           </P>
+          <P className="mt-0">Texto-base: 1 Tessalonicenses 3-4</P>
         </div>
 
         <div className="flex flex-col gap-4">
@@ -725,6 +727,7 @@ export default function CursoTessalonicenses() {
             vivendo como filhos da luz, enquanto aguardamos o retorno de Cristo
             e contribuímos para a edificação da comunidade cristã.
           </P>
+          <P className="mt-0">Texto-base: 1 Tessalonicenses 5</P>
         </div>
 
         <div className="flex flex-col gap-4">
@@ -976,6 +979,7 @@ export default function CursoTessalonicenses() {
             e a vitória de Cristo, vivendo com firmeza na verdade e esperança na
             gloriosa manifestação do Senhor.
           </P>
+          <P className="mt-0">Texto-base: 2 Tessalonicenses 1-3</P>
         </div>
 
         <div className="flex flex-col gap-4">
