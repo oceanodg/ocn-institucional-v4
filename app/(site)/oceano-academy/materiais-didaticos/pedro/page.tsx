@@ -295,11 +295,13 @@ export default function CursoPedro() {
             Essa esperança está ancorada em três pilares: na regeneração — Deus
             nos fez nascer de novo; na ressurreição de Cristo — nossa garantia
             objetiva; e na herança futura — incorruptível e reservada nos céus
-            (1Pe 1.4). Warren Wiersbe (1984) diz que &quot;A esperança do crente
-            não está em algo, mas em Alguém. Cristo ressuscitou, logo a nossa
-            esperança não pode morrer&quot;. Por isso Pedro afirma que essa
-            esperança leva o crente a suportar provações sem perder a alegria
-            (1Pe 1.6–8).
+            (1Pe 1.4).
+          </P>
+          <P className="">
+            Warren Wiersbe (1984) diz que &quot;A esperança do crente não está
+            em algo, mas em Alguém. Cristo ressuscitou, logo a nossa esperança
+            não pode morrer&quot;. Por isso Pedro afirma que essa esperança leva
+            o crente a suportar provações sem perder a alegria (1Pe 1.6–8).
           </P>
           <P className="">
             A fé, quando provada, revela sua qualidade. Pedro compara esse
@@ -405,9 +407,12 @@ export default function CursoPedro() {
             Pedro identifica a igreja com o Israel espiritual, aplicando aos
             cristãos títulos antes usados para o povo da aliança (1Pe 2.9): raça
             eleita, sacerdócio real, nação santa e povo de propriedade exclusiva
-            de Deus. São títulos carregados de missão: &quot;para proclamar as
-            virtudes daquele que vos chamou das trevas para a sua maravilhosa
-            luz&quot; (1Pe 2.9, ARA). A identidade define o propósito.
+            de Deus.{" "}
+          </P>
+          <P className="">
+            São títulos carregados de missão: &quot;para proclamar as virtudes
+            daquele que vos chamou das trevas para a sua maravilhosa luz&quot;
+            (1Pe 2.9, ARA). A identidade define o propósito.
           </P>
           <P className="">
             O apóstolo Pedro não busca redefinir ou anular Israel, mas sim
@@ -553,12 +558,14 @@ export default function CursoPedro() {
           </P>
           <P className="">
             Assim, Pedro resume a ética cristã em quatro verbos (1Pe 2.17):
-            honrar a todos; amar os irmãos; temer a Deus; respeitar o rei. Ou
-            seja, dignidade para todos, afeição para a igreja, reverência a Deus
-            e ordem social. Podemos então compreender que o nosso comportamento
-            fala mais alto do que nossas palavras. O mundo não precisa apenas
-            ouvir sobre Cristo — precisa vê-lo em nosso modo de viver,
-            trabalhar, obedecer e reagir.
+            honrar a todos; amar os irmãos; temer a Deus; respeitar o rei.
+          </P>
+          <P className="">
+            Ou seja, dignidade para todos, afeição para a igreja, reverência a
+            Deus e ordem social. Podemos então compreender que o nosso
+            comportamento fala mais alto do que nossas palavras. O mundo não
+            precisa apenas ouvir sobre Cristo — precisa vê-lo em nosso modo de
+            viver, trabalhar, obedecer e reagir.
           </P>
         </div>
 
@@ -663,9 +670,12 @@ export default function CursoPedro() {
             deve abandonar o pecado passado (1Pe 4.1–3) e viver para a vontade
             de Deus. Isso provoca estranhamento nos incrédulos (1Pe 4.4), mas a
             integridade vale o custo. Ele lembra que todos prestarão contas (1Pe
-            4.5). O apóstolo destaca três atitudes essenciais: sobriedade para
-            orar (1Pe 4.7), amor que cobre pecados (1Pe 4.8) e serviço com os
-            dons recebidos (1Pe 4.10–11).
+            4.5).
+          </P>
+          <P className="">
+            O apóstolo destaca três atitudes essenciais: sobriedade para orar
+            (1Pe 4.7), amor que cobre pecados (1Pe 4.8) e serviço com os dons
+            recebidos (1Pe 4.10–11).
           </P>
           <P className="">
             No capítulo 5, a ênfase é liderança serva (1Pe 5.1–4), humildade
@@ -790,11 +800,14 @@ export default function CursoPedro() {
           <P className="">
             Pedro explica como recebemos esse &quot;tudo&quot;: pela graça, pelo
             conhecimento de Cristo e por meio das promessas preciosas e
-            grandíssimas (2Pe 1.4). Essas promessas nos fazem
-            &quot;co-participantes da natureza divina&quot; — não no sentido de
-            nos tornarmos deuses, mas de sermos transformados pelo caráter santo
-            do Senhor (Ef 4.24). Participar da natureza divina significa ser
-            transformado moralmente pela ação e influência do Espírito Santo.
+            grandíssimas (2Pe 1.4).
+          </P>
+          <P className="">
+            Essas promessas nos fazem &quot;co-participantes da natureza
+            divina&quot; — não no sentido de nos tornarmos deuses, mas de sermos
+            transformados pelo caráter santo do Senhor (Ef 4.24). Participar da
+            natureza divina significa ser transformado moralmente pela ação e
+            influência do Espírito Santo.
           </P>
           <P className="">
             O cristão não vive carente de poder. Já recebemos tudo. A maturidade
@@ -891,10 +904,13 @@ export default function CursoPedro() {
           </P>
           <P className="">
             Ele recorda a transfiguração (Mt 17.1–8): viu a glória, ouviu a voz
-            do Pai e presenciou a majestade de Cristo. Pedro não baseia sua fé
-            em emoções, mas em fatos. Ele desmente os falsos mestres que
-            alegavam visões e revelações místicas. A revelação verdadeira não é
-            fruto de imaginação humana, mas da intervenção de Deus.
+            do Pai e presenciou a majestade de Cristo.
+          </P>
+          <P className="">
+            Pedro não baseia sua fé em emoções, mas em fatos. Ele desmente os
+            falsos mestres que alegavam visões e revelações místicas. A
+            revelação verdadeira não é fruto de imaginação humana, mas da
+            intervenção de Deus.
           </P>
           <P className="">
             O teólogo Stott (1996) observa que &quot;a fé cristã se apoia em
@@ -1142,12 +1158,15 @@ export default function CursoPedro() {
           </P>
           <P className="">
             A lógica deles era simples: nada muda; tudo continua igual; se Deus
-            não interveio até agora, não intervirá. Isso é naturalismo puro,
-            filosofia sem transcendência. Pedro responde de três maneiras: eles
-            ignoram a criação — o mundo não surgiu sozinho (Gn 1.1), Deus criou;
-            ignoram o dilúvio — o mundo já foi destruído uma vez como juízo (Gn
-            6–9); e ignoram o propósito de Deus — o céu e a terra atuais
-            &quot;estão reservados para o fogo&quot; (2Pe 3.7).
+            não interveio até agora, não intervirá.
+          </P>
+          <P className="">
+            Isso é naturalismo puro, filosofia sem transcendência. Pedro
+            responde de três maneiras: eles ignoram a criação — o mundo não
+            surgiu sozinho (Gn 1.1), Deus criou; ignoram o dilúvio — o mundo já
+            foi destruído uma vez como juízo (Gn 6–9); e ignoram o propósito de
+            Deus — o céu e a terra atuais &quot;estão reservados para o
+            fogo&quot; (2Pe 3.7).
           </P>
           <P className="">
             No mesmo sentido Paulo afirma que &quot;Deus ordenou os tempos e
