@@ -205,19 +205,19 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "1 João",
-        link: "https://drive.google.com/file/d/1bLpcHJZ-B0jJcMg9vY354SBKwSHwcNp-/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/cartas-joao-e-judas",
       },
       {
         title: "2 João",
-        link: "https://drive.google.com/file/d/1bLpcHJZ-B0jJcMg9vY354SBKwSHwcNp-/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/cartas-joao-e-judas",
       },
       {
         title: "3 João",
-        link: "https://drive.google.com/file/d/1bLpcHJZ-B0jJcMg9vY354SBKwSHwcNp-/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/cartas-joao-e-judas",
       },
       {
         title: "Judas",
-        link: "https://drive.google.com/file/d/1bLpcHJZ-B0jJcMg9vY354SBKwSHwcNp-/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/cartas-joao-e-judas",
       },
     ],
   },
