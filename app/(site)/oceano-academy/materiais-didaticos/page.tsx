@@ -197,11 +197,11 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "1 Pedro",
-        link: "https://drive.google.com/file/d/1BOs7TpPH8oot4KZ1HUzc4ut1wXiGAmsh/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/pedro",
       },
       {
         title: "2 Pedro",
-        link: "https://drive.google.com/file/d/1BOs7TpPH8oot4KZ1HUzc4ut1wXiGAmsh/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/pedro",
       },
       {
         title: "1 João",
