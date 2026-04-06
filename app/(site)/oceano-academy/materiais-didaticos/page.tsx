@@ -132,7 +132,7 @@ const newTestamentMaterials: MaterialGroup[] = [
       },
       {
         title: "Romanos",
-        link: "https://drive.google.com/file/d/1HqO-AezNpQAoH2-qb6k2Pv1vR-kcv371/view?usp=sharing",
+        link: "/oceano-academy/materiais-didaticos/romanos",
       },
       {
         title: "1 Coríntios",
