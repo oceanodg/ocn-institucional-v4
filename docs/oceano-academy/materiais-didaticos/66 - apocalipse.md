@@ -1,4 +1,4 @@
-## Curso Apocalipse
+# Curso Apocalipse
 
 ## SUMÁRIO
 
@@ -33,13 +33,13 @@
 
 ## LIÇÃO 1 – AS COISAS QUE TENS VISTO E AS QUE SÃO
 
-Objetivo geral
+### Objetivo geral
 
 Apresentar a visão do Cristo glorificado e as mensagens às sete igrejas, levando-nos a
 compreender a própria condição espiritual e a cultivar fidelidade, arrependimento e
 esperança diante da presença ativa de Cristo na igreja.
 
-## Para Começar
+### Para Começar
 
 O livro do Apocalipse começa com uma das cenas mais impressionantes de toda
 a Escritura, convidando o leitor a adentrar um ambiente de profunda revelação
@@ -78,7 +78,7 @@ discípulos. Afinal, o Cristo que João viu continua sendo o Cristo presente na 
 despertar o coração do estudante para a seriedade e a beleza das mensagens contidas nos
 primeiros capítulos do Apocalipse.
 
-## 1. A VISÃO do CRISTO GLORIFICADO
+### 1. A VISÃO do CRISTO GLORIFICADO
 
 A narrativa inicia mostrando João em espírito no dia do Senhor, quando uma
 voz poderosa o surpreende e o direciona a registrar tudo o que lhe seria revelado. A
@@ -106,7 +106,7 @@ acompanhada de graça. Assim, o primeiro capítulo estabelece a autoridade de Cr
 como centro do Apocalipse e como Senhor absoluto da igreja, preparando o caminho
 para as mensagens que serão entregues às sete igrejas.
 
-## 2. AS IGREJAS de ÉFESO e ESMIRNA
+### 2. AS IGREJAS de ÉFESO e ESMIRNA
 
 A mensagem à igreja de Éfeso revela uma comunidade ativa, firme na doutrina e
 zelosa contra falsos mestres. Contudo, apesar de possuir características admiráveis,
@@ -132,7 +132,7 @@ que demandam respostas espirituais diferentes. Dessa forma, o estudo dessas duas
 igrejas nos ajuda a olhar para a própria vida devocional e avaliar se tem cultivado o
 amor genuíno ou se tem permanecido firme mesmo em meio à adversidade.
 
-## 3. PÉRGAMO, TIATIRA e SARDES
+### 3. PÉRGAMO, TIATIRA e SARDES
 
 Quando Cristo dirige Suas palavras à igreja de Pérgamo, destaca sua fidelidade
 em um ambiente extremamente hostil espiritualmente. Ainda assim, o Senhor repreende
@@ -158,7 +158,7 @@ reputações, estruturas ou aparências, mas avalia a vitalidade espiritual aut�
 forma, Pérgamo, Tiatira e Sardes nos lembram que a fidelidade doutrinária, a santidade
 e a vigilância são elementos essenciais na vida cristã.
 
-## 4. Filadélfia e Laodiceia
+### 4. Filadélfia e Laodiceia
 
 A igreja de Filadélfia recebe uma das mensagens mais animadoras de todo o
 Apocalipse. Apesar de ter pouca força, manteve-se fiel à Palavra e ao nome de Cristo,
@@ -183,7 +183,7 @@ caminhos: o da fidelidade humilde e o da autossuficiência que conduz ao afastam
 Assim, somos convidados a identificar qual desses caminhos mais se aproxima de nossa
 vida espiritual atual.
 
-## Conclusão
+### Conclusão
 
 Ao encerrar a análise dos capítulos 1 a 3 do Apocalipse, torna-se evidente que
 Cristo glorificado é o centro absoluto da visão e também o examinador cuidadoso de
@@ -206,13 +206,13 @@ esperança no futuro. A igreja atual precisa ouvir a voz do Espírito assim como
 
 ## LIÇÃO 2 – AS COISAS QUE DEPOIS DESTAS HÃO DE ACONTECER
 
-Objetivo geral
+### Objetivo geral
 
 Compreender a soberania de Deus no Apocalipse, reconhecendo que os juízos,
 personagens e acontecimentos revelam a justiça divina e a vitória final do Cordeiro
 sobre o mal.
 
-## Para começar
+### Para começar
 
 Ao entrarmos nos capítulos 4 a 19 do Apocalipse, somos conduzidos a uma
 mudança de ambiente que impressiona e desperta profundo temor reverente. Até aqui,
@@ -240,7 +240,7 @@ lição, enfatizaremos não apenas os juízos, mas a soberania de Deus, a vitór
 Cordeiro e o propósito final de restaurar todas as coisas. Assim, ao estudar o futuro,
 somos levados a confiar ainda mais no Senhor no presente.
 
-## 1. O TRONO de DEUS e o LIVRO SELADO
+### 1. O TRONO de DEUS e o LIVRO SELADO
 
 Quando João é transportado ao céu, a primeira visão que se apresenta diante
 dele é a do trono de Deus. Esse trono, além de apresentar autoridade, também expõe estabilidade, pureza e magnificência. Ao redor dele, seres viventes adoram continuamente, proclamando a santidade do Senhor, enquanto anciãos se prostram em
@@ -266,7 +266,7 @@ e julgar com justiça. A partir desse momento, toda adoração celestial se volt
 Cordeiro, mostrando que a história encontra seu sentido e sua direção em Cristo. Este
 ponto é fundamental para toda a teologia do Apocalipse.
 
-## 2. OS SELOS, AS TROMBETAS E AS TAÇAS
+### 2. OS SELOS, AS TROMBETAS E AS TAÇAS
 
 Ao iniciar a abertura dos selos no capítulo 6, João descreve eventos que afetam
 a Terra de forma progressiva. Cada selo revela uma etapa do juízo divino, que atinge
@@ -290,7 +290,7 @@ arrepender-se. Assim, as taças mostram a justiça plena de Deus sendo manifesta
 Cristo. Ao compreender essa progressão, fica claro que Deus age com ordem, paciência
 e propósito, revelando sua santidade e seu amor mesmo em meio ao juízo.
 
-## 3. OS GRANDES PERSONAGENS DO APOCALIPSE
+### 3. OS GRANDES PERSONAGENS DO APOCALIPSE
 
 Nos capítulos 12 a 14, João descreve figuras simbólicas que representam forças
 espirituais e sistemas que atuam ao longo da história da humanidade. A mulher vestida
@@ -317,7 +317,7 @@ juízo e advertência, evidenciando que, mesmo nos momentos mais sombrios da his
 Deus não cessa de anunciar sua verdade. Esse conjunto de visões reafirma que a vitória
 final pertence ao Cordeiro.
 
-## 4. A QUEDA DA BABILÔNIA e a VOLTA DE CRISTO
+### 4. A QUEDA DA BABILÔNIA e a VOLTA DE CRISTO
 
 Os capítulos finais desta seção apresentam a queda da Babilônia, símbolo
 máximo da corrupção espiritual, moral e econômica do mundo sem Deus. Sua
@@ -338,7 +338,7 @@ anticristão. A batalha do Armagedom mostra que nenhum poder terreno ou espiritu
 capaz de resistir ao poder do Filho de Deus. Assim, a narrativa prepara o leitor para os
 eventos do capítulo 20, que descrevem o Milênio e o juízo final.
 
-## Conclusão
+### Conclusão
 
 Ao concluir a lição 2, torna-se evidente que os capítulos 4 a 19 apresentam a
 atuação soberana de Deus na história e a vitória progressiva do Cordeiro sobre todas as
@@ -361,12 +361,12 @@ fiéis, vigilantes e cheios de esperança.
 
 ## LIÇÃO 3 – O REINO MILENAR DE CRISTO
 
-Objetivo geral
+### Objetivo geral
 
 Compreender o propósito do Milênio e dos eventos finais do Apocalipse, reconhecendo
 a soberania de Cristo, o desfecho do mal e a justiça de Deus antes da eternidade.
 
-## Para começar
+### Para começar
 
 Ao chegarmos ao capítulo 20 do Apocalipse, somos conduzidos a um dos temas
 mais aguardados e discutidos dentro da escatologia cristã: o Milênio, o reinado de mil
@@ -395,7 +395,7 @@ bíblico com clareza, respeito e profundidade, sempre dentro da perspectiva
 dispensacionalista, que reconhece no Milênio um cumprimento literal das profecias
 bíblicas. É com esse espírito que seguimos para as seções desta lição.
 
-## 1. A PRISÃO DE SATANÁS
+### 1. A PRISÃO DE SATANÁS
 
 A narrativa começa com a descida de um anjo que prende Satanás por mil anos.
 O poder do inimigo será bloqueado, impedindo-o de enganar as nações. Esse
@@ -419,7 +419,7 @@ plenamente Sua justiça e Sua santidade. Contudo, até que cheguemos a esse mome
 capítulo nos apresenta o governo pacífico de Cristo, inaugurado após essa prisão
 decisiva.
 
-## 2. O REINO MILENAR DE CRISTO
+### 2. O REINO MILENAR DE CRISTO
 
 A descrição do reinado de Cristo durante o Milênio tem início com a visão de
 tronos e de pessoas que receberam autoridade para julgar. Entre esses participantes estão
@@ -445,7 +445,7 @@ prevalece. Durante esses mil anos, o mundo verá como seria a vida sem a influê
 destrutiva do inimigo. Esse período prepara o palco para a última confrontação, que demonstrará definitivamente a diferença entre os que servem a Deus e os que, mesmo
 diante de condições perfeitas, escolherão se rebelar.
 
-## 3. A ÚLTIMA REBELIÃO
+### 3. A ÚLTIMA REBELIÃO
 
 Após o término dos mil anos, Satanás é solto do abismo e volta a enganar as
 nações. Essa breve soltura pode parecer estranha à primeira vista, mas ela cumpre um
@@ -471,7 +471,7 @@ Deus demonstra que Seu julgamento é justo e que Sua santidade exige separação
 definitiva entre o bem e o mal. Com isso, abre-se o caminho para o juízo final descrito
 nos versos seguintes.
 
-## 4. O JUÍZO DO GRANDE TRONO BRANCO
+### 4. O JUÍZO DO GRANDE TRONO BRANCO
 
 A cena do grande trono branco é uma das mais solenes de toda a Bíblia. João
 descreve um trono diante do qual céu e terra fogem, revelando que nada permanece
@@ -494,7 +494,7 @@ reforça a seriedade do evangelho e a necessidade urgente da salvação. O juíz
 trono branco encerra completamente a história humana e prepara o leitor para a
 revelação final dos novos céus e nova terra.
 
-## Conclusão
+### Conclusão
 
 Ao final do estudo de Apocalipse 20, percebe-se claramente que a história
 humana caminha sob a direção soberana de Deus e que nenhum acontecimento escapa
@@ -517,13 +517,13 @@ redentor de Deus culmina não no juízo, mas na restauração eterna.
 
 ## LIÇÃO 4 – NOVOS CÉUS E NOVA TERRA
 
-Objetivo geral
+### Objetivo geral
 
 Compreender a esperança eterna revelada nos capítulos finais do Apocalipse,
 reconhecendo a nova criação como o cumprimento definitivo do plano redentor de Deus
 e a plena comunhão dos salvos com o Senhor.
 
-## Para Começar
+### Para Começar
 
 Chegamos agora aos capítulos finais do Apocalipse, onde a narrativa toma um
 rumo completamente distinto de tudo visto até aqui. Após juízos, batalhas e o triunfo
@@ -552,7 +552,7 @@ luz de Cristo substitui qualquer necessidade de sol ou lâmpada, conforme Apocal
 eternidade, lembrando que nosso destino final não é marcado por sofrimento, mas pela
 glória de estar para sempre com o Senhor.
 
-## 1. A NOVA JERUSALÉM
+### 1. A NOVA JERUSALÉM
 
 O capítulo 21 se inicia com João vendo um novo céu e uma nova terra, e essa
 renovação completa marca um novo começo para toda a criação. Essa nova realidade
@@ -579,7 +579,7 @@ advertência, lembrando que a eternidade é um destino real que depende da respo
 humana ao evangelho. Essa primeira parte do capítulo estabelece o tom para tudo que se
 segue.
 
-## 2. A DESCRIÇÃO DA CIDADE SANTA
+### 2. A DESCRIÇÃO DA CIDADE SANTA
 
 Após apresentar a nova criação, João é convidado a contemplar com mais
 detalhes a Nova Jerusalém. O anjo o transporta em espírito a um grande e alto monte,
@@ -602,7 +602,7 @@ ou pecaminoso terá espaço na eternidade. As portas da cidade permanecem sempre
 abertas, indicando segurança permanente, mas somente os que têm seus nomes escritos no Livro da Vida poderão entrar. Essa seção revela que a eternidade com Deus não é
 apenas um lugar de beleza, mas um ambiente de santidade absoluta.
 
-## 3. O RIO e a ÁRVORE DA VIDA
+### 3. O RIO e a ÁRVORE DA VIDA
 
 O capítulo 22 inicia descrevendo um rio puro da água da vida, que flui do trono
 de Deus e do Cordeiro. Esse rio simboliza a provisão contínua e ilimitada da vida que
@@ -626,7 +626,7 @@ véu, nenhuma distância. O nome de Deus estará na fronte de Seus servos, indic
 pertencimento absoluto e irrevogável. A luz eterna que procede do Senhor elimina
 qualquer possibilidade de trevas, inaugurando um reinado que jamais terá fim.
 
-## 4. O ÚLTIMO CHAMADO DE CRISTO
+### 4. O ÚLTIMO CHAMADO DE CRISTO
 
 Nos versos finais do livro, o Apocalipse assume um tom pastoral e convocatório.
 Cristo reafirma repetidamente que vem em breve, como registrado em Apocalipse 22.7,
@@ -650,7 +650,7 @@ duas verdades fundamentais: a certeza da volta de Cristo e a oferta contínua da
 salvação. Assim, João encerra sua visão reafirmando a esperança cristã e convidando a
 igreja a permanecer firme até o dia em que essa promessa se cumprirá.
 
-## Conclusão
+### Conclusão
 
 Ao concluirmos os capítulos 21 e 22, contemplamos o ápice da revelação bíblica
 e o cumprimento pleno de todo o plano redentor de Deus. O Apocalipse não termina
