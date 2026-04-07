@@ -3,33 +3,34 @@
 ## SUMÁRIO
 
 - LIÇÃO 1 – AS COISAS QUE TENS VISTO E AS QUE SÃO
-- Para Começar
-- 1. A VISÃO do CRISTO GLORIFICADO
-- 2. AS IGREJAS de ÉFESO e ESMIRNA
-- 3. PÉRGAMO, TIATIRA e SARDES
-- 4. Filadélfia e Laodiceia
-- Conclusão
+  - Para Começar
+  - 1. A VISÃO do CRISTO GLORIFICADO
+  - 2. AS IGREJAS de ÉFESO e ESMIRNA
+  - 3. PÉRGAMO, TIATIRA e SARDES
+  - 4. Filadélfia e Laodiceia
+  - Conclusão
 - LIÇÃO 2 – AS COISAS QUE DEPOIS DESTAS HÃO DE ACONTECER
-- Para começar
-- 1. O TRONO de DEUS e o LIVRO SELADO
-- 2. OS SELOS, AS TROMBETAS E AS TAÇAS
-- 3. OS GRANDES PERSONAGENS DO APOCALIPSE
-- 4. A QUEDA DA BABILÔNIA e a VOLTA DE CRISTO
-- Conclusão
+  - Para começar
+  - 1. O TRONO de DEUS e o LIVRO SELADO
+  - 2. OS SELOS, AS TROMBETAS E AS TAÇAS
+  - 3. OS GRANDES PERSONAGENS DO APOCALIPSE
+  - 4. A QUEDA DA BABILÔNIA e a VOLTA DE CRISTO
+  - Conclusão
 - LIÇÃO 3 – O REINO MILENAR DE CRISTO
-- Para começar
-- 1. A PRISÃO DE SATANÁS
-- 2. O REINO MILENAR DE CRISTO
-- 3. A ÚLTIMA REBELIÃO
-- 4. O JUÍZO DO GRANDE TRONO BRANCO
-- Conclusão
+  - Para começar
+  - 1. A PRISÃO DE SATANÁS
+  - 2. O REINO MILENAR DE CRISTO
+  - 3. A ÚLTIMA REBELIÃO
+  - 4. O JUÍZO DO GRANDE TRONO BRANCO
+  - Conclusão
 - LIÇÃO 4 – NOVOS CÉUS E NOVA TERRA
-- Para Começar
-- 1. A NOVA JERUSALÉM
-- 2. A DESCRIÇÃO DA CIDADE SANTA
-- 3. O RIO e a ÁRVORE DA VIDA
-- 4. O ÚLTIMO CHAMADO DE CRISTO
-- Conclusão
+  - Para Começar
+  - 1. A NOVA JERUSALÉM
+  - 2. A DESCRIÇÃO DA CIDADE SANTA
+  - 3. O RIO e a ÁRVORE DA VIDA
+  - 4. O ÚLTIMO CHAMADO DE CRISTO
+  - Conclusão
+- Editorial
 
 ## LIÇÃO 1 – AS COISAS QUE TENS VISTO E AS QUE SÃO
 
@@ -680,11 +681,14 @@ Ano:** 2026
 **1ª Edição**
 
 **Conselho Editorial:**
-Pr Sinval Júlio de Souza
-Ev Wagner Monteiro
+
+- Pr Sinval Júlio de Souza
+- Ev Wagner Monteiro
 
 **Projeto Gráfico e Diagramação**
-Pb Márcio Rezende
+
+- Pb Márcio Rezende
 
 **Comentaristas**
-Ev Wagner Monteiro
+
+- Ev Wagner Monteiro
