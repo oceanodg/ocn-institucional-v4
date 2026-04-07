@@ -5,61 +5,61 @@ Estudo aprofundado do livro do profeta Isaías, abordando a denúncia do pecado,
 ## Sumário
 
 - Lição 7 – Denúncia do Pecado e Livramento de Deus
-- Objetivo Geral
-- Introdução
-- 1. Toda Impiedade É Castigada
-- 2. A Repreensão e o Livramento de Jerusalém
-- 3. O Reinado do Messias e a Libertação do Povo de Deus
-- 4. A Ira de Deus Contra as Nações e o Dia da Igreja Triunfante
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. Toda Impiedade É Castigada
+  - 2. A Repreensão e o Livramento de Jerusalém
+  - 3. O Reinado do Messias e a Libertação do Povo de Deus
+  - 4. A Ira de Deus Contra as Nações e o Dia da Igreja Triunfante
+  - Conclusão
 - Lição 8 – Deus Não Deixa o Inimigo Vencer
-- Objetivo Geral
-- Introdução
-- 1. Quando Tudo Parece Que Está Acabado
-- 2. A Petulância do Inimigo
-- 3. Na Hora da Angústia, Consulte a Deus
-- 4. Deus Responde e Age
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. Quando Tudo Parece Que Está Acabado
+  - 2. A Petulância do Inimigo
+  - 3. Na Hora da Angústia, Consulte a Deus
+  - 4. Deus Responde e Age
+  - Conclusão
 - Lição 9 – Doença, Cura e Alerta de Deus
-- Objetivo Geral
-- Introdução
-- 1. A Casa Deve Estar em Ordem
-- 2. Deus É a Única Solução
-- 3. Deus Responde as Orações
-- 4. Atenção! Não Baixe a Guarda
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. A Casa Deve Estar em Ordem
+  - 2. Deus É a Única Solução
+  - 3. Deus Responde as Orações
+  - 4. Atenção! Não Baixe a Guarda
+  - Conclusão
 - Lição 10 – Quão Grande És Tu, Senhor!
-- Objetivo Geral
-- Introdução
-- 1. A Majestade de Deus
-- 2. Deus Prova Sua Grandeza
-- 3. O Senhor É o Único Deus
-- 4. Deus É Maior do Que os Nossos Inimigos
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. A Majestade de Deus
+  - 2. Deus Prova Sua Grandeza
+  - 3. O Senhor É o Único Deus
+  - 4. Deus É Maior do Que os Nossos Inimigos
+  - Conclusão
 - Lição 11 – A Salvação Vem do Senhor
-- Objetivo Geral
-- Introdução
-- 1. O Servo do Senhor e os Gentios
-- 2. O Servo do Senhor Ultrajado, Mas Fiel
-- 3. A Redenção e a Restauração de Israel
-- 4. O Sofrimento e a Glória do Messias
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. O Servo do Senhor e os Gentios
+  - 2. O Servo do Senhor Ultrajado, Mas Fiel
+  - 3. A Redenção e a Restauração de Israel
+  - 4. O Sofrimento e a Glória do Messias
+  - Conclusão
 - Lição 12 – Promessas e Alertas
-- Objetivo Geral
-- Introdução
-- 1. O Futuro Glorioso de Sião
-- 2. Busque a Salvação, Enquanto Pode
-- 3. Deus É Contra os Guias Cegos e a Idolatria
-- 4. O Jejum Que Deus Quer e a Maldade de Israel
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. O Futuro Glorioso de Sião
+  - 2. Busque a Salvação, Enquanto Pode
+  - 3. Deus É Contra os Guias Cegos e a Idolatria
+  - 4. O Jejum Que Deus Quer e a Maldade de Israel
+  - Conclusão
 - Lição 13 – Teu É o Reino e Tua É a Glória
-- Objetivo Geral
-- Introdução
-- 1. A Nova Jerusalém e Sua Glória
-- 2. Um Novo Começo
-- 3. Um Deus Que Trabalha Para o Que nEle Espera
-- 4. Novos Céus e Nova Terra
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. A Nova Jerusalém e Sua Glória
+  - 2. Um Novo Começo
+  - 3. Um Deus Que Trabalha Para o Que nEle Espera
+  - 4. Novos Céus e Nova Terra
+  - Conclusão
 - Editorial
 
 ## Lição 7 – Denúncia do Pecado e Livramento de Deus
