@@ -5,37 +5,37 @@ O evangelho de ação que apresenta Jesus como servo poderoso, repleto de milagr
 ## Sumário
 
 - Lição 1 – As Boas-Novas do Evangelho de Cristo
-- Objetivo Geral
-- Introdução
-- 1. Autor do Evangelho de Marcos
-- 2. Data, Local e Para Quem o Evangelho Foi Escrito
-- 3. As Principais Características do Evangelho Segundo Marcos
-- 4. A Mensagem Central
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. Autor do Evangelho de Marcos
+  - 2. Data, Local e Para Quem o Evangelho Foi Escrito
+  - 3. As Principais Características do Evangelho Segundo Marcos
+  - 4. A Mensagem Central
+  - Conclusão
 - Lição 2 – A Natureza dos Milagres no Evangelho de Marcos
-- Objetivo Geral
-- Introdução
-- 1. Os Milagres no Evangelho de Marcos
-- 2. Os Milagres de Natureza
-- 3. Os Milagres de Libertação
-- 4. Os Milagres de Cura
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. Os Milagres no Evangelho de Marcos
+  - 2. Os Milagres de Natureza
+  - 3. Os Milagres de Libertação
+  - 4. Os Milagres de Cura
+  - Conclusão
 - Lição 3 – A Autoridade de Jesus em Ação
-- Objetivo Geral
-- Introdução
-- 1. A Importância da Fé na Realização de Milagres
-- 2. A Autoridade de Jesus Sobre as Doenças e a Morte
-- 3. A Reação das Pessoas Diante dos Milagres
-- 4. A Demonstração do Reino de Deus por Meio da Pregação de Jesus
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. A Importância da Fé na Realização de Milagres
+  - 2. A Autoridade de Jesus Sobre as Doenças e a Morte
+  - 3. A Reação das Pessoas Diante dos Milagres
+  - 4. A Demonstração do Reino de Deus por Meio da Pregação de Jesus
+  - Conclusão
 - Lição 4 – O Chamado ao Discipulado de Jesus
-- Objetivo Geral
-- Introdução
-- 1. A Eleição dos Doze
-- 2. Discipulado: O Mais Fascinante Projeto de Vida
-- 3. O Servir de Cristo e o Desejo de Grandeza dos Discípulos
-- 4. O Chamado à Participação nos Milagres
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. A Eleição dos Doze
+  - 2. Discipulado: O Mais Fascinante Projeto de Vida
+  - 3. O Servir de Cristo e o Desejo de Grandeza dos Discípulos
+  - 4. O Chamado à Participação nos Milagres
+  - Conclusão
 - Referências Bibliográficas
 - Editorial
 
