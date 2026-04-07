@@ -5,53 +5,53 @@ Estudo do livro do profeta Isaías: alertas, profecias, chamado ao arrependiment
 ## Sumário
 
 - Lição 1 – Os Pecados e os Sofrimentos Que Eles Trazem
-- Objetivo Geral
-- Introdução
-- 1. Deus Tem Ciência de Todo Nosso Pecado
-- 2. Cultuando Com Hipocrisia
-- 3. Convite Para a Graça
-- 4. Deus Julga, Mas Dá Oportunidade de Perdão
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. Deus Tem Ciência de Todo Nosso Pecado
+  - 2. Cultuando Com Hipocrisia
+  - 3. Convite Para a Graça
+  - 4. Deus Julga, Mas Dá Oportunidade de Perdão
+  - Conclusão
 - Lição 2 – A Era Cristã Foi Prevista
-- Objetivo Geral
-- Introdução
-- 1. A Glória Futura do Verdadeiro Israel
-- 2. O Julgamento de Judá e de Jerusalém
-- 3. O Reinado do Renovo do Senhor
-- 4. A Parábola da Vinha Má e Sua Aplicação
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. A Glória Futura do Verdadeiro Israel
+  - 2. O Julgamento de Judá e de Jerusalém
+  - 3. O Reinado do Renovo do Senhor
+  - 4. A Parábola da Vinha Má e Sua Aplicação
+  - Conclusão
 - Lição 3 – Detalhando Um Chamado
-- Objetivo Geral
-- Introdução
-- 1. Isaías Olha Para o Senhor
-- 2. Isaías Olha Para Si Mesmo
-- 3. Chega o Momento da Decisão
-- 4. Israel Não Podia Ver
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. Isaías Olha Para o Senhor
+  - 2. Isaías Olha Para Si Mesmo
+  - 3. Chega o Momento da Decisão
+  - 4. Israel Não Podia Ver
+  - Conclusão
 - Lição 4 – A Vinda do Messias Foi Profetizada
-- Objetivo Geral
-- Introdução
-- 1. Um Menino Chamado Emanuel
-- 2. O Senhor É a Nossa Esperança
-- 3. A Vinda e o Poder do Messias
-- 4. O Reinado do Messias
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. Um Menino Chamado Emanuel
+  - 2. O Senhor É a Nossa Esperança
+  - 3. A Vinda e o Poder do Messias
+  - 4. O Reinado do Messias
+  - Conclusão
 - Lição 5 – A Disciplina de Deus Sobre as Nações
-- Objetivo Geral
-- Introdução
-- 1. Mesmo Julgando, Deus É Misericordioso
-- 2. A Arrogância das Nações
-- 3. A Disciplina de Deus Vem Sobre Seus Inimigos
-- 4. O Julgamento de Deus
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. Mesmo Julgando, Deus É Misericordioso
+  - 2. A Arrogância das Nações
+  - 3. A Disciplina de Deus Vem Sobre Seus Inimigos
+  - 4. O Julgamento de Deus
+  - Conclusão
 - Lição 6 – O Apocalipse de Isaías
-- Objetivo Geral
-- Introdução
-- 1. O Senhor Julgará Todos os Transgressores
-- 2. A Abolição da Morte
-- 3. Deus Ama, Protege e Salva o Seu Povo
-- 4. A Revivificação da Vinha do Senhor
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. O Senhor Julgará Todos os Transgressores
+  - 2. A Abolição da Morte
+  - 3. Deus Ama, Protege e Salva o Seu Povo
+  - 4. A Revivificação da Vinha do Senhor
+  - Conclusão
 - Editorial
 
 ## Lição 1 – Os Pecados e os Sofrimentos Que Eles Trazem
