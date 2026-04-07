@@ -1,4 +1,4 @@
-import { NotepadText } from "lucide-react";
+import { FileText, Hash } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -14,6 +14,14 @@ import {
 } from "~/components/ui/table";
 import { LinkSmall } from "~/components/ui/link-small";
 import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
+
+export const metadata = {
+  alternates: {
+    types: {
+      "text/markdown": "/oceano-academy/materiais-didaticos/isaias-1.md",
+    },
+  },
+};
 
 export default function CursoIsaias1() {
   return (
@@ -45,8 +53,12 @@ export default function CursoIsaias1() {
               <TableCell>
                 <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1gTSXK2HEoIV9u9KYAk7heojbrBEsLsfo/view?usp=sharing">
-                    <NotepadText className="size-4" />
-                    Isaías - Módulo I
+                    <FileText className="size-4" />
+                    PDF
+                  </LinkSmall>
+                  <LinkSmall href="/oceano-academy/materiais-didaticos/isaias-1.md">
+                    <Hash className="size-4" />
+                    MD
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
