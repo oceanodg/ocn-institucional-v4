@@ -1,4 +1,4 @@
-import { NotepadText } from "lucide-react";
+import { FileText, Hash } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -8,6 +8,15 @@ import { SummaryLi } from "~/components/summary-li";
 import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
 import { LinkSmall } from "~/components/ui/link-small";
 import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
+
+export const metadata = {
+  alternates: {
+    types: {
+      "text/markdown":
+        "/oceano-academy/materiais-didaticos/introducao-cartas-paulinas.md",
+    },
+  },
+};
 
 export default function IntroducaoCartasPaulinasPage() {
   return (
@@ -37,8 +46,12 @@ export default function IntroducaoCartasPaulinasPage() {
               <TableCell>
                 <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1eW57j-NbUN2XpL9njr_aPXpWUCUESlWM/view?usp=sharing">
-                    <NotepadText className="size-4" />
-                    Apostila
+                    <FileText className="size-4" />
+                    PDF
+                  </LinkSmall>
+                  <LinkSmall href="/oceano-academy/materiais-didaticos/introducao-cartas-paulinas.md">
+                    <Hash className="size-4" />
+                    MD
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
