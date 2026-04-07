@@ -1,4 +1,4 @@
-import { NotepadText } from "lucide-react";
+import { FileText, Hash } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -8,6 +8,14 @@ import { SummaryLi } from "~/components/summary-li";
 import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
 import { LinkSmall } from "~/components/ui/link-small";
 import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
+
+export const metadata = {
+  alternates: {
+    types: {
+      "text/markdown": "/oceano-academy/materiais-didaticos/atos.md",
+    },
+  },
+};
 
 export default function CursoAtos() {
   return (
@@ -38,8 +46,12 @@ export default function CursoAtos() {
               <TableCell>
                 <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1hxws88uPWOOF70X8MRp9NZRzecX_TFDp/view?usp=sharing">
-                    <NotepadText className="size-4" />
-                    Atos dos Apóstolos
+                    <FileText className="size-4" />
+                    PDF
+                  </LinkSmall>
+                  <LinkSmall href="/oceano-academy/materiais-didaticos/atos.md">
+                    <Hash className="size-4" />
+                    MD
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
