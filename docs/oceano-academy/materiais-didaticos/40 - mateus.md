@@ -5,37 +5,37 @@ História do nascimento, ministério, morte e ressurreição de Jesus Cristo.
 ## Sumário
 
 - Lição 1 – O Nascimento e Ministério de Jesus
-- Objetivo Geral
-- Introdução
-- 1. Genealogia de Jesus
-- 2. O Nascimento de Jesus
-- 3. A Visita dos Reis Magos
-- 4. O Retorno do Egito e a Vida em Nazaré
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. Genealogia de Jesus
+  - 2. O Nascimento de Jesus
+  - 3. A Visita dos Reis Magos
+  - 4. O Retorno do Egito e a Vida em Nazaré
+  - Conclusão
 - Lição 2 – O Sermão da Montanha
-- Objetivo Geral
-- Introdução
-- 1. As bem-aventuranças
-- 2. O Sal da Terra e a Luz do Mundo
-- 3. Ame seus inimigos
-- 4. A Oração e a Dependência de Deus
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. As bem-aventuranças
+  - 2. O Sal da Terra e a Luz do Mundo
+  - 3. Ame seus inimigos
+  - 4. A Oração e a Dependência de Deus
+  - Conclusão
 - Lição 3 – Os Milagres e Ensinamentos de Jesus
-- Objetivo Geral
-- Introdução
-- 1. Os Milagres de Cura
-- 2. Acalmando a Tempestade
-- 3. A Escolha dos Doze Apóstolos e a Missão
-- 4. As Parábolas do Reino
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. Os Milagres de Cura
+  - 2. Acalmando a Tempestade
+  - 3. A Escolha dos Doze Apóstolos e a Missão
+  - 4. As Parábolas do Reino
+  - Conclusão
 - Lição 4 – A Última Ceia, Morte e Ressurreição de Jesus
-- Objetivo Geral
-- Introdução
-- 1. A Última Ceia e o Getsêmani
-- 2. O Julgamento e a Crucificação
-- 3. A Ressurreição
-- 4. A Grande Comissão
-- Conclusão
+  - Objetivo Geral
+  - Introdução
+  - 1. A Última Ceia e o Getsêmani
+  - 2. O Julgamento e a Crucificação
+  - 3. A Ressurreição
+  - 4. A Grande Comissão
+  - Conclusão
 - Referências Bibliográficas
 - Editorial
 
