@@ -1,3 +1,4 @@
+import { FileText, Hash } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -12,8 +13,16 @@ import {
   TableRow,
 } from "~/components/ui/table";
 import { LinkSmall } from "~/components/ui/link-small";
-import { FileImage, NotepadText, SquarePlay, Workflow } from "lucide-react";
 import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
+
+export const metadata = {
+  alternates: {
+    types: {
+      "text/markdown":
+        "/oceano-academy/materiais-didaticos/introducao-ao-apocalipse.md",
+    },
+  },
+};
 
 export default function IntroducaoApocalipsePage() {
   return (
@@ -41,8 +50,12 @@ export default function IntroducaoApocalipsePage() {
               <TableCell>
                 <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1jqytl-aS6bHqZNnwTsocs463itks3Sso/view?usp=sharing">
-                    <NotepadText className="size-4" />
-                    Apostila
+                    <FileText className="size-4" />
+                    PDF
+                  </LinkSmall>
+                  <LinkSmall href="/oceano-academy/materiais-didaticos/introducao-ao-apocalipse.md">
+                    <Hash className="size-4" />
+                    MD
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
@@ -91,7 +104,7 @@ export default function IntroducaoApocalipsePage() {
               <TableCell>
                 <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1KKl3Msd4AvXjGcg6I3J4QqOH3Bx7Zz00/view?usp=drive_link">
-                    <NotepadText className="size-4" />
+                    <FileText className="size-4" />
                     Palavras-Cruzadas
                   </LinkSmall>
                 </TableCellLinksContainer>
@@ -104,11 +117,11 @@ export default function IntroducaoApocalipsePage() {
               <TableCell>
                 <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1nwJ5AwAr35gjn3IyPvrt6uQ0t9KQU53q/view?usp=sharing">
-                    <NotepadText className="size-4" />
+                    <FileText className="size-4" />
                     Caça-Palavras
                   </LinkSmall>
                   <LinkSmall href="https://drive.google.com/file/d/1BHzKxCgtH8s0oiZ09a_hgS2yQYdf0kaO/view?usp=sharing">
-                    <NotepadText className="size-4" />
+                    <FileText className="size-4" />
                     Respostas
                   </LinkSmall>
                 </TableCellLinksContainer>
