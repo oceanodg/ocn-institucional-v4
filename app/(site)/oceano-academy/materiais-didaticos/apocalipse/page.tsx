@@ -1,10 +1,4 @@
-import {
-  FileImage,
-  NotepadText,
-  SquarePlay,
-  Workflow,
-  Hash,
-} from "lucide-react";
+import { FileImage, SquarePlay, Workflow, Hash, FileText } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -14,6 +8,14 @@ import { SummaryLi } from "~/components/summary-li";
 import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
 import { LinkSmall } from "~/components/ui/link-small";
 import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
+
+export const metadata = {
+  alternates: {
+    types: {
+      "text/markdown": "/oceano-academy/materiais-didaticos/apocalipse.md",
+    },
+  },
+};
 
 export default function CursoApocalipse() {
   return (
@@ -43,10 +45,10 @@ export default function CursoApocalipse() {
               <TableCell>
                 <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1LNPbSqst5OOeNVjhGzmwB13PYwPflCQg/view?usp=sharing">
-                    <NotepadText className="size-4" />
+                    <FileText className="size-4" />
                     PDF
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1e0Den_VcQe5w8zohMwrNM7OTHayiGoi2/view?usp=sharing">
+                  <LinkSmall href="/oceano-academy/materiais-didaticos/apocalipse.md">
                     <Hash className="size-4" />
                     MD
                   </LinkSmall>
@@ -102,7 +104,7 @@ export default function CursoApocalipse() {
               <TableCell>
                 <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1bTnk3yKBBU9ia2wPn8yesS7Tm5VAAPTB/view?usp=sharing">
-                    <NotepadText className="size-4" />
+                    <FileText className="size-4" />
                     Palavras-Cruzadas
                   </LinkSmall>
                 </TableCellLinksContainer>
@@ -115,11 +117,11 @@ export default function CursoApocalipse() {
               <TableCell>
                 <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1kWdqSpZeoSrZgO_Aqo1FGbWDuRiA4iX-/view?usp=sharing">
-                    <NotepadText className="size-4" />
+                    <FileText className="size-4" />
                     Caça-Palavras
                   </LinkSmall>
                   <LinkSmall href="https://drive.google.com/file/d/12WShs5taDocfJkvxI9vr-nk10P1_sZHf/view?usp=sharing">
-                    <NotepadText className="size-4" />
+                    <FileText className="size-4" />
                     Respostas
                   </LinkSmall>
                 </TableCellLinksContainer>
