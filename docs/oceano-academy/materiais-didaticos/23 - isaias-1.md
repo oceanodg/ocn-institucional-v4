@@ -397,15 +397,18 @@ Ano: 2021
 1ª Edição
 
 Conselho Editorial:
-Pr Sinval Júlio de Souza
-Pr Lúcio Andres
-Braitner Lobato
+
+- Pr Sinval Júlio de Souza
+- Pr Lúcio Andres
+- Braitner Lobato
 
 Revisão Teológica:
-Pr Anderson Luiz Santos
-Projeto Gráfico e Diagramação:
-Márcio Rezende
-Wagner Monteiro
+
+- Pr Anderson Luiz Santos
+- Projeto Gráfico e Diagramação:
+- Márcio Rezende
+- Wagner Monteiro
 
 Comentarista:
-Pr. Lúcio Andres
+
+- Pr. Lúcio Andres
