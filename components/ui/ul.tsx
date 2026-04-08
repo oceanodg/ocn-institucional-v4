@@ -10,7 +10,9 @@ export function UL({
   return (
     <ul
       className={cn(
-        "list-disc list-outside leading-6 pl-3.5 sm:pl-3.5 mt-4 text-left sm:text-left text-muted-foreground space-y-3 sm:space-y-1",
+        "list-disc list-outside pl-3.5 sm:pl-4 mt-4 text-left sm:text-left space-y-3 sm:space-y-1",
+        "leading-6 text-base sm:text-lg",
+        "text-muted-foreground",
         className
       )}
     >
