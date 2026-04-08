@@ -19,7 +19,7 @@ export function TopCTAButton(props: TopCtaButtonProps) {
       <Button
         variant="outline"
         size="lg"
-        className="h-12 hover:cursor-pointer bg-gray-700 hover:bg-gray-700/80 text-white hover:text-white w-full sm:w-full"
+        className="h-12 hover:cursor-pointer bg-gray-900 hover:bg-gray-900/80 text-white hover:text-white w-full sm:w-full"
         disabled={disabled}
         onClick={() => {
           if (openInNewTab) {
