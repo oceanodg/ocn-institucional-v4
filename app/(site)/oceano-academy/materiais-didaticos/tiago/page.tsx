@@ -1,4 +1,4 @@
-import { FileText, Hash } from "lucide-react";
+import { FileText, GraduationCap, Hash } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -52,6 +52,19 @@ export default function CursoTiago() {
                   <LinkSmall href="/oceano-academy/materiais-didaticos/tiago.md">
                     <Hash className="size-4" />
                     MD
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold w-[110px] sm:w-[160px]">
+                Curso
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="/oceano-academy/cursos/carta-tiago">
+                    <GraduationCap className="size-4" />
+                    Curso Online
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
