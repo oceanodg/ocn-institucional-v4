@@ -10,7 +10,7 @@ export function PDangerously({
   return (
     <p
       className={cn(
-        "leading-6 mt-4 text-left text-muted-foreground",
+        "leading-6 mt-4 text-left text-muted-foreground text-base sm:text-lg",
         className
       )}
     >
