@@ -11,7 +11,7 @@ export function H1({
   return (
     <h1
       className={cn(
-        "scroll-m-20 text-center text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-balance text-gray-700",
+        "scroll-m-20 text-center text-3xl sm:text-4xl font-bold tracking-tight text-balance text-gray-700",
         lora.className,
         className
       )}
