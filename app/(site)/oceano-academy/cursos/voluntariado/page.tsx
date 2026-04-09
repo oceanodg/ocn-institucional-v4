@@ -1,18 +1,16 @@
 import { Container } from "~/components/container";
 import { AllCoursesBackButton } from "~/components/back-buttons/all-courses";
-import { TopCTAButton } from "~/components/course-cta/top";
+// import { TopCTAButton } from "~/components/course-cta/top";
 import { HeroContainer } from "~/components/hero";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { UL } from "~/components/ui/ul";
 import { LessonsCards } from "~/components/lessons-cards";
-import { defaultHeroYoutubeVideoId } from "~/data/courses/videos";
-import { EmbededYoutubeVideo } from "~/components/embeded-youtube-video";
 import {
   CTADefaultLabel,
   defaultMembersAreaLoginUrl,
   voluntariadoCourse,
 } from "~/data/courses/schools-and-courses";
-import { CTABox } from "~/components/cta-box";
+import { LoginLink } from "~/components/course-cta/login-link";
 
 export default function VoluntariadoPage() {
   return (
@@ -47,11 +45,16 @@ export default function VoluntariadoPage() {
         </div>
       </HeroContainer>
 
-      <TopCTAButton
+      {/* <TopCTAButton
         ctaUrl={voluntariadoCourse.ctaUrl}
         ctaText={CTADefaultLabel}
         loginUrl={defaultMembersAreaLoginUrl}
         openInNewTab={true}
+      /> */}
+
+      <LoginLink
+        loginUrl={defaultMembersAreaLoginUrl}
+        className="mt-10 sm:mt-10"
       />
 
       <Separator className="my-14" />
@@ -128,7 +131,7 @@ export default function VoluntariadoPage() {
 
       <Separator className="my-14" />
 
-      <div className="mt-4 sm:mt-7 space-y-0">
+      <div className="mt-4 pb-20 sm:mt-7 space-y-0">
         <Container className="">
           <div>
             <H2>Estrutura do curso</H2>
@@ -142,7 +145,7 @@ export default function VoluntariadoPage() {
         </Container>
       </div>
 
-      <Separator className="my-14" />
+      {/* <Separator className="my-14" />
 
       <Container className="mb-10 sm:mb-16">
         <CTABox
@@ -153,7 +156,7 @@ export default function VoluntariadoPage() {
           openInNewTab={true}
           showArrow={false}
         />
-      </Container>
+      </Container> */}
     </section>
   );
 }
