@@ -1,17 +1,11 @@
-import { FileText, Hash } from "lucide-react";
+import { FileText, Hash, Workflow } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { UL } from "~/components/ui/ul";
 import { SummaryLi } from "~/components/summary-li";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHeader,
-  TableRow,
-} from "~/components/ui/table";
+import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
 import { LinkSmall } from "~/components/ui/link-small";
 import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
 
@@ -60,6 +54,20 @@ export default function IntroducaoApocalipsePage() {
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Mapas Mentais
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-GgrjZLEXpFtuzvGrxYkM7b">
+                    <Workflow className="size-4" />
+                    Mapa Mental
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+
             {/* <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
                 Infográfico
