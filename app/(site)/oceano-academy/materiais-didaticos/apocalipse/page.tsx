@@ -79,9 +79,9 @@ export default function CursoApocalipse() {
               </TableCell>
               <TableCell>
                 <TableCellLinksContainer>
-                  <LinkSmall href="https://drive.google.com/file/d/1_D_1MZ0XBNg-jGyhngs9BXwHilNKhgrd/view?usp=drive_link">
+                  <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-GgrjZLEXpFtuzvGrxYkM7b">
                     <Workflow className="size-4" />
-                    Lição 1
+                    Mapa Mental
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
