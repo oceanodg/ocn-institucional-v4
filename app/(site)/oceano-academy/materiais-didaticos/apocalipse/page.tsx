@@ -75,7 +75,7 @@ export default function CursoApocalipse() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
-                Mapas Mentais
+                Mapa Mental
               </TableCell>
               <TableCell>
                 <TableCellLinksContainer>
