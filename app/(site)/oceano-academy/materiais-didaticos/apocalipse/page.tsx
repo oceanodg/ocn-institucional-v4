@@ -91,6 +91,10 @@ export default function CursoApocalipse() {
               </TableCell>
               <TableCell>
                 <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1K4cZ08nJUkdJbBt_U98ulSf6iL1_DhpU/view?usp=sharing">
+                    <FileText className="size-4" />
+                    Resumo
+                  </LinkSmall>
                   <LinkSmall href="https://drive.google.com/file/d/1uT-yBZP55VC16dzg4xI-aTzb8gVekCIS/view?usp=sharing">
                     <FileImage className="size-4" />
                     Cristo Glorificado
