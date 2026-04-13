@@ -57,24 +57,6 @@ export default function CursoApocalipse() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
-                Infográficos
-              </TableCell>
-              <TableCell>
-                <TableCellLinksContainer>
-                  <LinkSmall href="https://drive.google.com/file/d/1uT-yBZP55VC16dzg4xI-aTzb8gVekCIS/view?usp=sharing">
-                    <FileImage className="size-4" />
-                    Cristo Glorificado
-                  </LinkSmall>
-
-                  <LinkSmall href="https://drive.google.com/file/d/1T0D8oPGHlY4c3EGpk4JoYxUQMBOn9MJM/view?usp=sharing">
-                    <FileImage className="size-4" />
-                    Personagens
-                  </LinkSmall>
-                </TableCellLinksContainer>
-              </TableCell>
-            </TableRow>
-            <TableRow className="hover:bg-transparent">
-              <TableCell className="border font-semibold">
                 Mapa Mental
               </TableCell>
               <TableCell>
@@ -87,12 +69,36 @@ export default function CursoApocalipse() {
               </TableCell>
             </TableRow>
             <TableRow className="hover:bg-transparent">
-              <TableCell className="border font-semibold">Vídeos</TableCell>
+              <TableCell className="border font-semibold">
+                Vídeos Recomendados
+              </TableCell>
               <TableCell>
                 <TableCellLinksContainer>
-                  <LinkSmall href="https://youtu.be/FIksgWA6I1s">
+                  <LinkSmall href="https://www.youtube.com/watch?v=BLQEAe9VDUQ">
                     <SquarePlay className="size-4" />
-                    Lição 1
+                    Apocalipse 1-11
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=eizPQBawrsU">
+                    <SquarePlay className="size-4" />
+                    Apocalipse 12-22
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1uT-yBZP55VC16dzg4xI-aTzb8gVekCIS/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    Cristo Glorificado
+                  </LinkSmall>
+
+                  <LinkSmall href="https://drive.google.com/file/d/1T0D8oPGHlY4c3EGpk4JoYxUQMBOn9MJM/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    Personagens
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
