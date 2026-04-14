@@ -1,4 +1,4 @@
-import { FileText, Hash, Workflow } from "lucide-react";
+import { FileText, Hash, SquarePlay, Workflow } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -65,6 +65,43 @@ export default function CursoLucas() {
                   <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-GgrjZLEXpFtuzvGrxYkM7b">
                     <Workflow className="size-4" />
                     Mapa Mental
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Vídeos Recomendados
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://www.youtube.com/watch?v=ubXUcaXu8bQ">
+                    <SquarePlay className="size-4" />
+                    Lucas 1-9
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=UeUAAAs7hec">
+                    <SquarePlay className="size-4" />
+                    Lucas 10-24
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=MKNKSIKCCmU">
+                    <SquarePlay className="size-4" />
+                    Nascimento de Jesus
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=IAo5zxqbQis">
+                    <SquarePlay className="size-4" />
+                    Batismo de Jesus
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=SmH6CQowO8A">
+                    <SquarePlay className="size-4" />
+                    Filho Pródigo
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=2XXGhyEMT54">
+                    <SquarePlay className="size-4" />
+                    Crucificação de Jesus
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=vZDDpnP6mW8">
+                    <SquarePlay className="size-4" />
+                    Ressurreição de Jesus
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>

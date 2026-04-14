@@ -1,4 +1,4 @@
-import { FileText, Hash, Workflow } from "lucide-react";
+import { FileText, Hash, SquarePlay, Workflow } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -65,6 +65,19 @@ export default function CursoMarcos() {
                   <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-GgrjZLEXpFtuzvGrxYkM7b">
                     <Workflow className="size-4" />
                     Mapa Mental
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Vídeo Recomendado
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://www.youtube.com/watch?v=EOT1Mo_YERM">
+                    <SquarePlay className="size-4" />
+                    Marcos
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>

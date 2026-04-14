@@ -1,4 +1,4 @@
-import { FileText, Hash, Workflow } from "lucide-react";
+import { FileText, Hash, SquarePlay, Workflow } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -71,6 +71,23 @@ export default function CursoMateus() {
                   <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-GgrjZLEXpFtuzvGrxYkM7b">
                     <Workflow className="size-4" />
                     Mapa Mental
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Vídeos Recomendados
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://www.youtube.com/watch?v=VskOdIySJQI">
+                    <SquarePlay className="size-4" />
+                    Mateus 1-13
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=4E-Ju-WKe1k">
+                    <SquarePlay className="size-4" />
+                    Mateus 14-28
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
