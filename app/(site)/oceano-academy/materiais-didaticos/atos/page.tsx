@@ -1,4 +1,4 @@
-import { FileText, Hash } from "lucide-react";
+import { FileText, Hash, SquarePlay, Workflow } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -52,6 +52,52 @@ export default function CursoAtos() {
                   <LinkSmall href="/oceano-academy/materiais-didaticos/atos.md">
                     <Hash className="size-4" />
                     MD
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Mapa Mental
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-GgrjZLEXpFtuzvGrxYkM7b">
+                    <Workflow className="size-4" />
+                    Mapa Mental
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Vídeos Recomendados
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://www.youtube.com/watch?v=9HdS25PV9JQ">
+                    <SquarePlay className="size-4" />
+                    Atos 1-12
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=29q6CEle764">
+                    <SquarePlay className="size-4" />
+                    Atos 13-28
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=PbEGBY1vH-Y">
+                    <SquarePlay className="size-4" />
+                    Pentecostes
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=qfkvNsqjv1Q">
+                    <SquarePlay className="size-4" />
+                    Paulo
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=KGK8YG8IBcQ">
+                    <SquarePlay className="size-4" />
+                    Viagens Missionárias
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=BJcawAhSvv0">
+                    <SquarePlay className="size-4" />
+                    Roma
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
