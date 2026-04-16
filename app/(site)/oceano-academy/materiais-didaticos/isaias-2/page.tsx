@@ -1,4 +1,10 @@
-import { FileText, Hash, SquarePlay, Workflow } from "lucide-react";
+import {
+  FileText,
+  GraduationCap,
+  Hash,
+  SquarePlay,
+  Workflow,
+} from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -87,6 +93,19 @@ export default function CursoIsaias2() {
                   <LinkSmall href="https://www.youtube.com/watch?v=K8iwowbjX6c">
                     <SquarePlay className="size-4" />
                     Os Profetas
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Curso Recomendado
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="/oceano-academy/cursos/fundamentos">
+                    <GraduationCap className="size-4" />
+                    Fundamentos
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
