@@ -1,4 +1,12 @@
-import { FileImage, SquarePlay, Workflow, Hash, FileText } from "lucide-react";
+import {
+  FileImage,
+  SquarePlay,
+  Workflow,
+  Hash,
+  FileText,
+  SquareChartGantt,
+  GraduationCap,
+} from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -51,6 +59,19 @@ export default function CursoApocalipse() {
                   <LinkSmall href="/oceano-academy/materiais-didaticos/apocalipse.md">
                     <Hash className="size-4" />
                     MD
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Plano de Estudo
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/16QOlTp2kUHYpdpFhWfOtzwO4HtuvxQT2/view?usp=sharing">
+                    <SquareChartGantt className="size-4" />
+                    Plano de Estudo
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
@@ -132,6 +153,19 @@ export default function CursoApocalipse() {
                   <LinkSmall href="https://drive.google.com/file/d/12WShs5taDocfJkvxI9vr-nk10P1_sZHf/view?usp=sharing">
                     <FileText className="size-4" />
                     Respostas
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Curso Recomendado
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="/oceano-academy/cursos/fundamentos">
+                    <GraduationCap className="size-4" />
+                    Fundamentos
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
