@@ -1,4 +1,10 @@
-import { FileText, Hash } from "lucide-react";
+import {
+  FileText,
+  GraduationCap,
+  Hash,
+  SquarePlay,
+  Workflow,
+} from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -52,6 +58,47 @@ export default function CursoTessalonicenses() {
                   <LinkSmall href="/oceano-academy/materiais-didaticos/tessalonicenses.md">
                     <Hash className="size-4" />
                     MD
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Mapa Mental
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-GgrjZLEXpFtuzvGrxYkM7b">
+                    <Workflow className="size-4" />
+                    Mapa Mental
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Vídeos Recomendados
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://www.youtube.com/watch?v=HEjuHQagEfY">
+                    <SquarePlay className="size-4" />1 Tessalonicenses
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=rxaPUrNzCTQ">
+                    <SquarePlay className="size-4" />2 Tessalonicenses
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Curso Recomendado
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="/oceano-academy/cursos/fundamentos">
+                    <GraduationCap className="size-4" />
+                    Fundamentos
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
