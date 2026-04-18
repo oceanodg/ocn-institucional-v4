@@ -4,7 +4,6 @@ import {
   Workflow,
   Hash,
   FileText,
-  SquareChartGantt,
   GraduationCap,
 } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
@@ -70,7 +69,7 @@ export default function CursoApocalipse() {
               <TableCell>
                 <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/16QOlTp2kUHYpdpFhWfOtzwO4HtuvxQT2/view?usp=sharing">
-                    <SquareChartGantt className="size-4" />
+                    <FileText className="size-4" />
                     Plano de Estudo
                   </LinkSmall>
                 </TableCellLinksContainer>
