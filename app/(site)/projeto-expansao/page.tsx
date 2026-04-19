@@ -9,7 +9,7 @@ export default function ProjetoExpansaoPage() {
     <section className="relative backdrop-blur-sm">
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col gap-2">
-          <H1 className="text-left">Projetos de Expansão</H1>
+          <H1 className="text-left">Projetos Juntos pelo Reino</H1>
           <P className="mt-0">Contribua com este sonho.</P>
         </div>
       </HeroContainer>

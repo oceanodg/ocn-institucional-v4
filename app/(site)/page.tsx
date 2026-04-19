@@ -101,7 +101,7 @@ export default function WelcomePage() {
             buttonText="Saiba mais"
           />
           <CTABox
-            title="Projetos de Expansão"
+            title="Projetos Juntos pelo Reino"
             description="Contribua com este sonho."
             buttonLink="/projeto-expansao"
             buttonText="Saiba mais"
