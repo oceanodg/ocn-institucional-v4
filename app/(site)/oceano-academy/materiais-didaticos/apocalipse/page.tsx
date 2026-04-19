@@ -5,6 +5,7 @@ import {
   Hash,
   FileText,
   GraduationCap,
+  Book,
 } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
@@ -165,6 +166,19 @@ export default function CursoApocalipse() {
                   <LinkSmall href="/oceano-academy/cursos/fundamentos">
                     <GraduationCap className="size-4" />
                     Fundamentos
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Livro Recomendado
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://www.amazon.com.br/Apocalipse-vers%C3%ADculo-Severino-Pedro-Silva/dp/B094T8MQF3">
+                    <Book className="size-4" />
+                    Apocalipse
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
