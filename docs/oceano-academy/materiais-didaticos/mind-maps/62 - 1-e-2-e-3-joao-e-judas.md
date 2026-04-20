@@ -148,8 +148,8 @@
   - João não manda hostilidade — manda responsabilidade
   - O lar do crente não pode ser plataforma para o anticristo
 - Critério claro: a doutrina de Cristo
-  - Mensagem que nega o Filho → amor verdadeiro protege o rebanho
-  - Mensagem que confessa o Filho e caminha na instrução apostólica → amor abre a porta, a mesa e o cofre
+  - Quando a mensagem que nega o Filho → amor verdadeiro protege o rebanho
+  - Quando a mensagem que confessa o Filho e caminha na instrução apostólica → amor abre a porta, a mesa e o cofre
 - **Marshall (1978)**: 2 João costura a ética da hospitalidade à confissão cristológica
 - Isso não revela frieza — revela **zelo santo**
   - Em tempos de múltiplas vozes, a igreja ama com inteligência
