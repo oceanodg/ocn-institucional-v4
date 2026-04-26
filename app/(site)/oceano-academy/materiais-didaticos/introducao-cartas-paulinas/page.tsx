@@ -64,6 +64,19 @@ export default function IntroducaoCartasPaulinasPage() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Plano de Estudo
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1qVEpi-Dn3GP9RLLShKKwCagNqYaz6nYg/view?usp=sharing">
+                    <FileText className="size-4" />
+                    Plano de Estudo
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Mapa Mental
               </TableCell>
               <TableCell>
