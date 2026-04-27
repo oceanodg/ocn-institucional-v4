@@ -1,4 +1,10 @@
-import { FileText, GraduationCap, Hash, SquarePlay } from "lucide-react";
+import {
+  FileText,
+  GraduationCap,
+  Hash,
+  SquarePlay,
+  Workflow,
+} from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -53,6 +59,32 @@ export default function PanoramaBiblicoAT() {
                   <LinkSmall href="/oceano-academy/materiais-didaticos/panorama-biblico-at.md">
                     <Hash className="size-4" />
                     MD
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Plano de Estudo
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/12GAti3WngmHV_kFShcMaRt63SPK4KU1t/view?usp=sharing">
+                    <FileText className="size-4" />
+                    Plano de Estudo
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Mapa Mental
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-GgrjZLEXpFtuzvGrxYkM7b">
+                    <Workflow className="size-4" />
+                    Mapa Mental
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
@@ -2138,12 +2170,8 @@ export default function PanoramaBiblicoAT() {
           </div>
           <div className="flex flex-col">
             <P className="mt-0 font-semibold">Comentaristas:</P>
-            <P className="mt-0">
-              Pr Marcelo Mantovani – Lições 1 e 2
-            </P>
-            <P className="mt-0">
-              Pr Leverson Eustaquio – Lições 3 e 4
-            </P>
+            <P className="mt-0">Pr Marcelo Mantovani – Lições 1 e 2</P>
+            <P className="mt-0">Pr Leverson Eustaquio – Lições 3 e 4</P>
             <P className="mt-0">Wagner Monteiro – Lições 5 e 6</P>
             <P className="mt-0">Elcivanni Santos – Lições 7 e 8</P>
           </div>
