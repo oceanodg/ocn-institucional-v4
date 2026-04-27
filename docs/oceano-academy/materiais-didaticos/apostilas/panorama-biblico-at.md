@@ -1,20 +1,20 @@
-## PANORAMA BÍBLICO DO ANTIGO TESTAMENTO
+# PANORAMA BÍBLICO DO ANTIGO TESTAMENTO
 
 ## SUMÁRIO
 
 - LIÇÃO 1 – Foi assim que tudo começou
   - Introdução
-  - Como perder o paraíso em três capítulos: criação e queda de Adão e Eva.
-  - Irmão contra irmão: uma tragédia anunciada entre Caim e Abel.
-  - O dilúvio: julgamento de deus sobre a humanidade corrompida.
-  - A torre de babel: símbolo da rebelião do homem.
+  - Como perder o paraíso em três capítulos: criação e queda de Adão e Eva
+  - Irmão contra irmão: uma tragédia anunciada entre Caim e Abel
+  - O dilúvio: julgamento de deus sobre a humanidade corrompida
+  - A torre de babel: símbolo da rebelião do homem
   - Conclusão
 - LIÇÃO 2 – A história dos patriarcas
   - Introdução
-  - A história de Abraão, o pai da fé de muitos povos.
+  - A história de Abraão, o pai da fé de muitos povos
   - A história de Isaque, o herdeiro da promessa
-  - A história de Jacó, o pai das doze tribos de israel.
-  - A história de José, o governador do Egito.
+  - A história de Jacó, o pai das doze tribos de israel
+  - A história de José, o governador do Egito
   - Conclusão
 - LIÇÃO 3 – Um longo período no Egito
   - Introdução
@@ -32,24 +32,24 @@
   - Conclusão
 - LIÇÃO 5 – A era dos Juízes
   - Introdução
-  - Nação sem um compromisso duradouro.
-  - Os juízes Débora e Gideão.
+  - Nação sem um compromisso duradouro
+  - Os juízes Débora e Gideão
   - Os juízes Jefté e Sansão
   - O último juiz, Samuel
   - Conclusão
 - LIÇÃO 6 – O início do período monárquico
   - Introdução
-  - A ascensão e queda de Saul.
+  - A ascensão e queda de Saul
   - A unção sobre Davi
-  - A ascensão de Davi.
-  - O reinado de Salomão.
+  - A ascensão de Davi
+  - O reinado de Salomão
   - Conclusão
 - LIÇÃO 7 – O Reino dividido
   - Introdução
-  - O reino do norte: idolatria, corrupção e julgamento.
-  - Profetas em ação: o que deus fala, ele cumpre.
-  - O reino do sul: altos e baixos diante de Deus.
-  - Profetas em Judá: um ministério necessário.
+  - O reino do norte: idolatria, corrupção e julgamento
+  - Profetas em ação: o que deus fala, ele cumpre
+  - O reino do sul: altos e baixos diante de Deus
+  - Profetas em Judá: um ministério necessário
   - Conclusão
 - LIÇÃO 8 – Depois da queda, um recomeço
   - Introdução
@@ -87,7 +87,7 @@ Sendo assim, você está convidado a embarcar nessa aventura de estudos sobre a 
 universo, do primeiro casal (Adão e Eva) e do pecado, o primeiro homicídio, o dilúvio e a Torre de Babel,
 pois foi assim que tudo começou.
 
-### Como perder o paraíso em três capítulos: criação e queda de Adão e Eva.
+### Como perder o paraíso em três capítulos: criação e queda de Adão e Eva
 
 Deus iniciou Sua obra, conforme registrado em Gênesis 1.1: “No princípio, Deus criou os céus e
 a terra”, sendo Ele a “Causa Primeira” de todas as coisas: a precisão com que os astros se movem e a
@@ -108,7 +108,7 @@ marido (Gn 3.16); para o homem, trabalho árduo até sua morte em um solo cheio 
 19); para ambos e sua descendência, expulsão do Paraíso e impedimento de acesso à árvore da vida.
 Apesar disso, surge a promessa divina de redenção (Gn 3.15).
 
-### Irmão contra irmão: uma tragédia anunciada entre Caim e Abel.
+### Irmão contra irmão: uma tragédia anunciada entre Caim e Abel
 
 Após saírem do paraíso, Adão e Eva tiveram dois filhos: Caim e Abel (Gn 4.1,2). Ao entrar no
 mundo, o pecado se tornou hereditário e se multiplicou, alcançando grandes proporções: do coração do
@@ -128,7 +128,7 @@ Deus (Gn 4.7,8), mata seu irmão mais novo (Gn 4.8), cometendo o primeiro homic�
 por fim, “se retirou da presença do Senhor” (Gn 4.16) e “edificou uma cidade” (Gn 4.17) dando
 prosseguimento a uma posteridade vergonhosa (Gn 4.18-24).
 
-### O dilúvio: julgamento de deus sobre a humanidade corrompida.
+### O dilúvio: julgamento de deus sobre a humanidade corrompida
 
 Em Gênesis 4.25,26 veem-se duas classes de homens no mundo: os “piedosos”, descendentes de
 Sete (filho de Adão), e os ímpios, descendentes de Caim. Em uma geração corrompida e violenta (Gn
@@ -149,7 +149,7 @@ destruída por um dilúvio, pondo um arco-íris como símbolo dessa aliança (Gn
 Mais tarde, Noé predisse o futuro de seus filhos (Gn 9.24-27), apontando Sem como aquele por
 meio do qual Deus abençoaria o mundo.
 
-### A torre de babel: símbolo da rebelião do homem.
+### A torre de babel: símbolo da rebelião do homem
 
 O capítulo 10 de Gênesis apresenta o que é conhecido como “Quadro das Nações” ou “Tabela das
 Nações”, traçando a genealogia (registro dos antepassados de alguém) de Noé (Gn 10.1-8). Essa
@@ -219,7 +219,7 @@ sacerdotes e líderes políticos.
 Nesta lição acompanhe as vidas de Abraão, Isaque, Jacó e José, onde sua importância será
 ressaltada, tanto para os hebreus quanto para os cristãos, afinal essa é a história dos patriarcas.
 
-### A história de Abraão, o pai da fé de muitos povos.
+### A história de Abraão, o pai da fé de muitos povos
 
 Abraão tem esse título porque é considerado o pai das três maiores religiões monoteístas do
 mundo. O patriarca nasceu em Ur dos Caldeus, cidade rica e sofisticada da Mesopotâmia, possuindo
@@ -260,7 +260,7 @@ preparar uma comida, para proferir sobre ele uma bênção. Rebeca vê uma oport
 bênção em favor de Jacó, seu filho preferido (Gn 27.5-13,27-29). Após “roubar” a bênção de Esaú, Jacó
 foge e só retorna depois de 20 anos, pouco antes de Isaque morrer com 180 anos (Gn 35.28).
 
-### A história de Jacó, o pai das doze tribos de israel.
+### A história de Jacó, o pai das doze tribos de israel
 
 Jacó, cujo nome significa “aquele que agarra o calcanhar” ou “suplantador”, parece ser o
 verdadeiro pai do povo escolhido, pois lhe nasceram 12 filhos, que se tornaram os cabeças das 12 tribos
@@ -280,7 +280,7 @@ luta com um anjo até o romper do dia e tem o seu nome mudado para Israel, “Pr
 32.24-28). Na sequência, Jacó se encontra com seu irmão Esaú e eles se reconciliaram (Gn 33.1-4). Jacó,
 agora Israel, ainda tem mais um filho, Benjamim, totalizando doze (Gn 33.18).
 
-### A história de José, o governador do Egito.
+### A história de José, o governador do Egito
 
 A biografia de José, que se estende do capítulo 37 ao 50 de Gênesis, conclui uma grande e preciosa
 lição de providência da parte de Deus. Quando ele tinha 17 anos, relatou dois sonhos que teve com seus
@@ -601,7 +601,7 @@ guiados por líderes conhecidos como juízes e perceber que “Perto está o Sen
 invocam, de todos os que o invocam em verdade. Ele satisfaz o desejo dos que o temem; ouve o seu
 clamor e os salva.” (Sl 145.18,19).
 
-### Nação sem um compromisso duradouro.
+### Nação sem um compromisso duradouro
 
 A história apresentada no livro de Juízes transcorre no período que vai desde a conquista da terra
 de Canaã até o início da monarquia em Israel. Nesse período, encontramos uma geração desequilibrada
@@ -620,7 +620,7 @@ durante a vida daquele juiz, caindo em corrupção moral e religiosa logo em seg
 o pecado da idolatria gerou um ciclo vicioso que havia se instaurado entre os israelitas, não permitindo
 que eles obtivessem um compromisso duradouro com Deus.
 
-### Os juízes Débora e Gideão.
+### Os juízes Débora e Gideão
 
 O texto de Juízes 4.4 revela Débora como profetisa e juíza. Provavelmente foi uma mulher
 memorável para ser aceita como juíza, principalmente, por ser um período patriarcal em que as mulheres
@@ -737,7 +737,7 @@ Assim, a lição convida o leitor a contemplar o começo da era dos reis de Isra
 começa reino e termina reino, mas o Senhor permanece como o Rei dos reis, Senhor dos senhores e a
 rocha aonde toda e qualquer dependência deve ser estabelecida.
 
-### A ascensão e queda de Saul.
+### A ascensão e queda de Saul
 
 O relato bíblico sobre a ascensão do rei Saul expressa a rejeição a Deus por parte do povo de Israel
 (1Sm 8.7). O ato de solicitarem um rei humano demonstrou que o povo havia rejeitado o reinado de Deus
@@ -753,7 +753,6 @@ de liderança e habilidade durante as campanhas militares.
 
 Entretanto, os erros de Saul foram suficientes para derrubá-lo do trono. A narrativa bíblica
 apresenta alguns desses erros: em Gilgal tenta usurpar o ofício sacerdotal de Samuel (1Sm 13,8-14);
-
 desobedeceu a ordem do Senhor para destruir plenamente os amalequitas (1Sm 15); e em En-Dor, Saul
 busca ajuda de uma feiticeira (1Sm 28.1-19). Enfim, numa batalha contra os filisteus, o rei Saul morreu
 lançando-se sobre sua própria espada (1Sm 31.4), colocando fim a um reinado de quarenta anos.
@@ -927,11 +926,10 @@ Os principais reis são Ezequias, por sua reforma religiosa e pela ação de Deu
 da Assíria (2 Reis 18.4,17-35; 19.32,35) e Josias, que imitou Ezequias ao reestabelecer o culto ao Senhor (2
 Reis 23.2-3,21-25). Alguns reis incentivaram os judeus à idolatria, com destaque para Manassés, filho de
 Ezequias. Por causa de suas abominações e pecados, Deus se irritou a ponto de suscitar os babilônicos
-
 contra Judá (2 Reis 24.3-4). Em 586 a.C., Nabucodonosor invadiu Jerusalém e levou a população ao exílio.
 Mas, conforme as profecias, o remanescente fiel foi restaurado após o cativeiro.
 
-### Profetas em Judá: um ministério necessário.
+### Profetas em Judá: um ministério necessário
 
 O povo de Judá continuava a adorar a Deus no templo em Jerusalém. Mas, por influência de
 Salomão, admitiu também cultos pagãos (1Reis 11.5,7; 2Reis 18.4; 23.4-14). Deus levantou Isaías,
