@@ -1128,7 +1128,7 @@ Projeto Gráfico e Diagramação
 
 Comentaristas
 
-- Pr Marcelo Mantovani – Lições 1 e 2.
-- Pr Leverson Eustaquio – Lições 3 e 4.
-- Wagner Monteiro – Lições 5 e 6.
-- Elcivanni Santos – Lições 7 e 8.
+- Pr Marcelo Mantovani – Lições 1 e 2
+- Pr Leverson Eustaquio – Lições 3 e 4
+- Wagner Monteiro – Lições 5 e 6
+- Elcivanni Santos – Lições 7 e 8
