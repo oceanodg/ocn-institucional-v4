@@ -16,6 +16,16 @@ type MaterialGroup = {
 
 const oldTestamentMaterials: MaterialGroup[] = [
   {
+    title: "Panorama",
+    materials: [
+      {
+        title: "Panorama Bíblico do Antigo Testamento",
+        link: "/oceano-academy/materiais-didaticos/panorama-biblico-at",
+      },
+    ],
+  },
+
+  {
     title: "Livros da Lei (Pentateuco)",
     materials: [
       { title: "Gênesis" },
@@ -274,7 +284,7 @@ export default function MateriaisDidaticosPage() {
 
       <div className="space-y-0">
         <Container className="mb-10 sm:mb-16">
-          <Tabs defaultValue="novo" className="w-full">
+          <Tabs defaultValue="antigo" className="w-full">
             <TabsList className="mb-6" variant="line">
               <TabsTrigger value="antigo">Antigo Testamento</TabsTrigger>
               <TabsTrigger value="novo">Novo Testamento</TabsTrigger>
