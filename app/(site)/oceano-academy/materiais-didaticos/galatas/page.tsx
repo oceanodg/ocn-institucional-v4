@@ -64,6 +64,19 @@ export default function CursoGalatas() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Plano de Estudo
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/13bqr5R7tRb7MH5HlBCbexwVllGd4cLC2/view?usp=sharing">
+                    <FileText className="size-4" />
+                    Plano de Estudo
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Mapa Mental
               </TableCell>
               <TableCell>
