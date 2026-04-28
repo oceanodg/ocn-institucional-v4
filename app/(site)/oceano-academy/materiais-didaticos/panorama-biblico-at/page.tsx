@@ -123,6 +123,10 @@ export default function PanoramaBiblicoAT() {
                     <FileImage className="size-4" />
                     Patriarcas
                   </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1gBSasxjA_LmbCUff_xYIqL6ZvW5BCb6t/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    Egito
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
