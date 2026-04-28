@@ -64,6 +64,19 @@ export default function CursoHebreus() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Plano de Estudo
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1JdTZx75_6y1ANbTw2vVQabdMchv9yA5I/view?usp=sharing">
+                    <FileText className="size-4" />
+                    Plano de Estudo
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Mapa Mental
               </TableCell>
               <TableCell>
