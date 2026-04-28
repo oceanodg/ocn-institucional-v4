@@ -56,6 +56,19 @@ export default function IntroducaoApocalipsePage() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Plano de Estudo
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/19-MRMS6LbZYiZ1t64yVAUfYENculH2r3/view?usp=sharing">
+                    <FileText className="size-4" />
+                    Plano de Estudo
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Mapa Mental
               </TableCell>
               <TableCell>
@@ -67,7 +80,6 @@ export default function IntroducaoApocalipsePage() {
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
-
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
                 Vídeos Recomendados
