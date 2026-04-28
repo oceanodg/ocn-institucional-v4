@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -105,6 +106,22 @@ export default function PanoramaBiblicoAT() {
                   <LinkSmall href="https://www.youtube.com/watch?v=K8iwowbjX6c">
                     <SquarePlay className="size-4" />
                     Os Profetas
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/10tFYbAKesxC6D2fUy3WH4qKMciud-Rkl/view?usp=sharing">
+                    <FileImage className="size-4" />O Começo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/11INjJlLA_T4JCnrpEkao5Z1sVa6kpEWt/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    Patriarcas
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
