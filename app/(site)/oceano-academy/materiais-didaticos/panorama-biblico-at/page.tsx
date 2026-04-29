@@ -116,16 +116,37 @@ export default function PanoramaBiblicoAT() {
               </TableCell>
               <TableCell>
                 <TableCellLinksContainer>
-                  <LinkSmall href="https://drive.google.com/file/d/10tFYbAKesxC6D2fUy3WH4qKMciud-Rkl/view?usp=sharing">
-                    <FileImage className="size-4" />O Começo
+                  <LinkSmall href="https://drive.google.com/file/d/1e9COrGlWtea4Bf86bTz8UzjINKWwmHk6/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Começo
                   </LinkSmall>
                   <LinkSmall href="https://drive.google.com/file/d/11INjJlLA_T4JCnrpEkao5Z1sVa6kpEWt/view?usp=sharing">
                     <FileImage className="size-4" />
-                    Patriarcas
+                    L2: Patriarcas
                   </LinkSmall>
                   <LinkSmall href="https://drive.google.com/file/d/1gBSasxjA_LmbCUff_xYIqL6ZvW5BCb6t/view?usp=sharing">
                     <FileImage className="size-4" />
-                    Egito
+                    L3: Egito
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1eXLZHFFRJDHSRNknxQT-m1GXaALJ5GSi/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Aliança
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1s6WRZEtRA3UxgZaxLs2o_Y-rq5XCJ8HH/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L5: Juízes
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1eyN4VgFleJFiZ4rzq31yydeGNqQ-DDbc/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L6: Monarquia
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/177TRyWAHM1y5hhQEW1iBg_VWxkjYNLBL/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L7: Divisão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1gjx92Su8Fo1lDBcoSDdhqyNwxsWFKXzC/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L8: Recomeço
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
