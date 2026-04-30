@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -107,6 +108,31 @@ export default function CursoMateus() {
                   <LinkSmall href="https://www.youtube.com/watch?v=4E-Ju-WKe1k">
                     <SquarePlay className="size-4" />
                     Mateus 14-28
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1RLzgVOGB86aKUX1KfI36BOFJ2L-Br6UB/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Nascimento
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1rpYzNUulmA1jrdRmWnFe16h0JKrB2R--/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Sermão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1Ck4Tc4XN6824Wqcu13QTz_RtjaG4e-6i/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Milagres
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1fQYh3xUpd2Ge9Vw8v3tIDlIvRHfn3Ez1/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Ressurreição
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
