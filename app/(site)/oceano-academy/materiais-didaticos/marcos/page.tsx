@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -97,6 +98,31 @@ export default function CursoMarcos() {
                   <LinkSmall href="https://www.youtube.com/watch?v=EOT1Mo_YERM">
                     <SquarePlay className="size-4" />
                     Marcos
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1ai8J2WzrszbMvj3WdgeAbPAvk8gXYeqE/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Boas-Novas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/12Hvh06QnSdnxIJF_IAsHRdRSf7YQi7ns/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Milagres
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1BJGqvPLkh_DzoL5fBTxEdFAZrODbkRoT/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Autoridade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1PMj29TDDrNvaVTDWivOjovVNcRPuX5S0/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Discipulado
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
