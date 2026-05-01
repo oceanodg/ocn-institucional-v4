@@ -14,15 +14,20 @@ import {
 import { cn } from "~/lib/utils";
 import { CTABox } from "~/components/cta-box";
 
-function LinkReadingPlan(props: { slug: string; text: string }) {
-  const { slug, text } = props;
+function LinkReadingPlan(props: {
+  slug: string;
+  text: string;
+  className?: string;
+}) {
+  const { slug, text, className } = props;
   return (
     <Link
       href={`/oceano-academy/planos-de-leitura/${slug}`}
       className={cn(
         "dark:text-dark-secondary hover:dark:text-dark-secondary-2",
         "text-light-secondary hover:text-light-secondary-2",
-        "text-sm block"
+        "text-sm block",
+        className
       )}
     >
       {text}
@@ -43,7 +48,11 @@ function ReadingPlanRow(props: {
         <LinkReadingPlan slug={slug} text={days.toString()} />
       </TableCell>
       <TableCell className="">
-        <LinkReadingPlan slug={slug} text={readingPlanName} />
+        <LinkReadingPlan
+          slug={slug}
+          text={readingPlanName}
+          className="text-blue-500 underline underline-offset-4"
+        />
       </TableCell>
       <TableCell className="">
         <LinkReadingPlan slug={slug} text={about} />
