@@ -196,7 +196,7 @@ const newTestamentMaterials: MaterialGroup[] = [
     ],
     materials: [
       {
-        title: "Atos dos Apóstolos",
+        title: "Atos",
         url: "/oceano-academy/materiais-didaticos/atos",
         description: "A expansão da igreja através do Império Romano",
       },
@@ -209,7 +209,7 @@ const newTestamentMaterials: MaterialGroup[] = [
     ],
     materials: [
       {
-        title: "Introdução às Cartas Paulinas",
+        title: "Introdução",
         url: "/oceano-academy/materiais-didaticos/introducao-cartas-paulinas",
         description: "Um estudo sobre a vida de Paulo e suas epístolas",
       },
@@ -335,7 +335,7 @@ const newTestamentMaterials: MaterialGroup[] = [
     ],
     materials: [
       {
-        title: "Introdução ao Apocalipse",
+        title: "Introdução",
         url: "/oceano-academy/materiais-didaticos/introducao-ao-apocalipse",
         description: "Uma visão do futuro da humanidade",
       },
