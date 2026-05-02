@@ -28,7 +28,7 @@ export const metadata = {
 export default function CursoApocalipse() {
   return (
     <section className="relative backdrop-blur-sm">
-      <AllTeachingMaterialsBackButton />
+      <AllTeachingMaterialsBackButton tab="novo" />
 
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col gap-2">
