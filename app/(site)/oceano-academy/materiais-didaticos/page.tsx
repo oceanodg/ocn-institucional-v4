@@ -18,6 +18,20 @@ type MaterialGroup = {
   materials: Array<Material>;
 };
 
+type MateriaisDidaticosPageProps = {
+  searchParams?: Promise<{
+    tab?: string | string[];
+  }>;
+};
+
+const validTabs = ["antigo", "novo"] as const;
+
+type ValidTab = (typeof validTabs)[number];
+
+function isValidTab(tab?: string): tab is ValidTab {
+  return validTabs.includes(tab as ValidTab);
+}
+
 const oldTestamentMaterials: MaterialGroup[] = [
   {
     title: "Panorama",
@@ -421,7 +435,13 @@ function MaterialRow(material: Material) {
   );
 }
 
-export default function MateriaisDidaticosPage() {
+export default async function MateriaisDidaticosPage({
+  searchParams,
+}: MateriaisDidaticosPageProps) {
+  const params = await searchParams;
+  const tab = Array.isArray(params?.tab) ? params.tab[0] : params?.tab;
+  const defaultTab = isValidTab(tab) ? tab : "antigo";
+
   return (
     <section className="relative backdrop-blur-sm">
       <HeroContainer className="pb-2 sm:pb-0">
@@ -438,7 +458,7 @@ export default function MateriaisDidaticosPage() {
 
       <div className="space-y-0">
         <Container className="mb-10 sm:mb-16">
-          <Tabs defaultValue="antigo" className="w-full">
+          <Tabs defaultValue={defaultTab} className="w-full">
             <TabsList className="mb-6" variant="line">
               <TabsTrigger value="antigo">Antigo Testamento</TabsTrigger>
               <TabsTrigger value="novo">Novo Testamento</TabsTrigger>
