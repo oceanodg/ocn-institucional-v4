@@ -26,7 +26,7 @@ function LinkReadingPlan(props: {
       className={cn(
         "dark:text-dark-secondary hover:dark:text-dark-secondary-2",
         "text-light-secondary hover:text-light-secondary-2",
-        "text-sm block",
+        "block",
         className
       )}
     >
@@ -90,7 +90,7 @@ export default function PlanosLeituraPage() {
           <TableHeader>
             <TableRow>
               <TableHead className="w-[50px]">Dias</TableHead>
-              <TableHead>Plano</TableHead>
+              <TableHead className="w-32 sm:w-52">Plano</TableHead>
               <TableHead>Sobre</TableHead>
             </TableRow>
           </TableHeader>
