@@ -1,10 +1,11 @@
+import Link from "next/link";
 import { Container } from "~/components/container";
 import { HeroContainer } from "~/components/hero";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { Table, TableBody, TableCell, TableRow } from "~/components/ui/table";
-import Link from "next/link";
 import { cn } from "~/lib/utils";
+import { validTabs, type ValidTab } from "./constants";
 
 type Material = {
   title: string;
@@ -23,10 +24,6 @@ type MateriaisDidaticosPageProps = {
     tab?: string | string[];
   }>;
 };
-
-const validTabs = ["antigo", "novo"] as const;
-
-type ValidTab = (typeof validTabs)[number];
 
 function isValidTab(tab?: string): tab is ValidTab {
   return validTabs.includes(tab as ValidTab);
