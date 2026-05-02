@@ -26,7 +26,7 @@ export const metadata = {
 export default function CursoIsaias2() {
   return (
     <section className="relative backdrop-blur-sm">
-      <AllTeachingMaterialsBackButton />
+      <AllTeachingMaterialsBackButton tab="antigo" />
 
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col gap-2">

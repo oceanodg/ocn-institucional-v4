@@ -11,13 +11,7 @@ import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { UL } from "~/components/ui/ul";
 import { SummaryLi } from "~/components/summary-li";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHeader,
-  TableRow,
-} from "~/components/ui/table";
+import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
 import { LinkSmall } from "~/components/ui/link-small";
 import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
 
@@ -32,7 +26,7 @@ export const metadata = {
 export default function CursoIsaias1() {
   return (
     <section className="relative backdrop-blur-sm">
-      <AllTeachingMaterialsBackButton />
+      <AllTeachingMaterialsBackButton tab="antigo" />
 
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col gap-2">
