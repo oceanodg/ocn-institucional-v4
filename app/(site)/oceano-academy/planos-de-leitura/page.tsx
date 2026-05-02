@@ -26,7 +26,7 @@ function LinkReadingPlan(props: {
       className={cn(
         "dark:text-dark-secondary hover:dark:text-dark-secondary-2",
         "text-light-secondary hover:text-light-secondary-2",
-        "block",
+        "block h-full w-full p-3",
         className
       )}
     >
@@ -44,17 +44,17 @@ function ReadingPlanRow(props: {
   const { slug, days, readingPlanName, about } = props;
   return (
     <TableRow className="hover:cursor-pointer">
-      <TableCell className="">
+      <TableCell className="p-0">
         <LinkReadingPlan slug={slug} text={days.toString()} />
       </TableCell>
-      <TableCell className="">
+      <TableCell className="p-0">
         <LinkReadingPlan
           slug={slug}
           text={readingPlanName}
           className="text-blue-500 underline underline-offset-4"
         />
       </TableCell>
-      <TableCell className="">
+      <TableCell className="p-0">
         <LinkReadingPlan slug={slug} text={about} />
       </TableCell>
     </TableRow>
