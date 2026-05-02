@@ -393,7 +393,7 @@ function LinkMaterial(props: {
       className={cn(
         "dark:text-dark-secondary hover:dark:text-dark-secondary-2",
         "text-light-secondary hover:text-light-secondary-2",
-        "block",
+        "block h-full w-full p-3",
         className
       )}
     >
@@ -408,7 +408,7 @@ function MaterialRow(material: Material) {
     <TableRow
       className={cn(url ? "hover:cursor-pointer" : "hover:cursor-default")}
     >
-      <TableCell className="w-32 sm:w-52">
+      <TableCell className={cn("w-32 sm:w-52", url && "p-0")}>
         {url ? (
           <LinkMaterial
             url={url}
@@ -419,7 +419,7 @@ function MaterialRow(material: Material) {
           <span className="text-muted-foreground">{title}</span>
         )}
       </TableCell>
-      <TableCell className="">
+      <TableCell className={cn(url && "p-0")}>
         {url ? (
           <LinkMaterial url={url} text={description} />
         ) : (
