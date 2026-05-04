@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -98,6 +99,31 @@ export default function CursoJoao() {
                   <LinkSmall href="https://www.youtube.com/watch?v=bKIiCTvr8CA">
                     <SquarePlay className="size-4" />
                     João 13-21
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/10p6DXURMIe8Wp6aHWsjRsGLMnQnlMqEe/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: O Verbo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/190Z6ipThW0zty2zpG4xWD7tLlYjB_dSI/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Nicodemos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1x684INnqI93B0a0XrIJm9Z5fk3FdrnVT/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: O Bom Pastor
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/13f4p8Cvu9cNF5CEdGt7PhsImh7jnfe42/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Última Ceia
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>

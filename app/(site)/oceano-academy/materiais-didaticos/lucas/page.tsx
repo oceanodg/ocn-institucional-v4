@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -121,6 +122,31 @@ export default function CursoLucas() {
                   <LinkSmall href="https://www.youtube.com/watch?v=vZDDpnP6mW8">
                     <SquarePlay className="size-4" />
                     Ressurreição de Jesus
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1ZJvHtZvTbSZ4NXD3LIFsPa8OzjfYSeXk/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: O Evangelho
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1yDibPxReMX1QxbsNEWE2g8dcbEp2hziP/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: A Promessa
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1HEOuQZyRfGsADfmdPdJ8RyxcegmJFkIw/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: O Ministério
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1tCZMoim4dtX1f45s-GWIb5YWCjrpQnNk/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L4: Ressurreição
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
