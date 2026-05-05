@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -117,6 +118,31 @@ export default function CursoAtos() {
                   <LinkSmall href="https://www.youtube.com/watch?v=BJcawAhSvv0">
                     <SquarePlay className="size-4" />
                     Roma
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1oY9SPjq25EyYd8Kaail7RR07t22PheE1/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Atos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1hAKB1tJpO-stwVhTLMrtUi7Em8Stnebs/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Jerusalém
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1wgEJT-rvzfJ1RKsWRXGx8o1pFf36qoVN/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Missão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/13SCPNH5S3PPoD8RcJOxEa3QUJbKMntU0/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: O Apóstolo
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>

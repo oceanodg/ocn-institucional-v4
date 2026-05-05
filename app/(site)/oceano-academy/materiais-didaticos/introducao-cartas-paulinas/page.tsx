@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -101,6 +102,35 @@ export default function IntroducaoCartasPaulinasPage() {
                   <LinkSmall href="https://www.youtube.com/watch?v=mbQi0jBk4rM">
                     <SquarePlay className="size-4" />
                     Contexto Histórico
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1QuRcaWj0yHZhO8WVmlN8lHF51v9xhbKp/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    Apresentação
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1KRLIOKSC883G7K40jaoHzfoedGZAVxLH/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Paulo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1jubTY-ezHx_eCW7FpqFA19BlsMQpjMy0/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Estrutura
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1YvUbpZSur5PNW0_jorHQ6oDKlmv-oewo/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Cartas I
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1TDY2v-OlbWcZP6R48-cGqbTFTJYF0zdh/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Cartas II
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
