@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -101,6 +102,31 @@ export default function CursoRomanos() {
                   <LinkSmall href="https://www.youtube.com/watch?v=w5rkwQb3cFM">
                     <SquarePlay className="size-4" />
                     Romanos 5-16
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1FBn4GYWxmh92fKIAOOEqQ31IpE4s7UCy/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Evangelho
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/17ZoTvTFRbGMnxt-NHFB6_XekgKf8xipl/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Propiciação
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1qQvdVb5d1q3rIee48vCsI8QlBo-idygT/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Cristo e Adão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/14kIDiOBAJdcoYXWAwb2epmJgwzH1FFE0/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Retidão
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
