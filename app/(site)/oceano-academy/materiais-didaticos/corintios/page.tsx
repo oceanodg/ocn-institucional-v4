@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -99,6 +100,31 @@ export default function CursoCorintios() {
                   </LinkSmall>
                   <LinkSmall href="https://www.youtube.com/watch?v=BgFBb0uAuLY">
                     <SquarePlay className="size-4" />2 Corintios
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1VcmmbzK1K2iZAGOgYMibM4wy7TY216HW/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Unidade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/16NBmRT9Up5vZBFYHuecylsSReXkNRYz5/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Dons Espirituais
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/16kzMg-tWdpihEtA80mxMGigZi8okOcdR/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: O Paradoxo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1VAMx2umoNfxYEoT9ei3pyCMHRdPtobba/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Generosidade
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
