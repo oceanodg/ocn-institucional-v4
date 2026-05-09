@@ -80,22 +80,6 @@ export default function PanoramaBiblicoNT() {
           </TableHeader>
         </Table>
       </Container>
-
-      <Separator className="my-8" />
-
-      <Container className="mb-10 sm:mb-16">
-        <H2>Sumário</H2>
-        <UL className="mt-0 space-y-2 sm:space-y-2">
-          <SummaryLi>
-            <a href="#lesson-1">Lição 1 – Foi Assim Que Tudo Começou</a>
-          </SummaryLi>
-          <SummaryLi subList>
-            <a href="#lesson-1-objetivo-geral">Objetivo Geral</a>
-          </SummaryLi>
-        </UL>
-      </Container>
-
-      <Separator className="my-8" />
     </section>
   );
 }
