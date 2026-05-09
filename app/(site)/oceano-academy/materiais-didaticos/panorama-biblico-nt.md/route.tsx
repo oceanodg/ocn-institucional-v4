@@ -59,6 +59,7 @@ export async function GET() {
   - 4. A carta do apóstolo Judas
   - 5. Os escritos de João
   - Conclusão
+- Editorial
 
 ## Lição 1 – Entre o Antigo e o Novo Testamento
 
