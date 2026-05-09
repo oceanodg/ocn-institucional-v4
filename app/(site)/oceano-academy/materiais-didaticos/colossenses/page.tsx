@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -97,6 +98,23 @@ export default function CursoColossenses() {
                   <LinkSmall href="https://www.youtube.com/watch?v=25udRufsBzE">
                     <SquarePlay className="size-4" />
                     Colossenses
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/15sUrOXA2uoVjhJjqx6QREwDQHjkOvdsE/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: O Senhor
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1IGdzpS-Rh3eHP-7NqFcV6s3YsUkbi0MA/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Dignidade
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
