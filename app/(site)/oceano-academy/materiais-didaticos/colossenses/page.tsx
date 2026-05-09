@@ -116,6 +116,18 @@ export default function CursoColossenses() {
                     <FileImage className="size-4" />
                     L2: Dignidade
                   </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1C9HpwF4Sd324R2NoEAaI85-9KeXeOlyC/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Cuidado
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1Z392f0GTKZyO0dI2fDDzPOdS-f1v2ba5/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Nova Vida
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/17pmAI52CW7A6Gi1ft86YT8FtLNhUwY5C/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L5: Testemunho
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
