@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -97,6 +98,35 @@ export default function CursoGalatas() {
                   <LinkSmall href="https://www.youtube.com/watch?v=UdP2LsHsAyY">
                     <SquarePlay className="size-4" />
                     Gálatas
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/15igI-E4XQ38aY00zYsT35QkywNZxi5mE/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Evangelho
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1c5g7wnUhhzGin9BDDjt8ITas5i3MjrsL/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Paulo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/13IhX_26z__boRlkukKlqDQYiVO2Qgjp0/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Lei e Graça
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/18ow6HjRe3zx0-QgUXb2GtLG8MkBTlsNk/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Liberdade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1EmLKnnUFvwReKbH69FTs714ODPXbI4-n/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L5: No Espírito
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
