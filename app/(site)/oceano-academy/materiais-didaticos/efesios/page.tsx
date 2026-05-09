@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -98,6 +99,31 @@ export default function CursoEfesios() {
                   <LinkSmall href="https://www.youtube.com/watch?v=HgQeAMIJZ8Q">
                     <SquarePlay className="size-4" />
                     Efésios
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1R3I9hQwTki2UqUhR3eV2i8dVZMup1zXL/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Bênçãos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1_sN5E3lz5whgd_9siEVGm0Zb4wgek_fZ/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: União
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1CxTuLSnmjqCPoKq6UJ2jTuiFIRWIU_Ng/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Nossa Casa
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1D-pg-EJkED5jPGDG8CnfcAQpgdEZS7j0/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Guerra!
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
