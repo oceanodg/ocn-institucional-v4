@@ -153,6 +153,47 @@ export default function PanoramaBiblicoAT() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/160mDQ6jnqGSsbHxVWCjKdyLhtkMESx_0/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Começo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1-IIb4UEp10tizYcUeQah34Lpdn2jV20C/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Patriarcas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1bDyBnfVLfolv8Jqb3lyqEsHa82pz2Kgm/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Egito
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1XHMzuqCRl2JStUrpKbKGn3US-5q489-l/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Aliança
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/18xKT0RoAhIn150roeaiyGy61oyvn9PQA/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L5: Juízes
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1pec1m6sMkb9TrR6FUkmJ3n7F_C5grJmD/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L6: Monarquia
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/19Jjqzq2m0SPZQXJezJW8UU6nvGoOyZu4/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L7: Divisão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1lDjk3GfH5wT2Js3kHjOjcw0r1Tj4h4QE/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L8: Recomeço
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
