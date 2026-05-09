@@ -173,6 +173,20 @@ const oldTestamentMaterials: MaterialGroup[] = [
 
 const newTestamentMaterials: MaterialGroup[] = [
   {
+    title: "Panorama",
+    description: [
+      "Uma visão geral da história bíblica do Novo Testamento, uma compilação de livros e cartas escritas após o nascimento de Jesus.",
+    ],
+    materials: [
+      {
+        title: "Panorama",
+        description:
+          "Uma visão geral da história bíblica do Novo Testamento, uma compilação de livros e cartas escritas após o nascimento de Jesus",
+        url: "/oceano-academy/materiais-didaticos/panorama-biblico-nt",
+      },
+    ],
+  },
+  {
     title: "Evangelhos",
     description: [
       "Relatos do nascimento, da vida, da morte e ressurreição de Jesus Cristo.",
