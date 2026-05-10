@@ -59,7 +59,7 @@ export default function PanoramaBiblicoNT() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
-                Vídeo Recomendado
+                Vídeos Recomendados
               </TableCell>
               <TableCell>
                 <TableCellLinksContainer>
