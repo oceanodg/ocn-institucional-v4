@@ -1,4 +1,4 @@
-import { FileText, GraduationCap, Hash } from "lucide-react";
+import { FileText, GraduationCap, Hash, SquarePlay } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -53,6 +53,30 @@ export default function PanoramaBiblicoNT() {
                   <LinkSmall href="/oceano-academy/materiais-didaticos/panorama-biblico-nt.md">
                     <Hash className="size-4" />
                     MD
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Vídeo Recomendado
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://www.youtube.com/watch?v=eQF_lAnjCTA">
+                    <SquarePlay className="size-4" />
+                    Visão Geral
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=aImcnIPCvSs">
+                    <SquarePlay className="size-4" />
+                    Cartas
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=18B-21odNpY">
+                    <SquarePlay className="size-4" />O Evangelho
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=CEj_5Bu1yjc">
+                    <SquarePlay className="size-4" />
+                    Parábolas
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
