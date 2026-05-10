@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -99,6 +100,31 @@ export default function CursoTessalonicenses() {
                   </LinkSmall>
                   <LinkSmall href="https://www.youtube.com/watch?v=rxaPUrNzCTQ">
                     <SquarePlay className="size-4" />2 Tessalonicenses
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1f31FVaTunxKly-Ne6RKb-1MPvoSY44lg/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Igreja Modelo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1e4MmMAGJgxSLgi_K-IbM1v8CZDV8wbLu/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Santidade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1joQGZaXzEjHEB_gte5rvl9T8NZPZZ7S-/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Vigilância
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1guRmjJ0OjsHbaCFJ0N89-_R_8RzQYfIc/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Manifestação
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
