@@ -1,4 +1,10 @@
-import { FileText, GraduationCap, Hash, SquarePlay } from "lucide-react";
+import {
+  FileText,
+  GraduationCap,
+  Hash,
+  SquarePlay,
+  Workflow,
+} from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -53,6 +59,32 @@ export default function PanoramaBiblicoNT() {
                   <LinkSmall href="/oceano-academy/materiais-didaticos/panorama-biblico-nt.md">
                     <Hash className="size-4" />
                     MD
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Plano de Estudo
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1sbX9C5XMTs48JZBLZ-fnN1M9OYz7yga9/view?usp=sharing">
+                    <FileText className="size-4" />
+                    Plano de Estudo
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Mapa Mental
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-GgrjZLEXpFtuzvGrxYkM7b">
+                    <Workflow className="size-4" />
+                    Mapa Mental
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
