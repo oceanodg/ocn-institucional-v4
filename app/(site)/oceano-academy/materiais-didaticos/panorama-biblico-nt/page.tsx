@@ -250,7 +250,7 @@ export default function PanoramaBiblicoNT() {
           </SummaryLi>
           <SummaryLi subList>
             <a href="#lesson-6-2-terceira-viagem-missionaria-de-paulo">
-              2. Terceira Viagem Missionária de Paulo.
+              2. Terceira Viagem Missionária de Paulo
             </a>
           </SummaryLi>
           <SummaryLi subList>
@@ -1811,7 +1811,7 @@ export default function PanoramaBiblicoNT() {
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-6-2-terceira-viagem-missionaria-de-paulo">
-            2. Terceira viagem missionária de Paulo.
+            2. Terceira viagem missionária de Paulo
           </H3>
           <P className="">
             Paulo permaneceu em Corinto por algum tempo. Depois, despediu-se dos
