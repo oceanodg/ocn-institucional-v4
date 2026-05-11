@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 import { Container } from "~/components/container";
-import { Button, H2, P, Separator } from "~/components/ui";
+import { Button, H2, P } from "~/components/ui";
 
 export function PrimaveraMulher2026() {
   return (
@@ -41,16 +41,18 @@ export function PrimaveraMulher2026() {
           {/* <Separator className="my-6" /> */}
 
           <Button
-            className="h-14 mt-6 w-full bg-linear-to-r from-pink-600 to-orange-500 font-semibold text-sm sm:text-base text-white hover:from-pink-600/90 hover:to-orange-500/90 hover:text-white"
-            size="lg"
+            className="mt-6 h-auto min-h-14 w-full flex-wrap gap-x-2 gap-y-1 whitespace-normal rounded-md bg-linear-to-r from-pink-600 to-orange-500 px-6 py-3 text-sm font-semibold text-white hover:from-pink-600/90 hover:to-orange-500/90 hover:text-white text-sm sm:text-base [&_svg]:shrink-0 text-left"
             asChild
           >
             <a
-              href={"https://primaveramulher.oceanodagraca.com"}
+              href="https://primaveramulher.oceanodagraca.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              SAIBA MAIS SOBRE A CONFERÊNCIA <ArrowRight />
+              <span className="min-w-0 text-pretty">
+                SAIBA MAIS SOBRE A CONFERÊNCIA
+              </span>
+              <ArrowRight className="size-4 shrink-0" />
             </a>
           </Button>
         </div>
