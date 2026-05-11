@@ -1,15 +1,14 @@
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 import { Container } from "~/components/container";
 import { Button, H2, P, Separator } from "~/components/ui";
 
-const SAIBA_MAIS_HREF = "https://www.instagram.com/oceanodagraca/";
-
 export function PrimaveraMulher2026() {
   return (
-    <Container className="py-8 mt-2 sm:mt-14 sm:rounded-lg bg-pink-50">
+    <Container className="py-8 mt-2 sm:mt-14 sm:rounded-md bg-pink-50">
       <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 md:items-center md:gap-8">
-        <div className="relative w-full overflow-hidden rounded-lg">
+        <div className="relative w-full overflow-hidden rounded-sm">
           <Image
             src="/images/events/primavera-mulher/primavera-mulher-2026.jpeg"
             alt="Primavera Mulher 2026 — 25 e 26 de setembro"
@@ -42,12 +41,16 @@ export function PrimaveraMulher2026() {
           {/* <Separator className="my-6" /> */}
 
           <Button
-            className="mt-6 w-full bg-linear-to-r from-pink-600 to-orange-500 text-white shadow-xs hover:from-pink-600/90 hover:to-orange-500/90 hover:text-white md:w-auto md:self-start"
+            className="h-14 mt-6 w-full bg-linear-to-r from-pink-600 to-orange-500 font-semibold text-sm sm:text-base text-white hover:from-pink-600/90 hover:to-orange-500/90 hover:text-white"
             size="lg"
             asChild
           >
-            <a href={SAIBA_MAIS_HREF} target="_blank" rel="noopener noreferrer">
-              QUERO SABER MAIS SOBRE A CONFERÊNCIA
+            <a
+              href={"https://primaveramulher.oceanodagraca.com"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SAIBA MAIS SOBRE A CONFERÊNCIA <ArrowRight />
             </a>
           </Button>
         </div>
