@@ -4,6 +4,7 @@ import { H1, H2, P, Separator } from "~/components/ui";
 import type { Info } from "~/server/types/info";
 import { CTABox } from "~/components/cta-box";
 import { CardWithLink } from "~/components/card-with-link";
+import { PrimaveraMulher2026 } from "./components/primavera-mulher-2026";
 
 const features: Info[] = [
   {
@@ -52,6 +53,10 @@ export default function WelcomePage() {
           </P>
         </div>
       </HeroContainer>
+
+      <PrimaveraMulher2026 />
+
+      <Separator className="my-14" />
 
       <Container className="mt-2 sm:mt-6">
         <div className="aspect-video w-full">
