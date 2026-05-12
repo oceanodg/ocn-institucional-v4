@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -109,6 +110,88 @@ export default function PanoramaBiblicoNT() {
                   <LinkSmall href="https://www.youtube.com/watch?v=CEj_5Bu1yjc">
                     <SquarePlay className="size-4" />
                     Parábolas
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1OlOnHzLHhLgEeKrlHVIBdSnuyvHT2DK1/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Entre AT e NT
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1XP6UqhmUKLKNAVu-RbcxV9-HGqqGOV_2/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Vida de Jesus
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1EL8h9LQDZhJwvZiJrzUi69wyW-6CR5DH/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Últimos Dias
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/10VbMv-XOINr6_xVcumW4WQ9d_thSVevG/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Início Igreja
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1RVYLLGUfQI2D7WwHETlLlbti-2QJqBjI/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L5: Expansão Igreja
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1mLLS5MQ00CDN0FNdGAe0mReCbOxUulil/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L6: Cartas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1GILIWmIznJfzvLtoo6PsLSMZ-SOs5y84/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L7: Cartas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1LO_bPGEKWYWpHo6PgDP6-xjBI8pEIPm5/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L8: Últimos Registros
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1jAMT_YcNNPbd-4sJvERh3NGfeZ5LL3P3/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Entre AT e NT
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1ObwbzPIAkOlP6bq1ikHoFvejuXSAdSzO/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Vida de Jesus
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1zlarzX0Cpj91eD6XMaILGSQsO14qbk2P/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Últimos Dias
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1jyiI9YU8pgpGeHsOsUi36xk8TXIHkL2-/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Início Igreja
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1P2-03BIZavLdpJsA_8dj8icVph7q497T/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L5: Expansão Igreja
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1dNsVn1G4l7UuO3_B52l94lBjS35E3lDi/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L6: Cartas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1M9Lw0X1wyoukwqd2viaR9imFe19KWm_-/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L7: Cartas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1rzCQObOH4zHOmuLbhDmV5SFX-OIpJLbJ/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L8: Últimos Registros
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
