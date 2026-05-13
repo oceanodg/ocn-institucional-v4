@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -106,6 +107,80 @@ export default function CursoIsaias2() {
                   <LinkSmall href="https://www.youtube.com/watch?v=K8iwowbjX6c">
                     <SquarePlay className="size-4" />
                     Os Profetas
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1Ec3TyXjnIf6E47P14RMb-VlU1VOArSmv/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L7: Denúncia
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/148LwXZXPjLzalB8tIvD4FdRBoMuBlN7o/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L8: Vitória
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1d9kmUZLOJaCfNwWHdb1ZsSwijIt16_rW/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L9: Doença e Cura
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1YJyd0spch9zGcCMYyhbepUSUlBbM40CX/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L10: Grande És Tu, Senhor!
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1XMXBSyn80NCGdJ5XnV8zvua74YlXP95B/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L11: Salvação do Senhor
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1qTk84wNiquCVfA_jPe_5wTIQMnsq1e7h/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L12: Promessas e Alertas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1Ml7XfT9qxI9KudA6mnlqFf2cIRj0sEKb/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L13: Teu É o Reino
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1_u0Ct6jm2zGW8MYmCMC4NJdE7Q5iJ8_I/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L7: Denúncia
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/12TsyZYyAQ3pu0eQiv3MeZTIHVKD523Nq/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L8: Vitória
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1E5bsiokQ8OMwSOi6ajnioKHWhoDEsArY/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L9: Doença e Cura
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/14jk3XBKDdZUaqBIlYVbumz_MhXGtM6sU/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L10: Grande És Tu, Senhor!
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1YU2ZQuCno-ibP08LDlc8IXEqluyMh_Ag/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L11: Salvação do Senhor
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1_b1csbm4NiS9lIhWdBNIJfsxN1-RCngI/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L12: Promessas e Alertas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1y6-38yn5Y4n10LXZyhF47TioRGlszj0D/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L13: Teu É o Reino
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
