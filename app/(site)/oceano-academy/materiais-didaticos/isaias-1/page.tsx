@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -106,6 +107,72 @@ export default function CursoIsaias1() {
                   <LinkSmall href="https://www.youtube.com/watch?v=K8iwowbjX6c">
                     <SquarePlay className="size-4" />
                     Os Profetas
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1870QBv0EiPfdtOUYreGtJKdqI6ArzFpP/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Os Pecados
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1r8jZhyEQLiPMfU_eJNw8j7zeiUwZoTgi/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: A Era Crista Prevista
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1QlhC9dH0OKOlyQ4bOQNzC7Y8QAPfyqxa/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: O Chamado
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1N7XNv4lD5xdZy7IqIPFijcqlVztXaXTx/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Vinda do Messias
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1nYExoCNo5zxWF0SMh8Nwgz_60AmuMhk-/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L5: Disciplina de Deus
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/15GS1oEMzpchxG44Al5o0MCEKUYyrN2Cf/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L6: Apocalipse
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1h2wlgRtv7rXf4Ziy34mzS4PVrj2AEfB2/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Os Pecados
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1JW9EP_I1tP462_pLF-j2qN5qCnVWl_G4/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: A Era Crista Prevista
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1-2E2LRWHf3Go8daFU9eHCsioytZSktC5/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: O Chamado
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/12zAKwYYLW_inGsyvraRxae894F1AcM7c/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Vinda do Messias
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1vbjsarihc-Ld73P4iM5OULJzqNN8Pa5_/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L5: Disciplina de Deus
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1mxuWRPgPE3-YHEPG76wDB3tARf8Lj5bs/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L6: Apocalipse
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
