@@ -1403,7 +1403,7 @@ export default function CursoIsaias1() {
             posteriormente destruiria a Babilônia.
           </P>
           <P className="">
-            O ponto importante a ser obser- vado é que os judeus seriam levados
+            O ponto importante a ser observado é que os judeus seriam levados
             presos pelo rei babilônio, ficariam ca- tivos por setenta anos como
             escravos, mas, com a queda da Babilônia, eles voltariam para
             Jerusalém, reconstrui- riam os muros da cidade, suas casas e o
