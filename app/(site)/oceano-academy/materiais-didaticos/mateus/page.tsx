@@ -133,6 +133,31 @@ export default function CursoMateus() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1VZ73se__LMLN0lPOazONe7N8ogLJqqdY/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Nascimento
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/16xY9YZD5mDiRcVsIDAXHFpKWucpGKuUh/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Sermão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1DnUNRg53_j0c3P7uV_o1uLpxh3TrfIOY/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Milagres
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/10631swvb_yL-_ohzdGS3nTwGw2mEdriO/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Ressurreição
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
