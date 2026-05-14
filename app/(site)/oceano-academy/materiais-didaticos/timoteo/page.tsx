@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -99,6 +100,35 @@ export default function CursoTimoteo() {
                   </LinkSmall>
                   <LinkSmall href="https://www.youtube.com/watch?v=AxTyLu521XU">
                     <SquarePlay className="size-4" />2 Timóteo
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/19cLrOxcgXrIfc2BraP_yFSi59vg5JoIq/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: O Chamado
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1W-V6CZf-TEiujIFPApNgBGGzZJEkIdcs/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Oração e Piedade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1p8kQxR35q5Ckc1F0bUEbFV7csWqWNCug/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Perfil do Líder
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1rJEa0b0g82sGL0aybwQAili_UwV7OMe0/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Permanecendo Fiel
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/158UDSy0D2Kv_yyrT75XIMOmZItHRrILJ/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L5: Coroa da Justiça
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
