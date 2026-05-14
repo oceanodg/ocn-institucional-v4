@@ -159,8 +159,8 @@ export const churches: Church[] = [
         worshipNameAndTime: ["Quarta da Graça - 20:00"],
       },
       {
-        weekday: "Sexta-feira",
-        worshipNameAndTime: ["1a Sexta do Mês - Deeper - 20:30"],
+        weekday: "Sábado",
+        worshipNameAndTime: ["3° sábado do mês - Deeper - 19:30"],
       },
     ],
     amenities: [
