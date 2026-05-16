@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -101,6 +102,31 @@ export default function CursoTitoEFilemom() {
                   <LinkSmall href="https://www.youtube.com/watch?v=JDLfv0-e6oI">
                     <SquarePlay className="size-4" />
                     Filemon
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1b46rxF2Wjcgr59LAHSGNwcJSnxvJJu57/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Igreja e Sã Doutrina
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1ZVSHsQ_yJpzJIUsFUNT2j9-0YziIXEth/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Vida Cristã e Sã Doutrina
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1ZrPmw79GhSPtm1lTx2VWuflhYMQc5KFi/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Vida Cristã na Sociedade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1qz9Q4DULp6rdatKSuKeOp-Lx1hQstgP0/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Evangelho Transformador
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
