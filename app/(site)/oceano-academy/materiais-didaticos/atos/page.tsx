@@ -149,6 +149,31 @@ export default function CursoAtos() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1ZD0ymtZNswtBAznH5cuX5VX-nx-ZnZ1F/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Atos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1J0BPOcK28pCMe88E7ZWANKKscwNiv96T/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Jerusalém
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1839_eX7IyNbWVkBv8itj4lWDDFH5VJ6D/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Missão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1C9kC6cmnimmM4hChejnP36ofO4QCWVEt/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: O Apóstolo
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
