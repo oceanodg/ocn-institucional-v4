@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -97,6 +98,31 @@ export default function CursoTiago() {
                   <LinkSmall href="https://www.youtube.com/watch?v=jkMUhg4pqSk">
                     <SquarePlay className="size-4" />
                     Tiago
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1I85FN0BsfSNRTeJBFJ-TQSFUBN_3StpU/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Fé Provada
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1IfDAeQrv8xmydGV0sI-CX2t98v2fWbh5/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Fé Vencedora
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/110e3lKDkv9EfvICl8yrY5RyfKWVIqF0Z/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Fé Sábia
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1zKcX2Uwlqih3MeSxBTrQsnrQP6Kxch4v/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Fé Perseverante
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
