@@ -153,6 +153,31 @@ export default function CursoLucas() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1SCKH7RLYqvVigAIxA4_b7Ytx4RtpVqcg/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: O Evangelho
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1vtuiEYczOs4elsp3yP8mLSeQ0QEZ2vI9/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: A Promessa
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1QWqRv-RN7dLMgBbqlGn8ZkSFmnXLF8nU/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: O Ministério
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1Xb-NhYDWPWiA6Ie3qS8p2lZGNK4LJcz8/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Ressurreição
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
