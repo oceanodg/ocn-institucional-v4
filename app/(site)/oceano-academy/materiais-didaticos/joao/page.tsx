@@ -130,6 +130,31 @@ export default function CursoJoao() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/11gYLJN8uaXmVTvqkprtryDrdrD1WqWMF/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: O Verbo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1qlgJIvk3fBZh5v93lKcIvgBYfcYlc4Wd/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Nicodemos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1ffgdJ-sGOM5WOEcviFo6RhD7W2JgkjiO/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: O Bom Pastor
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1kXcOBr0yjUDDsVdH8EFL8Ie3zWf5WOOt/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Última Ceia
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
