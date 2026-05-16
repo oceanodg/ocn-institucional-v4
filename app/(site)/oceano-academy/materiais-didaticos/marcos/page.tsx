@@ -129,6 +129,31 @@ export default function CursoMarcos() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1rScBoXhM6Z66RNFwqYF7p0lEZvkzJppx/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Boas-Novas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/173UwhBRn66c_pdVMuYU4P8NRVHflFhiq/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Milagres
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/14KQFY403aNdSjiuOsF7k9PJM1qPT_7AO/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Autoridade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1s_fMhBHXmyggLr9PLu-RUA4NCvTYI9If/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Discipulado
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
