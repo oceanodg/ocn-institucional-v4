@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -97,6 +98,31 @@ export default function CursoHebreus() {
                   <LinkSmall href="https://www.youtube.com/watch?v=yt4uHfHfixY">
                     <SquarePlay className="size-4" />
                     Hebreus
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1U355NH29rS2O0LpufMhqhB4YkFCYd09L/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Supremacia de Cristo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1HjwyzpE_dxwNgzhw9kCJqWXm6hRTzqq6/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Cristo Sumo Sacerdote
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/167iAcGBwsG03XDtH_49mu-XbbH39DecH/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Sacerdócio Perfeito
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1uzlJPb86a01gUwc3gEc-szNgH5dTd_Lu/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Perseverança da Fé
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
