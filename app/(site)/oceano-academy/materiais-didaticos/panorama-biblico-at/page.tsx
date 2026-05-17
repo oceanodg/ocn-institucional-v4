@@ -4,6 +4,7 @@ import {
   GraduationCap,
   Hash,
   SquarePlay,
+  Wallpaper,
   Workflow,
 } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
@@ -106,6 +107,21 @@ export default function PanoramaBiblicoAT() {
                   <LinkSmall href="https://www.youtube.com/watch?v=K8iwowbjX6c">
                     <SquarePlay className="size-4" />
                     Os Profetas
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">Slides</TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1P0nyUduNgVMRcxUl7pEniKGjQnHhzn4q/view?usp=sharing">
+                    <Wallpaper className="size-4" />
+                    L2: Patriarcas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/17lN6MAB8nR3ViUV51_MvUBncd0yKKaqA/view?usp=sharing">
+                    <Wallpaper className="size-4" />
+                    L3: Egito
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
