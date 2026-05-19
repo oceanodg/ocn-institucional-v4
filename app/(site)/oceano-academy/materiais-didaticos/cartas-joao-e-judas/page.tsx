@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -102,6 +103,31 @@ export default function CursoCartasJoaoEJudas() {
                   <LinkSmall href="https://www.youtube.com/watch?v=Ep975kf8vXE">
                     <SquarePlay className="size-4" />
                     Judas
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1nYEZUotcfcstl5diZPD0gCA6PmYBFx5y/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Deus é Amor
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1aFJLXEJw9sDJpFCxBY6xnwAlA_wBnk0e/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Hospitalidade Cristã
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/163zfKVQbS8N778m4tH8ARVt0CsdsF1Cr/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Contender pela Fé
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1MnTk0tBbirIglecMPzxWg2FTk_jEyIVo/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Perseverança
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
