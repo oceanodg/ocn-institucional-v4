@@ -112,6 +112,31 @@ export default function CursoApocalipse() {
               </TableCell>
               <TableCell>
                 <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1HW5VhLyQAfgv_SLZNIA5bqKlDBimzdZ_/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: O que tens visto
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1dyOVx7O49h4PuGab9zSwKEkqusQrBuZF/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Hão de Acontecer
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1RCUGQO2LBJcrMKR7DbVht9djbRT4MaOK/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Reino Milenar
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1f6kYi2w5DDK27v1yAsiHYJedfGcySHUr/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Novos Céus
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            {/* <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1K4cZ08nJUkdJbBt_U98ulSf6iL1_DhpU/view?usp=sharing">
                     <FileText className="size-4" />
                     Resumo
@@ -126,7 +151,7 @@ export default function CursoApocalipse() {
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
-            </TableRow>
+            </TableRow> */}
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
                 Palavras-Cruzadas
