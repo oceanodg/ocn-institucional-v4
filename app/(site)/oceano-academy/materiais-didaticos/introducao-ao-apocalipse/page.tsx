@@ -1,4 +1,4 @@
-import { FileText, Hash, SquarePlay, Workflow } from "lucide-react";
+import { FileImage, FileText, Hash, SquarePlay, Workflow } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -92,6 +92,31 @@ export default function IntroducaoApocalipsePage() {
                   </LinkSmall>
                   <LinkSmall href="https://www.youtube.com/watch?v=so41a3JSVxA">
                     <SquarePlay className="size-4" />O Dia do Senhor
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1HByW6b6RSnl5WuXWnDeOIybC8JY-2tSP/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Fundamentos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1Vkd7nw5cjownYq_u_4oyEYVLKZ2ukLKb/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Escolas Clássicas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/10OikeNMeEXhdIrpRBYkNZmaLW10F7_aR/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Correntes Milenistas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1n3StJzRF6N0lZs0qBY70Rkl2-GG5PnbH/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Esperança Transformadora
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
