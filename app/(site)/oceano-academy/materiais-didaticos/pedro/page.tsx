@@ -1,4 +1,5 @@
 import {
+  FileImage,
   FileText,
   GraduationCap,
   Hash,
@@ -100,6 +101,31 @@ export default function CursoPedro() {
                   </LinkSmall>
                   <LinkSmall href="https://www.youtube.com/watch?v=hipwXlqhTNM">
                     <SquarePlay className="size-4" />2 Pedro
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1qkpYe2MwGmwQk-b4XDYn8r4JcBpQetZ4/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L1: Esperança Viva
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1XRT-eOtQVt9Sp_OUtYdl0-xiecD5j07J/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L2: Como Peregrinos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1hWnt91EyIZSzfKp2pAkZ7mj0okJQ-9H8/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L3: Crescimento Espiritual
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1UNaAC7j1wuc_RbH-MG4F5XbPOSlB8mTd/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    L4: Falsos Mestres
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
