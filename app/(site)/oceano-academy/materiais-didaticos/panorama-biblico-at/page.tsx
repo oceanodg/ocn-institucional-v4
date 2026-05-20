@@ -1,9 +1,14 @@
 import {
+  CircleUserRound,
+  ContactRound,
   FileImage,
   FileText,
   GraduationCap,
   Hash,
   SquarePlay,
+  User,
+  UserRound,
+  UserStar,
   Wallpaper,
   Workflow,
 } from "lucide-react";
@@ -122,6 +127,39 @@ export default function PanoramaBiblicoAT() {
                   <LinkSmall href="https://drive.google.com/file/d/17lN6MAB8nR3ViUV51_MvUBncd0yKKaqA/view?usp=sharing">
                     <Wallpaper className="size-4" />
                     L3: Egito
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Personagens Importantes
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/15FOx0Zao0OO81EKTvm-YpJwP9WQdGdyZ/view?usp=sharing">
+                    <CircleUserRound className="size-4" />
+                    Noé
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1xpDrb8cq13LCKFDsbigoei7eO7tt6jKo/view?usp=sharing">
+                    <CircleUserRound className="size-4" />
+                    Abraão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/10ba4NpP5CxCNtYZimz5r2NqIs3_bBkUi/view?usp=sharing">
+                    <CircleUserRound className="size-4" />
+                    Isaac
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1iAjSp0qptwd6OMSpyA-V3ghP-68fJAXs/view?usp=sharing">
+                    <CircleUserRound className="size-4" />
+                    Jacó
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1z87jhh43C3HJ1fTHZj1nFZyZIq-WlFLe/view?usp=sharing">
+                    <CircleUserRound className="size-4" />
+                    José
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1JqFk5Odht8q_ME1OO789pbW_mgi0vaZZ/view?usp=sharing">
+                    <CircleUserRound className="size-4" />
+                    Moisés
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
