@@ -111,6 +111,15 @@ export default function OceanoAcademyPage() {
             buttonText="Ver cursos"
             openInNewTab={false}
           />
+
+          <CTABox
+            title="Escola de Líderes"
+            description="Cursos de capacitação para líderes."
+            buttonLink="/oceano-academy/escolas/escola-de-lideres"
+            buttonText="Em breve"
+            openInNewTab={false}
+            disabled
+          />
           {/* 
           <CTABox
             title="Conheça nossas escolas"
