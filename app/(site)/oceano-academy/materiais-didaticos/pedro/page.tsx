@@ -132,6 +132,31 @@ export default function CursoPedro() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1hIZ315bY6vtx40Od8Wr0adp50LqVaJnQ/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Esperança Viva
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1F3GuXIAbvXCpB_b1U60jv-pHbJa9XarP/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Como Peregrinos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1IMrYyWKG6ZpuWKbonjYUSGjWxIh6fiWL/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Crescimento Espiritual
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1U7pmvAXWe0chnwMJxwd0_cV4_u-ReGLH/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Falsos Mestres
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
