@@ -137,6 +137,31 @@ export default function IntroducaoCartasPaulinasPage() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1w7omQB3opXM2kNIGYiePAX_lCK0LNDxG/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Paulo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1UoUSVALBLJjiyTFdoqwZoKGFOoXMP-7-/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Estrutura
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1QXAGldhlDtFOEJ1Cf4Lr1M5c5DkoPxBA/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Cartas I
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1L3RMVtapcr2XX3mKwLEpSmt-cC_Otibn/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Cartas II
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
