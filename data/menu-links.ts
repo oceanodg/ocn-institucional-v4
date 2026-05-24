@@ -93,20 +93,25 @@ export const menuLinks: MenuLink[] = [
     href: "/oceano-academy",
     submenu: [
       {
-        title: "Conheça",
+        title: "Conheça a Academy",
         href: "/oceano-academy",
       },
       {
-        title: "Escolas",
-        href: "/oceano-academy/escolas",
+        title: "Escola Bíblica",
+        href: "/oceano-academy/escolas/escola-biblica",
       },
       {
-        title: "Materiais Didáticos",
-        href: "/oceano-academy/materiais-didaticos",
+        title: "Escola de Membros",
+        href: "/oceano-academy/escolas/escola-de-membros",
       },
       {
         title: "Planos de Leitura",
         href: "/oceano-academy/planos-de-leitura",
+      },
+      {
+        title: "Acesse seu Curso",
+        href: "https://academy.oceanodagraca.com/",
+        external: true,
       },
     ],
   },
