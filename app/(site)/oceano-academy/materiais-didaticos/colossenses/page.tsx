@@ -133,6 +133,35 @@ export default function CursoColossenses() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1nCA3nuRgRfGacFSSfX-EeKmcq4cXeFxt/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: O Senhor
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1M3mxYI-Vf7aP0JWiOKqLZzh38oJduaE2/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Dignidade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1j08_LNmVgXH1YU6gZn1YT0NCS6s8MnBq/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Cuidado
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1DycfFYcPXq8nQvkvzEnNoVG5YP62Uaws/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Nova Vida
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1-jnQ9ICc-9FAPDeO5fP3sYQuNbsC3GkT/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L5: Testemunho
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
