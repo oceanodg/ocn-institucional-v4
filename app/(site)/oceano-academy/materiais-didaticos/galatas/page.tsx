@@ -133,6 +133,35 @@ export default function CursoGalatas() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/129RA5kuuoK1IRIxNtERPBk-GAo3L5PN3/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Evangelho
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1UliRcKbpS50ZJymfwCDmgviv58tZE1wR/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Paulo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1fEGI4v7kLjspZ_pPq7q7UR750rYgJbm4/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Lei e Graça
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1Q5CLFXtIt7SxW04o02Mfa2RMe2x9A1fE/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Liberdade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1wpqSdTHXAsduCySVlSg2deKKQnwA7hW0/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L5: No Espírito
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
