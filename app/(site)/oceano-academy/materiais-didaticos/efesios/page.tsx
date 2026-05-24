@@ -130,6 +130,31 @@ export default function CursoEfesios() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/13tVxOZnuXbcemKlBLJBDCa6R0oDRJF3c/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Bênçãos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/19CIFaH_SjfFcvLnzRHeXbM1JnrcsC2Z3/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: União
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1hxLBQX4wXo_O_Uxfbhw4WmJ9MI_h0pm6/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Nossa Casa
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1hlf1TbMOklPbLc6igWCUzeum0R_7NPkV/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Guerra!
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
