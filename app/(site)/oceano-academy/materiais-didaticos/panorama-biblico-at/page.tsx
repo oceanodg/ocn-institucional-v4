@@ -133,7 +133,7 @@ export default function PanoramaBiblicoAT() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
-                Personagens Importantes
+                Personagens
               </TableCell>
               <TableCell>
                 <TableCellLinksContainer>
