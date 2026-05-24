@@ -12,6 +12,7 @@ type Material = {
   title: string;
   description: string;
   url?: string;
+  isUrlExternal?: boolean;
 };
 
 type MaterialGroup = {
@@ -375,6 +376,64 @@ const newTestamentMaterials: MaterialGroup[] = [
   },
 ];
 
+const charactersMaterials: MaterialGroup[] = [
+  {
+    title: "Primeiros Eventos Bíblicos",
+    description: [""],
+    materials: [
+      {
+        title: "Noé",
+        description: "Justo diante de Deus, construtor da Arca e arauto da fé.",
+        url: "https://drive.google.com/file/d/15FOx0Zao0OO81EKTvm-YpJwP9WQdGdyZ/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+  {
+    title: "Patriarcas",
+    description: [""],
+    materials: [
+      {
+        title: "Abraão",
+        description: "Pai da fé de muitos povos, chamado de Ur para Canaã.",
+        url: "https://drive.google.com/file/d/1xpDrb8cq13LCKFDsbigoei7eO7tt6jKo/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Isaac",
+        description: "Filho da promessa, Herdeiro da Aliança.",
+        url: "https://drive.google.com/file/d/10ba4NpP5CxCNtYZimz5r2NqIs3_bBkUi/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Jacó",
+        description: "Pai das doze tribos de Israel.",
+        url: "https://drive.google.com/file/d/1iAjSp0qptwd6OMSpyA-V3ghP-68fJAXs/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "José",
+        description: "Governador do Egito, exemplo de providência divina.",
+        url: "https://drive.google.com/file/d/1z87jhh43C3HJ1fTHZj1nFZyZIq-WlFLe/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+  {
+    title: "O Êxodo e a Conquista de Canaã",
+    description: [""],
+    materials: [
+      {
+        title: "Moisés",
+        description:
+          "Libertador de Israel, mediador da aliança e das leis de Deus.",
+        url: "https://drive.google.com/file/d/1JqFk5Odht8q_ME1OO789pbW_mgi0vaZZ/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+];
+
 function materialLI(material: Material): React.ReactNode {
   if (material.url) {
     return (
@@ -400,25 +459,38 @@ function LinkMaterial(props: {
   url: string;
   text: string;
   className?: string;
+  isUrlExternal?: boolean;
 }) {
-  const { url, text, className } = props;
+  const { url, text, className, isUrlExternal } = props;
+  const linkClassName = cn(
+    "dark:text-dark-secondary hover:dark:text-dark-secondary-2",
+    "text-light-secondary hover:text-light-secondary-2",
+    "block h-full w-full p-3",
+    className
+  );
+
+  if (isUrlExternal) {
+    return (
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={linkClassName}
+      >
+        {text}
+      </a>
+    );
+  }
+
   return (
-    <Link
-      href={url}
-      className={cn(
-        "dark:text-dark-secondary hover:dark:text-dark-secondary-2",
-        "text-light-secondary hover:text-light-secondary-2",
-        "block h-full w-full p-3",
-        className
-      )}
-    >
+    <Link href={url} className={linkClassName}>
       {text}
     </Link>
   );
 }
 
 function MaterialRow(material: Material) {
-  const { title, description, url } = material;
+  const { title, description, url, isUrlExternal } = material;
   return (
     <TableRow
       className={cn(url ? "hover:cursor-pointer" : "hover:cursor-default")}
@@ -428,6 +500,7 @@ function MaterialRow(material: Material) {
           <LinkMaterial
             url={url}
             text={title}
+            isUrlExternal={isUrlExternal}
             className="text-blue-500 hover:text-blue-500/80 underline underline-offset-4"
           />
         ) : (
@@ -436,7 +509,11 @@ function MaterialRow(material: Material) {
       </TableCell>
       <TableCell className={cn(url && "p-0")}>
         {url ? (
-          <LinkMaterial url={url} text={description} />
+          <LinkMaterial
+            url={url}
+            text={description}
+            isUrlExternal={isUrlExternal}
+          />
         ) : (
           <span className="text-muted-foreground">
             {description} <span className="font-medium italic">– em breve</span>
@@ -474,8 +551,9 @@ export default async function MateriaisDidaticosPage({
         <Container className="mb-10 sm:mb-16">
           <Tabs defaultValue={defaultTab} className="w-full">
             <TabsList className="mb-6" variant="line">
-              <TabsTrigger value="antigo">Antigo Testamento</TabsTrigger>
-              <TabsTrigger value="novo">Novo Testamento</TabsTrigger>
+              <TabsTrigger value="antigo">AT</TabsTrigger>
+              <TabsTrigger value="novo">NT</TabsTrigger>
+              <TabsTrigger value="personagens">Personagens</TabsTrigger>
             </TabsList>
 
             <TabsContent value="antigo">
@@ -502,6 +580,25 @@ export default async function MateriaisDidaticosPage({
                 <H2>Novo Testamento</H2>
 
                 {newTestamentMaterials.map((material) => (
+                  <div key={material.title}>
+                    <H3>{material.title}</H3>
+                    <Table className="mt-6">
+                      <TableBody>
+                        {material.materials.map((material) => (
+                          <MaterialRow key={material.title} {...material} />
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </div>
+                ))}
+              </section>
+            </TabsContent>
+
+            <TabsContent value="personagens">
+              <section className="py-5 flex flex-col gap-8 sm:gap-10 mb-10">
+                <H2>Personagens</H2>
+
+                {charactersMaterials.map((material) => (
                   <div key={material.title}>
                     <H3>{material.title}</H3>
                     <Table className="mt-6">
