@@ -129,6 +129,31 @@ export default function CursoHebreus() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1kXJpCFQCi1yw19h7hEH1lDJr9ANl9A9w/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Supremacia de Cristo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1kJKRZ6QBi4Yjl3RbOfYWbqoU4QrJGlVf/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Cristo Sumo Sacerdote
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1U_Wkmlxq7zIxacKx43LHQRtKmtFyyFFQ/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Sacerdócio Perfeito
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1ZaYzzyvOgF9eG2ZO_6ZC2aXjSyCB3lgs/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Perseverança da Fé
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
