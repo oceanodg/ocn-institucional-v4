@@ -131,6 +131,31 @@ export default function CursoTessalonicenses() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1F3PVq-dkJyV1t0g3RGauoOK-KpPdBvtI/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Igreja Modelo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/16mOqRAeyeqSoZuWnVugqBXIwQALAoqwW/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Santidade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1kSmly9cWE_Z5-r6g9H4fIg7dkF-sLTYB/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Vigilância
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1MhdjjQxEEuez2D9jpTyhvzrBoWzcYYCg/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Manifestação
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
