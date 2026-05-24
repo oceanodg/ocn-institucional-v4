@@ -129,6 +129,31 @@ export default function CursoFilipenses() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1b28UnXYA9fgqn9m96ppaOR0p_o04cAiy/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Alegria
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/11_PfVSel1MfvF65DFXks1yV2dSZsoxuj/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Serviço
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/10ePZnLDmPodvCYk8NgJHYT7qIMe8G-tT/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Excelência
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1sO365BRhIF7bWwcz9lUq4dc8JgbfkSSB/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Contentamento
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
