@@ -129,6 +129,31 @@ export default function CursoTiago() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1ZvrYVfIBwOgDDhyTKGg8yX87uVAnplcQ/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Fé Provada
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1Ozxovngt0A7LQ-Dg1S0kuUJjYpUPlheo/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Fé Vencedora
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1dDbkCv9Hu81nLmmOIrpBl48YlNbrcRW1/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Fé Sábia
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1Cp9p8zgwl6YZC-Las2AKw6_VZUOHRXTt/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Fé Perseverante
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Cursos Recomendados
               </TableCell>
               <TableCell>
