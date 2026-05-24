@@ -161,6 +161,32 @@ export default function IntroducaoApocalipsePage() {
             </TableRow> */}
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1jPtbx9Kqm5xKHc-g95PHP0PJxebHJLEj/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Fundamentos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1gQCkeLosoS6YlgjmzE6nzCacBtxYNUMq/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Escolas Clássicas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1YomVq7AqYttYJ_xcgxWm1qHmvK10rJT8/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Correntes Milenistas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1Kh8gGty_2ha54Ju9gE1XblMTUYyoxpPE/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Esperança Transformadora
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Palavras-Cruzadas
               </TableCell>
               <TableCell>
