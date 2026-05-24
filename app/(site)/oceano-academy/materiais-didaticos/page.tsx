@@ -6,6 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { Table, TableBody, TableCell, TableRow } from "~/components/ui/table";
 import { cn } from "~/lib/utils";
 import { validTabs, type ValidTab } from "./constants";
+import { EscolaBiblicaBackButton } from "~/components/back-buttons/escola-biblica-back-button";
 
 type Material = {
   title: string;
@@ -455,11 +456,13 @@ export default async function MateriaisDidaticosPage({
 
   return (
     <section className="relative backdrop-blur-sm">
+      <EscolaBiblicaBackButton />
+
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col gap-2">
-          <H1 className="text-left">Materiais Didáticos</H1>
+          <H1 className="text-left">Materiais de Apoio</H1>
           <P className="mt-0">
-            Consolide o seu conhecimento bíblico com os materiais didáticos da
+            Consolide o seu conhecimento bíblico com os materiais de apoio da
             Escola Bíblica da Oceano Academy.
           </P>
         </div>

@@ -1,5 +1,4 @@
 import { HeroContainer } from "~/components/hero";
-import { AllSchoolsBackButton } from "~/components/back-buttons/all-schools";
 import { H1, H2, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
 import { CourseCard } from "~/components/course-card";
@@ -9,7 +8,7 @@ import { CardWithImageAndLink } from "~/components/card-with-image-and-link";
 export default function EscolaDeMembrosPage() {
   return (
     <section className="relative backdrop-blur-sm">
-      <AllSchoolsBackButton />
+      {/* <AllSchoolsBackButton /> */}
 
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col gap-2">

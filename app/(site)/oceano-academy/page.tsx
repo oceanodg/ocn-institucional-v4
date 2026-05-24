@@ -89,6 +89,30 @@ export default function OceanoAcademyPage() {
       <Container className="pt-0 sm:pt-0 mb-10 sm:mb-16">
         <div className="flex flex-col gap-4">
           <CTABox
+            title="Já é cadastrado(a) em algum curso?"
+            description="Acesse agora a plataforma de cursos da Oceano Academy."
+            buttonLink="https://academy.oceanodagraca.com/"
+            buttonText="Acesse agora"
+            openInNewTab={true}
+          />
+
+          <CTABox
+            title="Escola Bíblica"
+            description="Cursos de ensino e adoração."
+            buttonLink="/oceano-academy/escolas/escola-biblica"
+            buttonText="Ver cursos"
+            openInNewTab={false}
+          />
+
+          <CTABox
+            title="Escola de Membros"
+            description="Nosso discipulado institucional."
+            buttonLink="/oceano-academy/escolas/escola-de-membros"
+            buttonText="Ver cursos"
+            openInNewTab={false}
+          />
+          {/* 
+          <CTABox
             title="Conheça nossas escolas"
             description="Discipulado, Cursos de ensino e adoração e muito mais."
             buttonLink="/oceano-academy/escolas"
@@ -110,7 +134,7 @@ export default function OceanoAcademyPage() {
             buttonLink="/oceano-academy/planos-de-leitura"
             buttonText="Acessar Planos"
             openInNewTab={false}
-          />
+          /> */}
         </div>
       </Container>
     </section>
