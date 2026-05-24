@@ -133,6 +133,31 @@ export default function CursoRomanos() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/15MBHCftpL2eWpjpcGtOWGt1iK2dOQRz8/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Evangelho
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1VksxJgFD1X5Ef7Dy9XxQY03fhxyXsbPD/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Propiciação
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1UF6MiSZ1wBTDVD8j7Y1IdvqQlQ4mCoV2/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Cristo e Adão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1SXlvEZDvcCL32wtUd_l3CnMUqJaw51KY/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Retidão
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
