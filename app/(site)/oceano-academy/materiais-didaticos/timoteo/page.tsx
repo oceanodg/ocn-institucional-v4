@@ -135,6 +135,35 @@ export default function CursoTimoteo() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1IGVZQRb4T_kQ1DUGqHIquY1ioMCICMud/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: O Chamado
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1zyTR5fAzENGqNDstDdRNyKns1PRTAK5Q/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Oração e Piedade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1g4Y03EA0Wew2yhUZHPmhiWAle6qfl3p1/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Perfil do Líder
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1F47se84Cv08mG7B690xWejy1eLDCKALX/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Permanecendo Fiel
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/10Hi44LIeESPZehYpzsBa5BnOxzA9rsHD/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L5: Coroa da Justiça
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
