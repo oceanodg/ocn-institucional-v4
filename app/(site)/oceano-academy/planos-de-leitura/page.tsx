@@ -13,6 +13,7 @@ import {
 
 import { cn } from "~/lib/utils";
 import { CTABox } from "~/components/cta-box";
+import { EscolaBiblicaBackButton } from "~/components/back-buttons/escola-biblica-back-button";
 
 function LinkReadingPlan(props: {
   slug: string;
@@ -64,6 +65,8 @@ function ReadingPlanRow(props: {
 export default function PlanosLeituraPage() {
   return (
     <section className="relative backdrop-blur-sm">
+      <EscolaBiblicaBackButton />
+
       <HeroContainer className="pb-2 sm:pb-0 mb-6 sm:mb-8">
         <div className="flex flex-col gap-2">
           <H1 className="text-left">Planos de Leitura</H1>
