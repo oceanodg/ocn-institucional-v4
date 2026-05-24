@@ -154,6 +154,31 @@ export default function CursoApocalipse() {
             </TableRow> */}
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1jE2OPAG1crm6XpauGQ_4pyl-oOdLpHgy/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: O que tens visto
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1g2UHuAZerEOLnC6Vq7GmPZW6lSgF6xMN/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Hão de Acontecer
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/17DBMmVP-pEfYgGlPix8X0IGx3VxYRdJO/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Reino Milenar
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1MV_7d8V4TUI_c6YNQD84K36xA-lOGTW_/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Novos Céus
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Palavras-Cruzadas
               </TableCell>
               <TableCell>
