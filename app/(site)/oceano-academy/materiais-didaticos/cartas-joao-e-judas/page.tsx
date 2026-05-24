@@ -134,6 +134,31 @@ export default function CursoCartasJoaoEJudas() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/12cezNkkdFHe83ZTm2psCVZccuYn1RfVp/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Deus é Amor
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1hZHBMog_hgXsCB8b5UHB89xvjnq1v3aW/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Hospitalidade Cristã
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1DuXKBaj3cRe5YFVyPlD8_BESQR7QcNzt/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Contender pela Fé
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1e1O-zE6NpyRpp9mU97WkptkQYmVatEf5/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Perseverança
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
