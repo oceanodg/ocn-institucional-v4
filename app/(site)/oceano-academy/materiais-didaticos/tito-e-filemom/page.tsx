@@ -133,6 +133,31 @@ export default function CursoTitoEFilemom() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1FEKzsRmZR1KsORcGQQWHPkL0ZLr7gCyU/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Igreja e Sã Doutrina
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1WcGLXobxt8FNioFWK_Ys02rePnyB_lx6/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Vida Cristã e Sã Doutrina
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1kwgmm-vnNMwAloO7-XPc6D02ePghf38d/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Vida Cristã na Sociedade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1zFmTEEIZIze0VQmk_1GDV9wbSn6GMOln/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Evangelho Transformador
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
