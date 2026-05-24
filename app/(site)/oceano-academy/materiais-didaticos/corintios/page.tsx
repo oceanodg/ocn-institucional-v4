@@ -131,6 +131,31 @@ export default function CursoCorintios() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1Vc2ovvrGo0nsIRNf5HeA8SVN8h2405hV/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Unidade
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/17OSKCivOLxRcehCoSezOA0FxNcvFTjKC/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Dons Espirituais
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/11Bm1lkkFVmNmZeyqP3pOS87D3M1wz15H/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: O Paradoxo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1-zeXgWxESxKcbnjFTBLkMcckdFV-32Yq/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Generosidade
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Curso Recomendado
               </TableCell>
               <TableCell>
