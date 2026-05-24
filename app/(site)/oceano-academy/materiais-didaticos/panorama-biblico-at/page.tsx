@@ -202,6 +202,14 @@ export default function PanoramaBiblicoAT() {
                     <FileImage className="size-4" />
                     L8: Recomeço
                   </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1jjwtOQWwVcZQm8okLMvaF69eYvDSJmvd/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    Tabernáculo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1yWttpDR1e9Iv3tu4QWU1EMIn1bKY1fAT/view?usp=sharing">
+                    <FileImage className="size-4" />
+                    Arca da Aliança
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
