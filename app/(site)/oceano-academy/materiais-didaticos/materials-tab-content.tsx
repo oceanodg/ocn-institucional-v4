@@ -1,5 +1,10 @@
+"use client";
+
 import Link from "next/link";
+import { Search } from "lucide-react";
+import { useMemo, useState } from "react";
 import { H2, H3 } from "~/components/ui";
+import { Input } from "~/components/ui/input";
 import { TabsContent } from "~/components/ui/tabs";
 import { Table, TableBody, TableCell, TableRow } from "~/components/ui/table";
 import { cn } from "~/lib/utils";
@@ -22,6 +27,19 @@ export type MaterialsTab = {
   heading: string;
   groups: MaterialGroup[];
 };
+
+function normalizeForSearch(text: string) {
+  return text
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function matchesTitleSearch(title: string, query: string) {
+  const normalizedQuery = normalizeForSearch(query.trim());
+  if (!normalizedQuery) return true;
+  return normalizeForSearch(title).includes(normalizedQuery);
+}
 
 function LinkMaterial(props: {
   url: string;
@@ -93,23 +111,61 @@ function MaterialRow(material: Material) {
 }
 
 export function MaterialsTabContent({ value, heading, groups }: MaterialsTab) {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const filteredGroups = useMemo(() => {
+    const query = searchQuery.trim();
+    if (!query) return groups;
+
+    return groups
+      .map((group) => ({
+        ...group,
+        materials: group.materials.filter((material) =>
+          matchesTitleSearch(material.title, query)
+        ),
+      }))
+      .filter((group) => group.materials.length > 0);
+  }, [groups, searchQuery]);
+
   return (
     <TabsContent value={value}>
       <section className="py-5 flex flex-col gap-8 sm:gap-10 mb-10">
-        <H2>{heading}</H2>
-
-        {groups.map((group) => (
-          <div key={group.title}>
-            <H3>{group.title}</H3>
-            <Table className="mt-6">
-              <TableBody>
-                {group.materials.map((item) => (
-                  <MaterialRow key={item.title} {...item} />
-                ))}
-              </TableBody>
-            </Table>
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <H2>{heading}</H2>
+          <div className="relative w-full sm:max-w-xs">
+            <Search
+              aria-hidden
+              className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground"
+            />
+            <Input
+              type="search"
+              placeholder="Pesquisar pelo nome..."
+              value={searchQuery}
+              onChange={(event) => setSearchQuery(event.target.value)}
+              className="pl-9"
+              aria-label={`Pesquisar materiais em ${heading}`}
+            />
           </div>
-        ))}
+        </div>
+
+        {filteredGroups.length === 0 ? (
+          <p className="text-muted-foreground">
+            Nenhum material encontrado para &ldquo;{searchQuery.trim()}&rdquo;.
+          </p>
+        ) : (
+          filteredGroups.map((group) => (
+            <div key={group.title}>
+              <H3>{group.title}</H3>
+              <Table className="mt-6">
+                <TableBody>
+                  {group.materials.map((item) => (
+                    <MaterialRow key={item.title} {...item} />
+                  ))}
+                </TableBody>
+              </Table>
+            </div>
+          ))
+        )}
       </section>
     </TabsContent>
   );
