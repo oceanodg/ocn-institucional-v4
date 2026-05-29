@@ -1,25 +1,15 @@
-import Link from "next/link";
 import { Container } from "~/components/container";
 import { HeroContainer } from "~/components/hero";
-import { H1, H2, H3, P, Separator } from "~/components/ui";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
-import { Table, TableBody, TableCell, TableRow } from "~/components/ui/table";
-import { cn } from "~/lib/utils";
+import { H1, P, Separator } from "~/components/ui";
+import { Tabs, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { validTabs, type ValidTab } from "./constants";
 import { EscolaBiblicaBackButton } from "~/components/back-buttons/escola-biblica-back-button";
-
-type Material = {
-  title: string;
-  description: string;
-  url?: string;
-  isUrlExternal?: boolean;
-};
-
-type MaterialGroup = {
-  title: string;
-  description: Array<string>;
-  materials: Array<Material>;
-};
+import {
+  MaterialsTabContent,
+  type Material,
+  type MaterialGroup,
+  type MaterialsTab,
+} from "./materials-tab-content";
 
 type MateriaisDidaticosPageProps = {
   searchParams?: Promise<{
@@ -434,6 +424,24 @@ const charactersMaterials: MaterialGroup[] = [
   },
 ];
 
+const materialTabs: MaterialsTab[] = [
+  {
+    value: "antigo",
+    heading: "Antigo Testamento",
+    groups: oldTestamentMaterials,
+  },
+  {
+    value: "novo",
+    heading: "Novo Testamento",
+    groups: newTestamentMaterials,
+  },
+  {
+    value: "personagens",
+    heading: "Personagens",
+    groups: charactersMaterials,
+  },
+];
+
 function materialLI(material: Material): React.ReactNode {
   if (material.url) {
     return (
@@ -452,75 +460,6 @@ function materialLI(material: Material): React.ReactNode {
     <li key={material.title} className="text-muted-foreground">
       {material.title} <span className="italic">(em breve)</span>
     </li>
-  );
-}
-
-function LinkMaterial(props: {
-  url: string;
-  text: string;
-  className?: string;
-  isUrlExternal?: boolean;
-}) {
-  const { url, text, className, isUrlExternal } = props;
-  const linkClassName = cn(
-    "dark:text-dark-secondary hover:dark:text-dark-secondary-2",
-    "text-light-secondary hover:text-light-secondary-2",
-    "block h-full w-full p-3",
-    className
-  );
-
-  if (isUrlExternal) {
-    return (
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={linkClassName}
-      >
-        {text}
-      </a>
-    );
-  }
-
-  return (
-    <Link href={url} className={linkClassName}>
-      {text}
-    </Link>
-  );
-}
-
-function MaterialRow(material: Material) {
-  const { title, description, url, isUrlExternal } = material;
-  return (
-    <TableRow
-      className={cn(url ? "hover:cursor-pointer" : "hover:cursor-default")}
-    >
-      <TableCell className={cn("w-32 sm:w-52", url && "p-0")}>
-        {url ? (
-          <LinkMaterial
-            url={url}
-            text={title}
-            isUrlExternal={isUrlExternal}
-            className="text-blue-500 hover:text-blue-500/80 underline underline-offset-4"
-          />
-        ) : (
-          <span className="text-muted-foreground">{title}</span>
-        )}
-      </TableCell>
-      <TableCell className={cn(url && "p-0")}>
-        {url ? (
-          <LinkMaterial
-            url={url}
-            text={description}
-            isUrlExternal={isUrlExternal}
-          />
-        ) : (
-          <span className="text-muted-foreground">
-            {description} <span className="font-medium italic">– em breve</span>
-          </span>
-        )}
-      </TableCell>
-    </TableRow>
   );
 }
 
@@ -556,62 +495,9 @@ export default async function MateriaisDidaticosPage({
               <TabsTrigger value="personagens">Personagens</TabsTrigger>
             </TabsList>
 
-            <TabsContent value="antigo">
-              <section className="py-5 flex flex-col gap-8 sm:gap-10 mb-10">
-                <H2>Antigo Testamento</H2>
-
-                {oldTestamentMaterials.map((material) => (
-                  <div key={material.title}>
-                    <H3>{material.title}</H3>
-                    <Table className="mt-6">
-                      <TableBody>
-                        {material.materials.map((material) => (
-                          <MaterialRow key={material.title} {...material} />
-                        ))}
-                      </TableBody>
-                    </Table>
-                  </div>
-                ))}
-              </section>
-            </TabsContent>
-
-            <TabsContent value="novo">
-              <section className="py-5 flex flex-col gap-8 sm:gap-10 mb-10">
-                <H2>Novo Testamento</H2>
-
-                {newTestamentMaterials.map((material) => (
-                  <div key={material.title}>
-                    <H3>{material.title}</H3>
-                    <Table className="mt-6">
-                      <TableBody>
-                        {material.materials.map((material) => (
-                          <MaterialRow key={material.title} {...material} />
-                        ))}
-                      </TableBody>
-                    </Table>
-                  </div>
-                ))}
-              </section>
-            </TabsContent>
-
-            <TabsContent value="personagens">
-              <section className="py-5 flex flex-col gap-8 sm:gap-10 mb-10">
-                <H2>Personagens</H2>
-
-                {charactersMaterials.map((material) => (
-                  <div key={material.title}>
-                    <H3>{material.title}</H3>
-                    <Table className="mt-6">
-                      <TableBody>
-                        {material.materials.map((material) => (
-                          <MaterialRow key={material.title} {...material} />
-                        ))}
-                      </TableBody>
-                    </Table>
-                  </div>
-                ))}
-              </section>
-            </TabsContent>
+            {materialTabs.map((tab) => (
+              <MaterialsTabContent key={tab.value} {...tab} />
+            ))}
           </Tabs>
         </Container>
       </div>
