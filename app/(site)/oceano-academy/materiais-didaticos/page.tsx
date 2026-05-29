@@ -372,39 +372,76 @@ const charactersMaterials: MaterialGroup[] = [
     description: [""],
     materials: [
       {
+        title: "Adão",
+        description: "Primeiro homem, criado por Deus",
+        url: "https://drive.google.com/file/d/1suEfqfgz-O5gvq8WWtUHFZjKc_Urptot/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Eva",
+        description: "Primeira mulher, criada por Deus",
+        url: "https://drive.google.com/file/d/1h0bCOJEKCA8x4_V38tCazlQEom7ofwPJ/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Caim",
+        description: "Primeiro filho de Adão e Eva, marcado após matar Abel",
+        url: "https://drive.google.com/file/d/1eJOOTlKnrZ6UrHH0TOCkl2w6N665j1P0/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Abel",
+        description: "Filho justo de Adão e Eva, primeiro mártir da fé",
+        url: "https://drive.google.com/file/d/1oQLCmUPV2VQv9RLiGwHIs8Atp5TbCyZl/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Sete",
+        description: "Terceiro filho de Adão e Eva, linhagem da qual viria Noé",
+        url: "https://drive.google.com/file/d/1FtgpPgw_q33wRS-Rl_lFi6IqO8hFqGh9/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
         title: "Noé",
-        description: "Justo diante de Deus, construtor da Arca e arauto da fé.",
+        description: "Justo diante de Deus, construtor da Arca e arauto da fé",
         url: "https://drive.google.com/file/d/15FOx0Zao0OO81EKTvm-YpJwP9WQdGdyZ/view?usp=sharing",
         isUrlExternal: true,
       },
     ],
   },
   {
-    title: "Patriarcas",
+    title: "Era Patriarcal",
     description: [""],
     materials: [
       {
         title: "Abraão",
-        description: "Pai da fé de muitos povos, chamado de Ur para Canaã.",
+        description: "Pai da fé de muitos povos, chamado de Ur para Canaã",
         url: "https://drive.google.com/file/d/1xpDrb8cq13LCKFDsbigoei7eO7tt6jKo/view?usp=sharing",
         isUrlExternal: true,
       },
       {
         title: "Isaac",
-        description: "Filho da promessa, Herdeiro da Aliança.",
+        description: "Filho da promessa, Herdeiro da Aliança",
         url: "https://drive.google.com/file/d/10ba4NpP5CxCNtYZimz5r2NqIs3_bBkUi/view?usp=sharing",
         isUrlExternal: true,
       },
       {
         title: "Jacó",
-        description: "Pai das doze tribos de Israel.",
+        description: "Pai das doze tribos de Israel",
         url: "https://drive.google.com/file/d/1iAjSp0qptwd6OMSpyA-V3ghP-68fJAXs/view?usp=sharing",
         isUrlExternal: true,
       },
       {
         title: "José",
-        description: "Governador do Egito, exemplo de providência divina.",
+        description: "Governador do Egito, exemplo de providência divina",
         url: "https://drive.google.com/file/d/1z87jhh43C3HJ1fTHZj1nFZyZIq-WlFLe/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Jó",
+        description:
+          "Homem íntegro e temente a Deus, exemplo de fidelidade em meio ao sofrimento",
+        url: "https://drive.google.com/file/d/1zK--xHYzTNtQGaPadxiTPNXCqREk84Yi/view?usp=sharing",
         isUrlExternal: true,
       },
     ],
@@ -418,6 +455,124 @@ const charactersMaterials: MaterialGroup[] = [
         description:
           "Libertador de Israel, mediador da aliança e das leis de Deus.",
         url: "https://drive.google.com/file/d/1JqFk5Odht8q_ME1OO789pbW_mgi0vaZZ/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Arão",
+        description: "Irmão de Moisés e primeiro sumo sacerdote de Israel",
+        url: "https://drive.google.com/file/d/14zhGMf7gtFiXshkki4ppnmdYOsbHNDtY/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Josué",
+        description: "Sucessor de Moisés, líder na conquista de Canaã",
+        url: "https://drive.google.com/file/d/1hF6diTnRAHAy_dJTGu1XZObUHfgVcW65/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+  {
+    title: "Período dos Juízes",
+    description: [""],
+    materials: [
+      {
+        title: "Gideão",
+        description:
+          "Conhecido por sua vitória sobre os midianitas com um pequeno exército",
+        url: "https://drive.google.com/file/d/1FWumtCXhMacM8jLFthAbBzXKk7TFJGHP/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Sansão",
+        description:
+          "Famoso por sua força extraordinária, consagrado nazireu desde o nascimento",
+        url: "https://drive.google.com/file/d/1ajJwg4CHohz8rC4hdDJHjAF4h5eqfY1V/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+  {
+    title: "Período da Monarquia Unida e Dividida",
+    description: [""],
+    materials: [
+      {
+        title: "Rei Saul",
+        description: "Primeiro rei de Israel, ungido pelo profeta Samuel",
+        url: "https://drive.google.com/file/d/1qkNs3GT7NvLyv5J3FwXra0T4yDZvszsC/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Rei Davi",
+        description: "Conhecido como o homem segundo o coração de Deus",
+        url: "https://drive.google.com/file/d/1jcCwmOvc7LHzdgjjdya7iMs-LP2KufXl/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Rei Salomão",
+        description:
+          "Famoso por sua sabedoria e por construir o Templo em Jerusalém",
+        url: "https://drive.google.com/file/d/1QSEXB4tAS3RSem_8bKnUpbAGNRg_kcY_/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Profeta Elias",
+        description:
+          "Profeta poderoso de Israel, confrontou Acabe e os profetas de Baal",
+        url: "https://drive.google.com/file/d/10SZNMlrOpdmWDFfh5WMZtxuvEQ5wQwSr/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Profeta Eliseu",
+        description:
+          "Sucessor de Elias, famoso por milagres e ministério entre reis",
+        url: "https://drive.google.com/file/d/1J80wdGdEfl_Tm1Jtu1FjQpyc8Yjk0IsB/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Profeta Jonas",
+        description:
+          "Profeta enviado a Nínive, conhecido pela história do grande peixe",
+        url: "https://drive.google.com/file/d/1ot-mGBjN9SEPsjozUhRYB27Cur1vA726/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Profeta Oséias",
+        description:
+          "Profeta que ilustrou o amor persistente de Deus por Israel",
+        url: "https://drive.google.com/file/d/1oWIPVmaMvaMA3d4SqpzVWhewcLKdKX0j/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Profeta Isaías",
+        description: "Profeta autor de grandes profecias sobre o Messias",
+        url: "https://drive.google.com/file/d/1CfRTXAQB26IGx6R5Y6SKoOaIN2-xAZqs/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Profeta Jeremias",
+        description: "Profeta das lágrimas, autor das Lamentações",
+        url: "https://drive.google.com/file/d/10zgf5KeZN3_TOAOSjytO0C7ckMrQaM6x/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Profeta Habacuque",
+        description:
+          "Conhecido pelo diálogo com Deus sobre justiça e sofrimento",
+        url: "https://drive.google.com/file/d/1B-mh9FSyrC6AAOtzNihjo2Rsp5op8uj1/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Profeta Daniel",
+        description:
+          "Profeta na corte da Babilônia, intérprete de sonhos e visões",
+        url: "https://drive.google.com/file/d/1pC4JkIGxx09hQ6CTnN1BKNlTxjsJz6Wt/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Profeta Ezequiel",
+        description:
+          "Profeta do exílio babilônico, conhecido por visões simbólicas",
+        url: "https://drive.google.com/file/d/1WGkkZtokK-yRuxqv2XU5DE2x9zx2Q0ld/view?usp=sharing",
         isUrlExternal: true,
       },
     ],
