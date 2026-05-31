@@ -132,6 +132,10 @@ export default function PanoramaBiblicoAT() {
                     <Wallpaper className="size-4" />
                     L4: Aliança
                   </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1z9byzyH0mDmnkIbDqa3q_l30-dI2cZTd/view?usp=sharing">
+                    <Wallpaper className="size-4" />
+                    L5: Era do Juízes
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
