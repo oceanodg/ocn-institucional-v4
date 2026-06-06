@@ -109,9 +109,19 @@ export default function PanoramaBiblicoAT() {
                   <LinkSmall href="https://www.youtube.com/watch?v=c9IwEZcYWws">
                     <SquarePlay className="size-4" />A Lei
                   </LinkSmall>
-                  <LinkSmall href="https://www.youtube.com/watch?v=K8iwowbjX6c">
+                  <LinkSmall href="https://www.youtube.com/watch?v=cPu3SHxOFDo">
                     <SquarePlay className="size-4" />
-                    Os Profetas
+                    Juízes
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=othkYCAsskc">
+                    <SquarePlay className="size-4" />1 Samuel
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=YApXtfUyODg">
+                    <SquarePlay className="size-4" />2 Samuel
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=6R5wFQWFDL4">
+                    <SquarePlay className="size-4" />
+                    1-2 Reis
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
