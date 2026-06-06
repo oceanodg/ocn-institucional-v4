@@ -453,7 +453,7 @@ const charactersMaterials: MaterialGroup[] = [
       {
         title: "Moisés",
         description:
-          "Libertador de Israel, mediador da aliança e das leis de Deus.",
+          "Libertador de Israel, mediador da aliança e das leis de Deus",
         url: "https://drive.google.com/file/d/1JqFk5Odht8q_ME1OO789pbW_mgi0vaZZ/view?usp=sharing",
         isUrlExternal: true,
       },
