@@ -233,38 +233,38 @@ export default function PanoramaBiblicoAT() {
               <TableCell className="border font-semibold">Quizzes</TableCell>
               <TableCell>
                 <TableCellLinksContainer>
-                  {/* <LinkSmall href="https://drive.google.com/file/d/160mDQ6jnqGSsbHxVWCjKdyLhtkMESx_0/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/13hiA0y275cpR8HKBYDetEhDeZX4l87FK/view?usp=sharing">
                     <FileText className="size-4" />
                     L1: Começo
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1-IIb4UEp10tizYcUeQah34Lpdn2jV20C/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/16OXD7p9s8EGtyc_uZIZvnC_f5-hWQvyk/view?usp=sharing">
                     <FileText className="size-4" />
                     L2: Patriarcas
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1bDyBnfVLfolv8Jqb3lyqEsHa82pz2Kgm/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1RPUYj7G0i15ygqpGFKDctyQsBzQbZO0k/view?usp=sharing">
                     <FileText className="size-4" />
                     L3: Egito
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1XHMzuqCRl2JStUrpKbKGn3US-5q489-l/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1i4FCO3hb1u0bk6GHBSV7ozQabFic8ICq/view?usp=sharing">
                     <FileText className="size-4" />
                     L4: Aliança
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/18xKT0RoAhIn150roeaiyGy61oyvn9PQA/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1vnK4wyPG7PkyGS3ZzHCkMlL7eqTZH7qY/view?usp=sharing">
                     <FileText className="size-4" />
                     L5: Juízes
-                  </LinkSmall> */}
+                  </LinkSmall>
                   <LinkSmall href="https://drive.google.com/file/d/17_PjIgxQsxJEXewhucqhLc6P3Vcr0Ptp/view?usp=sharing">
                     <FileText className="size-4" />
                     L6: Monarquia
                   </LinkSmall>
-                  {/* <LinkSmall href="https://drive.google.com/file/d/19Jjqzq2m0SPZQXJezJW8UU6nvGoOyZu4/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1WzK-NOd90co7WVn6SsFqlKg_akXr2YIr/view?usp=sharing">
                     <FileText className="size-4" />
                     L7: Divisão
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1lDjk3GfH5wT2Js3kHjOjcw0r1Tj4h4QE/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/16vray0vHWKvqUkBZRBpl_Q2SNG2gUE17/view?usp=sharing">
                     <FileText className="size-4" />
                     L8: Recomeço
-                  </LinkSmall> */}
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
