@@ -134,40 +134,7 @@ export default function PanoramaBiblicoAT() {
                   </LinkSmall>
                   <LinkSmall href="https://drive.google.com/file/d/1z9byzyH0mDmnkIbDqa3q_l30-dI2cZTd/view?usp=sharing">
                     <Wallpaper className="size-4" />
-                    L5: Era do Juízes
-                  </LinkSmall>
-                </TableCellLinksContainer>
-              </TableCell>
-            </TableRow>
-            <TableRow className="hover:bg-transparent">
-              <TableCell className="border font-semibold">
-                Personagens
-              </TableCell>
-              <TableCell>
-                <TableCellLinksContainer>
-                  <LinkSmall href="https://drive.google.com/file/d/15FOx0Zao0OO81EKTvm-YpJwP9WQdGdyZ/view?usp=sharing">
-                    <CircleUserRound className="size-4" />
-                    Noé
-                  </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1xpDrb8cq13LCKFDsbigoei7eO7tt6jKo/view?usp=sharing">
-                    <CircleUserRound className="size-4" />
-                    Abraão
-                  </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/10ba4NpP5CxCNtYZimz5r2NqIs3_bBkUi/view?usp=sharing">
-                    <CircleUserRound className="size-4" />
-                    Isaac
-                  </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1iAjSp0qptwd6OMSpyA-V3ghP-68fJAXs/view?usp=sharing">
-                    <CircleUserRound className="size-4" />
-                    Jacó
-                  </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1z87jhh43C3HJ1fTHZj1nFZyZIq-WlFLe/view?usp=sharing">
-                    <CircleUserRound className="size-4" />
-                    José
-                  </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1JqFk5Odht8q_ME1OO789pbW_mgi0vaZZ/view?usp=sharing">
-                    <CircleUserRound className="size-4" />
-                    Moisés
+                    L5: Juízes
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
@@ -259,6 +226,45 @@ export default function PanoramaBiblicoAT() {
                     <FileText className="size-4" />
                     L8: Recomeço
                   </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">Quizzes</TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  {/* <LinkSmall href="https://drive.google.com/file/d/160mDQ6jnqGSsbHxVWCjKdyLhtkMESx_0/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Começo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1-IIb4UEp10tizYcUeQah34Lpdn2jV20C/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Patriarcas
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1bDyBnfVLfolv8Jqb3lyqEsHa82pz2Kgm/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Egito
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1XHMzuqCRl2JStUrpKbKGn3US-5q489-l/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Aliança
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/18xKT0RoAhIn150roeaiyGy61oyvn9PQA/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L5: Juízes
+                  </LinkSmall> */}
+                  <LinkSmall href="https://drive.google.com/file/d/17_PjIgxQsxJEXewhucqhLc6P3Vcr0Ptp/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L6: Monarquia
+                  </LinkSmall>
+                  {/* <LinkSmall href="https://drive.google.com/file/d/19Jjqzq2m0SPZQXJezJW8UU6nvGoOyZu4/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L7: Divisão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1lDjk3GfH5wT2Js3kHjOjcw0r1Tj4h4QE/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L8: Recomeço
+                  </LinkSmall> */}
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
@@ -1820,7 +1826,7 @@ export default function PanoramaBiblicoAT() {
           <P className="">
             A presente lição apresentou a transição do reino teocrático para o
             reino monárquico em Israel, expondo o desejo desenfreado do povo em
-            viver nos mesmos moldes daqueles que o cercavam. seguidamente, foram
+            viver nos mesmos moldes daqueles que o cercavam. Seguidamente, foram
             apresentados os três primeiros monarcas de Israel que, entre erros e
             acertos, guiaram o povo em relativa unidade. A monarquia unida
             permanece tão somente até o reinado de Salomão, já que o Reino de
