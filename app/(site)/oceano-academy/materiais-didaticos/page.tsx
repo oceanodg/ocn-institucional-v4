@@ -633,6 +633,39 @@ const charactersMaterials: MaterialGroup[] = [
   },
 ];
 
+const parablesMaterials: MaterialGroup[] = [
+  {
+    title: "Parábolas de Jesus",
+    description: [""],
+    materials: [
+      {
+        title: "O Bom Samaritano",
+        description: "O amor ao próximo em ação",
+        url: "https://drive.google.com/file/d/1uAiH0iqHJfjciIIpLkjG7yki2gNy4FZz/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "O Filho Pródigo",
+        description: "O amor que sempre acolhe",
+        url: "https://drive.google.com/file/d/1tRbmu_27-kUVAJKVfbKlCIOVWWsv5uDb/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "A Ovelha Perdida",
+        description: "A alegria de resgatar quem se perdeu",
+        url: "https://drive.google.com/file/d/12bpteIylfvCfqWM2jvmyAC4yDs6hOieh/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "O Semeador",
+        description: "A palavra e os tipos de coração",
+        url: "https://drive.google.com/file/d/1JDpIFnXj-tWr1WGHtLzq3azrcb8DWqf3/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+];
+
 const materialTabs: MaterialsTab[] = [
   {
     value: "antigo",
@@ -648,6 +681,11 @@ const materialTabs: MaterialsTab[] = [
     value: "personagens",
     heading: "Personagens",
     groups: charactersMaterials,
+  },
+  {
+    value: "parabolas",
+    heading: "Parábolas",
+    groups: parablesMaterials,
   },
 ];
 
@@ -702,6 +740,7 @@ export default async function MateriaisDidaticosPage({
               <TabsTrigger value="antigo">AT</TabsTrigger>
               <TabsTrigger value="novo">NT</TabsTrigger>
               <TabsTrigger value="personagens">Personagens</TabsTrigger>
+              <TabsTrigger value="parabolas">Parábolas</TabsTrigger>
             </TabsList>
 
             {materialTabs.map((tab) => (
