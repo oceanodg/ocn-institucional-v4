@@ -635,31 +635,147 @@ const charactersMaterials: MaterialGroup[] = [
 
 const parablesMaterials: MaterialGroup[] = [
   {
-    title: "Parábolas de Jesus",
+    title: "O Reino de Deus e o Crescimento da Fé",
     description: [""],
     materials: [
       {
-        title: "O Bom Samaritano",
-        description: "O amor ao próximo em ação",
-        url: "https://drive.google.com/file/d/1uAiH0iqHJfjciIIpLkjG7yki2gNy4FZz/view?usp=sharing",
+        title: "O Semeador",
+        description:
+          "O impacto da palavra de Deus depende de como o coração de quem a ouve a recebe (Mateus 13:3-9; Marcos 4:3-9; Lucas 8:5-8)",
+        url: "https://drive.google.com/file/d/1JDpIFnXj-tWr1WGHtLzq3azrcb8DWqf3/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "O Joio e o Trigo",
+        description:
+          "O bem e o mal crescem juntos no mundo até o julgamento final (Mateus 13:24-30)",
+        url: "https://drive.google.com/file/d/1m8VrrNHqhuwSyuHfuwpHP3zyOHRuSJOa/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "A Semente que Cresce Secretamente",
+        description:
+          "O crescimento do Reino de Deus é um processo divino e misterioso (Marcos 4:26-29)",
+        url: "https://drive.google.com/file/d/1NhPAy2-ec5D3ZJpQQkJtn9HMErMQaDzi/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "O Grão de Mostarda",
+        description:
+          "O Reino começa minúsculo, mas cresce até se tornar grandioso (Mateus 13:31-32; Marcos 4:30-32; Lucas 13:18-19)",
+        url: "https://drive.google.com/file/d/13IWN1rFHn5pGhPlO0cMixeNwp3EYmcvb/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "O Fermento",
+        description:
+          "A transformação silenciosa e total que o Reino opera no mundo e no indivíduo (Mateus 13:33; Lucas 13:20-21)",
+        url: "https://drive.google.com/file/d/1x0R6oyRFJNImFft1oEDsUC8jpmNjeMFy/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "A Rede",
+        description:
+          "O recolhimento de todos os tipos de pessoas, seguidamente de uma separação final (Mateus 13:47-50)",
+        url: "https://drive.google.com/file/d/1QNJ4-pDmduDBMa4qGM3b3zhBDtKF6S-A/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+
+  {
+    title: "O Valor Supremo do Reino",
+    description: [""],
+    materials: [
+      {
+        title: "O Tesouro Escondido",
+        description:
+          "A alegria de descobrir o Reino e abrir mão de tudo para focar nele (Mateus 13:44)",
+        url: "https://drive.google.com/file/d/1NGsxoq5nS420TaFgjkbRA27_Gz0O5juT/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "A Pérola de Grande Valor",
+        description:
+          "A busca obstinada pelo que é verdadeiramente precioso (Mateus 13:45-46)",
+        url: "https://drive.google.com/file/d/1rgwCZZP7wYL4cHaUIsI_4-1kc5NP3sXQ/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+
+  {
+    title: "O Amor, a Misericórdia e a Graça de Deus",
+    description: [""],
+    materials: [
+      {
+        title: "A Ovelha Perdida",
+        description:
+          "O pastor que deixa as noventa e nove no aprisco para buscar a única que se desgarrou (Mateus 18:12-14; Lucas 15:3-7)",
+        url: "https://drive.google.com/file/d/12bpteIylfvCfqWM2jvmyAC4yDs6hOieh/view",
+        isUrlExternal: true,
+      },
+      {
+        title: "A Moeda Perdida",
+        description:
+          "A dedicação em encontrar o que se havia perdido e a celebração quando isso acontece (Lucas 15:8-10)",
+        url: "https://drive.google.com/file/d/1ph-1z4joqE7axpDn9Yjbtaf8mPqNFyzA/view?usp=sharing",
         isUrlExternal: true,
       },
       {
         title: "O Filho Pródigo",
-        description: "O amor que sempre acolhe",
-        url: "https://drive.google.com/file/d/1tRbmu_27-kUVAJKVfbKlCIOVWWsv5uDb/view?usp=sharing",
+        description:
+          "O amor incondicional do pai que acolhe o filho arrependido e confronta o orgulho do filho mais velho (Lucas 15:11-32)",
+        url: "https://drive.google.com/file/d/1tRbmu_27-kUVAJKVfbKlCIOVWWsv5uDb/view",
         isUrlExternal: true,
       },
       {
-        title: "A Ovelha Perdida",
-        description: "A alegria de resgatar quem se perdeu",
-        url: "https://drive.google.com/file/d/12bpteIylfvCfqWM2jvmyAC4yDs6hOieh/view?usp=sharing",
+        title: "Os Trabalhadores da Vinha",
+        description:
+          "A graça de Deus não se baseia no merecimento humano; o que chega por último recebe a mesma generosidade (Mateus 20:1-16)",
+        url: "https://drive.google.com/file/d/1SiXmj9eriY8SN-eQByna5GXGN58q9qTX/view?usp=sharing",
         isUrlExternal: true,
       },
       {
-        title: "O Semeador",
-        description: "A palavra e os tipos de coração",
-        url: "https://drive.google.com/file/d/1JDpIFnXj-tWr1WGHtLzq3azrcb8DWqf3/view?usp=sharing",
+        title: "Os Dois Devedores",
+        description:
+          "Aquele que é mais perdoado demonstra maior amor (Lucas 7:41-43)",
+        url: "https://drive.google.com/file/d/1yNjEyfnoXPmsSrS7joQVjA0TwVKPa_vd/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+
+  {
+    title: "O Amor ao Próximo e as Relações Humanas",
+    description: [""],
+    materials: [
+      {
+        title: "O Bom Samaritano",
+        description:
+          "O próximo é qualquer um de quem nos aproximamos para demonstrar misericórdia (Lucas 10:25-37)",
+        url: "https://drive.google.com/file/d/1uAiH0iqHJfjciIIpLkjG7yki2gNy4FZz/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "O Credor Incompassivo",
+        description:
+          "Quem recebeu o perdão de Deus tem a obrigação de perdoar os seus semelhantes (Mateus 18:23-35)",
+        url: "https://drive.google.com/file/d/12L04pt4btBsJxaC-hcpKlZ3vU28rmugY/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+
+  {
+    title: "Julgamento, Vigilância e a Segunda Vinda",
+    description: [""],
+    materials: [
+      {
+        title: "Os Talentos",
+        description:
+          "A responsabilidade de usar e multiplicar os dons e recursos que Deus nos confiou (Mateus 25:14-30; Lucas 19:12-27)",
+        url: "https://drive.google.com/file/d/1i-uTM0hXYBP8cWJLV_5E-uWtn3s-3qnp/view?usp=sharing",
         isUrlExternal: true,
       },
     ],
@@ -684,7 +800,7 @@ const materialTabs: MaterialsTab[] = [
   },
   {
     value: "parabolas",
-    heading: "Parábolas",
+    heading: "Parábolas de Jesus",
     groups: parablesMaterials,
   },
 ];
