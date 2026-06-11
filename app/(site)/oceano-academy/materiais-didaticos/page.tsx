@@ -768,14 +768,140 @@ const parablesMaterials: MaterialGroup[] = [
   },
 
   {
+    title: "Justiça, Riqueza e Generosidade",
+    description: [""],
+    materials: [
+      {
+        title: "O Rico Insensato",
+        description:
+          "O erro de acumular bens materiais esquecendo-se da vida espiritual e da mortalidade (Lucas 12:16-21)",
+        url: "https://drive.google.com/file/d/1VbASNQCJ1nQscBht7n1DHz25jd7HjZma/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "O Rico e Lázaro",
+        description:
+          "As consequências na eternidade da falta de compaixão em vida (Lucas 16:19-31)",
+        url: "https://drive.google.com/file/d/1sy8n_seoPMvK1xzcPrtTp07GjnSp56A7/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "O Administrador Astuto",
+        description:
+          "O uso sábio dos recursos terrenos com os olhos voltados para a eternidade (Lucas 16:1-9)",
+        url: "https://drive.google.com/file/d/17-QwGOgFbPa_h7DVywQCxNLbBOvvbf26/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+
+  {
     title: "Julgamento, Vigilância e a Segunda Vinda",
     description: [""],
     materials: [
+      {
+        title: "As Dez Virgens",
+        description:
+          "A necessidade de preparação espiritual contínua (manter o óleo na lâmpada) (Mateus 25:1-13)",
+        url: "https://drive.google.com/file/d/106-xXHKow8hctztsQ4HD4Sk6QzXvBarR/view?usp=sharing",
+        isUrlExternal: true,
+      },
       {
         title: "Os Talentos",
         description:
           "A responsabilidade de usar e multiplicar os dons e recursos que Deus nos confiou (Mateus 25:14-30; Lucas 19:12-27)",
         url: "https://drive.google.com/file/d/1i-uTM0hXYBP8cWJLV_5E-uWtn3s-3qnp/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "O Servo Fiel e o Mau Servo",
+        description:
+          "O dever de cumprir as obrigações com integridade mesmo na ausência visível do mestre (Mateus 24:45-51; Lucas 12:42-48)",
+        url: "https://drive.google.com/file/d/1PAi7ddzRG4_KhU23yWcWldrjXqhRl5Bt/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "O Dono da Casa Vigilante",
+        description:
+          "O chamado à prontidão constante contra surpresas espirituais (Mateus 24:43-44; Lucas 12:39-40)",
+        url: "https://drive.google.com/file/d/1dCuhGlZHXp6ZwGfdVr_gWO94l1dAARm9/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "A Figueira Estéril",
+        description:
+          "A paciência de Deus tem limites; espera-se que a nossa vida produza frutos práticos (Lucas 13:6-9)",
+        url: "https://drive.google.com/file/d/1ymY_nUHM4NlvR2lvIN70I2pDFwSPNtHt/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+
+  {
+    title: "Orgulho, Humildade e Resposta ao Convite de Deus",
+    description: [""],
+    materials: [
+      {
+        title: "O Fariseu e o Publicano",
+        description:
+          "A oração arrogante baseada em méritos próprios versus o clamor humilde por misericórdia (Lucas 18:9-14)",
+        url: "https://drive.google.com/file/d/1gxIHChFC0yemk5hmvnhQXyVgZzDFAWMj/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Os Primeiros Lugares",
+        description:
+          "O conselho prático e espiritual sobre buscar a modéstia em vez da autoexaltação (Lucas 14:7-11)",
+        url: "https://drive.google.com/file/d/1dm53Ne1eddD6Dv0NM7SFkk0IuW-HpLMh/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Os Dois Filhos",
+        description:
+          "Obedecer de verdade é melhor do que apenas dizer que vai obedecer (Mateus 21:28-32)",
+        url: "https://drive.google.com/file/d/1a5b083zeaaQD8GlMV3i6fumkGI8X6CCZ/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "A Grande Ceia",
+        description:
+          "Aqueles que rejeitam o convite de Deus por prioridades banais são substituídos pelos marginalizados (Mateus 22:1-14; Lucas 14:15-24)",
+        url: "https://drive.google.com/file/d/1eh75VOmqqfSaWT1Bzh-IQ1LbpitXI52_/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Os Lavradores Maus",
+        description:
+          "A rejeição histórica dos profetas e do próprio Filho de Deus pelos líderes religiosos (Mateus 21:33-46; Marcos 12:1-12; Lucas 20:9-19)",
+        url: "https://drive.google.com/file/d/1djgXr4rJjFSYrw99g6XE8nbNk7GogG-T/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+
+  {
+    title: "Sabedoria e Oração Perseverante",
+    description: [""],
+    materials: [
+      {
+        title: "Os Dois Construtores",
+        description:
+          "A diferença entre colocar a vida em prática sobre as palavras diárias de Jesus ou apenas ouvi-las (Mateus 7:24-27; Lucas 6:47-49)",
+        url: "https://drive.google.com/file/d/1P0YPKfl8Ckdqmmf6i0C1KSUhVEZ1TifR/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "O Amigo Importuno",
+        description:
+          "A persistência na oração e a certeza de que Deus responde às nossas necessidades (Lucas 11:5-8)",
+        url: "https://drive.google.com/file/d/1bBhrqUnL5KFhSgPT6LSpqSuQ43k5JyU6/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "A Viúva Persistente",
+        description:
+          "A constância na busca por justiça e a fidelidade em não desanimar (Lucas 18:1-8)",
+        url: "https://drive.google.com/file/d/1zIg-f1ZTKUi-Hns7VMFsg5YfNDUA43D8/view?usp=sharing",
         isUrlExternal: true,
       },
     ],
