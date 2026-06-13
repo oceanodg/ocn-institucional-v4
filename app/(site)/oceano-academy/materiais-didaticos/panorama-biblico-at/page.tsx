@@ -2067,9 +2067,9 @@ export default function PanoramaBiblicoAT() {
             A sentença pela infidelidade do povo foi consumada com os cativeiros
             assírio e babilônico, respectivamente. No Reino do Norte, foi
             instituída uma forma distorcida de adoração. Esta abriu as portas
-            para a alienação religiosa, a corrução, as injustiças e a perversão.
-            No Reino do Sul, apesar da adoração oficial a Deus, a idolatria
-            paralela irritou ao Senhor.
+            para a alienação religiosa, a corrupção, as injustiças e a
+            perversão. No Reino do Sul, apesar da adoração oficial a Deus, a
+            idolatria paralela irritou ao Senhor.
           </P>
           <P className="">
             Os profetas levantados alertaram aos reis e ao povo, transmitindo as
