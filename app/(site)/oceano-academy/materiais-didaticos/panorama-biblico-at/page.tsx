@@ -1965,7 +1965,7 @@ export default function PanoramaBiblicoAT() {
           </P>
           <P className="">
             O profeta Amós denunciou a exploração dos humildes, a injustiça, a
-            perversão e a hipocrisia de Israel (Amós 2.6-7; 6.1-6; 8.4-6).Suas
+            perversão e a hipocrisia de Israel (Amós 2.6-7; 6.1-6; 8.4-6). Suas
             profecias sobre o cativeiro (Amós 3.13-15; 5.27; 6.7; 9.1,4,8) se
             cumpriram com a queda de Samaria, em 722 a.C. Profecias contra
             nações (Amós 1.3-15; 2.1-5) também se cumpriram.
