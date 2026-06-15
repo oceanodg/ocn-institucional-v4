@@ -1,7 +1,9 @@
 "use client";
 
 import { ArrowRight, ChevronDown } from "lucide-react";
-import { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 import { lora } from "~/lib/fonts";
 import { cn } from "~/lib/utils";
@@ -34,7 +36,23 @@ function SchoolCard({
   school: School;
   defaultOpen?: boolean;
 }) {
+  const pathname = usePathname();
   const [open, setOpen] = useState(defaultOpen);
+
+  useEffect(() => {
+    setOpen(defaultOpen);
+  }, [pathname, defaultOpen]);
+
+  useEffect(() => {
+    const handlePageShow = (event: PageTransitionEvent) => {
+      if (event.persisted) {
+        setOpen(defaultOpen);
+      }
+    };
+
+    window.addEventListener("pageshow", handlePageShow);
+    return () => window.removeEventListener("pageshow", handlePageShow);
+  }, [defaultOpen]);
 
   return (
     <div
@@ -139,10 +157,10 @@ function SchoolCard({
                   size="lg"
                   className="h-12 w-full sm:w-auto sm:min-w-40"
                 >
-                  <a href={course.href}>
+                  <Link href={course.href}>
                     Saiba mais
                     <ArrowRight data-icon="inline-end" />
-                  </a>
+                  </Link>
                 </Button>
               </div>
             ))}
