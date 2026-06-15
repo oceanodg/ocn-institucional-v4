@@ -1,13 +1,12 @@
 "use client";
 
-import { ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import { lora } from "~/lib/fonts";
 import { cn } from "~/lib/utils";
-import { Button, P, Separator } from "./ui";
+import { Button, P } from "./ui";
 import { Badge } from "./ui/badge";
 import { buttonVariants } from "./ui/button";
 
@@ -36,23 +35,7 @@ function SchoolCard({
   school: School;
   defaultOpen?: boolean;
 }) {
-  const pathname = usePathname();
   const [open, setOpen] = useState(defaultOpen);
-
-  useEffect(() => {
-    setOpen(defaultOpen);
-  }, [pathname, defaultOpen]);
-
-  useEffect(() => {
-    const handlePageShow = (event: PageTransitionEvent) => {
-      if (event.persisted) {
-        setOpen(defaultOpen);
-      }
-    };
-
-    window.addEventListener("pageshow", handlePageShow);
-    return () => window.removeEventListener("pageshow", handlePageShow);
-  }, [defaultOpen]);
 
   return (
     <div
