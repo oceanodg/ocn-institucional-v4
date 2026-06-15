@@ -27,8 +27,14 @@ export interface School {
   courses: Course[];
 }
 
-function SchoolCard({ school }: { school: School }) {
-  const [open, setOpen] = useState(false);
+function SchoolCard({
+  school,
+  defaultOpen = false,
+}: {
+  school: School;
+  defaultOpen?: boolean;
+}) {
+  const [open, setOpen] = useState(defaultOpen);
 
   return (
     <div
@@ -63,16 +69,18 @@ function SchoolCard({ school }: { school: School }) {
             </span>
           </div>
 
-          <span
-            className={cn(
-              buttonVariants({ size: "lg" }),
-              "pointer-events-none mt-4 h-12 w-full sm:mt-3 sm:w-auto sm:self-start"
-            )}
-            aria-hidden="true"
-          >
-            Saiba mais
-            <ArrowRight data-icon="inline-end" />
-          </span>
+          {!open && (
+            <span
+              className={cn(
+                buttonVariants({ size: "lg" }),
+                "pointer-events-none mt-4 h-12 w-full sm:mt-3 sm:w-auto sm:self-start"
+              )}
+              aria-hidden="true"
+            >
+              Saiba mais
+              <ArrowRight data-icon="inline-end" />
+            </span>
+          )}
         </div>
 
         <ChevronDown
@@ -130,13 +138,18 @@ function SchoolCard({ school }: { school: School }) {
 interface SchoolAccordionProps {
   schools: School[];
   className?: string;
+  defaultOpen?: boolean;
 }
 
-export function SchoolAccordion({ schools, className }: SchoolAccordionProps) {
+export function SchoolAccordion({
+  schools,
+  className,
+  defaultOpen = false,
+}: SchoolAccordionProps) {
   return (
     <div className={cn("flex flex-col gap-4", className)}>
       {schools.map((school) => (
-        <SchoolCard key={school.id} school={school} />
+        <SchoolCard key={school.id} school={school} defaultOpen={defaultOpen} />
       ))}
     </div>
   );
