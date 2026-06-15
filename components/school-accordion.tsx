@@ -7,6 +7,7 @@ import { lora } from "~/lib/fonts";
 import { cn } from "~/lib/utils";
 import { Button, P, Separator } from "./ui";
 import { Badge } from "./ui/badge";
+import { buttonVariants } from "./ui/button";
 
 export interface Course {
   id: string;
@@ -40,7 +41,7 @@ function SchoolCard({ school }: { school: School }) {
         type="button"
         onClick={() => setOpen((previous) => !previous)}
         aria-expanded={open}
-        className="flex w-full flex-col gap-6 px-6 py-5 text-left outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset sm:flex-row sm:items-center sm:justify-between sm:gap-8 sm:px-8"
+        className="flex w-full cursor-pointer flex-col gap-6 px-6 py-5 text-left outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset sm:flex-row sm:items-center sm:justify-between sm:gap-8 sm:px-8"
       >
         <div className="min-w-0 flex-1">
           <div
@@ -61,11 +62,22 @@ function SchoolCard({ school }: { school: School }) {
               {school.courses.length !== 1 ? "s" : ""}
             </span>
           </div>
+
+          <span
+            className={cn(
+              buttonVariants({ size: "lg" }),
+              "pointer-events-none mt-4 h-12 w-full sm:mt-3 sm:w-auto sm:self-start"
+            )}
+            aria-hidden="true"
+          >
+            Saiba mais
+            <ArrowRight data-icon="inline-end" />
+          </span>
         </div>
 
         <ChevronDown
           className={cn(
-            "shrink-0 self-end text-muted-foreground transition-transform duration-200 sm:self-auto",
+            "hidden shrink-0 text-muted-foreground transition-transform duration-200 sm:block",
             open && "rotate-180"
           )}
           aria-hidden="true"
