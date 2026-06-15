@@ -39,7 +39,7 @@ function SchoolCard({
   return (
     <div
       className={cn(
-        "overflow-hidden rounded-lg border bg-white transition-shadow duration-200",
+        "overflow-hidden rounded-lg border bg-white transition-shadow duration-200 py-2",
         open && "shadow-sm"
       )}
     >
@@ -50,9 +50,17 @@ function SchoolCard({
         className="flex w-full cursor-pointer flex-col gap-6 px-6 py-5 text-left outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset sm:flex-row sm:items-center sm:justify-between sm:gap-8 sm:px-8"
       >
         <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-center gap-2">
+            <Badge variant="secondary">{school.pillar.label}</Badge>
+            <span className="text-sm text-muted-foreground">
+              {school.courses.length} curso
+              {school.courses.length !== 1 ? "s" : ""}
+            </span>
+          </div>
+
           <div
             className={cn(
-              "text-xl font-semibold text-gray-700 sm:text-2xl",
+              "mt-3 text-xl font-semibold text-gray-700 sm:text-2xl",
               lora.className
             )}
           >
@@ -61,42 +69,52 @@ function SchoolCard({
 
           <P className="mt-2 text-left sm:mt-1">{school.description}</P>
 
-          <div className="mt-3 flex flex-wrap items-center gap-2">
+          {/* <div className="mt-3 flex flex-wrap items-center gap-2">
             <Badge variant="secondary">{school.pillar.label}</Badge>
             <span className="text-sm text-muted-foreground">
               {school.courses.length} curso
               {school.courses.length !== 1 ? "s" : ""}
             </span>
-          </div>
+          </div> */}
 
           {!open && (
-            <span
-              className={cn(
-                buttonVariants({ size: "lg" }),
-                "pointer-events-none mt-4 h-12 w-full sm:mt-3 sm:w-auto sm:self-start"
-              )}
-              aria-hidden="true"
-            >
-              Saiba mais
-              <ArrowRight data-icon="inline-end" />
-            </span>
+            <>
+              {/* <Separator className="mt-8 mb-8" /> */}
+              <span
+                className={cn(
+                  buttonVariants({ size: "lg" }),
+                  "pointer-events-none mt-4 h-12 w-full sm:hidden"
+                )}
+                aria-hidden="true"
+              >
+                Saiba mais
+                <ArrowRight data-icon="inline-end" />
+              </span>
+              <span
+                className="pointer-events-none mt-8 hidden items-center gap-2 text-sm font-medium text-gray-700 sm:flex"
+                aria-hidden="true"
+              >
+                Saiba mais
+                <ArrowRight className="size-4" />
+              </span>
+            </>
           )}
         </div>
 
-        <ChevronDown
+        {/* <ChevronDown
           className={cn(
             "hidden shrink-0 text-muted-foreground transition-transform duration-200 sm:block",
             open && "rotate-180"
           )}
           aria-hidden="true"
-        />
+        /> */}
       </button>
 
       {open && (
         <div className="px-6 pb-5 sm:px-8">
-          <Separator />
+          {/* <Separator className="sm:hidden" /> */}
 
-          <div className="flex flex-col gap-3 pt-5">
+          <div className="flex flex-col gap-3 pt-5 sm:pt-2">
             {school.courses.map((course) => (
               <div
                 key={course.id}
