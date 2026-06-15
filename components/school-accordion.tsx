@@ -1,8 +1,12 @@
 "use client";
 
+import { ArrowRight, ChevronDown } from "lucide-react";
 import { useState } from "react";
 
-// ─── Types ────────────────────────────────────────────────────────────────────
+import { lora } from "~/lib/fonts";
+import { cn } from "~/lib/utils";
+import { Button, P, Separator } from "./ui";
+import { Badge } from "./ui/badge";
 
 export interface Course {
   id: string;
@@ -17,198 +21,99 @@ export interface School {
   description: string;
   pillar: {
     label: string;
-    /** Tailwind color key used to derive bg/text/border variants */
     color: "teal" | "purple" | "blue" | "amber" | "rose";
   };
   courses: Course[];
 }
 
-// ─── Color map ────────────────────────────────────────────────────────────────
-
-const colorMap: Record<
-  School["pillar"]["color"],
-  {
-    pill: string;
-    cardOpen: string;
-    chevronOpen: string;
-    courseBox: string;
-    saibaMais: string;
-  }
-> = {
-  teal: {
-    pill: "bg-emerald-50 text-emerald-900",
-    cardOpen: "border-emerald-300",
-    chevronOpen: "text-emerald-700",
-    courseBox: "bg-emerald-50 border border-emerald-200",
-    saibaMais: "text-emerald-700 hover:text-emerald-500",
-  },
-  purple: {
-    pill: "bg-violet-50 text-violet-900",
-    cardOpen: "border-violet-300",
-    chevronOpen: "text-violet-700",
-    courseBox: "bg-violet-50 border border-violet-200",
-    saibaMais: "text-violet-700 hover:text-violet-500",
-  },
-  blue: {
-    pill: "bg-blue-50 text-blue-900",
-    cardOpen: "border-blue-300",
-    chevronOpen: "text-blue-700",
-    courseBox: "bg-blue-50 border border-blue-200",
-    saibaMais: "text-blue-700 hover:text-blue-500",
-  },
-  amber: {
-    pill: "bg-amber-50 text-amber-900",
-    cardOpen: "border-amber-300",
-    chevronOpen: "text-amber-700",
-    courseBox: "bg-amber-50 border border-amber-200",
-    saibaMais: "text-amber-700 hover:text-amber-500",
-  },
-  rose: {
-    pill: "bg-rose-50 text-rose-900",
-    cardOpen: "border-rose-300",
-    chevronOpen: "text-rose-700",
-    courseBox: "bg-rose-50 border border-rose-200",
-    saibaMais: "text-rose-700 hover:text-rose-500",
-  },
-};
-
-// ─── ChevronIcon ──────────────────────────────────────────────────────────────
-
-function ChevronIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="18"
-      height="18"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className={className}
-      aria-hidden="true"
-    >
-      <path d="m6 9 6 6 6-6" />
-    </svg>
-  );
-}
-
-function ArrowRightIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="13"
-      height="13"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className={className}
-      aria-hidden="true"
-    >
-      <path d="M5 12h14M12 5l7 7-7 7" />
-    </svg>
-  );
-}
-
-// ─── SchoolCard ───────────────────────────────────────────────────────────────
-
 function SchoolCard({ school }: { school: School }) {
   const [open, setOpen] = useState(false);
-  const colors = colorMap[school.pillar.color];
 
   return (
     <div
-      className={[
-        "rounded-xl border bg-white overflow-hidden transition-colors duration-200",
-        open ? colors.cardOpen : "border-gray-200",
-      ].join(" ")}
+      className={cn(
+        "overflow-hidden rounded-lg border bg-white transition-shadow duration-200",
+        open && "shadow-sm"
+      )}
     >
-      {/* Trigger */}
       <button
         type="button"
-        onClick={() => setOpen((prev) => !prev)}
+        onClick={() => setOpen((previous) => !previous)}
         aria-expanded={open}
-        className="w-full text-left flex items-start gap-4 px-5 py-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-400"
+        className="flex w-full flex-col gap-6 px-6 py-5 text-left outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset sm:flex-row sm:items-center sm:justify-between sm:gap-8 sm:px-8"
       >
-        <div className="flex-1 min-w-0 flex flex-col gap-1.5">
-          <span className="text-[17px] font-medium text-gray-900 leading-snug">
+        <div className="min-w-0 flex-1">
+          <div
+            className={cn(
+              "text-xl font-semibold text-gray-700 sm:text-2xl",
+              lora.className
+            )}
+          >
             {school.title}
-          </span>
+          </div>
 
-          <div className="flex items-center gap-2 flex-wrap">
-            <span
-              className={[
-                "inline-flex items-center gap-1 text-[11px] font-medium px-2.5 py-0.5 rounded-full",
-                colors.pill,
-              ].join(" ")}
-            >
-              {school.pillar.label}
-            </span>
-            <span className="text-[11px] text-gray-400">
+          <P className="mt-2 text-left sm:mt-1">{school.description}</P>
+
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            <Badge variant="secondary">{school.pillar.label}</Badge>
+            <span className="text-sm text-muted-foreground">
               {school.courses.length} curso
               {school.courses.length !== 1 ? "s" : ""}
             </span>
           </div>
-
-          {/* Description only visible when open */}
-          {open && (
-            <p className="text-[12px] text-gray-500 leading-relaxed mt-0.5">
-              {school.description}
-            </p>
-          )}
         </div>
 
-        <ChevronIcon
-          className={[
-            "shrink-0 mt-0.5 transition-transform duration-250",
-            open ? `rotate-180 ${colors.chevronOpen}` : "text-gray-400",
-          ].join(" ")}
+        <ChevronDown
+          className={cn(
+            "shrink-0 self-end text-muted-foreground transition-transform duration-200 sm:self-auto",
+            open && "rotate-180"
+          )}
+          aria-hidden="true"
         />
       </button>
 
-      {/* Courses */}
       {open && (
-        <>
-          <div className="h-px bg-gray-100 mx-5" />
-          <div className="px-5 pt-3 pb-5 flex flex-col gap-2">
+        <div className="px-6 pb-5 sm:px-8">
+          <Separator />
+
+          <div className="flex flex-col gap-3 pt-5">
             {school.courses.map((course) => (
               <div
                 key={course.id}
-                className={[
-                  "rounded-lg px-3 pt-2.5 pb-3",
-                  colors.courseBox,
-                ].join(" ")}
+                className="flex flex-col gap-4 rounded-lg border bg-background p-4 sm:flex-row sm:items-center sm:justify-between sm:gap-8 sm:p-5"
               >
-                <p className="text-[14px] font-medium text-gray-900 mb-0.5">
-                  {course.title}
-                </p>
-                <p className="text-[12px] text-gray-500 leading-relaxed">
-                  {course.description}
-                </p>
-                <a
-                  href={course.href}
-                  className={[
-                    "inline-flex items-center gap-1 text-[12px] font-medium mt-1.5 transition-colors",
-                    colors.saibaMais,
-                  ].join(" ")}
+                <div className="min-w-0 flex-1">
+                  <div
+                    className={cn(
+                      "text-lg font-semibold text-gray-700 sm:text-xl",
+                      lora.className
+                    )}
+                  >
+                    {course.title}
+                  </div>
+                  <P className="mt-1 text-left text-base sm:text-base">
+                    {course.description}
+                  </P>
+                </div>
+
+                <Button
+                  asChild
+                  size="lg"
+                  className="h-12 w-full sm:w-auto sm:min-w-40"
                 >
-                  <ArrowRightIcon />
-                  Saiba mais
-                </a>
+                  <a href={course.href}>
+                    Saiba mais
+                    <ArrowRight data-icon="inline-end" />
+                  </a>
+                </Button>
               </div>
             ))}
           </div>
-        </>
+        </div>
       )}
     </div>
   );
 }
-
-// ─── SchoolAccordion ──────────────────────────────────────────────────────────
 
 interface SchoolAccordionProps {
   schools: School[];
@@ -217,7 +122,7 @@ interface SchoolAccordionProps {
 
 export function SchoolAccordion({ schools, className }: SchoolAccordionProps) {
   return (
-    <div className={["flex flex-col gap-2.5", className].join(" ")}>
+    <div className={cn("flex flex-col gap-4", className)}>
       {schools.map((school) => (
         <SchoolCard key={school.id} school={school} />
       ))}
