@@ -46,7 +46,7 @@ const SCHOOLS: School[] = [
     title: "Escola de Líderes",
     description:
       "Um ambiente de preparo e crescimento para líderes que desejam fortalecer seu chamado, desenvolver competências ministeriais e exercer uma liderança que inspira, transforma e impacta vidas.",
-    pillar: { label: "Liderança", color: "purple" },
+    pillar: { label: "Missão", color: "purple" },
     courses: [
       {
         id: "pequenos-grupos",
