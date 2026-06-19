@@ -631,6 +631,243 @@ const charactersMaterials: MaterialGroup[] = [
       },
     ],
   },
+  {
+    title: "Evangelhos - Figuras Centrais e Familiares",
+    description: [""],
+    materials: [
+      {
+        title: "Jesus Cristo",
+        description:
+          "Filho de Deus, Salvador do mundo, Mestre perfeito, Messias e centro da fé cristã",
+        url: "https://drive.google.com/file/d/1jWBrDJ0tqLXNbLnCXsjC8fhveyo3rWId/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Maria",
+        description: "Mãe de Jesus, escolhida por Deus para gerar o Salvador",
+        url: "https://drive.google.com/file/d/1OGFFz6HZXIepYUuaKBcdiKwZ2Eh6h_UD/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "José",
+        description: "Pai terreno e protetor de Jesus durante sua infância",
+        url: "https://drive.google.com/file/d/1OpULwQ41QkpOQlPOcJeA4nDEHsxuqcYp/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "João Batista",
+        description:
+          "Profeta e primo de Jesus que preparou o caminho para o Seu ministério",
+        url: "https://drive.google.com/file/d/17GC129QrofJGMXGtUP5DGnQGsUF01aQ9/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+  {
+    title: "Os 12 Apóstolos",
+    description: [""],
+    materials: [
+      {
+        title: "Pedro (Simão Pedro)",
+        description:
+          "Líder impulsivo dos discípulos que se tornou pilar da igreja primitiva",
+        url: "https://drive.google.com/file/d/11Jw02T28ZeyssKvZ3JE2NBtMaIaU1z0C/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "João",
+        description: 'O "discípulo amado"',
+        url: "https://drive.google.com/file/d/1hhiZ6IFozgAq5-Kcf2ZGzbGXAUebRND3/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Tiago (filho de Zebedeu)",
+        description: "Irmão de João e o primeiro apóstolo a ser martirizado",
+        url: "https://drive.google.com/file/d/1Z2adWl2SbkUHI2CA_ZkN37DbC8GlvMOD/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "André",
+        description:
+          "Irmão de Pedro e o primeiro discípulo a ser chamado por Jesus",
+        url: "https://drive.google.com/file/d/1DNY5jj84yGL-U23hVizY_yfHKz3j9bKa/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Filipe",
+        description:
+          "Discípulo que levou Natanael a Jesus e questionou sobre como alimentar a multidão",
+        url: "https://drive.google.com/file/d/1uV_6V65mIOHiBqKYbBVOH9_B1N9Jd-El/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Bartolomeu (Natanael)",
+        description:
+          "Discípulo elogiado por Jesus como um israelita em quem não havia falsidade",
+        url: "https://drive.google.com/file/d/1K5kJYIIbKA1CEagy9w-I_-ace9Uoh8Yh/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Tomé (o dídimo)",
+        description:
+          "Discípulo que duvidou da ressurreição até ver as feridas de Jesus",
+        url: "https://drive.google.com/file/d/1mDMzWb1baqyUGyqxd5U1tyJd3meavdpC/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Mateus (Levi)",
+        description:
+          "Ex-cobrador de impostos que largou tudo para seguir Jesus",
+        url: "https://drive.google.com/file/d/1BMZhYEpHRz2RCtZsEjnGj7NA02P7hcMw/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Tiago (filho de Alfeu)",
+        description: 'Conhecido como "Tiago, o Menor"',
+        url: "https://drive.google.com/file/d/1NHGUu0dEwIDq-724uWaIR0ZpO24n1ggV/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Simão (o Zelote)",
+        description:
+          "Discípulo que antes pertencia a um grupo político radical judeu",
+        url: "https://drive.google.com/file/d/1Jvo1VVJpnvSk-cxoB5K9weJDAigRw8_9/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Judas (filho de Tiago)",
+        description:
+          "Apóstolo que perguntou a Jesus como Ele se manifestaria ao mundo",
+        url: "https://drive.google.com/file/d/1QzsCj1MB8W2L2Zk4dLs9taHIcQFqYIy_/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Judas Iscariotes",
+        description: "O discípulo que traiu Jesus",
+        url: "https://drive.google.com/file/d/1lXDqOJ4XtO-i62GKH8aq8_O3fmAun6Va/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+  {
+    title: "Líderes e Missionários Principais",
+    description: [""],
+    materials: [
+      {
+        title: "Paulo de Tarso (Saulo)",
+        description: "Ex-perseguidor de cristãos que se converteu",
+        url: "https://drive.google.com/file/d/11cpG7Cxhm78grUJAuSlMJFDbAR5t03u1/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Estêvão",
+        description:
+          "O primeiro mártir cristão, apedrejado após fazer uma defesa brilhante da fé",
+        url: "https://drive.google.com/file/d/10hIiGyGQQMgDVuxT8lyMNugAu02S3fBX/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Filipe (o Evangelista)",
+        description: "Diácono que pregou com grande avivamento em Samaria",
+        url: "https://drive.google.com/file/d/1LPmkJOLOp5xDbRW73gA7UdJ_p3_tABQ5/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Barnabé",
+        description: "Companheiro de viagens de Paulo",
+        url: "https://drive.google.com/file/d/1sXrJsVhXMOu2m6WodkDrgj_bI77CpAMa/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Tiago (irmão de Jesus)",
+        description:
+          "Líder central da igreja em Jerusalém e autor da epístola que leva seu nome",
+        url: "https://drive.google.com/file/d/18dmLmD0UWVJXfaQKM5Cpjz4KVO1CtSbM/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Matias",
+        description:
+          "O discípulo escolhido por sorteio para preencher a vaga deixada por Judas Iscariotes",
+        url: "https://drive.google.com/file/d/1PcOcV5hNWl_P1UpR0y4ILdX0Fef6yzYa/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+  {
+    title: "Cooperadores e Casais Missionários",
+    description: [""],
+    materials: [
+      {
+        title: "Áquila",
+        description:
+          "Judeu fabricante de tendas que, junto com sua esposa, foi um grande cooperador de Paulo",
+        url: "https://drive.google.com/file/d/1ikLzxzmceEavYppyzcGOgfqpJ5BgS4Bj/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Priscila",
+        description:
+          "Esposa de Áquila, líder ativa que ajudou a instruir líderes na fé cristã",
+        url: "https://drive.google.com/file/d/1vrTT9__CWV5uw3Ke5kGFylclN7eF3_MD/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Apolo",
+        description:
+          "Pregador judeu eloquente e versado nas Escrituras que fortaleceu a igreja em Corinto",
+        url: "https://drive.google.com/file/d/1PrOoPy4MgKjXOPsEdNC03nslNWqoEyjE/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Silas (Silvano)",
+        description: "Companheiro de prisão e de viagens missionárias de Paulo",
+        url: "https://drive.google.com/file/d/1DyhWGJlu_L26BD8jOnwYSuZPLrLqPxBt/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Marcos (João Marcos)",
+        description:
+          "Jovem assistente de missões que, escritor do Evangelho de Marcos",
+        url: "https://drive.google.com/file/d/1fbBvG0o0XgZqiwm-zQU5H6UhgEPqPnqv/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
+  {
+    title: "Discípulos e Filhos na Fé de Paulo",
+    description: [""],
+    materials: [
+      {
+        title: "Timóteo",
+        description:
+          "Jovem pastor e colaborador mais próximo e amado pelo apóstolo Paulo",
+        url: "https://drive.google.com/file/d/1dCY8-XqC6p9O-tHBrXij29lS74eyfbWc/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Tito",
+        description:
+          "Líder de confiança encarregado de organizar as igrejas na ilha de Creta",
+        url: "https://drive.google.com/file/d/1XGP42xGUj_PGzUUCU-YtRh4tj3_yRd-J/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Onésimo",
+        description:
+          "Escravo fugitivo que se converteu e se tornou um irmão em Cristo útil a Paulo",
+        url: "https://drive.google.com/file/d/1Atn_1IxXK04H-Rn6l_i9loLWzfaLMsME/view?usp=sharing",
+        isUrlExternal: true,
+      },
+      {
+        title: "Filemom",
+        description:
+          "Cristão rico de Colossos e senhor de Onésimo, a quem Paulo pediu que perdoasse o escravo",
+        url: "https://drive.google.com/file/d/1CgLCVxb7jdX1OrVNNSwzB9bowKhtaxnQ/view?usp=sharing",
+        isUrlExternal: true,
+      },
+    ],
+  },
 ];
 
 const parablesMaterials: MaterialGroup[] = [
