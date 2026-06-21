@@ -1,10 +1,16 @@
+import Link from "next/link";
+
 import { Container } from "~/components/container";
 import { CTABox } from "~/components/cta-box";
 import { HeroContainer } from "~/components/hero";
-import { School, SchoolAccordion } from "~/components/school-accordion";
+import type { School } from "~/components/school-accordion";
 import { H1, H3, P, Separator } from "~/components/ui";
+import { Badge } from "~/components/ui/badge";
+import { Card, CardContent, CardHeader } from "~/components/ui/card";
+import { lora } from "~/lib/fonts";
+import { cn } from "~/lib/utils";
 
-const SCHOOLS: School[] = [
+const data: School[] = [
   {
     id: "escola-de-membros",
     title: "Escola de Membros",
@@ -58,6 +64,55 @@ const SCHOOLS: School[] = [
     ],
   },
 ];
+
+function SchoolCards() {
+  return (
+    <div className="flex flex-col gap-4">
+      {data.map((school) => (
+        <Card
+          key={school.id}
+          className="gap-0 overflow-hidden rounded-lg bg-white py-0 shadow-none"
+        >
+          <CardHeader className="px-6 py-6 sm:px-8 sm:py-7">
+            <div className="flex flex-wrap items-center gap-3">
+              <Badge variant="secondary">{school.pillar.label}</Badge>
+              <span className="text-sm text-muted-foreground">
+                {school.courses.length} curso
+                {school.courses.length !== 1 ? "s" : ""}
+              </span>
+            </div>
+
+            <div
+              className={cn(
+                "mt-4 text-xl font-semibold text-gray-700 sm:text-2xl",
+                lora.className
+              )}
+            >
+              {school.title}
+            </div>
+
+            <P className="mt-2 text-left sm:mt-1">{school.description}</P>
+          </CardHeader>
+
+          <CardContent className="px-6 pb-6 sm:px-8 sm:pb-7">
+            <ul className="flex list-disc flex-col gap-2 pl-5 text-left text-base leading-7 text-gray-700 sm:text-lg">
+              {school.courses.map((course) => (
+                <li key={course.id}>
+                  <Link
+                    href={course.href}
+                    className="font-medium underline underline-offset-4 transition-colors hover:text-gray-900"
+                  >
+                    {course.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </CardContent>
+        </Card>
+      ))}
+    </div>
+  );
+}
 
 export default function OceanoAcademyPage() {
   return (
@@ -177,7 +232,7 @@ export default function OceanoAcademyPage() {
             disabled
           /> */}
 
-          <SchoolAccordion schools={SCHOOLS} />
+          <SchoolCards />
           {/* 
           <CTABox
             title="Conheça nossas escolas"
