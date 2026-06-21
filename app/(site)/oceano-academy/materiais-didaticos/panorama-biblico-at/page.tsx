@@ -154,6 +154,10 @@ export default function PanoramaBiblicoAT() {
                     <Wallpaper className="size-4" />
                     L7: Divisão
                   </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/15mmU7HxlR3Y2MJbWSAmjJJhfinNifCyI/view?usp=sharing">
+                    <Wallpaper className="size-4" />
+                    L8: Recomeço
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
