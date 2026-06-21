@@ -4,43 +4,45 @@ import { Container } from "~/components/container";
 import { CTABox } from "~/components/cta-box";
 import { HeroContainer } from "~/components/hero";
 import type { School } from "~/components/school-accordion";
+import { SummaryLi } from "~/components/summary-li";
 import { H1, H3, P, Separator } from "~/components/ui";
 import { Badge } from "~/components/ui/badge";
 import { Card, CardContent, CardHeader } from "~/components/ui/card";
+import { UL } from "~/components/ui/ul";
 import { lora } from "~/lib/fonts";
 import { cn } from "~/lib/utils";
 
 const data: School[] = [
   {
     id: "escola-de-membros",
-    title: "Escola de Membros",
+    title: "1. Escola de Membros",
     description:
       "Proporcionar a integração e capacitar os novos membros para viverem sua identidade, cumprirem sua missão e fazerem a diferença por meio de uma participação ativa na igreja local.",
     pillar: { label: "Discipulado", color: "teal" },
     courses: [
       {
         id: "connect",
-        title: "1. Connect",
+        title: "1.1. Connect",
         description:
           "O Connect é o primeiro passo para mergulhar no Oceano da Graça.",
         href: "/oceano-academy/cursos/connect",
       },
       {
         id: "fundamentos",
-        title: "2. Fundamentos",
+        title: "1.2. Fundamentos",
         description:
           "Base doutrinária essencial: Os principais pilares da fé cristã.",
         href: "/oceano-academy/cursos/fundamentos",
       },
       {
         id: "nova-vida",
-        title: "3. Nova vida",
+        title: "1.3. Nova vida",
         description: "Condução nos princípios básicos da fé cristã.",
         href: "/oceano-academy/cursos/vida-nova",
       },
       {
         id: "voluntariado",
-        title: "4. Voluntariado",
+        title: "1.4. Voluntariado",
         description:
           "Capacitação, inspiração e alinhamento, para todos que escolheram servir.",
         href: "/oceano-academy/cursos/voluntariado",
@@ -49,14 +51,14 @@ const data: School[] = [
   },
   {
     id: "escola-de-lideres",
-    title: "Escola de Líderes",
+    title: "2. Escola de Líderes",
     description:
       "Um ambiente de preparo e crescimento para líderes que desejam fortalecer seu chamado, desenvolver competências ministeriais e exercer uma liderança que inspira, transforma e impacta vidas.",
     pillar: { label: "Missão", color: "purple" },
     courses: [
       {
         id: "pequenos-grupos",
-        title: "1. Líder de Pequenos Grupos",
+        title: "2.1. Líder de Pequenos Grupos",
         description:
           "Identidade, visão e a prática dos Pequenos Grupos da Igreja Oceano da Graça.",
         href: "/oceano-academy/cursos/pequenos-grupos",
@@ -67,12 +69,9 @@ const data: School[] = [
 
 function SchoolCards() {
   return (
-    <div className="flex flex-col gap-4">
+    <Card className="gap-0 overflow-hidden rounded-lg bg-white py-0 shadow-none">
       {data.map((school) => (
-        <Card
-          key={school.id}
-          className="gap-0 overflow-hidden rounded-lg bg-white py-0 shadow-none"
-        >
+        <div key={school.id}>
           <CardHeader className="px-6 py-6 sm:px-8 sm:py-7">
             <div className="flex flex-wrap items-center gap-3">
               <Badge variant="secondary">{school.pillar.label}</Badge>
@@ -95,22 +94,19 @@ function SchoolCards() {
           </CardHeader>
 
           <CardContent className="px-6 pb-6 sm:px-8 sm:pb-7">
-            <ul className="flex list-disc flex-col gap-2 pl-5 text-left text-base leading-7 text-gray-700 sm:text-lg">
+            <UL className="mt-0 pl-3.5 sm:pl-4 space-y-2 sm:space-y-2">
               {school.courses.map((course) => (
-                <li key={course.id}>
-                  <Link
-                    href={course.href}
-                    className="font-medium underline underline-offset-4 transition-colors hover:text-gray-900"
-                  >
-                    {course.title}
-                  </Link>
-                </li>
+                <SummaryLi key={course.id}>
+                  <Link href={course.href}>{course.title}</Link>
+                </SummaryLi>
               ))}
-            </ul>
+            </UL>
           </CardContent>
-        </Card>
+
+          {school.id !== data[data.length - 1].id ? <Separator /> : null}
+        </div>
       ))}
-    </div>
+    </Card>
   );
 }
 
