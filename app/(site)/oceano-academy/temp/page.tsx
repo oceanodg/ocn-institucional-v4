@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Container } from "~/components/container";
 import { CTABox } from "~/components/cta-box";
 import { HeroContainer } from "~/components/hero";
-import type { School } from "~/components/school-accordion";
 import { SummaryLi } from "~/components/summary-li";
 import { H1, P, Separator } from "~/components/ui";
 import { Badge } from "~/components/ui/badge";
@@ -11,15 +10,66 @@ import { Card, CardContent, CardHeader } from "~/components/ui/card";
 import { UL } from "~/components/ui/ul";
 import { lora } from "~/lib/fonts";
 import { cn } from "~/lib/utils";
-import { AcademyIntro } from "./academy-intro";
+
+interface Course {
+  id: string;
+  title: string;
+  description?: string;
+  href?: string;
+}
+
+interface School {
+  id: string;
+  title: string;
+  description: string;
+  pillar: {
+    label: string;
+  };
+  hideCoursesQuantity?: boolean;
+  courses: Course[];
+}
 
 const data: School[] = [
+  {
+    id: "escola-biblica",
+    title: "Escola Bíblica",
+    description: "Destinada a oferecer conhecimento biblico a toda a Igreja.",
+    pillar: { label: "Adoração" },
+    hideCoursesQuantity: true,
+    courses: [
+      {
+        id: "antigo-testamento",
+        title: "Antigo Testamento",
+        href: "/oceano-academy/materiais-didaticos?tab=antigo",
+      },
+      {
+        id: "novo-testamento",
+        title: "Novo Testamento",
+        href: "/oceano-academy/materiais-didaticos?tab=novo",
+      },
+      {
+        id: "personagens",
+        title: "Personagens",
+        href: "/oceano-academy/materiais-didaticos?tab=personagens",
+      },
+      {
+        id: "parabolas",
+        title: "Parábolas",
+        href: "/oceano-academy/materiais-didaticos?tab=parabolas",
+      },
+      {
+        id: "planos-de-leitura",
+        title: "Planos de Leitura",
+        href: "/oceano-academy/planos-de-leitura",
+      },
+    ],
+  },
   {
     id: "escola-de-membros",
     title: "1. Escola de Membros",
     description:
       "Proporcionar a integração e capacitar os novos membros para viverem sua identidade, cumprirem sua missão e fazerem a diferença por meio de uma participação ativa na igreja local.",
-    pillar: { label: "Discipulado", color: "teal" },
+    pillar: { label: "Discipulado" },
     courses: [
       {
         id: "connect",
@@ -51,18 +101,55 @@ const data: School[] = [
     ],
   },
   {
+    id: "escola-da-familia",
+    title: "2. Escola da Família",
+    description:
+      "Busca fortalecer a família como projeto de Deus, equipando cada membro com princípios bíblicos para viver relacionamentos saudáveis e cumprir o seu propósito dentro e fora de sua casa.",
+    pillar: { label: "Comunhão" },
+    courses: [
+      { id: "mulher", title: "2.1. Mulher" },
+      { id: "homem", title: "2.2. Homem" },
+      { id: "one", title: "2.3. Curso One" },
+      { id: "casados", title: "2.4. Casados" },
+      { id: "pais", title: "2.5. Pais" },
+    ],
+  },
+  {
     id: "escola-de-lideres",
-    title: "2. Escola de Líderes",
+    title: "3. Escola de Líderes",
     description:
       "Um ambiente de preparo e crescimento para líderes que desejam fortalecer seu chamado, desenvolver competências ministeriais e exercer uma liderança que inspira, transforma e impacta vidas.",
-    pillar: { label: "Missão", color: "purple" },
+    pillar: { label: "Missão" },
     courses: [
       {
+        id: "lideranca-geral",
+        title: "3.1. Formação de Líderes",
+      },
+      {
         id: "pequenos-grupos",
-        title: "2.1. Líder de Pequenos Grupos",
-        description:
-          "Identidade, visão e a prática dos Pequenos Grupos da Igreja Oceano da Graça.",
+        title: "3.2. Líder de Pequenos Grupos",
         href: "/oceano-academy/cursos/pequenos-grupos",
+      },
+      {
+        id: "convergencia-ministerial",
+        title: "3.3. Convergência Ministerial",
+      },
+      {
+        id: "escola-de-pioneiros",
+        title: "3.4. Escola de pioneiros",
+      },
+    ],
+  },
+  {
+    id: "escola-de-ministros",
+    title: "4. Escola de Ministros",
+    description:
+      "Destinada a desenvolver vocacionados para os ministérios  congregacional, seja local ou missional.",
+    pillar: { label: "Serviço" },
+    courses: [
+      {
+        id: "ministro-geral",
+        title: "4.1. Escola de Pastores",
       },
     ],
   },
@@ -76,10 +163,12 @@ function SchoolCards() {
           <CardHeader className="px-6 py-6 sm:px-8 sm:py-7">
             <div className="flex flex-wrap items-center gap-3">
               <Badge variant="secondary">{school.pillar.label}</Badge>
-              <span className="text-sm text-muted-foreground">
-                {school.courses.length} curso
-                {school.courses.length !== 1 ? "s" : ""}
-              </span>
+              {!school.hideCoursesQuantity && (
+                <span className="text-sm text-muted-foreground">
+                  {school.courses.length} curso
+                  {school.courses.length !== 1 ? "s" : ""}
+                </span>
+              )}
             </div>
 
             <div
@@ -97,8 +186,19 @@ function SchoolCards() {
           <CardContent className="px-6 pb-6 sm:px-8 sm:pb-7">
             <UL className="mt-0 pl-3.5 sm:pl-4 space-y-2 sm:space-y-2">
               {school.courses.map((course) => (
-                <SummaryLi key={course.id}>
-                  <Link href={course.href}>{course.title}</Link>
+                <SummaryLi
+                  key={course.id}
+                  className={
+                    !course.href
+                      ? "text-muted-foreground no-underline hover:no-underline cursor-default"
+                      : undefined
+                  }
+                >
+                  {course.href ? (
+                    <Link href={course.href}>{course.title}</Link>
+                  ) : (
+                    <span>{course.title}</span>
+                  )}
                 </SummaryLi>
               ))}
             </UL>
@@ -133,11 +233,11 @@ export default function OceanoAcademyPage() {
         </div>
       </Container>
 
-      <AcademyIntro />
+      {/* <AcademyIntro /> */}
 
-      <Separator className="my-14" />
+      {/* <Separator className="mt-4 sm:mt-8 mb-10 sm:mb-12" /> */}
 
-      <Container className="pt-0 sm:pt-0 mb-10 sm:mb-16">
+      <Container className="pt-0 sm:pt-0 mt-10 sm:mt-8 mb-10 sm:mb-16">
         <div className="flex flex-col gap-4">
           <CTABox
             title="Já é cadastrado(a) em algum curso?"

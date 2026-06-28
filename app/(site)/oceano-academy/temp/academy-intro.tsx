@@ -37,15 +37,12 @@ export function AcademyIntro() {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <div className="mt-4 flex flex-col sm:mt-0">
-      <Container>
+    <div className="mt-0 flex flex-col sm:mt-0">
+      <Container className="pt-0 sm:pt-4">
         <div>
           <P className="text-left">
             A <span className="font-bold">Oceano Academy</span> é o braço
-            educacional da nossa igreja. Ela nasceu com o propósito de
-            fortalecer as bases da fé por meio do conhecimento bíblico,
-            alcançando cada fase da vida: crianças, adolescentes, jovens,
-            homens, mulheres, casais e toda a família espiritual.
+            educacional da nossa igreja.
             {!showMore ? (
               <>
                 {" "}
@@ -56,10 +53,18 @@ export function AcademyIntro() {
                   aria-controls="academy-intro-more"
                   onClick={() => setShowMore(true)}
                 >
-                  saber mais
+                  saiba mais
                 </button>
               </>
-            ) : null}
+            ) : (
+              <>
+                {" "}
+                Ela nasceu com o propósito de fortalecer as bases da fé por meio
+                do conhecimento bíblico, alcançando cada fase da vida: crianças,
+                adolescentes, jovens, homens, mulheres, casais e toda a família
+                espiritual.
+              </>
+            )}
           </P>
         </div>
       </Container>
