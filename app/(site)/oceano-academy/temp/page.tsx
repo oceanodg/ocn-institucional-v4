@@ -117,13 +117,10 @@ export default function OceanoAcademyPage() {
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col gap-2">
           <H1 className="text-left">Oceano Academy</H1>
-          <P className="mt-0">
-            Cresça na Graça e no conhecimento do Nosso Senhor Jesus Cristo.
-          </P>
         </div>
       </HeroContainer>
 
-      <Container className="mt-2 sm:mt-6">
+      <Container className="mt-2 sm:mt-4">
         <div className="aspect-video w-full">
           <iframe
             className="h-full w-full rounded-lg"
@@ -150,56 +147,7 @@ export default function OceanoAcademyPage() {
             openInNewTab={true}
           />
 
-          <CTABox
-            title="Escola Bíblica"
-            description="Ensino e adoração."
-            buttonLink="/oceano-academy/escolas/escola-biblica"
-            buttonText="Saiba mais"
-            openInNewTab={false}
-          />
-
-          {/* <CTABox
-            title="Escola de Membros"
-            description="Nosso discipulado institucional."
-            buttonLink="/oceano-academy/escolas/escola-de-membros"
-            buttonText="Ver cursos"
-            openInNewTab={false}
-          />
-
-          <CTABox
-            title="Escola de Líderes"
-            description="Cursos de capacitação para líderes."
-            buttonLink="/oceano-academy/escolas/escola-de-lideres"
-            buttonText="Em breve"
-            openInNewTab={false}
-            disabled
-          /> */}
-
           <SchoolCards />
-          {/* 
-          <CTABox
-            title="Conheça nossas escolas"
-            description="Discipulado, Cursos de ensino e adoração e muito mais."
-            buttonLink="/oceano-academy/escolas"
-            buttonText="Ver escolas"
-            openInNewTab={false}
-          />
-
-          <CTABox
-            title="Materiais Didáticos da Escola Bíblica"
-            description="Acesse os materiais didáticos das aulas da Escola Bíblica."
-            buttonLink="/oceano-academy/materiais-didaticos"
-            buttonText="Acessar materiais"
-            openInNewTab={false}
-          />
-
-          <CTABox
-            title="Planos de Leitura Bíblica"
-            description="Acesse os planos de leitura bíblica."
-            buttonLink="/oceano-academy/planos-de-leitura"
-            buttonText="Acessar Planos"
-            openInNewTab={false}
-          /> */}
         </div>
       </Container>
     </section>

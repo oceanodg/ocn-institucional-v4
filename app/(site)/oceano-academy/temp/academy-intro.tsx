@@ -37,10 +37,9 @@ export function AcademyIntro() {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <div className="mt-4 flex flex-col sm:mt-7">
+    <div className="mt-4 flex flex-col sm:mt-0">
       <Container>
         <div>
-          <H3>A Oceano Academy</H3>
           <P className="text-left">
             A <span className="font-bold">Oceano Academy</span> é o braço
             educacional da nossa igreja. Ela nasceu com o propósito de
@@ -57,7 +56,7 @@ export function AcademyIntro() {
                   aria-controls="academy-intro-more"
                   onClick={() => setShowMore(true)}
                 >
-                  ver mais
+                  saber mais
                 </button>
               </>
             ) : null}
