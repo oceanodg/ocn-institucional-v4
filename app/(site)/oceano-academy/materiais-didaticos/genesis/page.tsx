@@ -69,6 +69,31 @@ export default function Genesis() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1INyY27Vg-f6y3JMbQQtFMDQhlKZ01eXN/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L1: Criação
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1fr3qQVJcRZBQ7KFGdA4t2TeWsmouH8GW/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L2: Pecado e Graça
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1xB-NZGJJNTXdRe87avrX4rg7Z_bIkoBv/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L3: Abraão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1baifXKAv_X7l4WlxmmzYmXNNyK2Cmopq/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L4: Providência
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Vídeos Recomendados
               </TableCell>
               <TableCell>
