@@ -39,7 +39,7 @@ export default function Genesis() {
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col gap-2">
           <H1 className="text-left">Gênesis</H1>
-          <P className="mt-0">Deus cria o mundo e o homem.</P>
+          <P className="mt-0">História da criação e família de Abraão.</P>
         </div>
       </HeroContainer>
 
