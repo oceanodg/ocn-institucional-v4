@@ -67,7 +67,23 @@ export default function Genesis() {
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
-
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Vídeos Recomendados
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://www.youtube.com/watch?v=syzvUKr4f44">
+                    <SquarePlay className="size-4" />
+                    Gênesis 1-11
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=VaZdOfekgo8">
+                    <SquarePlay className="size-4" />
+                    Gênesis 12-50
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
                 Curso Recomendado
