@@ -731,7 +731,7 @@ prometido, o cumprimento da aliança e a garantia de todas as promessas divinas.
 encontramos não apenas o exemplo perfeito de obediência, mas a certeza de que aquilo
 que Deus começou, Ele também completará para a sua glória e para o bem de seu povo.
 
-### LIÇÃO 4 – A PROVIDÊNCIA INVISÍVEL DO DEUS DA ALIANÇA
+## LIÇÃO 4 – A PROVIDÊNCIA INVISÍVEL DO DEUS DA ALIANÇA
 
 ### Objetivo geral
 
@@ -860,7 +860,6 @@ fundamental: "O Senhor era com José" (Gn 39.2,21). Essa afirmação torna-se a 
 para compreender toda a sua história. A presença de Deus não o livra das dificuldades,
 mas o sustenta durante elas. José prospera na casa de Potifar (Gn 39.2-6), mas logo
 enfrenta uma nova provação. Ao recusar o pecado proposto pela esposa de seu senhor
-
 (Gn 39.7-12), é falsamente acusado e lançado na prisão (Gn 39.13-20). Mesmo na
 prisão, Deus continua operando (Gn 39.21-23). O Senhor concede favor diante do
 carcereiro e prepara circunstâncias que, no tempo certo, conduzirão José ao palácio.

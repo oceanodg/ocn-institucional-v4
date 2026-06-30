@@ -60,6 +60,10 @@ export default function Genesis() {
                     <FileText className="size-4" />
                     PDF
                   </LinkSmall>
+                  <LinkSmall href="/oceano-academy/materiais-didaticos/genesis.md">
+                    <Hash className="size-4" />
+                    MD
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
