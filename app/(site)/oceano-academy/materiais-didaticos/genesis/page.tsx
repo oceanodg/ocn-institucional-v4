@@ -77,6 +77,10 @@ export default function Genesis() {
                     <Workflow className="size-4" />
                     Mapa Mental
                   </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1olRr2whTxySS1WJxYFTSyD4r5lCNhmmu/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Criação
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
