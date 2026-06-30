@@ -31,7 +31,7 @@ export const metadata = {
   },
 };
 
-export default function PanoramaBiblicoAT() {
+export default function Genesis() {
   return (
     <section className="relative backdrop-blur-sm">
       <AllTeachingMaterialsBackButton tab="antigo" />
