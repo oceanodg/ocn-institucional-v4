@@ -47,6 +47,7 @@ const oldTestamentMaterials: MaterialGroup[] = [
       {
         title: "Gênesis",
         description: "História da criação; Família de Abraão",
+        url: "/oceano-academy/materiais-didaticos/genesis",
       },
       {
         title: "Êxodo",
