@@ -4,7 +4,7 @@ export default function VersionPage() {
       <div className="text-center space-y-4 p-8 rounded-lg shadow-lg bg-card text-card-foreground w-96">
         <h1 className="text-2xl font-bold">Versão</h1>
         <p className="font-bold">0.1</p>
-        <p className="text-muted-foreground">30/06/2026 19:40</p>
+        <p className="text-muted-foreground">30/06/2026 20:12</p>
         <p className="text-muted-foreground">.</p>
       </div>
     </div>
