@@ -81,6 +81,35 @@ export default function Genesis() {
                     <FileText className="size-4" />
                     L1: Criação
                   </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1m92bXVGWPGoIgAZAA51wOJClvKm_2Ary/view?usp=drive_link">
+                    <FileText className="size-4" />
+                    L2: Pecado e Graça
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1spDGTFInhqV3MjDSFCs_1DTA7_yRtxWp/view?usp=drive_link">
+                    <FileText className="size-4" />
+                    L3: Abraão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1VI19pHd-OKKP10ias7QsO0hJ0SNS7iJN/view?usp=drive_link">
+                    <FileText className="size-4" />
+                    L4: Providência
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Vídeos Recomendados
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://www.youtube.com/watch?v=syzvUKr4f44">
+                    <SquarePlay className="size-4" />
+                    Gênesis 1-11
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=VaZdOfekgo8">
+                    <SquarePlay className="size-4" />
+                    Gênesis 12-50
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
@@ -111,17 +140,48 @@ export default function Genesis() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
-                Vídeos Recomendados
+                Perguntas e Respostas (FAQ)
               </TableCell>
               <TableCell>
                 <TableCellLinksContainer>
-                  <LinkSmall href="https://www.youtube.com/watch?v=syzvUKr4f44">
-                    <SquarePlay className="size-4" />
-                    Gênesis 1-11
+                  <LinkSmall href="https://drive.google.com/file/d/1tkVCWUmBoYbiGnuJbNFRoc-uu3d0Ib-r/view?usp=drive_link">
+                    <FileText className="size-4" />
+                    L1: Criação
                   </LinkSmall>
-                  <LinkSmall href="https://www.youtube.com/watch?v=VaZdOfekgo8">
-                    <SquarePlay className="size-4" />
-                    Gênesis 12-50
+                  <LinkSmall href="https://drive.google.com/file/d/1ixWwjVgT_T9EeSIYzkrt0dQAmoBpnync/view?usp=drive_link">
+                    <FileText className="size-4" />
+                    L2: Pecado e Graça
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1xwC2yku1VLAMryZvAcR6f9VfACZThSPi/view?usp=drive_link">
+                    <FileText className="size-4" />
+                    L3: Abraão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1_uXPPMyJDo9qo-onl8VR9vMtzjPRCXRC/view?usp=drive_link">
+                    <FileText className="size-4" />
+                    L4: Providência
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">Quizzes</TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1OmWo4rYzD3_G039VQiRL1_DUVjHv3hOg/view?usp=drive_link">
+                    <FileText className="size-4" />
+                    L1: Criação
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1g85yaS9HRNtTl5yGDCWv63nZFCUc2rMb/view?usp=drive_link">
+                    <FileText className="size-4" />
+                    L2: Pecado e Graça
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1kO_P0sEsbynxaeEM0flnb4VB-xJQ1WPK/view?usp=drive_link">
+                    <FileText className="size-4" />
+                    L3: Abraão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1QMOHn09VLddXbf6mZu1ZZw3HVNFFD0Kx/view?usp=drive_link">
+                    <FileText className="size-4" />
+                    L4: Providência
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
