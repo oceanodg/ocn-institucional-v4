@@ -73,7 +73,7 @@ export default function Genesis() {
               </TableCell>
               <TableCell>
                 <TableCellLinksContainer>
-                  <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-GgrjZLEXpFtuzvGrxYkM7b">
+                  <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-at-Vwf2XrtErHeQATx88Axg8B">
                     <Workflow className="size-4" />
                     Mapa Mental
                   </LinkSmall>
