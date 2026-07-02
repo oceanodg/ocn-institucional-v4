@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import { Container } from "~/components/container";
 import { HeroContainer } from "~/components/hero";
 import { H1, P, Separator } from "~/components/ui";
@@ -1215,9 +1214,7 @@ export default async function MateriaisDidaticosPage({
 
       <div className="space-y-0">
         <Container className="mb-10 sm:mb-16">
-          <Suspense>
-            <MaterialsTabs tabs={materialTabs} defaultTab={defaultTab} />
-          </Suspense>
+          <MaterialsTabs tabs={materialTabs} defaultTab={defaultTab} />
         </Container>
       </div>
     </section>

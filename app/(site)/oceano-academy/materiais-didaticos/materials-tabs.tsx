@@ -1,6 +1,7 @@
 "use client";
 
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useCallback, useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { Tabs, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { validTabs, type ValidTab } from "./constants";
 import {
@@ -12,24 +13,43 @@ function isValidTab(tab?: string | null): tab is ValidTab {
   return validTabs.includes(tab as ValidTab);
 }
 
+function getTabFromUrl(): ValidTab | null {
+  const tab = new URLSearchParams(window.location.search).get("tab");
+  return isValidTab(tab) ? tab : null;
+}
+
 type MaterialsTabsProps = {
   tabs: MaterialsTab[];
   defaultTab: ValidTab;
 };
 
 export function MaterialsTabs({ tabs, defaultTab }: MaterialsTabsProps) {
-  const router = useRouter();
   const pathname = usePathname();
-  const searchParams = useSearchParams();
+  const [activeTab, setActiveTab] = useState<ValidTab>(defaultTab);
 
-  const tabParam = searchParams.get("tab");
-  const activeTab = isValidTab(tabParam) ? tabParam : defaultTab;
+  const updateUrl = useCallback(
+    (tab: string) => {
+      const params = new URLSearchParams(window.location.search);
+      params.set("tab", tab);
+      window.history.replaceState(null, "", `${pathname}?${params.toString()}`);
+    },
+    [pathname]
+  );
 
   function handleTabChange(value: string) {
-    const params = new URLSearchParams(searchParams.toString());
-    params.set("tab", value);
-    router.replace(`${pathname}?${params.toString()}`, { scroll: false });
+    if (!isValidTab(value)) return;
+    setActiveTab(value);
+    updateUrl(value);
   }
+
+  useEffect(() => {
+    function onPopState() {
+      setActiveTab(getTabFromUrl() ?? defaultTab);
+    }
+
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, [defaultTab]);
 
   return (
     <Tabs
