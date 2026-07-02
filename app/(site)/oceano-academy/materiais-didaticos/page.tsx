@@ -1,15 +1,15 @@
+import { Suspense } from "react";
 import { Container } from "~/components/container";
 import { HeroContainer } from "~/components/hero";
 import { H1, P, Separator } from "~/components/ui";
-import { Tabs, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { validTabs, type ValidTab } from "./constants";
 import { EscolaBiblicaBackButton } from "~/components/back-buttons/escola-biblica-back-button";
 import {
-  MaterialsTabContent,
   type Material,
   type MaterialGroup,
   type MaterialsTab,
 } from "./materials-tab-content";
+import { MaterialsTabs } from "./materials-tabs";
 
 type MateriaisDidaticosPageProps = {
   searchParams?: Promise<{
@@ -1215,18 +1215,9 @@ export default async function MateriaisDidaticosPage({
 
       <div className="space-y-0">
         <Container className="mb-10 sm:mb-16">
-          <Tabs defaultValue={defaultTab} className="w-full">
-            <TabsList className="mb-6" variant="line">
-              <TabsTrigger value="antigo">AT</TabsTrigger>
-              <TabsTrigger value="novo">NT</TabsTrigger>
-              <TabsTrigger value="personagens">Personagens</TabsTrigger>
-              <TabsTrigger value="parabolas">Parábolas</TabsTrigger>
-            </TabsList>
-
-            {materialTabs.map((tab) => (
-              <MaterialsTabContent key={tab.value} {...tab} />
-            ))}
-          </Tabs>
+          <Suspense>
+            <MaterialsTabs tabs={materialTabs} defaultTab={defaultTab} />
+          </Suspense>
         </Container>
       </div>
     </section>
