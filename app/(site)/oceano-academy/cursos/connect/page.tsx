@@ -5,8 +5,6 @@ import { HeroContainer } from "~/components/hero";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { UL } from "~/components/ui/ul";
 import { LessonsCards } from "~/components/lessons-cards";
-import { EmbededYoutubeVideo } from "~/components/embeded-youtube-video";
-import { defaultHeroYoutubeVideoId } from "~/data/courses/videos";
 import {
   connectCourse,
   CTADefaultLabel,
@@ -17,7 +15,7 @@ import { CTABox } from "~/components/cta-box";
 export default function ConnectPage() {
   return (
     <section className="relative backdrop-blur-sm">
-      <AllCoursesBackButton href="/oceano-academy/escolas/escola-de-membros" />
+      <AllCoursesBackButton />
 
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-24 sm:items-center">

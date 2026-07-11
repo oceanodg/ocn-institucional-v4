@@ -15,7 +15,7 @@ import { CTABox } from "~/components/cta-box";
 export default function CartaTiagoPage() {
   return (
     <section className="relative backdrop-blur-sm">
-      <AllCoursesBackButton href="/oceano-academy/escolas/escola-biblica" />
+      <AllCoursesBackButton />
 
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-24 sm:items-center">
