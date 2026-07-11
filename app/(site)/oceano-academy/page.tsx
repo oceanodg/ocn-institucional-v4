@@ -33,7 +33,7 @@ const data: School[] = [
   {
     id: "escola-biblica",
     title: "Escola Bíblica",
-    description: "Conhecimento biblico para toda a Igreja.",
+    description: "Conhecimento bíblico para toda a Igreja.",
     pillar: { label: "Adoração" },
     hideCoursesQuantity: true,
     courses: [
