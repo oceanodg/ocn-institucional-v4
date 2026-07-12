@@ -1,14 +1,9 @@
 import {
-  CircleUserRound,
-  ContactRound,
   FileImage,
   FileText,
   GraduationCap,
   Hash,
   SquarePlay,
-  User,
-  UserRound,
-  UserStar,
   Wallpaper,
   Workflow,
 } from "lucide-react";
@@ -109,6 +104,17 @@ export default function Genesis() {
                   <LinkSmall href="https://www.youtube.com/watch?v=VaZdOfekgo8">
                     <SquarePlay className="size-4" />
                     Gênesis 12-50
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">Slides</TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/17KTkv6bLR0qFBZevQCbaIxsC2vxXZ_XE/view?usp=drive_link">
+                    <Wallpaper className="size-4" />
+                    L1: Criação
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
