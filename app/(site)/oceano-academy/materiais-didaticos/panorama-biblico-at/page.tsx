@@ -1,14 +1,9 @@
 import {
-  CircleUserRound,
-  ContactRound,
   FileImage,
   FileText,
   GraduationCap,
   Hash,
   SquarePlay,
-  User,
-  UserRound,
-  UserStar,
   Wallpaper,
   Workflow,
 } from "lucide-react";
