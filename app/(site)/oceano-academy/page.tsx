@@ -31,40 +31,6 @@ interface School {
 
 const data: School[] = [
   {
-    id: "escola-biblica",
-    title: "Escola Bíblica",
-    description: "Conhecimento bíblico para toda a Igreja.",
-    pillar: { label: "Adoração" },
-    hideCoursesQuantity: true,
-    courses: [
-      {
-        id: "antigo-testamento",
-        title: "Antigo Testamento",
-        href: "/oceano-academy/materiais-didaticos?tab=antigo",
-      },
-      {
-        id: "novo-testamento",
-        title: "Novo Testamento",
-        href: "/oceano-academy/materiais-didaticos?tab=novo",
-      },
-      {
-        id: "personagens",
-        title: "Personagens",
-        href: "/oceano-academy/materiais-didaticos?tab=personagens",
-      },
-      {
-        id: "parabolas",
-        title: "Parábolas",
-        href: "/oceano-academy/materiais-didaticos?tab=parabolas",
-      },
-      {
-        id: "planos-de-leitura",
-        title: "Planos de Leitura",
-        href: "/oceano-academy/planos-de-leitura",
-      },
-    ],
-  },
-  {
     id: "escola-de-membros",
     title: "1. Escola de Membros",
     description: "Integração e capacitação dos membros.",
@@ -147,6 +113,40 @@ const data: School[] = [
       {
         id: "ministro-geral",
         title: "4.1. Escola de Pastores",
+      },
+    ],
+  },
+  {
+    id: "escola-biblica",
+    title: "Escola Bíblica",
+    description: "Conhecimento bíblico para toda a Igreja.",
+    pillar: { label: "Adoração" },
+    hideCoursesQuantity: true,
+    courses: [
+      {
+        id: "antigo-testamento",
+        title: "Antigo Testamento",
+        href: "/oceano-academy/materiais-didaticos?tab=antigo",
+      },
+      {
+        id: "novo-testamento",
+        title: "Novo Testamento",
+        href: "/oceano-academy/materiais-didaticos?tab=novo",
+      },
+      {
+        id: "personagens",
+        title: "Personagens",
+        href: "/oceano-academy/materiais-didaticos?tab=personagens",
+      },
+      {
+        id: "parabolas",
+        title: "Parábolas",
+        href: "/oceano-academy/materiais-didaticos?tab=parabolas",
+      },
+      {
+        id: "planos-de-leitura",
+        title: "Planos de Leitura",
+        href: "/oceano-academy/planos-de-leitura",
       },
     ],
   },
