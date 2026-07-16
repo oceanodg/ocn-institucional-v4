@@ -4,7 +4,7 @@ import { Container } from "~/components/container";
 import { CTABox } from "~/components/cta-box";
 import { HeroContainer } from "~/components/hero";
 import { SummaryLi } from "~/components/summary-li";
-import { H1, P, Separator } from "~/components/ui";
+import { Button, H1, P, Separator } from "~/components/ui";
 import { Badge } from "~/components/ui/badge";
 import { Card, CardContent, CardHeader } from "~/components/ui/card";
 import { UL } from "~/components/ui/ul";
@@ -26,6 +26,7 @@ interface School {
     label: string;
   };
   hideCoursesQuantity?: boolean;
+  inviteHref?: string;
   courses: Course[];
 }
 
@@ -35,6 +36,7 @@ const data: School[] = [
     title: "1. Escola de Membros",
     description: "Integração e capacitação dos membros.",
     pillar: { label: "Discipulado" },
+    inviteHref: "https://academy-ocn.memberkit.com.br/invites/x4y9DQ/join",
     courses: [
       {
         id: "connect",
@@ -71,11 +73,11 @@ const data: School[] = [
     description: "Fortalecimento da família como projeto de Deus.",
     pillar: { label: "Comunhão" },
     courses: [
-      { id: "mulher", title: "2.1. Mulher" },
-      { id: "homem", title: "2.2. Homem" },
-      { id: "one", title: "2.3. Curso One" },
-      { id: "casados", title: "2.4. Casados" },
-      { id: "pais", title: "2.5. Pais" },
+      { id: "mulher", title: "2.1. Mulher *" },
+      { id: "homem", title: "2.2. Homem *" },
+      { id: "one", title: "2.3. Curso One *" },
+      { id: "casados", title: "2.4. Casados *" },
+      { id: "pais", title: "2.5. Pais *" },
     ],
   },
   {
@@ -86,7 +88,7 @@ const data: School[] = [
     courses: [
       {
         id: "lideranca-geral",
-        title: "3.1. Formação de Líderes",
+        title: "3.1. Formação de Líderes *",
       },
       {
         id: "pequenos-grupos",
@@ -95,11 +97,11 @@ const data: School[] = [
       },
       {
         id: "convergencia-ministerial",
-        title: "3.3. Convergência Ministerial",
+        title: "3.3. Convergência Ministerial *",
       },
       {
         id: "escola-de-pioneiros",
-        title: "3.4. Escola de pioneiros",
+        title: "3.4. Escola de pioneiros *",
       },
     ],
   },
@@ -112,7 +114,7 @@ const data: School[] = [
     courses: [
       {
         id: "ministro-geral",
-        title: "4.1. Escola de Pastores",
+        title: "4.1. Escola de Pastores *",
       },
     ],
   },
@@ -199,6 +201,29 @@ function SchoolCards() {
                 </SummaryLi>
               ))}
             </UL>
+            {school.courses.some((course) => !course.href) && (
+              <p className="mt-3 ml-3 text-sm sm:text-base text-muted-foreground italic">
+                * em breve
+              </p>
+            )}
+            {school.inviteHref ? (
+              <div className="mt-6">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="h-12 hover:cursor-pointer bg-gray-900 hover:bg-gray-900/80 text-white hover:text-white w-full sm:w-[250px]"
+                  asChild
+                >
+                  <a
+                    href={school.inviteHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Inscreva-se
+                  </a>
+                </Button>
+              </div>
+            ) : null}
           </CardContent>
 
           {school.id !== data[data.length - 1].id ? <Separator /> : null}
