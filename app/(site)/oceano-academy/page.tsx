@@ -211,7 +211,7 @@ function SchoolCards() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="h-12 hover:cursor-pointer bg-gray-900 hover:bg-gray-900/80 text-white hover:text-white w-full sm:w-[250px]"
+                  className="h-12 hover:cursor-pointer bg-gray-900 hover:bg-gray-900/80 text-white hover:text-white w-full sm:w-62.5"
                   asChild
                 >
                   <a
