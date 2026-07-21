@@ -202,6 +202,9 @@ function SchoolCards() {
                 </SummaryLi>
               ))}
             </UL>
+            {school.courses.some((course) => !course.href) && (
+              <p className="mt-3 text-sm text-muted-foreground">* em breve</p>
+            )}
           </CardContent>
 
           {school.id !== data[data.length - 1].id ? <Separator /> : null}
