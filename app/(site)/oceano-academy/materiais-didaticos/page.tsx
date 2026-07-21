@@ -51,6 +51,7 @@ const oldTestamentMaterials: MaterialGroup[] = [
       {
         title: "Êxodo",
         description: "Libertação de Israel do cativeiro egípcio",
+        url: "/oceano-academy/materiais-didaticos/exodo",
       },
       { title: "Levítico", description: "Instruções para adoração" },
       {
