@@ -1,4 +1,10 @@
-import { FileText, GraduationCap, Hash } from "lucide-react";
+import {
+  FileImage,
+  FileText,
+  GraduationCap,
+  Hash,
+  SquarePlay,
+} from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -56,6 +62,48 @@ export default function Exodo() {
                   <LinkSmall href="/oceano-academy/materiais-didaticos/exodo.md">
                     <Hash className="size-4" />
                     MD
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Vídeos Recomendados
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://www.youtube.com/watch?v=TF6whgRN6AM">
+                    <SquarePlay className="size-4" />
+                    Êxodo 1-18
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=cfZVX_ns8ds">
+                    <SquarePlay className="size-4" />
+                    Êxodo 19-40
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1Ol5ds7k_l68cpkFSIVq1FlfjTx3igQo8/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L1: Libertação
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1vGp_lHEpLjwi-Phd97iRsCVBuZyjUo9n/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L2: Divisão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/13aOy3Q8FUlgz-0iBuPw31xfQtlmRAHJD/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L3: Deus entre o povo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1E0icARAZmVy8aL02lYu6Lb944fxGZEqp/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L4: Restauração
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
