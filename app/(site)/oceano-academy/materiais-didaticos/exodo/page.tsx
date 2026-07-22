@@ -4,6 +4,7 @@ import {
   GraduationCap,
   Hash,
   SquarePlay,
+  Workflow,
 } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
@@ -62,6 +63,19 @@ export default function Exodo() {
                   <LinkSmall href="/oceano-academy/materiais-didaticos/exodo.md">
                     <Hash className="size-4" />
                     MD
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Mapa Mental
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-at-Vwf2XrtErHeQATx88Axg8B">
+                    <Workflow className="size-4" />
+                    Mapa Mental
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
