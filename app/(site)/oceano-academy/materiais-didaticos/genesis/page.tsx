@@ -116,6 +116,18 @@ export default function Genesis() {
                     <Wallpaper className="size-4" />
                     L1: Criação
                   </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1RAibZ9IYsJFyF2Wm21Bym7J7fxo5pZn5/view?usp=sharing">
+                    <Wallpaper className="size-4" />
+                    L1: Criação (Apoio)
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1l6mnOOXcWpIPW88EsdFeeoSLrt3bbFIG/view?usp=drive_link">
+                    <Wallpaper className="size-4" />
+                    L2: Pecado e Graça
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1ZUKmo7lmWMVySO62-Y9DLIcE23W6v5oA/view?usp=drive_link">
+                    <Wallpaper className="size-4" />
+                    L3: Abraão
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
