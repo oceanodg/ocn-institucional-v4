@@ -40,7 +40,7 @@ export default function DoacoesPage() {
             title="Cartão de Crédito"
             description="Doe com cartão de crédito."
             buttonLink="https://www.asaas.com/c/lsrnvhk1tabj4x7u"
-            buttonText="Doar com Cartão de Crédito"
+            buttonText="Doar agora"
             openInNewTab={true}
             showArrow={false}
           />
