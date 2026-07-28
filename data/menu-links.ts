@@ -96,10 +96,10 @@ export const menuLinks: MenuLink[] = [
         title: "Conheça a Academy",
         href: "/oceano-academy",
       },
-      {
-        title: "Nosso Cursos",
-        href: "/oceano-academy",
-      },
+      // {
+      //   title: "Nosso Cursos",
+      //   href: "/oceano-academy",
+      // },
       {
         title: "Acesse seu Curso",
         href: "https://academy.oceanodagraca.com/",
