@@ -44,7 +44,7 @@ export function CTABox({
             variant={buttonVariant}
             size="lg"
             className={twMerge(
-              "h-12 hover:cursor-pointer bg-gray-900 hover:bg-gray-900/80 text-white hover:text-white w-full sm:w-80 md:px-8",
+              "h-12 hover:cursor-pointer bg-gray-900 hover:bg-gray-900/80 text-white hover:text-white w-full sm:w-52 md:px-8",
               buttonClassName
             )}
             onClick={() => {
