@@ -131,8 +131,8 @@ export const data: School[] = [
     courses: [
       {
         id: "ito",
-        title: "4.1. ITO - Instituto Teológico Oceano *",
-        description: "Instituto Teológico Oceano, em breve. Será presencial.",
+        title: "4.1. ITO - Instituto de Teologia Oceano *",
+        description: "Instituto de Teologia Oceano, em breve. Será presencial.",
         modality: "Presencial",
       },
     ],
