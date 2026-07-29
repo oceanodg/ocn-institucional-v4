@@ -13,84 +13,84 @@ import { UL } from "~/components/ui/ul";
 import { lora } from "~/lib/fonts";
 import { cn } from "~/lib/utils";
 
-function SchoolCards() {
-  return (
-    <Card className="gap-0 overflow-hidden rounded-lg bg-white py-0 shadow-none">
-      {data.map((school) => (
-        <div key={school.id}>
-          <CardHeader className="px-6 py-6 sm:px-8 sm:py-7">
-            <div className="flex flex-wrap items-center gap-3">
-              <Badge variant="secondary">{school.pillar.label}</Badge>
-              {!school.hideCoursesQuantity && (
-                <span className="text-sm text-muted-foreground">
-                  {school.courses.length} curso
-                  {school.courses.length !== 1 ? "s" : ""}
-                </span>
-              )}
-            </div>
+// function SchoolCards() {
+//   return (
+//     <Card className="gap-0 overflow-hidden rounded-lg bg-white py-0 shadow-none">
+//       {data.map((school) => (
+//         <div key={school.id}>
+//           <CardHeader className="px-6 py-6 sm:px-8 sm:py-7">
+//             <div className="flex flex-wrap items-center gap-3">
+//               <Badge variant="secondary">{school.pillar.label}</Badge>
+//               {!school.hideCoursesQuantity && (
+//                 <span className="text-sm text-muted-foreground">
+//                   {school.courses.length} curso
+//                   {school.courses.length !== 1 ? "s" : ""}
+//                 </span>
+//               )}
+//             </div>
 
-            <div
-              className={cn(
-                "mt-4 text-xl font-semibold text-gray-700 sm:text-2xl",
-                lora.className
-              )}
-            >
-              {school.title}
-            </div>
+//             <div
+//               className={cn(
+//                 "mt-4 text-xl font-semibold text-gray-700 sm:text-2xl",
+//                 lora.className
+//               )}
+//             >
+//               {school.title}
+//             </div>
 
-            <P className="mt-2 text-left sm:mt-1">{school.description}</P>
-          </CardHeader>
+//             <P className="mt-2 text-left sm:mt-1">{school.description}</P>
+//           </CardHeader>
 
-          <CardContent className="px-6 pb-6 sm:px-8 sm:pb-7">
-            <UL className="mt-0 pl-3.5 sm:pl-4 space-y-2 sm:space-y-2">
-              {school.courses.map((course) => (
-                <SummaryLi
-                  key={course.id}
-                  className={
-                    !course.href
-                      ? "text-muted-foreground no-underline hover:no-underline cursor-default"
-                      : undefined
-                  }
-                >
-                  {course.href ? (
-                    <Link href={course.href}>{course.title}</Link>
-                  ) : (
-                    <span>{course.title}</span>
-                  )}
-                </SummaryLi>
-              ))}
-            </UL>
-            {school.courses.some((course) => !course.href) && (
-              <p className="mt-3 ml-3 text-sm sm:text-base text-muted-foreground italic">
-                * em breve
-              </p>
-            )}
-            {school.inviteHref ? (
-              <div className="mt-6">
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="h-12 hover:cursor-pointer bg-gray-900 hover:bg-gray-900/80 text-white hover:text-white w-full sm:w-62.5"
-                  asChild
-                >
-                  <a
-                    href={school.inviteHref}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Inscreva-se
-                  </a>
-                </Button>
-              </div>
-            ) : null}
-          </CardContent>
+//           <CardContent className="px-6 pb-6 sm:px-8 sm:pb-7">
+//             <UL className="mt-0 pl-3.5 sm:pl-4 space-y-2 sm:space-y-2">
+//               {school.courses.map((course) => (
+//                 <SummaryLi
+//                   key={course.id}
+//                   className={
+//                     !course.href
+//                       ? "text-muted-foreground no-underline hover:no-underline cursor-default"
+//                       : undefined
+//                   }
+//                 >
+//                   {course.href ? (
+//                     <Link href={course.href}>{course.title}</Link>
+//                   ) : (
+//                     <span>{course.title}</span>
+//                   )}
+//                 </SummaryLi>
+//               ))}
+//             </UL>
+//             {school.courses.some((course) => !course.href) && (
+//               <p className="mt-3 ml-3 text-sm sm:text-base text-muted-foreground italic">
+//                 * em breve
+//               </p>
+//             )}
+//             {school.inviteHref ? (
+//               <div className="mt-6">
+//                 <Button
+//                   variant="outline"
+//                   size="lg"
+//                   className="h-12 hover:cursor-pointer bg-gray-900 hover:bg-gray-900/80 text-white hover:text-white w-full sm:w-62.5"
+//                   asChild
+//                 >
+//                   <a
+//                     href={school.inviteHref}
+//                     target="_blank"
+//                     rel="noopener noreferrer"
+//                   >
+//                     Inscreva-se
+//                   </a>
+//                 </Button>
+//               </div>
+//             ) : null}
+//           </CardContent>
 
-          {school.id !== data[data.length - 1].id ? <Separator /> : null}
-        </div>
-      ))}
-    </Card>
-  );
-}
+//           {school.id !== data[data.length - 1].id ? <Separator /> : null}
+//         </div>
+//       ))}
+//     </Card>
+//   );
+// }
 
 export default function OceanoAcademyPage() {
   return (
