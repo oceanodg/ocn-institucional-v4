@@ -18,7 +18,9 @@ export default function PequenosGruposPage() {
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-24 sm:items-center">
           <div className="flex flex-col gap-2 sm:flex-1">
-            <H1 className="text-left">Pequenos Grupos</H1>
+            <H1 className="text-left">
+              Treinamento para Líderes de Pequenos Grupos
+            </H1>
             <P className="mt-0">
               Guia prático para líderes e membros viverem o discipulado como
               estilo de vida, fortalecendo relacionamentos, amadurecendo a fé e
