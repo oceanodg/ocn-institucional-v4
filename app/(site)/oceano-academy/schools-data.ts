@@ -148,16 +148,18 @@ export const data: School[] = [
       {
         id: "antigo-testamento",
         title: "Antigo Testamento",
-        description: "Materiais de apoio para o estudo do Antigo Testamento.",
+        description:
+          "Materiais de apoio para o estudo do Antigo Testamento das aulas presenciais da Escola Bíblica. Presencial e online.",
         href: "/oceano-academy/materiais-didaticos?tab=antigo",
-        modality: "Online",
+        modality: "Presencial e Online",
       },
       {
         id: "novo-testamento",
         title: "Novo Testamento",
-        description: "Materiais de apoio para o estudo do Novo Testamento.",
+        description:
+          "Materiais de apoio para o estudo do Novo Testamento das aulas presenciais da Escola Bíblica. Presencial e online.",
         href: "/oceano-academy/materiais-didaticos?tab=novo",
-        modality: "Online",
+        modality: "Presencial e Online",
       },
       // {
       //   id: "personagens",
