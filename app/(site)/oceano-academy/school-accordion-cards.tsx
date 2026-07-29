@@ -62,10 +62,7 @@ function CourseAccordionItem({
   enrollHref?: string;
 }) {
   const learnMoreHref = course.learnMoreHref;
-  const legacySaibaMaisHref =
-    !enrollHref && !learnMoreHref ? course.href : undefined;
-  const saibaMaisHref = learnMoreHref ?? legacySaibaMaisHref;
-  const hasActions = Boolean(enrollHref || saibaMaisHref);
+  const hasActions = Boolean(enrollHref || learnMoreHref);
 
   return (
     <AccordionItem value={course.id}>
@@ -109,27 +106,27 @@ function CourseAccordionItem({
               </Button>
             ) : null}
 
-            {saibaMaisHref && enrollHref ? (
+            {learnMoreHref && enrollHref ? (
               <Button
                 size="sm"
                 variant="link"
                 className="h-auto shrink-0 p-0 text-muted-foreground hover:cursor-pointer hover:underline ml-2"
                 asChild
               >
-                <a href={saibaMaisHref} {...linkProps(saibaMaisHref)}>
+                <a href={learnMoreHref} {...linkProps(learnMoreHref)}>
                   Saiba mais
                 </a>
               </Button>
             ) : null}
 
-            {saibaMaisHref && !enrollHref ? (
+            {learnMoreHref && !enrollHref ? (
               <Button
                 size="sm"
                 variant="outline"
                 className="shrink-0 hover:cursor-pointer"
                 asChild
               >
-                <a href={saibaMaisHref} {...linkProps(saibaMaisHref)}>
+                <a href={learnMoreHref} {...linkProps(learnMoreHref)}>
                   Saiba mais
                 </a>
               </Button>
@@ -143,11 +140,7 @@ function CourseAccordionItem({
 
 function SchoolAccordionCard({ school }: { school: School }) {
   const hasUpcomingCourses = school.courses.some(
-    (course) =>
-      !course.href &&
-      !course.enrollHref &&
-      !course.learnMoreHref &&
-      !school.inviteHref
+    (course) => course.comingSoon
   );
 
   return (
