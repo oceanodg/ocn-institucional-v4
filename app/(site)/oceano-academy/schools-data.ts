@@ -126,7 +126,7 @@ export const data: School[] = [
     id: "escola-de-teologia",
     title: "4. Escola de Teologia",
     description:
-      "Desenvolvmento de vocacionados para os ministérios congregacionais.",
+      "Desenvolvimento de vocacionados para os ministérios congregacionais.",
     pillar: { label: "Missão" },
     courses: [
       {
