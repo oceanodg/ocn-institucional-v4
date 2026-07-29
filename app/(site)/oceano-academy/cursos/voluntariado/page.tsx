@@ -20,7 +20,7 @@ export default function VoluntariadoPage() {
       <HeroContainer className="pb-2 sm:pb-0">
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-24 sm:items-center">
           <div className="flex flex-col gap-2 sm:flex-1">
-            <H1 className="text-left">Voluntariado</H1>
+            <H1 className="text-left">Treinamento para novos voluntários</H1>
             <P className="mt-0">
               Servir é mais do que uma tarefa: é um chamado.
             </P>

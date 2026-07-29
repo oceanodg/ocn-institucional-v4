@@ -4,10 +4,10 @@ export interface Course {
   id: string;
   title: string;
   description?: string;
-  href?: string;
   modality?: Modality;
   enrollHref?: string;
   learnMoreHref?: string;
+  comingSoon?: boolean;
 }
 
 export interface School {
@@ -74,15 +74,16 @@ export const data: School[] = [
     courses: [
       {
         id: "one",
-        title: "2.1. Curso One *",
+        title: "2.1. Curso One",
         modality: "Presencial",
-        description: "Curso para noivos, em breve. Será presencial.",
+        description: "Curso para noivos. Presencial.",
       },
       {
         id: "no-caminho",
         title: "2.2. No Caminho *",
-        description: "Curso para pais, em breve. Será online.",
+        description: "Curso para pais. Será online.",
         modality: "Online",
+        comingSoon: true,
       },
     ],
   },
@@ -94,31 +95,31 @@ export const data: School[] = [
     courses: [
       {
         id: "lidera",
-        title: "3.1. Lidera *",
+        title: "3.1. Lidera",
         modality: "Presencial",
-        description: "Curso de formação de líderes, em breve. Será presencial.",
+        description: "Curso de formação de líderes. Presencial.",
       },
       {
         id: "pequenos-grupos",
         title: "3.2. Treinamento para Líderes de Pequenos Grupos",
         description:
           "Apresenta a identidade, a visão e a prática dos Pequenos Grupos da Igreja Oceano da Graça. Online.",
-        href: "/oceano-academy/cursos/pequenos-grupos",
+        learnMoreHref: "/oceano-academy/cursos/pequenos-grupos",
         modality: "Online",
       },
       {
         id: "primeira-onda",
         title: "3.3. Primeira Onda *",
-        description:
-          "Treinamento para plantadores de igreja, em breve. Será presencial.",
+        description: "Treinamento para plantadores de igreja. Será presencial.",
         modality: "Presencial",
+        comingSoon: true,
       },
       {
         id: "escola-de-pastores",
         title: "3.4. Escola de Pastores *",
-        description:
-          "Curso de formação de pastores, em breve. Será presencial.",
+        description: "Curso de formação de pastores. Será presencial.",
         modality: "Presencial",
+        comingSoon: true,
       },
     ],
   },
@@ -131,15 +132,15 @@ export const data: School[] = [
     courses: [
       {
         id: "ito",
-        title: "4.1. ITO - Instituto de Teologia Oceano *",
-        description: "Instituto de Teologia Oceano, em breve. Será presencial.",
+        title: "4.1. ITO - Instituto de Teologia Oceano",
+        description: "Instituto de Teologia Oceano. Presencial.",
         modality: "Presencial",
       },
     ],
   },
   {
     id: "escola-biblica",
-    title: "Escola Bíblica",
+    title: "5. Escola Bíblica",
     description: "Conhecimento bíblico para toda a Igreja.",
     pillar: { label: "Adoração" },
     hideCoursesQuantity: true,
@@ -147,37 +148,25 @@ export const data: School[] = [
     courses: [
       {
         id: "antigo-testamento",
-        title: "Antigo Testamento",
+        title: "5.1. Antigo Testamento",
         description:
           "Materiais de apoio para o estudo do Antigo Testamento das aulas presenciais da Escola Bíblica. Presencial e online.",
-        href: "/oceano-academy/materiais-didaticos?tab=antigo",
+        learnMoreHref: "/oceano-academy/materiais-didaticos?tab=antigo",
         modality: "Presencial e Online",
       },
       {
         id: "novo-testamento",
-        title: "Novo Testamento",
+        title: "5.2. Novo Testamento",
         description:
           "Materiais de apoio para o estudo do Novo Testamento das aulas presenciais da Escola Bíblica. Presencial e online.",
-        href: "/oceano-academy/materiais-didaticos?tab=novo",
+        learnMoreHref: "/oceano-academy/materiais-didaticos?tab=novo",
         modality: "Presencial e Online",
       },
-      // {
-      //   id: "personagens",
-      //   title: "Personagens",
-      //   href: "/oceano-academy/materiais-didaticos?tab=personagens",
-      //   modality: "Online",
-      // },
-      // {
-      //   id: "parabolas",
-      //   title: "Parábolas",
-      //   href: "/oceano-academy/materiais-didaticos?tab=parabolas",
-      //   modality: "Online",
-      // },
       {
         id: "planos-de-leitura",
-        title: "Planos de Leitura",
+        title: "5.3. Planos de Leitura",
         description: "Planos de leitura para iniciantes e avançados.",
-        href: "/oceano-academy/planos-de-leitura",
+        learnMoreHref: "/oceano-academy/planos-de-leitura",
         modality: "Online",
       },
     ],
