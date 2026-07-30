@@ -46,7 +46,7 @@ export const data: School[] = [
           "Curso que apresenta o credo da Igreja Oceano da Graça. Presencial e online.",
         enrollHref: "https://academy.oceanodagraca.com/invites/Q85BZb/join",
         learnMoreHref: "/oceano-academy/cursos/fundamentos",
-        modality: "Online",
+        modality: "Presencial e Online",
       },
       {
         id: "nova-vida",
@@ -127,7 +127,7 @@ export const data: School[] = [
     id: "escola-de-teologia",
     title: "4. Escola de Teologia",
     description:
-      "Desenvolvimento de vocacionados para os ministérios congregacionais.",
+      "Aprofundamento da fé por meio do estudo sistemático das Escrituras.",
     pillar: { label: "Missão" },
     courses: [
       {
