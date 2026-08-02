@@ -77,6 +77,22 @@ export default function Exodo() {
                     <Workflow className="size-4" />
                     Mapa Mental
                   </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/10w_0BAMZV5fmyVTTnfxAmIeP9f1Bl4TG/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Libertação
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1g-Pb4Jri8vA6S9YQDh7pLVBvF0gm0V-W/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Divisão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1ahsi7cL1UyE2TF-GUQM4m0ALViCNVjGm/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Deus entre o povo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1_Z3UiDZzMtoi0mWKvG3ftEgr5k74Q1BG/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Restauração
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
@@ -117,6 +133,56 @@ export default function Exodo() {
                   </LinkSmall>
                   <LinkSmall href="https://drive.google.com/file/d/1E0icARAZmVy8aL02lYu6Lb944fxGZEqp/view?usp=drive_link">
                     <FileImage className="size-4" />
+                    L4: Restauração
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1NWIToLKn2gNFmVs9CJOTn9YP2eEeDraV/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Libertação
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1W1oKG1nFgGk43-NhcqHw5UFYbQKxC7RT/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Divisão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/14rs7YdeHkniH1X3YHk0Y_8IkNU4_hC_C/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Deus entre o povo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1o-gW_WhHXQ7SfNrRp9Ei3g9hVuS8PKfo/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Restauração
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Quizzes
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1UO_kXKy75OTOAEuNNeF0-tvLRRaznwCL/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Libertação
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1yZHf3_70IB0z5gjoN1xOD4yOpsazCkvC/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Divisão
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1uDbir39re4tm9MWR2957Hvz10VotfEQj/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Deus entre o povo
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1iefnjNRbzsJd7J10jx6M2pj3uIGnMrWh/view?usp=sharing">
+                    <FileText className="size-4" />
                     L4: Restauração
                   </LinkSmall>
                 </TableCellLinksContainer>
