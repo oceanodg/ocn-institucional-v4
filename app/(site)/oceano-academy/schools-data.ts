@@ -135,6 +135,7 @@ export const data: School[] = [
         title: "4.1. ITO - Instituto de Teologia Oceano",
         description: "Instituto de Teologia Oceano. Presencial.",
         modality: "Presencial",
+        learnMoreHref: "https://ito.oceanodagraca.com",
       },
     ],
   },
