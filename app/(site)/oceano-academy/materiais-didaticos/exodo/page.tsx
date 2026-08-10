@@ -4,6 +4,7 @@ import {
   GraduationCap,
   Hash,
   SquarePlay,
+  Wallpaper,
   Workflow,
 } from "lucide-react";
 import { HeroContainer } from "~/components/hero";
@@ -114,6 +115,17 @@ export default function Exodo() {
               </TableCell>
             </TableRow>
             <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">Slides</TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1lQ4FO8TrSCDPgo08jw_tNQJN8bqqx5om/view?usp=sharing">
+                    <Wallpaper className="size-4" />
+                    L1: Libertação
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
                 Infográficos
               </TableCell>
@@ -164,9 +176,7 @@ export default function Exodo() {
               </TableCell>
             </TableRow>
             <TableRow className="hover:bg-transparent">
-              <TableCell className="border font-semibold">
-                Quizzes
-              </TableCell>
+              <TableCell className="border font-semibold">Quizzes</TableCell>
               <TableCell>
                 <TableCellLinksContainer>
                   <LinkSmall href="https://drive.google.com/file/d/1UO_kXKy75OTOAEuNNeF0-tvLRRaznwCL/view?usp=sharing">
