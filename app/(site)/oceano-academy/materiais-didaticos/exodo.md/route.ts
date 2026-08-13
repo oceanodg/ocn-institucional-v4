@@ -75,9 +75,8 @@ em relacionamento com Ele. O Êxodo não termina quando Israel deixa a
 escravidão; ele aponta para a formação de um povo que pertence ao Senhor.
 
 Para a igreja, essa mensagem continua atual. Todo ser humano vive sob
-alguma forma de escravidão espiritual causada pelo pecado, mas Deus continua
-
-sendo aquele que liberta. O mesmo Deus que ouviu o clamor de Israel enviou
+alguma forma de escravidão espiritual causada pelo pecado, mas Deus continua sendo aquele que liberta. 
+O mesmo Deus que ouviu o clamor de Israel enviou
 Cristo para realizar uma redenção maior e definitiva.
 
 ### 1. Deus permanece fiel mesmo quando seu povo sofre
