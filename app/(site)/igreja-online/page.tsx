@@ -1,10 +1,12 @@
+import Link from "next/link";
 import { Container } from "~/components/container";
 import { HeroContainer } from "~/components/hero";
-import { H1, H2, P, Separator } from "~/components/ui";
+import { Button, H1, H2, P, Separator } from "~/components/ui";
 import type { Info } from "~/server/types/info";
 import { InfoCard } from "~/components/info-card";
 import { CTABox } from "~/components/cta-box";
 import { CardWithLink } from "~/components/card-with-link";
+import { ArrowRight } from "lucide-react";
 
 const features: Info[] = [
   {
@@ -149,6 +151,21 @@ export default function IgrejaOnlinePage() {
               vem ser família com a gente!
             </span>
           </P>
+
+          <div className="w-full sm:w-auto sm:shrink-0 mt-6">
+            <Button
+              asChild
+              size="lg"
+              className={
+                "h-12 hover:cursor-pointer bg-gray-900 hover:bg-gray-900/80 text-white hover:text-white w-full sm:w-52 md:px-8"
+              }
+            >
+              <Link href="/igreja-online/saiba-mais">
+                <span>Saiba Mais</span>
+                <ArrowRight />
+              </Link>
+            </Button>
+          </div>
         </div>
       </Container>
 
