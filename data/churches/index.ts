@@ -13,7 +13,7 @@ export const churches: Church[] = [
       {
         weekday: "Domingo",
         worshipNameAndTime: [
-          "Escola Bíblica - 09:00",
+          "Escola Bíblica - 08:30",
           "Culto da Família - 10:00",
           "Culto da Família - 18:30",
         ],
@@ -23,15 +23,19 @@ export const churches: Church[] = [
         worshipNameAndTime: ["Quarta da Graça - 20:00"],
       },
       {
+        weekday: "Quinta-feira",
+        worshipNameAndTime: ["Oração - 08:00"],
+      },
+      {
         weekday: "Sexta-feira",
         worshipNameAndTime: [
-          "1a Sexta do Mês - Deeper - 20:30",
-          "3a Sexta do Mês - Deeper Joy - 20:30",
+          "1a Sexta do Mês - Deeper - 20:00",
+          "3a Sexta do Mês - Deeper Joy - 20:00",
         ],
       },
       {
         weekday: "Sábado",
-        worshipNameAndTime: ["Café com Deus - 09:00"],
+        worshipNameAndTime: ["Manhã da Graça - 09:00"],
       },
     ],
     amenities: [
@@ -74,7 +78,7 @@ export const churches: Church[] = [
       },
       {
         weekday: "Sábado",
-        worshipNameAndTime: ["Café com Deus - 08:00"],
+        worshipNameAndTime: ["Manhã da Graça - 08:00"],
       },
     ],
     amenities: [
