@@ -227,58 +227,6 @@ export const churches: Church[] = [
     googleMapsUrl: "https://goo.gl/maps/N5cfXJe5C28atcKQ8",
   },
   {
-    id: "caldas-novas-go-getulio-vargas",
-    name: "Caldas Novas - GO",
-    address: "Av. Getúlio Vargas, Qd 01 - Lote 04, Caldas Novas - GO",
-    coverImage: "caldas-novas-go-getulio-vargas.jpg",
-    facebook: "https://www.facebook.com/igrejaoceanodagraca",
-    instagram: "https://www.instagram.com/oceanocaldasnovas",
-    youtube: "https://www.youtube.com/OceanodaGraca",
-    worshipDays: [
-      {
-        weekday: "Domingo",
-        worshipNameAndTime: ["Culto da Família - 19:00"],
-      },
-      {
-        weekday: "Segunda-feira",
-        worshipNameAndTime: ["Oração - 20:00"],
-      },
-      {
-        weekday: "Quarta-feira",
-        worshipNameAndTime: ["Oração - 09:00", "Quarta da Graça - 20:00"],
-      },
-      {
-        weekday: "Sexta-feira",
-        worshipNameAndTime: ["1a Sexta do Mês - Deeper - 20:00"],
-      },
-      {
-        weekday: "Sábado",
-        worshipNameAndTime: [
-          "2o Sábado do Mês - Café com Deus - 16:00",
-          "4o Sábado do Mês - Café com Deus - 16:00",
-        ],
-      },
-    ],
-    amenities: [
-      "Acessibilidade",
-      "Banheiros",
-      "Berçario",
-      "Oceano KIDS",
-      "Estacionamento",
-    ],
-    pastors: [
-      {
-        name: "Pr. Mauruzan Rodrigues",
-        image: "/pastors/mauruzan-rodrigues-01.jpg",
-      },
-      {
-        name: "Pra. Mirian Rodrigues",
-        image: "/pastors/mirian-rodrigues-01.jpg",
-      },
-    ],
-    googleMapsUrl: "https://maps.app.goo.gl/vpEwnC758LRCkqMK7",
-  },
-  {
     id: "guine-bissau-bissau-cutum-3",
     name: "Bissau - Guiné-Bissau",
     address: "Cuntum 3 Bissau - Guiné-Bissau",
