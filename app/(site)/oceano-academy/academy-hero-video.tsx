@@ -26,7 +26,7 @@ export function AcademyHeroVideo() {
                   aria-controls="academy-hero-video"
                   onClick={() => setShowVideo(true)}
                 >
-                  saiba mais
+                  Saiba mais
                 </button>
               </>
             ) : null}
