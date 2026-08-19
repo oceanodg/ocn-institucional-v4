@@ -65,10 +65,6 @@ export const menuLinks: MenuLink[] = [
         href: "/igrejas/jardins-mangueiral-pc-atividades-5",
       },
       {
-        title: "Caldas Novas - GO",
-        href: "/igrejas/caldas-novas-go-getulio-vargas",
-      },
-      {
         title: "Bissau - Guiné-Bissau",
         href: "/igrejas/guine-bissau-bissau-cutum-3",
       },
