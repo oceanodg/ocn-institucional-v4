@@ -1,6 +1,7 @@
 "use client";
 
 import Autoplay from "embla-carousel-autoplay";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import * as React from "react";
@@ -11,6 +12,8 @@ import {
   type CarouselApi,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "~/components/ui/carousel";
 import { cn } from "~/lib/utils";
 
@@ -108,6 +111,16 @@ export function BannerCarousel({
     autoplay.reset();
   }
 
+  function selectPreviousBanner() {
+    api?.scrollPrev();
+    autoplay.reset();
+  }
+
+  function selectNextBanner() {
+    api?.scrollNext();
+    autoplay.reset();
+  }
+
   return (
     <Carousel
       aria-label={ariaLabel}
@@ -115,29 +128,50 @@ export function BannerCarousel({
       plugins={plugins}
       setApi={setApi}
     >
-      <CarouselContent className="ml-0">
-        {banners.map((banner, index) => (
-          <CarouselItem
-            key={`${banner.href}-${index}`}
-            aria-label={`Banner ${index + 1} de ${banners.length}`}
-            className="pl-0"
-          >
-            <Link
-              href={banner.href}
-              className="relative block aspect-video w-full overflow-hidden rounded-lg focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"
+      <div className="relative">
+        <CarouselContent className="ml-0">
+          {banners.map((banner, index) => (
+            <CarouselItem
+              key={`${banner.href}-${index}`}
+              aria-label={`Banner ${index + 1} de ${banners.length}`}
+              className="pl-0"
             >
-              <Image
-                src={banner.src}
-                alt={banner.alt}
-                fill
-                preload={index === 0}
-                className="object-cover"
-                sizes="(min-width: 1024px) 960px, (min-width: 640px) calc(100vw - 64px), calc(100vw - 48px)"
-              />
-            </Link>
-          </CarouselItem>
-        ))}
-      </CarouselContent>
+              <Link
+                href={banner.href}
+                className="relative block aspect-video w-full overflow-hidden rounded-lg focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"
+              >
+                <Image
+                  src={banner.src}
+                  alt={banner.alt}
+                  fill
+                  preload={index === 0}
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 960px, (min-width: 640px) calc(100vw - 64px), calc(100vw - 48px)"
+                />
+              </Link>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+
+        {hasMultipleBanners && (
+          <>
+            <CarouselPrevious
+              type="button"
+              variant="secondary"
+              className="left-2 cursor-pointer sm:left-4"
+              onClick={selectPreviousBanner}
+              aria-label="Banner anterior"
+            />
+            <CarouselNext
+              type="button"
+              variant="secondary"
+              className="right-2 cursor-pointer sm:right-4"
+              onClick={selectNextBanner}
+              aria-label="Próximo banner"
+            />
+          </>
+        )}
+      </div>
 
       {hasMultipleBanners && (
         <div
@@ -145,6 +179,17 @@ export function BannerCarousel({
           role="group"
           aria-label="Controles dos banners"
         >
+          <Button
+            type="button"
+            variant="ghost"
+            size="icon"
+            className="cursor-pointer"
+            onClick={selectPreviousBanner}
+            aria-label="Banner anterior"
+          >
+            <ChevronLeft data-icon="inline-start" />
+          </Button>
+
           {banners.map((banner, index) => (
             <Button
               key={`${banner.href}-control-${index}`}
@@ -165,6 +210,17 @@ export function BannerCarousel({
               />
             </Button>
           ))}
+
+          <Button
+            type="button"
+            variant="ghost"
+            size="icon"
+            className="cursor-pointer"
+            onClick={selectNextBanner}
+            aria-label="Próximo banner"
+          >
+            <ChevronRight data-icon="inline-start" />
+          </Button>
         </div>
       )}
     </Carousel>
