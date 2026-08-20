@@ -4,7 +4,26 @@ import { H1, H2, P, Separator } from "~/components/ui";
 import type { Info } from "~/server/types/info";
 import { CTABox } from "~/components/cta-box";
 import { CardWithLink } from "~/components/card-with-link";
+import { BannerCarousel } from "~/components/banner-carousel";
 import { PrimaveraMulher2026 } from "./components/primavera-mulher-2026";
+
+const banners = [
+  {
+    src: "/images/banners/banner-primavera-mulher.webp",
+    alt: "Primavera Mulher 2026",
+    href: "https://primaveramulher.oceanodagraca.com/",
+  },
+  {
+    src: "/images/banners/banner-academy.webp",
+    alt: "Oceano Academy",
+    href: "/oceano-academy",
+  },
+  {
+    src: "/images/banners/banner-ito.webp",
+    alt: "Instituto de Teologia Oceano da Graça",
+    href: "https://ito.oceanodagraca.com/",
+  },
+];
 
 const features: Info[] = [
   {
@@ -54,7 +73,9 @@ export default function WelcomePage() {
         </div>
       </HeroContainer>
 
-      <PrimaveraMulher2026 />
+      <Container className="py-0 mt-8 sm:mt-12">
+        <BannerCarousel banners={banners} autoplayDelayMs={3000} />
+      </Container>
 
       <Separator className="my-14" />
 
