@@ -12,8 +12,6 @@ import {
   type CarouselApi,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "~/components/ui/carousel";
 import { cn } from "~/lib/utils";
 
@@ -128,50 +126,29 @@ export function BannerCarousel({
       plugins={plugins}
       setApi={setApi}
     >
-      <div className="relative">
-        <CarouselContent className="ml-0">
-          {banners.map((banner, index) => (
-            <CarouselItem
-              key={`${banner.href}-${index}`}
-              aria-label={`Banner ${index + 1} de ${banners.length}`}
-              className="pl-0"
+      <CarouselContent className="ml-0">
+        {banners.map((banner, index) => (
+          <CarouselItem
+            key={`${banner.href}-${index}`}
+            aria-label={`Banner ${index + 1} de ${banners.length}`}
+            className="pl-0"
+          >
+            <Link
+              href={banner.href}
+              className="relative block aspect-video w-full overflow-hidden rounded-lg focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"
             >
-              <Link
-                href={banner.href}
-                className="relative block aspect-video w-full overflow-hidden rounded-lg focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"
-              >
-                <Image
-                  src={banner.src}
-                  alt={banner.alt}
-                  fill
-                  preload={index === 0}
-                  className="object-cover"
-                  sizes="(min-width: 1024px) 960px, (min-width: 640px) calc(100vw - 64px), calc(100vw - 48px)"
-                />
-              </Link>
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-
-        {hasMultipleBanners && (
-          <>
-            <CarouselPrevious
-              type="button"
-              variant="secondary"
-              className="left-2 cursor-pointer sm:left-4"
-              onClick={selectPreviousBanner}
-              aria-label="Banner anterior"
-            />
-            <CarouselNext
-              type="button"
-              variant="secondary"
-              className="right-2 cursor-pointer sm:right-4"
-              onClick={selectNextBanner}
-              aria-label="Próximo banner"
-            />
-          </>
-        )}
-      </div>
+              <Image
+                src={banner.src}
+                alt={banner.alt}
+                fill
+                preload={index === 0}
+                className="object-cover"
+                sizes="(min-width: 1024px) 960px, (min-width: 640px) calc(100vw - 64px), calc(100vw - 48px)"
+              />
+            </Link>
+          </CarouselItem>
+        ))}
+      </CarouselContent>
 
       {hasMultipleBanners && (
         <div
