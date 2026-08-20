@@ -74,7 +74,7 @@ export default function WelcomePage() {
       </HeroContainer>
 
       <Container className="py-0 mt-8 sm:mt-12">
-        <BannerCarousel banners={banners} autoplayDelayMs={2500} />
+        <BannerCarousel banners={banners} autoplayDelayMs={3000} />
       </Container>
 
       <Separator className="my-14" />
