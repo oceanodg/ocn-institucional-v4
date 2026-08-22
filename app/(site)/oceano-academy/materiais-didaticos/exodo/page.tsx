@@ -126,6 +126,10 @@ export default function Exodo() {
                     <Wallpaper className="size-4" />
                     L2: Divisão
                   </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1PG3hP4ZNolbtHFkXqMqXbTnpeL0Rh-lL/view?usp=sharing">
+                    <Wallpaper className="size-4" />
+                    L3: Deus entre o povo
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
