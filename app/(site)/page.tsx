@@ -9,6 +9,11 @@ import { PrimaveraMulher2026 } from "./components/primavera-mulher-2026";
 
 const banners = [
   {
+    src: "/images/banners/banner-juntos-pelo-reino.webp",
+    alt: "Juntos pelo Reino",
+    href: "http://juntospeloreino.oceanodagraca.com/",
+  },
+  {
     src: "/images/banners/banner-primavera-mulher.webp",
     alt: "Primavera Mulher 2026",
     href: "https://primaveramulher.oceanodagraca.com/",
