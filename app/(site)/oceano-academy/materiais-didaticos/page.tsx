@@ -53,14 +53,20 @@ const oldTestamentMaterials: MaterialGroup[] = [
         description: "Libertação de Israel do cativeiro egípcio",
         url: "/oceano-academy/materiais-didaticos/exodo",
       },
-      { title: "Levítico", description: "Instruções para adoração" },
+      {
+        title: "Levítico",
+        description: "Instruções para adoração",
+        url: "/oceano-academy/materiais-didaticos/levitico-numero-deuteronomio",
+      },
       {
         title: "Números",
         description: "Censos de Israel e peregrinação no deserto",
+        url: "/oceano-academy/materiais-didaticos/levitico-numero-deuteronomio",
       },
       {
         title: "Deuteronômio",
         description: "Últimos sermões e leis de Moisés",
+        url: "/oceano-academy/materiais-didaticos/levitico-numero-deuteronomio",
       },
     ],
   },
