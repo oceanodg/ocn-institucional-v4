@@ -342,6 +342,30 @@ export const pequenosGruposCourse: Course = {
   ],
 };
 
+export const noCaminhoCourse: Course = {
+  title: "No Caminho",
+  description:
+    "Ensinar no caminho é viver de uma maneira que um dia nossos filhos saibam caminhar com Deus mesmo quando não estivermos ao lado deles.",
+  image: "/images/courses/no-caminho/yt-thumb-no-caminho.webp",
+  link: "/oceano-academy/cursos/no-caminho",
+  linkText: "Saiba mais",
+  ctaUrl: "https://academy-ocn.memberkit.com.br/invites/bYBpEG/join",
+  lessons: [
+    {
+      title: "O significado bíblico da apresentação",
+      description:
+        "Compreenda os fundamentos bíblicos da apresentação de crianças ao Senhor, o exemplo de Jesus no templo, a diferença entre apresentação e batismo, o significado da dedicação familiar e o papel da comunidade da fé.",
+      thumbnail: "/images/courses/no-caminho/yt-thumb-no-caminho-aula-1.webp",
+    },
+    {
+      title: "As responsabilidades espirituais dos pais",
+      description:
+        "Descubra como o discipulado acontece dentro do lar por meio da presença, do exemplo e do ensino bíblico. Aprenda sobre a importância da oração, do ambiente espiritual da família, da correção amorosa e da responsabilidade dos pais na formação do caráter dos filhos.",
+      thumbnail: "/images/courses/no-caminho/yt-thumb-no-caminho-aula-2.webp",
+    },
+  ],
+};
+
 export type schoolsSlugs =
   | "escola-de-membros"
   | "escola-biblica"

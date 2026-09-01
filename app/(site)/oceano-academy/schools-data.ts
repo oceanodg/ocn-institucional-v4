@@ -80,10 +80,12 @@ export const data: School[] = [
       },
       {
         id: "no-caminho",
-        title: "2.2. No Caminho *",
-        description: "Curso para pais. Será online.",
+        title: "2.2. No Caminho",
+        description:
+          "Curso que ajuda aos pais e responsáveis a compreenderem seu papel na formação espiritual dos filhos.",
         modality: "Online",
-        comingSoon: true,
+        enrollHref: "https://academy.oceanodagraca.com/invites/bYBpEG/join",
+        learnMoreHref: "/oceano-academy/cursos/no-caminho",
       },
     ],
   },
