@@ -54,18 +54,9 @@ const oldTestamentMaterials: MaterialGroup[] = [
         url: "/oceano-academy/materiais-didaticos/exodo",
       },
       {
-        title: "Levítico",
-        description: "Instruções para adoração",
-        url: "/oceano-academy/materiais-didaticos/levitico-numero-deuteronomio",
-      },
-      {
-        title: "Números",
-        description: "Censos de Israel e peregrinação no deserto",
-        url: "/oceano-academy/materiais-didaticos/levitico-numero-deuteronomio",
-      },
-      {
-        title: "Deuteronômio",
-        description: "Últimos sermões e leis de Moisés",
+        title: "Levítico, Números e Deuteronômio",
+        description:
+          "Instruções para adoração, censos de Israel, peregrinação no deserto e leis de Moisés",
         url: "/oceano-academy/materiais-didaticos/levitico-numero-deuteronomio",
       },
     ],
