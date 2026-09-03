@@ -1,4 +1,11 @@
-import { FileText, Hash } from "lucide-react";
+import {
+  FileImage,
+  FileText,
+  GraduationCap,
+  Hash,
+  SquarePlay,
+  Workflow,
+} from "lucide-react";
 import { HeroContainer } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
@@ -53,6 +60,94 @@ export default function LeviticoNumeroDeuteronomio() {
                   <LinkSmall href="/oceano-academy/materiais-didaticos/levitico-numero-deuteronomio.md">
                     <Hash className="size-4" />
                     MD
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Mapa Mental
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-at-Vwf2XrtErHeQATx88Axg8B">
+                    <Workflow className="size-4" />
+                    Mapa Mental
+                  </LinkSmall>
+                  {/* <LinkSmall href="https://drive.google.com/file/d/10w_0BAMZV5fmyVTTnfxAmIeP9f1Bl4TG/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Santos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1g-Pb4Jri8vA6S9YQDh7pLVBvF0gm0V-W/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Caminhem
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1ahsi7cL1UyE2TF-GUQM4m0ALViCNVjGm/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Lembrem-se
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1_Z3UiDZzMtoi0mWKvG3ftEgr5k74Q1BG/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Vivam
+                  </LinkSmall> */}
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Vídeos Recomendados
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://www.youtube.com/watch?v=bR5qA3fmpEM">
+                    <SquarePlay className="size-4" />
+                    Levítico
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=6MtqQzOTukQ">
+                    <SquarePlay className="size-4" />
+                    Números
+                  </LinkSmall>
+                  <LinkSmall href="https://www.youtube.com/watch?v=udwkeytvMPI">
+                    <SquarePlay className="size-4" />
+                    Deuteronômio
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Infográficos
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1sE_16dgHnbRKcjCogPRXQw3t75fchane/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L1: Santos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1AKaI7lPzDeIuWS6pXfN2DUCGD1ws2rut/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L2: Caminhem
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1Z79hS38c2NQjc-9WndpRso6DgMRk8u-s/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L3: Lembrem-se
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1Y-NrRS9XzLdHvsp6mEUrpjvAwCNqt5EP/view?usp=drive_link">
+                    <FileImage className="size-4" />
+                    L4: Vivam
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Curso Recomendado
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="/oceano-academy/cursos/fundamentos">
+                    <GraduationCap className="size-4" />
+                    Fundamentos
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
