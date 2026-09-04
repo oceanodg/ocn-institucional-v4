@@ -6,7 +6,7 @@ import {
   SquarePlay,
   Workflow,
 } from "lucide-react";
-import { HeroContainer } from "~/components/hero";
+import { HeroContainer, HeroImage } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
@@ -38,12 +38,19 @@ export default function LeviticoNumeroDeuteronomio() {
             e leis de Moisés.
           </P>
         </div>
+
+        <HeroImage
+          src="/images/oceano-academy/materiais-didaticos/levitico-numero-deuteronomio/levitico-numero-deuteronomio-cover.webp"
+          alt="Levítico, Números e Deuteronômio"
+        />
       </HeroContainer>
 
-      <Separator className="my-8" />
+      <Separator className="mt-20 sm:mt-20" />
 
-      <Container className="mb-10 sm:mb-16">
-        <H2 id="materials-didactic">Materiais de Apoio</H2>
+      <Container className="mt-6 sm:mt-8 mb-10 sm:mb-16">
+        <H2 id="materials-didactic" className="">
+          Materiais de Apoio
+        </H2>
 
         <Table>
           <TableHeader>
@@ -74,22 +81,22 @@ export default function LeviticoNumeroDeuteronomio() {
                     <Workflow className="size-4" />
                     Mapa Mental
                   </LinkSmall>
-                  {/* <LinkSmall href="https://drive.google.com/file/d/10w_0BAMZV5fmyVTTnfxAmIeP9f1Bl4TG/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1yG2OLew1GM8NfrUMRr09TzzfePWfPzf7/view?usp=drive_link">
                     <FileText className="size-4" />
                     L1: Santos
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1g-Pb4Jri8vA6S9YQDh7pLVBvF0gm0V-W/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1SStF27YnQfc6lYnFBqD7frnhgHWhIvQe/view?usp=drive_link">
                     <FileText className="size-4" />
                     L2: Caminhem
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1ahsi7cL1UyE2TF-GUQM4m0ALViCNVjGm/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1GScX8RjMkYFCjxAuBNhyeKthwjpM3To5/view?usp=drive_link">
                     <FileText className="size-4" />
                     L3: Lembrem-se
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1_Z3UiDZzMtoi0mWKvG3ftEgr5k74Q1BG/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1llHvVDp2K7tbnjf3L52dteuhKugPBS5P/view?usp=drive_link">
                     <FileText className="size-4" />
                     L4: Vivam
-                  </LinkSmall> */}
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
@@ -134,6 +141,77 @@ export default function LeviticoNumeroDeuteronomio() {
                   </LinkSmall>
                   <LinkSmall href="https://drive.google.com/file/d/1Y-NrRS9XzLdHvsp6mEUrpjvAwCNqt5EP/view?usp=drive_link">
                     <FileImage className="size-4" />
+                    L4: Vivam
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
+                Perguntas e Respostas (FAQ)
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1pa5JyRAtdLk_-z1ftiwiUW2glfYG-o1J/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Santos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1yJkFf2iKxA9f9AsAB8NcDuGuS_g2FNLD/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Caminhem
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1JGypU7BHZ4KHKjP9ekPcKYVsejBxDAF9/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Lembrem-se
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1rbHWKTXGykfluAXK7XUz_Ko2gUAmKWJj/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Vivam
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">Quizzes</TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1i03hsHe9etGCfSVHzZOyFNTconOWuG5Y/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Santos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1SvesWy-E_zMB9owD1qg4xMP9e1hW7qAr/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Caminhem
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1LTkdBQeUwu8FYVkPh35xq9UDTh2hHo79/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Lembrem-se
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1oE9sk7dknDtTA2zVw7T35wnJm68T2Wmr/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Vivam
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">Devocional</TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/1PANmvqIJT9oeROMzG-l-tXmHRO0hShCy/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Santos
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1dCjZhkGHtVTc7hSu41FBnHAil_Cep4Ni/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Caminhem
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/18kHac80Ys9PXpO9ttEEvp-rDutTbhky1/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Lembrem-se
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1oD1HNeG0dybeM1Wism0zZGvruW8cduZz/view?usp=sharing">
+                    <FileText className="size-4" />
                     L4: Vivam
                   </LinkSmall>
                 </TableCellLinksContainer>
