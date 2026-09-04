@@ -14,9 +14,9 @@ type BackdropCardProps = {
 };
 
 /**
- * Cartão decorativo atrás do slide ativo. Renderiza todas as imagens
- * empilhadas e alterna a visível via opacidade, para que a troca seja um
- * crossfade sem re-download nem flash de carregamento.
+ * Cartão estático atrás do palco. Todas as imagens ficam montadas e a troca é
+ * instantânea: ela sempre acontece no exato momento em que um cartão do palco
+ * cobre (ou deixa de cobrir) este retângulo, então nunca é percebida.
  */
 function BackdropCard({
   banners,
@@ -41,7 +41,7 @@ function BackdropCard({
           alt=""
           fill
           className={cn(
-            "object-cover transition-opacity duration-500 ease-out",
+            "object-cover",
             index === visibleIndex ? "opacity-100" : "opacity-0"
           )}
           sizes="(min-width: 1024px) 900px, 90vw"
@@ -54,16 +54,16 @@ function BackdropCard({
 
 type FeaturedBannerBackdropProps = {
   banners: FeaturedBannerItem[];
-  previousIndex: number;
-  nextIndex: number;
+  leftIndex: number;
+  rightIndex: number;
   onPrevious: () => void;
   onNext: () => void;
 };
 
 export function FeaturedBannerBackdrop({
   banners,
-  previousIndex,
-  nextIndex,
+  leftIndex,
+  rightIndex,
   onPrevious,
   onNext,
 }: FeaturedBannerBackdropProps) {
@@ -71,13 +71,13 @@ export function FeaturedBannerBackdrop({
     <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-0">
       <BackdropCard
         banners={banners}
-        visibleIndex={previousIndex}
+        visibleIndex={leftIndex}
         side="left"
         onClick={onPrevious}
       />
       <BackdropCard
         banners={banners}
-        visibleIndex={nextIndex}
+        visibleIndex={rightIndex}
         side="right"
         onClick={onNext}
       />
