@@ -11,7 +11,7 @@ type FeaturedBannerArrowsProps = {
 };
 
 const arrowClassName =
-  "absolute top-1/2 z-20 hidden size-9 -translate-y-1/2 cursor-pointer rounded-full bg-white text-primary shadow-md hover:bg-white sm:inline-flex";
+  "absolute top-1/2 z-20 hidden size-9 -translate-y-1/2 cursor-pointer rounded-full border-white/40 bg-white/60 text-primary shadow-sm backdrop-blur-sm hover:bg-white/80 sm:inline-flex";
 
 export function FeaturedBannerArrows({
   onPrevious,
