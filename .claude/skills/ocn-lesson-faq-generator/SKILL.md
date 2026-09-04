@@ -57,11 +57,17 @@ Para cada bloco, gere **3 a 5 perguntas**, seguindo estas diretrizes:
 - **Variedade**: misturar perguntas factuais (quem, o quê, quando, onde) e
   interpretativas (por que, qual o significado, como isso se relaciona)
 - **Fidelidade**: todas as respostas devem ser diretamente sustentadas pelo texto
-  da apostila. Não inventar informações ausentes
-- **Referências bíblicas**: incluir inline na resposta, em itálico, toda vez que a
-  apostila citar um versículo relacionado à pergunta — ex: _(Gn 3.15)_, _(Rm 5.12)_
-- **Formato das referências**: usar exatamente como aparecem no texto da apostila
+  fornecido. Não inventar informações ausentes
+- **Referências bíblicas**: incluir inline na resposta, em itálico, toda vez que o
+  texto citar um versículo relacionado à pergunta — ex: _(Gn 3.15)_, _(Rm 5.12)_
+- **Formato das referências**: usar exatamente como aparecem no texto fornecido
   (ex: Gn 1.1, não Gênesis 1:1)
+- **Nunca mencionar a fonte como "apostila"**: nas perguntas e respostas geradas,
+  jamais use as palavras "apostila", "material" ou "documento" para se referir ao
+  conteúdo de origem. Use sempre "o texto" (ou reformule sem precisar citar a fonte).
+  Ex.: em vez de "Por que a apostila afirma que a graça não começa no Novo
+  Testamento?", escreva "Por que o texto afirma que a graça não começa no Novo
+  Testamento?"
 - **Respostas com lista**: quando uma pergunta tiver múltiplas consequências, itens
   ou aspectos distintos, usar lista com marcadores e negrito para o rótulo de cada item
 
@@ -133,13 +139,16 @@ bíblicas-chave. *(Ref)*]
 
 ## Regras de qualidade
 
-- **Fidelidade ao texto**: nenhuma resposta deve introduzir informações ausentes na apostila
-- **Referências bíblicas**: sempre que a apostila citar um versículo vinculado ao tema da
+- **Fidelidade ao texto**: nenhuma resposta deve introduzir informações ausentes no texto fornecido
+- **Referências bíblicas**: sempre que o texto citar um versículo vinculado ao tema da
   pergunta, incluí-lo na resposta — é um diferencial essencial deste FAQ
 - **Linguagem**: português do Brasil (pt-BR), tom claro e acessível, adequado ao contexto
   de ensino bíblico cristão evangélico
 - **Completude**: o FAQ deve cobrir todos os eventos, personagens e doutrinas relevantes
-  mencionados na apostila, sem deixar lacunas temáticas significativas
+  mencionados no texto, sem deixar lacunas temáticas significativas
+- **Sem menção à fonte**: as perguntas e respostas nunca devem chamar o conteúdo de
+  origem de "apostila", "material" ou "documento" — usar sempre "o texto" quando for
+  necessário referenciar a fonte
 - **Separadores**: usar `---` entre cada par de pergunta/resposta dentro do mesmo bloco,
   e entre os blocos temáticos
 - **Seções opcionais**: incluir "Introdução" e "Conclusão" como blocos apenas se contiverem

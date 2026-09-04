@@ -53,6 +53,12 @@ Converte apostilas em Markdown para um mapa mental hierárquico em Markdown puro
 10. **Referências bíblicas** → mantenha entre parênteses no mesmo bullet, ex: `- Abandono do primeiro amor (Ap 2.4)`
 11. **Contrastes e oposições** → expresse como sub-bullets irmãos, nunca como texto com "vs" ou "×"
 12. **Nomes em negrito** → use `**Nome**` para destacar personagens, igrejas ou conceitos-chave de uma seção
+13. **Nunca mencionar a fonte como "apostila"** → embora a entrada seja o texto de uma
+    apostila, os bullets gerados nunca devem usar as palavras "apostila", "material" ou
+    "documento" para se referir ao conteúdo de origem. Quando for necessário referenciar
+    a fonte, use sempre "o texto". Ex.: em vez de `- A apostila afirma que a graça não
+    começa no Novo Testamento`, escreva `- O texto afirma que a graça não começa no
+    Novo Testamento`
 
 ---
 
@@ -89,6 +95,8 @@ REGRAS OBRIGATÓRIAS:
 - Aninhe quantos níveis forem necessários para capturar a hierarquia do conteúdo
 - Cada ideia = um bullet; nunca agrupe duas ideias no mesmo bullet
 - Preserve a estrutura H1 > H2 > H3 > bullets do material original
+- Nunca use as palavras "apostila", "material" ou "documento" para se referir à fonte
+  do conteúdo; se precisar referenciar a origem dentro de um bullet, use "o texto"
 - Retorne SOMENTE o Markdown do mapa mental, sem explicações, sem preâmbulo""",
     messages=[{
         "role": "user",
@@ -157,6 +165,7 @@ mind_map_md = msg.content[0].text
 | Output com parágrafos em vez de bullets | Reforce: "cada ideia = um bullet, nunca parágrafos"                             |
 | Arquivo muito longo para o contexto     | Processe lição por lição, concatene os outputs                                  |
 | Referências bíblicas ausentes           | Adicione ao prompt: "preserve todas as referências bíblicas do texto original"  |
+| Bullet menciona "apostila" ou "material" | Reforce: "nunca use 'apostila', 'material' ou 'documento'; use 'o texto'"       |
 
 ---
 

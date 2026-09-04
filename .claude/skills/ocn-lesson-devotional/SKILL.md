@@ -89,6 +89,11 @@ Para cada um dos 6 dias, produza:
   usado na apostila (ex: Gn 3.15, não Gênesis 3:15)
 - **Pergunta de reflexão**: sempre presente, uma pergunta pessoal e aplicável que convide
   o leitor a examinar a própria vida à luz do que foi lido naquele dia
+- **Nunca mencionar a fonte como "apostila"**: no texto devocional e na pergunta de
+  reflexão, jamais use as palavras "apostila", "material" ou "documento" para se referir
+  ao conteúdo de origem. Use sempre "o texto" (ou reformule sem precisar citar a fonte).
+  Ex.: em vez de "Por que a apostila afirma que a graça não começa no Novo Testamento?",
+  escreva "Por que o texto afirma que a graça não começa no Novo Testamento?"
 - **Oração breve**: incluir apenas quando o conteúdo do dia pedir naturalmente esse
   fechamento (ex: um chamado à confissão, gratidão, entrega). Não forçar uma oração em
   todo dia só para preencher a estrutura — dias mais reflexivos ou expositivos podem
@@ -156,6 +161,9 @@ Um devocional de 6 dias para acompanhar esta lição.
 - **Pergunta de reflexão**: presente em todos os 6 dias, sem exceção
 - **Oração**: presente apenas quando o conteúdo do dia justificar, nunca por padrão
 - **Referências bíblicas**: usar exatamente como aparecem no texto da apostila
+- **Sem menção à fonte**: o texto devocional e a pergunta de reflexão nunca devem
+  chamar o conteúdo de origem de "apostila", "material" ou "documento" — usar sempre
+  "o texto" quando for necessário referenciar a fonte
 - **Linguagem**: português do Brasil (pt-BR), tom devocional, acolhedor e pessoal —
   diferente do tom mais expositivo do FAQ ou do tom avaliativo do quiz
 - **Sem código-fonte**: a geração é inteiramente redacional; não usar Python nem

@@ -160,6 +160,13 @@ d) [alternativa]
 
 - **Fidelidade ao texto**: todas as respostas corretas devem ser diretamente sustentadas
   pelo conteúdo da apostila. Não inventar informações ausentes.
+- **Nunca mencionar a fonte como "apostila", "material" ou "lição" no enunciado das
+  perguntas**: ao redigir as perguntas (MC ou VF), refira-se ao conteúdo lido sempre
+  como "o texto". Ex.: escrever "Por que o texto afirma que a graça não começa no
+  Novo Testamento?" em vez de "Por que a apostila afirma que a graça não começa no
+  Novo Testamento?". Essa regra vale apenas para o enunciado das questões — o
+  restante da skill (cabeçalhos, instruções internas, nome de arquivos etc.) pode
+  continuar usando "apostila" normalmente.
 - **Referências bíblicas**: usar exatamente como aparecem no texto da apostila
   (ex: Ap 1.3, não Apocalipse 1:3).
 - **Linguagem**: português do Brasil (pt-BR), tom formal e claro, adequado ao contexto

@@ -75,6 +75,12 @@ para funcionar isoladamente, fora do contexto do parágrafo original) que:
 > Pequenas adaptações de conectivos são permitidas para a frase funcionar
 > isolada, mas a informação factual deve vir sempre do texto original.
 
+> **Nunca mencionar a fonte como "apostila"**: se a frase original citar a fonte
+> (ex: "a apostila apresenta os dez mandamentos..."), reescreva usando "o texto"
+> em vez de "apostila", "material" ou "documento". Ex.: em vez de "a apostila
+> afirma que a graça não começa no Novo Testamento", escreva "o texto afirma
+> que a graça não começa no Novo Testamento".
+
 ### Passo 3 — Escolher a palavra a ser omitida
 
 Para cada frase selecionada, escolha **uma palavra ou expressão curta** (1 a 3
@@ -174,6 +180,14 @@ Salvar em: `/mnt/user-data/outputs/[nome-do-arquivo].md`
 
 - **Fidelidade ao texto**: toda frase e resposta correta devem estar diretamente
   sustentadas pelo conteúdo da apostila. Não inventar informações ausentes.
+- **Nunca mencionar a fonte como "apostila" nas frases geradas**: ao redigir ou
+  adaptar as frases cloze, refira-se ao conteúdo lido sempre como "o texto",
+  nunca como "apostila", "material" ou "documento". Ex.: escrever "o texto
+  afirma que a graça não começa no Novo Testamento" em vez de "a apostila
+  afirma que a graça não começa no Novo Testamento". Essa regra vale apenas
+  para as frases e o banco de palavras — o restante da skill (cabeçalhos,
+  instruções internas, nome de arquivos etc.) pode continuar usando "apostila"
+  normalmente.
 - **Uma lacuna clara por frase**: evitar frases com mais de uma lacuna, exceto
   quando a frase for longa e as duas omissões não gerarem ambiguidade entre si.
 - **Sem ambiguidade**: a palavra correta deve ser a única resposta razoável para
