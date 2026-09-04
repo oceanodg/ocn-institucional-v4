@@ -25,5 +25,5 @@ export const carouselLayoutStyle = {
   "--neighbor-scale": `${NEIGHBOR_SCALE}`,
   "--neighbor-offset": `${NEIGHBOR_OFFSET * 100}%`,
   "--peek-inset": `${PEEK_INSET * 100}%`,
-  "--banner-radius": "var(--radius-xl)",
+  "--banner-radius": "var(--radius-lg)",
 } as CSSProperties;
