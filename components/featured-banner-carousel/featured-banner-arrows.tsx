@@ -11,7 +11,7 @@ type FeaturedBannerArrowsProps = {
 };
 
 const arrowClassName =
-  "absolute top-1/2 z-10 hidden size-9 -translate-y-1/2 cursor-pointer rounded-full bg-white text-primary shadow-md hover:bg-white sm:inline-flex";
+  "absolute top-1/2 z-20 hidden size-9 -translate-y-1/2 cursor-pointer rounded-full bg-white text-primary shadow-md hover:bg-white sm:inline-flex";
 
 export function FeaturedBannerArrows({
   onPrevious,
@@ -23,10 +23,7 @@ export function FeaturedBannerArrows({
         type="button"
         variant="outline"
         size="icon"
-        className={cn(
-          arrowClassName,
-          "left-[calc((100%-var(--slide-width))/2)] -translate-x-1/2"
-        )}
+        className={cn(arrowClassName, "left-0 -translate-x-1/2")}
         onClick={onPrevious}
         aria-label="Banner anterior"
       >
@@ -37,10 +34,7 @@ export function FeaturedBannerArrows({
         type="button"
         variant="outline"
         size="icon"
-        className={cn(
-          arrowClassName,
-          "right-[calc((100%-var(--slide-width))/2)] translate-x-1/2"
-        )}
+        className={cn(arrowClassName, "right-0 translate-x-1/2")}
         onClick={onNext}
         aria-label="Próximo banner"
       >

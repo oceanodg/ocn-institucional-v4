@@ -7,29 +7,16 @@ import {
   type CarouselApi,
   CarouselContent,
 } from "~/components/ui/carousel";
+
 import { FeaturedBannerArrows } from "./featured-banner-arrows";
+import { FeaturedBannerBackdrop } from "./featured-banner-backdrop";
 import { FeaturedBannerCaption } from "./featured-banner-caption";
 import { FeaturedBannerDots } from "./featured-banner-dots";
+import { FeaturedBannerSlide } from "./featured-banner-slide";
 import { carouselLayoutStyle } from "./layout";
-import {
-  FeaturedBannerSlide,
-  type SlidePosition,
-} from "./featured-banner-slide";
 import type { FeaturedBannerCarouselProps } from "./types";
 import { useBannerAutoplay } from "./use-banner-autoplay";
 import { useSelectedIndex } from "./use-selected-index";
-
-function getSlidePosition(
-  index: number,
-  selectedIndex: number,
-  total: number
-): SlidePosition {
-  if (index === selectedIndex) return "active";
-  if (total < 2) return "hidden";
-  if (index === (selectedIndex + 1) % total) return "next";
-  if (index === (selectedIndex - 1 + total) % total) return "previous";
-  return "hidden";
-}
 
 export function FeaturedBannerCarousel({
   banners,
@@ -37,7 +24,8 @@ export function FeaturedBannerCarousel({
   ariaLabel = "Banners em destaque",
   className,
 }: FeaturedBannerCarouselProps) {
-  const hasMultipleBanners = banners.length > 1;
+  const total = banners.length;
+  const hasMultipleBanners = total > 1;
   const [api, setApi] = React.useState<CarouselApi>();
   const selectedIndex = useSelectedIndex(api);
   const { autoplay, plugins } = useBannerAutoplay(
@@ -46,11 +34,13 @@ export function FeaturedBannerCarousel({
     hasMultipleBanners
   );
 
-  if (banners.length === 0) {
+  if (total === 0) {
     return null;
   }
 
   const selectedBanner = banners[selectedIndex] ?? banners[0];
+  const previousIndex = (selectedIndex - 1 + total) % total;
+  const nextIndex = (selectedIndex + 1) % total;
 
   function selectBanner(index: number) {
     api?.scrollTo(index);
@@ -69,36 +59,44 @@ export function FeaturedBannerCarousel({
 
   return (
     <div className={className} style={carouselLayoutStyle}>
-      <Carousel
-        aria-label={ariaLabel}
-        opts={{
-          loop: hasMultipleBanners,
-          align: "center",
-          containScroll: false,
-        }}
-        plugins={plugins}
-        setApi={setApi}
-        className="relative"
-      >
-        <CarouselContent className="ml-0 py-2">
-          {banners.map((banner, index) => (
-            <FeaturedBannerSlide
-              key={`${banner.href}-${index}`}
-              banner={banner}
-              index={index}
-              total={banners.length}
-              position={getSlidePosition(index, selectedIndex, banners.length)}
-            />
-          ))}
-        </CarouselContent>
-
+      <div className="relative">
         {hasMultipleBanners && (
-          <FeaturedBannerArrows
+          <FeaturedBannerBackdrop
+            banners={banners}
+            previousIndex={previousIndex}
+            nextIndex={nextIndex}
             onPrevious={selectPrevious}
             onNext={selectNext}
           />
         )}
-      </Carousel>
+
+        <Carousel
+          aria-label={ariaLabel}
+          opts={{ loop: hasMultipleBanners, duration: 30 }}
+          plugins={plugins}
+          setApi={setApi}
+          className="relative z-10 mx-auto w-[var(--slide-width)]"
+        >
+          <CarouselContent className="ml-0">
+            {banners.map((banner, index) => (
+              <FeaturedBannerSlide
+                key={`${banner.href}-${index}`}
+                banner={banner}
+                index={index}
+                total={total}
+                isActive={index === selectedIndex}
+              />
+            ))}
+          </CarouselContent>
+
+          {hasMultipleBanners && (
+            <FeaturedBannerArrows
+              onPrevious={selectPrevious}
+              onNext={selectNext}
+            />
+          )}
+        </Carousel>
+      </div>
 
       {hasMultipleBanners && (
         <FeaturedBannerDots

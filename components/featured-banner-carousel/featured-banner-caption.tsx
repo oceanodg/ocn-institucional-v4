@@ -15,7 +15,7 @@ export function FeaturedBannerCaption({ banner }: FeaturedBannerCaptionProps) {
   return (
     <div
       key={banner.href}
-      className="mt-4 flex flex-col items-center gap-3 px-4 text-center animate-in fade-in duration-500"
+      className="mt-4 flex min-h-20 flex-col items-center gap-3 px-4 text-center animate-in fade-in duration-500"
       aria-live="polite"
     >
       <p className="text-balance text-lg font-bold uppercase leading-snug tracking-tight text-gray-800 sm:text-xl">
