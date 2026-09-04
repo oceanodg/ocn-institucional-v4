@@ -4,29 +4,42 @@ import { H1, H2, P, Separator } from "~/components/ui";
 import type { Info } from "~/server/types/info";
 import { CTABox } from "~/components/cta-box";
 import { CardWithLink } from "~/components/card-with-link";
-import { BannerCarousel } from "~/components/banner-carousel";
-import { PrimaveraMulher2026 } from "./components/primavera-mulher-2026";
+import {
+  FeaturedBannerCarousel,
+  type FeaturedBannerItem,
+} from "~/components/featured-banner-carousel";
 
-const banners = [
+const banners: FeaturedBannerItem[] = [
   {
     src: "/images/banners/banner-juntos-pelo-reino.webp",
     alt: "Juntos pelo Reino",
     href: "http://juntospeloreino.oceanodagraca.com/",
+    title: "Juntos pelo Reino",
+    description:
+      "Água para a sede, alimento para o corpo, educação para o futuro e o evangelho para transformar vidas.",
   },
   {
     src: "/images/banners/banner-primavera-mulher.webp",
     alt: "Primavera Mulher 2026",
     href: "https://primaveramulher.oceanodagraca.com/",
+    title: "Primavera Mulher 2026",
+    description: "25 e 26 de Setembro.",
   },
   {
     src: "/images/banners/banner-academy.webp",
     alt: "Oceano Academy",
     href: "/oceano-academy",
+    title: "Oceano Academy",
+    description:
+      "Independentemente de onde você está na sua caminhada, sempre existe um próximo passo.",
   },
   {
     src: "/images/banners/banner-ito.webp",
     alt: "Instituto de Teologia Oceano da Graça",
     href: "https://ito.oceanodagraca.com/",
+    title: "Instituto de Teologia Oceano da Graça",
+    description:
+      "Uma formação completa para compreender, viver e comunicar a fé cristã.",
   },
 ];
 
@@ -78,9 +91,9 @@ export default function WelcomePage() {
         </div>
       </HeroContainer>
 
-      <Container className="py-0 mt-8 sm:mt-12">
-        <BannerCarousel banners={banners} autoplayDelayMs={3000} />
-      </Container>
+      <div className="mt-8 sm:mt-12">
+        <FeaturedBannerCarousel banners={banners} autoplayDelayMs={4000} />
+      </div>
 
       <Separator className="my-14" />
 
