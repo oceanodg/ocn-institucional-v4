@@ -15,7 +15,7 @@ export function FeaturedBannerCaption({ banner }: FeaturedBannerCaptionProps) {
   return (
     <div
       key={banner.href}
-      className="mt-4 flex min-h-20 flex-col items-center gap-3 px-4 text-center animate-in fade-in duration-500"
+      className="mt-2 flex min-h-28 sm:min-h-16 flex-col items-center gap-1 px-4 text-center animate-in fade-in duration-500"
       aria-live="polite"
     >
       <p className="text-balance text-lg font-bold uppercase leading-snug tracking-tight text-gray-800 sm:text-xl">
@@ -23,9 +23,9 @@ export function FeaturedBannerCaption({ banner }: FeaturedBannerCaptionProps) {
       </p>
 
       {hasMeta && (
-        <div className="flex flex-col items-center gap-1.5 text-sm text-gray-600 sm:gap-2">
+        <div className="flex flex-col items-center gap-1.5 text-gray-600 sm:gap-2">
           {banner.description && (
-            <p className="text-balance">{banner.description}</p>
+            <p className="text-balance text-base">{banner.description}</p>
           )}
           {banner.date && (
             <span className="inline-flex items-center gap-1.5 text-xs">

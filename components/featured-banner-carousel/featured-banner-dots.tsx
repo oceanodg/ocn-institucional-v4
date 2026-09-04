@@ -17,7 +17,7 @@ export function FeaturedBannerDots({
 }: FeaturedBannerDotsProps) {
   return (
     <div
-      className="mt-6 flex items-center justify-center gap-1"
+      className="mt-4 flex items-center justify-center gap-1"
       role="group"
       aria-label="Selecionar banner"
     >
@@ -30,7 +30,9 @@ export function FeaturedBannerDots({
             type="button"
             className="flex size-4 cursor-pointer items-center justify-center rounded-full outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"
             onClick={() => onSelect(index)}
-            aria-label={`Exibir banner ${index + 1}: ${banner.title ?? banner.alt}`}
+            aria-label={`Exibir banner ${index + 1}: ${
+              banner.title ?? banner.alt
+            }`}
             aria-current={isActive ? "true" : undefined}
           >
             <span
