@@ -10,18 +10,20 @@ type BackdropCardProps = {
   banners: FeaturedBannerItem[];
   visibleIndex: number;
   side: "left" | "right";
+  fade: boolean;
   onClick: () => void;
 };
 
 /**
  * Cartão estático atrás do palco. Todas as imagens ficam montadas e a troca é
- * instantânea: ela sempre acontece no exato momento em que um cartão do palco
- * cobre (ou deixa de cobrir) este retângulo, então nunca é percebida.
+ * feita por opacidade — instantânea (variante empilhada, em que a troca sempre
+ * ocorre coberta por um cartão do palco) ou com crossfade (variante deslizante).
  */
 function BackdropCard({
   banners,
   visibleIndex,
   side,
+  fade,
   onClick,
 }: BackdropCardProps) {
   return (
@@ -42,6 +44,7 @@ function BackdropCard({
           fill
           className={cn(
             "object-cover",
+            fade && "transition-opacity duration-500 ease-out",
             index === visibleIndex ? "opacity-100" : "opacity-0"
           )}
           sizes="(min-width: 1024px) 900px, 90vw"
@@ -56,6 +59,7 @@ type FeaturedBannerBackdropProps = {
   banners: FeaturedBannerItem[];
   leftIndex: number;
   rightIndex: number;
+  fade?: boolean;
   onPrevious: () => void;
   onNext: () => void;
 };
@@ -64,6 +68,7 @@ export function FeaturedBannerBackdrop({
   banners,
   leftIndex,
   rightIndex,
+  fade = false,
   onPrevious,
   onNext,
 }: FeaturedBannerBackdropProps) {
@@ -73,12 +78,14 @@ export function FeaturedBannerBackdrop({
         banners={banners}
         visibleIndex={leftIndex}
         side="left"
+        fade={fade}
         onClick={onPrevious}
       />
       <BackdropCard
         banners={banners}
         visibleIndex={rightIndex}
         side="right"
+        fade={fade}
         onClick={onNext}
       />
     </div>
