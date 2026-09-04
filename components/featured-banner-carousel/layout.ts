@@ -15,9 +15,9 @@ const NEIGHBOR_OFFSET =
   (0.5 - (PEEK_INSET + (SLIDE_RATIO * NEIGHBOR_SCALE) / 2)) / SLIDE_RATIO;
 
 /** Duração da fase em que o cartão central recua para a lateral. */
-export const RETREAT_MS = 350;
+export const RETREAT_MS = 150; // 350
 /** Duração da fase em que o cartão lateral avança para o centro. */
-export const ADVANCE_MS = 400;
+export const ADVANCE_MS = 200; // 400
 
 export const carouselLayoutStyle = {
   "--slide-width": `${SLIDE_RATIO * 100}%`,
