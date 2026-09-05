@@ -7,7 +7,7 @@ import {
   Wallpaper,
   Workflow,
 } from "lucide-react";
-import { HeroContainer } from "~/components/hero";
+import { HeroContainer, HeroImage } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
@@ -36,11 +36,16 @@ export default function Genesis() {
           <H1 className="text-left">Gênesis</H1>
           <P className="mt-0">História da criação e família de Abraão.</P>
         </div>
+
+        <HeroImage
+          src="/images/oceano-academy/materiais-didaticos/genesis/genesis-cover.webp"
+          alt="Gênesis"
+        />
       </HeroContainer>
 
-      <Separator className="my-8" />
+      <Separator className="mt-20 sm:mt-20" />
 
-      <Container className="mb-10 sm:mb-16">
+      <Container className="mt-6 sm:mt-8 mb-10 sm:mb-16">
         <H2 id="materials-didactic">Materiais de Apoio</H2>
 
         <Table>

@@ -7,7 +7,7 @@ import {
   Wallpaper,
   Workflow,
 } from "lucide-react";
-import { HeroContainer } from "~/components/hero";
+import { HeroContainer, HeroImage } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
 import { H1, H2, H3, P, Separator } from "~/components/ui";
 import { Container } from "~/components/container";
@@ -39,11 +39,16 @@ export default function PanoramaBiblicoAT() {
             criação até o pós-exílio.
           </P>
         </div>
+
+        <HeroImage
+          src="/images/oceano-academy/materiais-didaticos/panorama-biblico-at/panorama-biblico-at-cover.webp"
+          alt="Panorama Bíblico do Antigo Testamento"
+        />
       </HeroContainer>
 
-      <Separator className="my-8" />
+      <Separator className="mt-20 sm:mt-20" />
 
-      <Container className="mb-10 sm:mb-16">
+      <Container className="mt-6 sm:mt-8 mb-10 sm:mb-16">
         <H2 id="materials-didactic">Materiais de Apoio</H2>
 
         <Table>
