@@ -234,14 +234,10 @@ const newTestamentMaterials: MaterialGroup[] = [
         description: "O Evangelho e a justificação",
       },
       {
-        title: "1 Coríntios",
+        title: "1 e 2 Coríntios",
         url: "/oceano-academy/materiais-didaticos/corintios",
-        description: "Resolvendo problemas de relacionamento",
-      },
-      {
-        title: "2 Coríntios",
-        url: "/oceano-academy/materiais-didaticos/corintios",
-        description: "Princípios da liderança espiritual",
+        description:
+          "Resolvendo problemas de relacionamento e princípios da liderança espiritual",
       },
       {
         title: "Gálatas",
@@ -264,34 +260,21 @@ const newTestamentMaterials: MaterialGroup[] = [
         description: "Espiritualidade explicada",
       },
       {
-        title: "1 Tessalonicenses",
+        title: "1 e 2 Tessalonicenses",
         url: "/oceano-academy/materiais-didaticos/tessalonicenses",
-        description: "O ministério missionário e nossa esperança",
+        description: "O ministério missionário e a segunda vinda de Cristo",
       },
       {
-        title: "2 Tessalonicenses",
-        url: "/oceano-academy/materiais-didaticos/tessalonicenses",
-        description: "A segunda vinda de Cristo",
-      },
-      {
-        title: "1 Timóteo",
+        title: "1 e 2 Timóteo",
         url: "/oceano-academy/materiais-didaticos/timoteo",
-        description: "Orientação para um jovem líder",
+        description:
+          "Orientação para um jovem líder e como lidar com falsos mestres",
       },
       {
-        title: "2 Timóteo",
-        url: "/oceano-academy/materiais-didaticos/timoteo",
-        description: "Orientação para lidar com falsos mestres",
-      },
-      {
-        title: "Tito",
+        title: "Tito e Filemom",
         url: "/oceano-academy/materiais-didaticos/tito-e-filemom",
-        description: "Orientação para outro jovem líder",
-      },
-      {
-        title: "Filemon",
-        url: "/oceano-academy/materiais-didaticos/tito-e-filemom",
-        description: "Um apelo em favor de um escravo fugitivo",
+        description:
+          "Orientação para outro jovem líder e um apelo em favor de um escravo fugitivo",
       },
     ],
   },
@@ -312,34 +295,16 @@ const newTestamentMaterials: MaterialGroup[] = [
         description: "Vivendo como cristão todos os dias",
       },
       {
-        title: "1 Pedro",
+        title: "1 e 2 Pedro",
         url: "/oceano-academy/materiais-didaticos/pedro",
-        description: "Sofrimento e submissão do cristão",
+        description:
+          "Sofrimento e submissão do cristão, os escarnecedores e a segunda vinda de Cristo",
       },
       {
-        title: "2 Pedro",
-        url: "/oceano-academy/materiais-didaticos/pedro",
-        description: "Os escarnecedores e a segunda vinda de Cristo",
-      },
-      {
-        title: "1 João",
+        title: "1, 2, 3 João e Judas",
         url: "/oceano-academy/materiais-didaticos/cartas-joao-e-judas",
-        description: "Amor e obediência na vida cristã",
-      },
-      {
-        title: "2 João",
-        url: "/oceano-academy/materiais-didaticos/cartas-joao-e-judas",
-        description: "Carta pessoal de encorajamento",
-      },
-      {
-        title: "3 João",
-        url: "/oceano-academy/materiais-didaticos/cartas-joao-e-judas",
-        description: "Carta pessoal de encorajamento",
-      },
-      {
-        title: "Judas",
-        url: "/oceano-academy/materiais-didaticos/cartas-joao-e-judas",
-        description: "Uma advertência contra os falsos mestres",
+        description:
+          "Amor e obediência na vida cristã, carta pessoal de encorajamento e uma advertência contra os falsos mestres",
       },
     ],
   },
