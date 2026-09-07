@@ -1,8 +1,13 @@
+import type { Metadata } from "next";
 import { H1, P, H3, Button, Separator } from "~/components/ui";
 import { HeroContainer } from "~/components/hero";
 import { Container } from "~/components/container";
 import { CTABox } from "~/components/cta-box";
 import { projects } from "~/data/projects";
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: true },
+};
 
 export default function ProjetosPage() {
   return (

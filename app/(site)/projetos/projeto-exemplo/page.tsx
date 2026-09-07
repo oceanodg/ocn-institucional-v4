@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { CalendarDays, Church, Heart, Users } from "lucide-react";
 import { P, Separator } from "~/components/ui";
 import { ProjectHero } from "~/components/projects/project-hero";
@@ -11,6 +12,10 @@ import { ProjectFAQ } from "~/components/projects/project-faq";
 import { ConstructionDiary } from "~/components/projects/construction-diary";
 import { BePartOfTheProject } from "~/components/projects/be-part";
 import { Contact } from "~/components/projects/contact";
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: true },
+};
 
 export default function ProjetoExemploPage() {
   return (
