@@ -19,13 +19,6 @@ const banners: FeaturedBannerItem[] = [
       "Água para a sede, alimento para o corpo, educação para o futuro e o evangelho para transformar vidas.",
   },
   {
-    src: "/images/banners/banner-primavera-mulher.webp",
-    alt: "Primavera Mulher 2026",
-    href: "https://primaveramulher.oceanodagraca.com/",
-    title: "Primavera Mulher 2026",
-    description: "25 e 26 de Setembro.",
-  },
-  {
     src: "/images/banners/banner-academy.webp",
     alt: "Oceano Academy",
     href: "/oceano-academy",
