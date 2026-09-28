@@ -62,10 +62,10 @@ export default function Josue() {
                     <FileText className="size-4" />
                     PDF
                   </LinkSmall>
-                  {/* <LinkSmall href="/oceano-academy/materiais-didaticos/levitico-numero-deuteronomio.md">
+                  <LinkSmall href="/oceano-academy/materiais-didaticos/josue.md">
                     <Hash className="size-4" />
                     MD
-                  </LinkSmall> */}
+                  </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
