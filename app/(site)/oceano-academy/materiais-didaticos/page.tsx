@@ -68,7 +68,11 @@ const oldTestamentMaterials: MaterialGroup[] = [
       "Conta a história de Israel depois da instalação do povo em Canaã, a terra prometida.",
     ],
     materials: [
-      { title: "Josué", description: "Conquistas de Canaã" },
+      {
+        title: "Josué",
+        description: "Conquistas de Canaã",
+        url: "/oceano-academy/materiais-didaticos/josue",
+      },
       { title: "Juízes", description: "Anos de apostasia" },
       { title: "Rute", description: "Biografia de Rute" },
       { title: "1 Samuel", description: "O estabelecimento da monarquia" },
