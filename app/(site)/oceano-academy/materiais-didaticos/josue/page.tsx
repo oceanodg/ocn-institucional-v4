@@ -5,7 +5,6 @@ import {
   Hash,
   SquarePlay,
   Wallpaper,
-  Workflow,
 } from "lucide-react";
 import { HeroContainer, HeroImage } from "~/components/hero";
 import { AllTeachingMaterialsBackButton } from "~/components/back-buttons/all-teaching-materials";
@@ -72,6 +71,31 @@ export default function Josue() {
             </TableRow>
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
+                Mapa Mental
+              </TableCell>
+              <TableCell>
+                <TableCellLinksContainer>
+                  <LinkSmall href="https://drive.google.com/file/d/14e504x8UN9gYmrq6S3R3SGUxJ5z2bmGf/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L1: Avancem
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/13-ENc78_OoSmN7wAaqHch6G5wJBMUioa/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L2: Confiem
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1BIBOz0h5JrMlbCvLK-JyLS4bQ8cMsu8D/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L3: Recebam
+                  </LinkSmall>
+                  <LinkSmall href="https://drive.google.com/file/d/1UPvP72X-tThbzX8TxIos1hIc80X4PurB/view?usp=sharing">
+                    <FileText className="size-4" />
+                    L4: Escolham
+                  </LinkSmall>
+                </TableCellLinksContainer>
+              </TableCell>
+            </TableRow>
+            <TableRow className="hover:bg-transparent">
+              <TableCell className="border font-semibold">
                 Vídeo Recomendado
               </TableCell>
               <TableCell>
@@ -119,58 +143,27 @@ export default function Josue() {
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
-            {/*
-            <TableRow className="hover:bg-transparent">
-              <TableCell className="border font-semibold">
-                Mapa Mental
-              </TableCell>
-              <TableCell>
-                <TableCellLinksContainer>
-                  <LinkSmall href="https://whimsical.com/ocn7/ocn-escola-biblica-at-Vwf2XrtErHeQATx88Axg8B">
-                    <Workflow className="size-4" />
-                    Mapa Mental
-                  </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1yG2OLew1GM8NfrUMRr09TzzfePWfPzf7/view?usp=drive_link">
-                    <FileText className="size-4" />
-                    L1: Santos
-                  </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1SStF27YnQfc6lYnFBqD7frnhgHWhIvQe/view?usp=drive_link">
-                    <FileText className="size-4" />
-                    L2: Caminhem
-                  </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1GScX8RjMkYFCjxAuBNhyeKthwjpM3To5/view?usp=drive_link">
-                    <FileText className="size-4" />
-                    L3: Lembrem-se
-                  </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1llHvVDp2K7tbnjf3L52dteuhKugPBS5P/view?usp=drive_link">
-                    <FileText className="size-4" />
-                    L4: Vivam
-                  </LinkSmall>
-                </TableCellLinksContainer>
-              </TableCell>
-            </TableRow>
-
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
                 Perguntas e Respostas (FAQ)
               </TableCell>
               <TableCell>
                 <TableCellLinksContainer>
-                  <LinkSmall href="https://drive.google.com/file/d/1pa5JyRAtdLk_-z1ftiwiUW2glfYG-o1J/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1Jue6S6D_78a4S0rqn8HZPstN3HSHB0zb/view?usp=sharing">
                     <FileText className="size-4" />
-                    L1: Santos
+                    L1: Avancem
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1yJkFf2iKxA9f9AsAB8NcDuGuS_g2FNLD/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1OgQX6flUrCI7PxevCxjdDg620xjPAzpG/view?usp=sharing">
                     <FileText className="size-4" />
-                    L2: Caminhem
+                    L2: Confiem
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1JGypU7BHZ4KHKjP9ekPcKYVsejBxDAF9/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/11k6ntXbMQAZzOl8UhG3dXSth5LhvrmGw/view?usp=sharing">
                     <FileText className="size-4" />
-                    L3: Lembrem-se
+                    L3: Recebam
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1rbHWKTXGykfluAXK7XUz_Ko2gUAmKWJj/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/17YPwNFEnfCfSjI8IEK9jIOQGThRFvhxl/view?usp=sharing">
                     <FileText className="size-4" />
-                    L4: Vivam
+                    L4: Escolham
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
@@ -179,26 +172,25 @@ export default function Josue() {
               <TableCell className="border font-semibold">Quizzes</TableCell>
               <TableCell>
                 <TableCellLinksContainer>
-                  <LinkSmall href="https://drive.google.com/file/d/1i03hsHe9etGCfSVHzZOyFNTconOWuG5Y/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1lxeVEduHd0K9Vom-D5LTWKCuQyGV4QJO/view?usp=sharing">
                     <FileText className="size-4" />
-                    L1: Santos
+                    L1: Avancem
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1SvesWy-E_zMB9owD1qg4xMP9e1hW7qAr/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/11d5cmeQeNpUdVO1nmk29r9r3psD0lwSP/view?usp=sharing">
                     <FileText className="size-4" />
-                    L2: Caminhem
+                    L2: Confiem
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1LTkdBQeUwu8FYVkPh35xq9UDTh2hHo79/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1mbFhTuVhfF-hVIDc8kwhr9ls9fqsR1iy/view?usp=sharing">
                     <FileText className="size-4" />
-                    L3: Lembrem-se
+                    L3: Recebam
                   </LinkSmall>
-                  <LinkSmall href="https://drive.google.com/file/d/1oE9sk7dknDtTA2zVw7T35wnJm68T2Wmr/view?usp=sharing">
+                  <LinkSmall href="https://drive.google.com/file/d/1vrBb50u3xBEd123tcFqxS54sUYoYp2Pa/view?usp=sharing">
                     <FileText className="size-4" />
-                    L4: Vivam
+                    L4: Escolham
                   </LinkSmall>
                 </TableCellLinksContainer>
               </TableCell>
             </TableRow>
-*/}
             <TableRow className="hover:bg-transparent">
               <TableCell className="border font-semibold">
                 Curso Recomendado
