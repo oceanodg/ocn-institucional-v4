@@ -15,6 +15,43 @@ import { SummaryLi } from "~/components/summary-li";
 import { Table, TableCell, TableHeader, TableRow } from "~/components/ui/table";
 import { LinkSmall } from "~/components/ui/link-small";
 import { TableCellLinksContainer } from "~/components/ui/table-cell-links-container";
+import { AudioPlayer } from "~/components/audio/audio-player";
+import type { AudioTrack } from "~/components/audio/audio-playback-provider";
+
+const lessonAudioTracks: AudioTrack[] = [
+  {
+    id: "josue/lesson-1",
+    src: "/audio/materiais-didaticos/josue/licao-1.mp3",
+    durationSeconds: 1304.550204,
+    title: "Lição 1 · Avancem: quando a promessa exige confiança",
+    collectionTitle: "Josué",
+    href: "/oceano-academy/materiais-didaticos/josue#lesson-1",
+  },
+  {
+    id: "josue/lesson-2",
+    src: "/audio/materiais-didaticos/josue/licao-2.mp3",
+    durationSeconds: 1447.753469,
+    title: "Lição 2 · Confiem: quando a vitória pertence ao Senhor",
+    collectionTitle: "Josué",
+    href: "/oceano-academy/materiais-didaticos/josue#lesson-2",
+  },
+  {
+    id: "josue/lesson-3",
+    src: "/audio/materiais-didaticos/josue/licao-3.mp3",
+    durationSeconds: 1405.069388,
+    title: "Lição 3 · Recebam: quando a promessa se torna herança",
+    collectionTitle: "Josué",
+    href: "/oceano-academy/materiais-didaticos/josue#lesson-3",
+  },
+  {
+    id: "josue/lesson-4",
+    src: "/audio/materiais-didaticos/josue/licao-4.mp3",
+    durationSeconds: 1122.502857,
+    title: "Lição 4 · Escolham: quando a graça recebida exige fidelidade",
+    collectionTitle: "Josué",
+    href: "/oceano-academy/materiais-didaticos/josue#lesson-4",
+  },
+];
 
 export const metadata = {
   alternates: {
@@ -350,6 +387,8 @@ export default function Josue() {
         <H2 id="lesson-1">
           Lição 1 – Avancem - Quando a promessa exige confiança
         </H2>
+
+        <AudioPlayer track={lessonAudioTracks[0]} playlist={lessonAudioTracks} />
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-1-objetivo-geral">Objetivo Geral</H3>
@@ -771,6 +810,8 @@ export default function Josue() {
         <H2 id="lesson-2">
           Lição 2 – Confiem - Quando a vitória pertence ao Senhor
         </H2>
+
+        <AudioPlayer track={lessonAudioTracks[1]} playlist={lessonAudioTracks} />
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-2-objetivo-geral">Objetivo Geral</H3>
@@ -1237,6 +1278,8 @@ export default function Josue() {
           Lição 3 – Recebam - Quando a promessa se torna herança
         </H2>
 
+        <AudioPlayer track={lessonAudioTracks[2]} playlist={lessonAudioTracks} />
+
         <div className="flex flex-col gap-4">
           <H3 id="lesson-3-objetivo-geral">Objetivo Geral</H3>
           <P className="mt-0">
@@ -1698,6 +1741,8 @@ export default function Josue() {
         <H2 id="lesson-4">
           Lição 4 – Escolham - Quando a graça recebida exige fidelidade
         </H2>
+
+        <AudioPlayer track={lessonAudioTracks[3]} playlist={lessonAudioTracks} />
 
         <div className="flex flex-col gap-4">
           <H3 id="lesson-4-objetivo-geral">Objetivo Geral</H3>
